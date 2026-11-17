@@ -1,0 +1,6 @@
+{
+  "url": "https://huggingface.co/facebook/nwm/resolve/main/cdit_xl_ego4d_200000.pth.tar",
+  "checkpoint_identity": "Ego4D 200000",
+  "bytes": 4048014925,
+  "sha256_verified": "6686fff6505ccc3b8e93a368b1bd3bf0051dfb76c2d3c280b77313035ef1d2f8"
+}

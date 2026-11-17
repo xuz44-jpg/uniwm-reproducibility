@@ -1,0 +1,68 @@
+{
+  "source": "https://rail.eecs.berkeley.edu/datasets/recon-navigation/recon_dataset.tar.gz",
+  "purpose": "deployment_training_smoke_subset",
+  "selection": "archive order, common upstream train/test memberships, >=70 frames",
+  "complete": true,
+  "counts": {
+    "train": 6,
+    "test": 2
+  },
+  "trajectories": [
+    {
+      "name": "jackal_9_r01",
+      "split": "test",
+      "frames": 121,
+      "raw_sha256": "673d1c06e31d6925d77c5d2528c16bc030db7512ac16268f9c7e63da14ba2159",
+      "raw_bytes": 14610017
+    },
+    {
+      "name": "jackal_10_r01",
+      "split": "train",
+      "frames": 334,
+      "raw_sha256": "4b47c92eef7879b0d0ff98c492ea35d23e73c737ca0d71dfa4e2a885aaa26b48",
+      "raw_bytes": 45510442
+    },
+    {
+      "name": "jackal_8_r01",
+      "split": "test",
+      "frames": 91,
+      "raw_sha256": "dd478b20658279f9109dc654b5a32349b5ff576f8aea3241f81cf305fd06eb7e",
+      "raw_bytes": 10834966
+    },
+    {
+      "name": "jackal_11_r01",
+      "split": "train",
+      "frames": 153,
+      "raw_sha256": "899cac7ffcf6549fa773d9057b180e3ec4e6dfe22df8ec6528701784ebb52e66",
+      "raw_bytes": 20644100
+    },
+    {
+      "name": "jackal_3_r01",
+      "split": "train",
+      "frames": 170,
+      "raw_sha256": "eaba97f0196ad81380b0c85ae4a53ec54d1bca489d96f6fe2b0dea6222e65639",
+      "raw_bytes": 24442702
+    },
+    {
+      "name": "jackal_0_r00",
+      "split": "train",
+      "frames": 196,
+      "raw_sha256": "b1aa9676fbe3f89d30bfdcccd1c8e139f072f0374727647d7901147135998d20",
+      "raw_bytes": 23856212
+    },
+    {
+      "name": "jackal_14_r02",
+      "split": "train",
+      "frames": 84,
+      "raw_sha256": "eb9e83b1503dd857a2aeba6eaa4096ae0ed941de5d4b026745aa9a6543b76a28",
+      "raw_bytes": 9536956
+    },
+    {
+      "name": "jackal_1_r01",
+      "split": "train",
+      "frames": 127,
+      "raw_sha256": "38b55fed30dfb6794241ef7b92cf2512777c8952c13290115e6366279e818793",
+      "raw_bytes": 15169457
+    }
+  ]
+}

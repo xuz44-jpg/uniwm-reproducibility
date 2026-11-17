@@ -1,0 +1,17 @@
+{
+  "script_sha256": "a72af412b973240d6e0ee9ae75a6cf20258e7e3e22ad4f577157ef8fe0fd59bd",
+  "manifest_sha256": "5416eef58de89f8deeb0b4e5ecc20d86eeb0f45de43a72016c36306348a9395e",
+  "generation_complete_sha256": "1414d659989ce4e6624bd018b6dad3f761f784a1aafc21e0635d6496da53daec",
+  "raft_config_sha256": "c08bf9396521bac268071be29c9a300a59ef3a46ec5ff44b5d9e5578b84694de",
+  "reference_gate_sha256": "bc841796926bc96f55ef7be95cda566c1503ce43cceff11a00df20162412409d",
+  "model": "nwm",
+  "stage": "final",
+  "source_weight_identity": {
+    "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/nwm/best_trainable.pt": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b"
+  },
+  "primary": "same real-current anchor; EPE on real-reference-only mask; no generated-flow mask in primary error",
+  "action_effect": "[F(I0,gen_a)-F(I0,gen_zero)] - [F(I0,ref_a)-F(I0,ref_zero)]; common reference mask",
+  "amplitude": "least-squares flow projection gain; pixel-response diagnostic, not generated angle in degrees",
+  "new_model_predictions": 0,
+  "optimizer_updates": 0
+}

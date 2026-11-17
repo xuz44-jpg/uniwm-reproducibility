@@ -1,0 +1,8 @@
+{
+  "script_sha256": "fa8e3c82ab9673dda4850718666178588e0c56be7dfbbca4d8d243d2ea35df85",
+  "existing_case": "seven/room09_traj00/r0/yaw_zero",
+  "max_forward_calls": 3,
+  "complete_images": 0,
+  "optimizer_updates": 0,
+  "weights_modified": false
+}

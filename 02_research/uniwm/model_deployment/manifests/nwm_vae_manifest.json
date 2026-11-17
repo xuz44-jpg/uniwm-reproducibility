@@ -1,0 +1,17 @@
+{
+  "repo": "stabilityai/sd-vae-ft-ema",
+  "revision": "f04b2c4b98319346dad8c65879f680b1997b204a",
+  "files": {
+    "config.json": {
+      "bytes": 547,
+      "sha256": null,
+      "sha256_verified": "92d3dfb746fca211a2c9e019e285f8597412211728dce3c5bcf4eda0f2d62e7e"
+    },
+    "diffusion_pytorch_model.safetensors": {
+      "bytes": 334643276,
+      "sha256": "32db726da04f06c1b6b14c0043ce115cc87a501482945c5add89a40d838fcb46",
+      "sha256_verified": "32db726da04f06c1b6b14c0043ce115cc87a501482945c5add89a40d838fcb46"
+    }
+  },
+  "status": "downloaded_and_verified"
+}

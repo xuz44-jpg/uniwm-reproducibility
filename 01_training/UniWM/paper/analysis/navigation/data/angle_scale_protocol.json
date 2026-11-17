@@ -1,0 +1,124 @@
+{
+  "version": "angle_scale_v1",
+  "created_date": "2026-10-28",
+  "authorization": "User approved small-angle scope and explicitly permitted ±10/15deg extrapolation beyond ±7deg adaptation, existing positions, no training, shared-GPU job priority [details redacted].",
+  "world_model_updates": 0,
+  "previous_protocol_sha256": "bbf6c5b20b70e8210d47cf21a4b9d018b7cae9c8d3eeef87bed467bdc3370226",
+  "selected_checkpoints": {
+    "nwm": {
+      "best_step": 400,
+      "sha256": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b"
+    },
+    "raenwm": {
+      "best_step": 800,
+      "sha256": "786e799de4d466c665c55a87b1cfca8f4ffbc998cf59ce30b0c64d303f096e76"
+    },
+    "uniwm": {
+      "best_step": 900,
+      "sha256": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825"
+    }
+  },
+  "scenes": [
+    {
+      "id": "apartment_1",
+      "glb": "apartment_1.glb",
+      "navmesh": "apartment_1.navmesh",
+      "files": {
+        "apartment_1.glb": "c0b1314d1b948170e4110d1cf1a001c54ef02788092d49586ad73591b871785e",
+        "apartment_1.navmesh": "3694bf3909ca9668e0506b07e20d932c8243adb2654dffb4f27f8fa8bd9b3c4b"
+      },
+      "source_url": "https://huggingface.co/datasets/ai-habitat/habitat_test_scenes",
+      "license": "CC-BY-NC-4.0"
+    },
+    {
+      "id": "skokloster_castle",
+      "glb": "skokloster-castle.glb",
+      "navmesh": "skokloster-castle.navmesh",
+      "files": {
+        "skokloster-castle.glb": "b14e29e17f5e31d86a1002eefd77b7d345b265006481739ae480a847e6623f56",
+        "skokloster-castle.navmesh": "1a9a5bd123af8001f0ea2c5c8d326cb3fd39808ca771fc766856af8f0772391d"
+      },
+      "source_url": "https://huggingface.co/datasets/ai-habitat/habitat_test_scenes",
+      "license": "CC-BY-NC-4.0"
+    }
+  ],
+  "positions_total": 12,
+  "positions_per_scene": 6,
+  "angles_left_positive_degrees": [
+    0,
+    3,
+    -3,
+    5,
+    -5,
+    7,
+    -7,
+    10,
+    -10,
+    15,
+    -15
+  ],
+  "new_angles": [
+    10,
+    -10,
+    15,
+    -15
+  ],
+  "repeats": 3,
+  "seeds": [
+    202610270,
+    202610271,
+    202610272
+  ],
+  "new_predictions_per_model": 144,
+  "total_new_predictions": 432,
+  "reused_predictions_per_model": 252,
+  "total_reused_predictions": 756,
+  "new_reference_rgb": 48,
+  "new_reference_depth": 48,
+  "new_codec_reconstructions_per_model": 48,
+  "support": {
+    "habitat_adaptation_max_abs_yaw_deg": 7,
+    "new_angles_within_adaptation_support": false,
+    "complete_base_pretraining_support": "unknown",
+    "vocabulary_representability_is_not_training_support": true
+  },
+  "reuse": {
+    "old_cases_exact": true,
+    "old_predictions_exact": true,
+    "old_zero_action_shared": true,
+    "old_inputs_and_weights_unchanged": true
+  },
+  "inference": {
+    "history": "four repeated current views; UniWM start=goal=current before native current sanitization",
+    "horizon_frames": 1,
+    "rel_t": "1/128 native frame offset; no asserted physical seconds",
+    "sampling": "native sampler unchanged; UniWM temperature0.7 top_k50 top_p0.9",
+    "checkpoint_selection": "NWM400 RAE800 UniWM900; no selection on extension",
+    "smoke": "first4 new action cases per model; included in budget, old7 cases reused"
+  },
+  "analysis": {
+    "primary": "same real-anchor paired-zero flow effect, EPE on real-reference-only mask",
+    "criteria": "unchanged habitat_flow_common.CRITERIA",
+    "extension_mask": "intersection of source-texture,analytic-visibility and real-reference FB masks across all11 angles; rescore old small predictions on same new mask; preserve old primary",
+    "reference_failure": "retain unknown; no replacement or threshold changes",
+    "denominators": "per model:216 small,144 larger,36zero; full correct/reverse/nearzero/unknown",
+    "unknown_acceptance": "unknown contributes to secondary acceptance-not-passed only, never observed wrong-turn",
+    "secondary": [
+      "LPIPS reference matching",
+      "per-angle pixel gain",
+      "same-action seed variation",
+      "zero drift",
+      "frozen codec",
+      "copying"
+    ]
+  },
+  "interpretation": {
+    "larger_also_weak": "does not support failure exclusive to small angles",
+    "larger_stronger": "amplitude-dependent behavior under fixed context; not proof of in-distribution small-angle-specific mechanism",
+    "measurement_unknown": "retain unresolved",
+    "cohort": "previously analyzed12 positions; exploratory extension, not a fresh independent confirmation",
+    "physical_angle_accuracy": false,
+    "population_claim": false
+  },
+  "scheduling": "[redacted] Operational settings for sharing the inference GPU with unrelated services (job priority, pausing and resumption). Not part of the scientific protocol."
+}

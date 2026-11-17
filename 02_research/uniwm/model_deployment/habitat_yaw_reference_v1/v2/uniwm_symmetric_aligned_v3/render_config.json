@@ -1,0 +1,27 @@
+{
+  "script_sha256": "681afc192156b59e6406b6b120688d2f0e36d83f9152a180a59f86a70c65e92d",
+  "dataset_sha256": "a9c70dd661875e4732cb699b27510c3766ced9176c4ff892f6cb88db736cada9",
+  "original_prepared_hashes": {
+    "train": "811cdf252c65b9e204643e6d15cdec8523608d91762f4edf2439dfea26ba5ef9",
+    "validation": "2f3c00455e1b25d1efeecf5780c393459b5e30c32a35e59928371dd87067b471",
+    "test": "0f80449d190f2919e0af2e71cb98b29a49f1182f9ac37ff42ec8ab94c8efb1e8"
+  },
+  "splits": [
+    "train",
+    "validation"
+  ],
+  "new_positions": 0,
+  "sequence_deg": [
+    0,
+    -3,
+    0,
+    -5,
+    0,
+    -7,
+    0
+  ],
+  "new_rgb_count": 108,
+  "new_depth_count": 108,
+  "test_modified": false,
+  "world_model_optimizer_steps": 0
+}

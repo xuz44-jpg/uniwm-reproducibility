@@ -1,0 +1,17 @@
+{
+  "repo": "zmkun20/raenwm",
+  "revision": "3d21560bdbdbc8cc3d4a796e1e110d60e920d273",
+  "files": {
+    "README.md": {
+      "bytes": 498,
+      "sha256": null,
+      "sha256_verified": "601114c9e5539683ec83e830e4e2a4f032b0d070daebe0a51b22a02cd3f857b0"
+    },
+    "raenwm_b.pth.tar": {
+      "bytes": 5811739053,
+      "sha256": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0",
+      "sha256_verified": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0"
+    }
+  },
+  "status": "downloaded_and_verified"
+}

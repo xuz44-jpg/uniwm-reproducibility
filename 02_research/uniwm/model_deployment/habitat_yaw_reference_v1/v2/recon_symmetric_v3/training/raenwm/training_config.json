@@ -1,0 +1,35 @@
+{
+  "model": "raenwm",
+  "script_sha256": "7d74bec158d2563ed5e46f569668b653730cb859ff624fcf261c448270424029",
+  "protocol_sha256": "bb5599d4fbff3d0677ecd830a08c6f764614e7be8bb55f2cf3e160e2b414852c",
+  "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+  "baseline": "external/navigation-world-models/models/raenwm/raenwm_b.pth.tar",
+  "baseline_sha256": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0",
+  "data_rows_sha256": {
+    "train": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+    "validation": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74"
+  },
+  "seed": 20261023,
+  "batch_size": 1,
+  "lr": 1e-05,
+  "warmup100": true,
+  "after_warmup": "constant",
+  "max_steps_budget": 2000,
+  "optimizer": "AdamW betas .9/.999 weight_decay0 foreachFalse",
+  "clip_norm": 1.0,
+  "precision": "BF16 autocast and FP32 trainable weights",
+  "native_loss": "Transport.training_losses",
+  "validation_rows": 42,
+  "validation_noise_seeds_per_row": 2,
+  "validation_seed_base": 87261026,
+  "validation_interval": 100,
+  "validation_rng_restore": true,
+  "stopping": {
+    "min_steps": 300,
+    "relative_delta": 0.005,
+    "patience": 3
+  },
+  "selection": "minimum actual fixed-noise validation loss, including baseline0; no test selection",
+  "checkpoint": "atomic latest weights+optimizer+RNG at smoke5/every100, separate best model",
+  "ema": "released EMA initialization, evaluate raw validation-best model"
+}

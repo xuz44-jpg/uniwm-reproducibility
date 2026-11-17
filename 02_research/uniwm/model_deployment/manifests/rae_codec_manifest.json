@@ -1,0 +1,13 @@
+{
+  "revision": "1be4f03273523431f099a934da4cf1940dc6039f",
+  "files": {
+    "decoders/dinov2/wReg_base/ViTXL_n08/model.pt": {
+      "bytes": 1661589814,
+      "sha256_verified": "5fedf7c9660476a709e122cef18385c917532914a23f034388e1c1a52bde2be6"
+    },
+    "stats/dinov2/wReg_base/imagenet1k/stat.pt": {
+      "bytes": 787533,
+      "sha256_verified": "84ede66def5e6e3f25679334dc89cf63b12aacb99cbf0f5ae7ed4ad3187f7e59"
+    }
+  }
+}

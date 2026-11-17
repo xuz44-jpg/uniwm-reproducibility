@@ -1,0 +1,38 @@
+{
+  "script_sha256": "bdf698045456ed305b92bfeeb1710514c4d0b74ff68158f0a5a48eece46374d7",
+  "common_sha256": "092dbab98390de71dbfb9a866eab50f8c7fbe3bef81f0e5bf039948eaf9230cc",
+  "baseline": "external/uniwm-action-pilot/checkpoints/1x200",
+  "baseline_hashes": {
+    "adapter_model.safetensors": "d77331778dd6f9117d64a0236007751a9170d1f97d29d6c0cc3b258b3113d5a7",
+    "adapter_config.json": "f29d8261e88c895752463facfa931c45ae6b8e2607c8f581916497352b0e8184",
+    "tokenizer.json": "9dd614516ed7bb494c2619b4ca5a853529786bb7d97f17d0028acd4838af6b28"
+  },
+  "training_cache_sha256": "8083d2b6f0d522f854cda3c3b9b42b5befea4745201629fbc9c6c55db8b805d8",
+  "validation_cache_sha256": "01b2288db334b63c439df1b4e0366cf37b5284ee1eae06d7376d7e758a46058c",
+  "protocol_sha256": "1826425c6512afb461f0fbe57ae0aa41ff59feffeb365113df752d9002c7704d",
+  "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+  "master_restore_sha256": "b15fd96450216748d0a7d9f3707945d439878626f61310af73972f4a4767df6d",
+  "seed": 20261023,
+  "batch_size": 1,
+  "learning_rate": 1e-05,
+  "warmup_steps": 100,
+  "schedule": "100-step linear warmup then constant; no forced final step",
+  "optimizer": "AdamW betas .9/.999 weight_decay=0 foreach=False",
+  "gradient_clip": 1.0,
+  "label_smoothing": 0.1,
+  "precision": "BF16 autocast; FP32 trainable masters; frozen base and codec; exact native inference input tokens",
+  "validation_interval": 100,
+  "min_steps_before_plateau_stop": 300,
+  "relative_significant_improvement": 0.005,
+  "patience": 3,
+  "max_steps_budget": 2000,
+  "best_selection": "minimum mean validation label-smoothed CE across all 42 rows, including step0",
+  "loss_threshold": "no absolute CE target; lower validation loss and plateau define convergence",
+  "checkpoint_policy": "resume weights+optimizer+RNG every100 and smoke5; separate best trainable weights; atomic files",
+  "data": {
+    "train": 336,
+    "validation": 42,
+    "test_used_for_selection": 0
+  },
+  "initialization": "fresh original 1x200, never old habitat step2000"
+}

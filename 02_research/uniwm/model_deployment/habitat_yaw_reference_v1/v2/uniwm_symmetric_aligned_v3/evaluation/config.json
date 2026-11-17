@@ -1,0 +1,18 @@
+{
+  "manifest_sha256": "5416eef58de89f8deeb0b4e5ecc20d86eeb0f45de43a72016c36306348a9395e",
+  "script_sha256": "660b3eca9c34067bfe6faa26d5a173d435fea069fbfbd74fb8d808b7161d5c9d",
+  "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+  "model": "uniwm",
+  "stage": "final",
+  "weight": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter",
+  "weight_key": "final_adapter",
+  "weight_hashes": {
+    "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter/adapter_model.safetensors": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825",
+    "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter/adapter_config.json": "9f80c1cc4e9ec18b530b3222dd9730b751da80861606426249d5fb5cee8f0763",
+    "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter/tokenizer.json": "9dd614516ed7bb494c2619b4ca5a853529786bb7d97f17d0028acd4838af6b28"
+  },
+  "precision": "UniWM fp16 with native overflow guards; NWM/RAE bf16 autocast with fp32 parameters",
+  "target_images_in_inputs": false,
+  "history_rule": "stationary prefix in seven; observed prefix in factual",
+  "future_goal_image_in_inputs": false
+}

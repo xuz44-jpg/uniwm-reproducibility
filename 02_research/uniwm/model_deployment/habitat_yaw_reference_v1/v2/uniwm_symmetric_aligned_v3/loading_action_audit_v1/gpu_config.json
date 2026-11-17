@@ -1,0 +1,13 @@
+{
+  "script_sha256": "145dc9ea47d884552826045723248848d86b350db0d62bdd6489d1e2832514f8",
+  "checkpoint": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter",
+  "checkpoint_sha256": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825",
+  "manifest_sha256": "5416eef58de89f8deeb0b4e5ecc20d86eeb0f45de43a72016c36306348a9395e",
+  "prefix_cases": 14,
+  "complete_replays": 4,
+  "original_positions": 2,
+  "repeat": 0,
+  "optimizer_updates": 0,
+  "weights_modified": false,
+  "scored_as_new_science": false
+}

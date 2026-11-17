@@ -1,0 +1,45 @@
+{
+  "created_at_utc": "2026-10-26T06:43:15.721344+00:00",
+  "optimizer_updates": 0,
+  "new_test_positions": 0,
+  "prefix_traces": 14,
+  "complete_native_replays": 4,
+  "shared_prefix_diagnostic_forwards": 14,
+  "all_cases": "original two positions, repeat0; unchanged seven actions",
+  "checkpoints": "read only; symmetric validation-best 900; compare baseline/earlier disk tensors",
+  "speech_priority": "existing navigation-inference.service guard, no service modifications",
+  "scripts_sha256": {
+    "audit_uniwm_v3_loading_cpu.py": "4cb638a190adf42342b28b205ccdc95c0e74038d0c4838f0b855809fe11c308c",
+    "audit_uniwm_v3_generation.py": "145dc9ea47d884552826045723248848d86b350db0d62bdd6489d1e2832514f8"
+  },
+  "jobs": [
+    {
+      "id": "uniwm_v3_loading_cpu_audit_v1",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 1500,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/audit_uniwm_v3_loading_cpu.py",
+        "--study",
+        "external/habitat-yaw-reference"
+      ]
+    },
+    {
+      "id": "uniwm_v3_generation_trace_audit_v1",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 20000,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/audit_uniwm_v3_generation.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--root",
+        "external/navigation-world-models"
+      ]
+    }
+  ]
+}

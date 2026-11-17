@@ -1,0 +1,16 @@
+{
+  "script_sha256": "09083c3b7c82dc44b6236c2875df632eb11b6f295577fdb69b955fb7df12025f",
+  "generation_complete_sha256": "ce35c27be089e9d9beafb2239e1b018d17bac92c32a64a5f326f8f3e195ec919",
+  "protocol_sha256": "bbf6c5b20b70e8210d47cf21a4b9d018b7cae9c8d3eeef87bed467bdc3370226",
+  "reference_audit_sha256": "dfc1eb6416e6fedd7a946045c6d23f70849896a17a27d2f7abd3924e6adca863",
+  "weights": {
+    "path": "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/nwm/best_trainable.pt",
+    "sha256": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b",
+    "step": 400,
+    "optimizer_steps": 500
+  },
+  "criteria": "unchanged original Habitat flow criteria",
+  "errors_mask": "real-reference-only, never generated-success selection",
+  "unknown_is_failure": false,
+  "physical_angle_accuracy": false
+}

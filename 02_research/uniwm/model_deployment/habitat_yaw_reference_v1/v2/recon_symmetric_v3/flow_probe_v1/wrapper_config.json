@@ -1,0 +1,28 @@
+{
+  "script_sha256": "94285decbfbeb230027fc2a9ecc73ca8b7a12baa695aa773deec71825371c32f",
+  "native_flow_sha256": "a72af412b973240d6e0ee9ae75a6cf20258e7e3e22ad4f577157ef8fe0fd59bd",
+  "criteria": {
+    "resolution": 256,
+    "raft_updates": 12,
+    "roi_margin": 26,
+    "texture_sobel_l1": 0.08,
+    "min_texture_pixels": 400,
+    "min_valid_pixels": 200,
+    "min_reference_coverage": 0.5,
+    "min_generated_coverage": 0.2,
+    "forward_backward_absolute_px": 1.0,
+    "forward_backward_relative": 0.05,
+    "near_zero_px": 1.0,
+    "direction_consensus": 0.7,
+    "real_geometry_median_epe_max_px": 1.0,
+    "real_geometry_p90_epe_max_px": 2.0,
+    "zero_median_magnitude_max_px": 0.5,
+    "shift_median_epe_absolute_px": 0.5,
+    "shift_median_epe_relative": 0.1
+  },
+  "old_reference_hash": "bc841796926bc96f55ef7be95cda566c1503ce43cceff11a00df20162412409d",
+  "new_reference_frames": 0,
+  "generation": "recon_symmetric_v3/evaluation/model",
+  "cache": "shared hash-keyed cache; only append new pairs",
+  "physical_angle_accuracy": false
+}

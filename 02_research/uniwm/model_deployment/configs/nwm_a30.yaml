@@ -1,0 +1,28 @@
+run_name: nwm_a30_recon
+results_dir: runs/navigation-world-model-runs
+train: true
+batch_size: 1
+num_workers: 2
+model: CDiT-XL/2
+lr: 8e-5
+normalize: true
+grad_clip_val: 10.0
+context_size: 4
+distance:
+  min_dist_cat: -64
+  max_dist_cat: 64
+len_traj_pred: 64
+image_size: 224
+datasets:
+  recon:
+    data_folder: external/navigation-world-models/data/recon
+    train: external/navigation-world-models/data_splits/recon/train
+    test: external/navigation-world-models/data_splits/recon/test
+    goals_per_obs: 1
+init_weights: external/navigation-world-models/models/nwm/cdit_xl_ego4d_200000.pth.tar
+init_weight_key: ema
+ema_device: cpu
+gradient_checkpointing: true
+wandb:
+  enabled: false
+vae_path: external/navigation-world-models/models/nwm_vae

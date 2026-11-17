@@ -1,0 +1,35 @@
+{
+  "manifest_sha256": "2521592c8a17be1158c5b21193cb4c4d70b901e563413fd6d675abd5ecf04308",
+  "references_sha256": "076f6ae08be669dce99136ba2c8c583791ca73fca71c93e7d453b80ae6a41eeb",
+  "raft_config_sha256": "c08bf9396521bac268071be29c9a300a59ef3a46ec5ff44b5d9e5578b84694de",
+  "masks": "source texture+fixed ROI+analytic visibility+real-reference FB; shared across angles; never generated-success selection",
+  "real_flow": "estimated RAFT on actual rendered futures; pure-rotation analytic projection independently checks estimator",
+  "known_shifts": [
+    -16,
+    -8,
+    -2,
+    0,
+    2,
+    8,
+    16
+  ],
+  "criterion": {
+    "resolution": 256,
+    "raft_updates": 12,
+    "roi_margin": 26,
+    "texture_sobel_l1": 0.08,
+    "min_texture_pixels": 400,
+    "min_valid_pixels": 200,
+    "min_reference_coverage": 0.5,
+    "min_generated_coverage": 0.2,
+    "forward_backward_absolute_px": 1.0,
+    "forward_backward_relative": 0.05,
+    "near_zero_px": 1.0,
+    "direction_consensus": 0.7,
+    "real_geometry_median_epe_max_px": 1.0,
+    "real_geometry_p90_epe_max_px": 2.0,
+    "zero_median_magnitude_max_px": 0.5,
+    "shift_median_epe_absolute_px": 0.5,
+    "shift_median_epe_relative": 0.1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "files": {
+    "assets/apartment_1.glb": "c0b1314d1b948170e4110d1cf1a001c54ef02788092d49586ad73591b871785e",
+    "assets/apartment_1.navmesh": "3694bf3909ca9668e0506b07e20d932c8243adb2654dffb4f27f8fa8bd9b3c4b",
+    "assets/skokloster-castle.navmesh": "1a9a5bd123af8001f0ea2c5c8d326cb3fd39808ca771fc766856af8f0772391d",
+    "assets/skokloster-castle.glb": "b14e29e17f5e31d86a1002eefd77b7d345b265006481739ae480a847e6623f56"
+  },
+  "official_lfs_hashes_verified": true
+}

@@ -1,0 +1,30 @@
+{
+  "protocol_sha256": "bbf6c5b20b70e8210d47cf21a4b9d018b7cae9c8d3eeef87bed467bdc3370226",
+  "execution_sha256": "683a3c21e4cf181122b5ff105cd65b047d167b5575ba013de78b3aea0cd9a271",
+  "script_sha256": "1e49a1f7fd8b9dec5e7a7ed3569ae5dc2067876df91a0bb80c5e1744f30cd208",
+  "model": "raenwm",
+  "cohort": "confirmation",
+  "weights": {
+    "path": "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/raenwm/best_trainable.pt",
+    "sha256": "786e799de4d466c665c55a87b1cfca8f4ffbc998cf59ce30b0c64d303f096e76",
+    "step": 800,
+    "optimizer_steps": 1100
+  },
+  "records": 252,
+  "updates": 0,
+  "native_sampling_retained": true,
+  "input_hashes": {
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+0.png": "310ea0cab75e9db2fa08caee18fb361e0f0c5328ea4b6e2aa305544a4dc56f88",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+0.png": "3059ee3f5d25bc73c2b09e7a5c465b651beb105de53b4de40ce525ef9e1efb2a",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+0.png": "c8093d198ea7129a8cf71a72d44a841ff6e050d9f07d7bdeeaa5f18674cd18e8",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+0.png": "41c97a18a3a9e7d74d51df3589b75d048c7e58252fc8fd498a4823c0c5b15d49",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+0.png": "55983c61059daa4fe29e6058162ac188773d7d9620c2efb9d75feea82e73a948",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+0.png": "2c51a682f425c01e16f8565ef061aaf22201b821c5ac76b476e010f57b6e7316",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+0.png": "92461cd1365a263ca99ebe4db2a1f369d2274f93b655207b404a5ea5e3705b2b",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+0.png": "844f84195118d0a3e201c61c6f831fb313ed1be2004f07627c7bd9975e6a9669",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+0.png": "2c7dc6e2415017b87e1c8e94becfb823a6439bf08ff3750b11ad5e9a6cb6b56a",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+0.png": "f1b8057af08e595672ba7565e0ce1524d044a530dc68eefc28b12453203daf65",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+0.png": "351fea918d03dd8bf41ae10f23c848f4cd473f031c85fcb03134bf7d5b9b5bc2",
+    "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+0.png": "21aa77d2e4ebe1c31dd73c994d97a4a72a018df277e493d85e811e69f44c14dc"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "script_sha256": "a72af412b973240d6e0ee9ae75a6cf20258e7e3e22ad4f577157ef8fe0fd59bd",
+  "common_sha256": "47340ae20111a6c3e454a2b7c7ef68824ae5f50489144fa0568b1638825ead18",
+  "torch": "2.9.1+cu128",
+  "weight_sha256": "ff5fadd56d26b40647388883af1547351ea17868b765c05b27231e72dd16a322",
+  "architecture": "torchvision RAFT Large C_T_SKHT_V2",
+  "updates": 12,
+  "precision": "FP32; no autocast; TF32 disabled",
+  "resize": "Pillow RGB 256x256 BICUBIC, no crop",
+  "criteria": {
+    "resolution": 256,
+    "raft_updates": 12,
+    "roi_margin": 26,
+    "texture_sobel_l1": 0.08,
+    "min_texture_pixels": 400,
+    "min_valid_pixels": 200,
+    "min_reference_coverage": 0.5,
+    "min_generated_coverage": 0.2,
+    "forward_backward_absolute_px": 1.0,
+    "forward_backward_relative": 0.05,
+    "near_zero_px": 1.0,
+    "direction_consensus": 0.7,
+    "real_geometry_median_epe_max_px": 1.0,
+    "real_geometry_p90_epe_max_px": 2.0,
+    "zero_median_magnitude_max_px": 0.5,
+    "shift_median_epe_absolute_px": 0.5,
+    "shift_median_epe_relative": 0.1
+  }
+}

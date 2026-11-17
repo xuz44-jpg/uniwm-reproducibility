@@ -1,0 +1,151 @@
+{
+  "version": "paper_confirmation_v1",
+  "created_date": "2026-10-27",
+  "authorization": "User explicitly requested completion of independent confirmation, UniWM single-factor controls, and related-work positioning.",
+  "world_model_updates": 0,
+  "selected_checkpoints": {
+    "nwm": {
+      "best_step": 400,
+      "sha256": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b"
+    },
+    "raenwm": {
+      "best_step": 800,
+      "sha256": "786e799de4d466c665c55a87b1cfca8f4ffbc998cf59ce30b0c64d303f096e76"
+    },
+    "uniwm": {
+      "best_step": 900,
+      "sha256": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825"
+    }
+  },
+  "confirmation": {
+    "scenes": [
+      {
+        "id": "apartment_1",
+        "glb": "apartment_1.glb",
+        "navmesh": "apartment_1.navmesh",
+        "files": {
+          "apartment_1.glb": "c0b1314d1b948170e4110d1cf1a001c54ef02788092d49586ad73591b871785e",
+          "apartment_1.navmesh": "3694bf3909ca9668e0506b07e20d932c8243adb2654dffb4f27f8fa8bd9b3c4b"
+        },
+        "source_url": "https://huggingface.co/datasets/ai-habitat/habitat_test_scenes",
+        "license": "CC-BY-NC-4.0"
+      },
+      {
+        "id": "skokloster_castle",
+        "glb": "skokloster-castle.glb",
+        "navmesh": "skokloster-castle.navmesh",
+        "files": {
+          "skokloster-castle.glb": "b14e29e17f5e31d86a1002eefd77b7d345b265006481739ae480a847e6623f56",
+          "skokloster-castle.navmesh": "1a9a5bd123af8001f0ea2c5c8d326cb3fd39808ca771fc766856af8f0772391d"
+        },
+        "source_url": "https://huggingface.co/datasets/ai-habitat/habitat_test_scenes",
+        "license": "CC-BY-NC-4.0"
+      }
+    ],
+    "positions_per_scene": 6,
+    "positions_total": 12,
+    "selection_seed": 20261027,
+    "selection_rule": "first six finite navmesh random points separated by >=1.25m Euclidean, at most20000 attempts; yaw seeded uniform; no image/model-result filtering or replacement",
+    "camera": "same 640x480 HFOV90, level camera1.5m above navmesh, preserve K/depth/C2W",
+    "angles_left_positive_degrees": [
+      0,
+      3,
+      -3,
+      5,
+      -5,
+      7,
+      -7
+    ],
+    "repeats": 3,
+    "seeds": [
+      202610270,
+      202610271,
+      202610272
+    ],
+    "predictions_per_model": 252,
+    "total_predictions": 756,
+    "history": "four repeated current views; UniWM start=goal=current before native current sanitization",
+    "checkpoint_selection": "fixed before new renders; no training or checkpoint/hyperparameter selection using new set",
+    "calibration": "reuse original frozen RAFT geometry, known-shift, texture-mask, coverage and separation criteria; failed positions retained unknown, no replacement",
+    "aggregation": "report both scenes separately and equal-scene macro mean; all positions and seeds retained; no frame/seed-independent significance claims or population CI with only2 scenes",
+    "scope": "new to this study and Habitat adaptation; not claimed absent from published pretraining; zero-shot transfer to2 new scanned scenes, not proof of universal failure"
+  },
+  "mechanism": {
+    "cohort": "original2 development positions only; exploratory, not independent confirmation",
+    "angles_left_positive_degrees": [
+      0,
+      3,
+      -3,
+      5,
+      -5,
+      7,
+      -7
+    ],
+    "arms": {
+      "native": {
+        "goal": "zero",
+        "top_k": 50,
+        "top_p": 0.9
+      },
+      "goal_left30": {
+        "goal": "fixed action-independent +30deg view",
+        "top_k": 50,
+        "top_p": 0.9
+      },
+      "goal_right30": {
+        "goal": "fixed action-independent -30deg view",
+        "top_k": 50,
+        "top_p": 0.9
+      },
+      "no_top_k": {
+        "goal": "zero",
+        "top_k": 0,
+        "top_p": 0.9
+      },
+      "no_top_p": {
+        "goal": "zero",
+        "top_k": 50,
+        "top_p": 1.0
+      },
+      "no_truncation": {
+        "goal": "zero",
+        "top_k": 0,
+        "top_p": 1.0
+      }
+    },
+    "temperature": 0.7,
+    "new_predictions": 252,
+    "native42": "42 exact native replays included in252 generations; each must byte-match completed symmetric prediction, otherwise stop and retain failure",
+    "design": "goal arms only change goal; sampling arms form2x2 factorial with fixed goal,temperature,checkpoint,prompt,seed",
+    "copy_diagnostic": "actual post-VQ start/goal/current image code matches against generated784 codes; report separately from pixel equality",
+    "teacher_forcing": "optional analysis of collected native logits only; no new training or hidden parameter changes",
+    "claim_limits": "goal intervention changes training-context support; changed texture/noise alone is not improved action fidelity; no claim of unique training root cause",
+    "seeds_by_position": {
+      "room09_traj00": [
+        20261023,
+        20262032,
+        20263041
+      ],
+      "room09_traj01": [
+        20361026,
+        20362035,
+        20363044
+      ]
+    }
+  },
+  "analysis": {
+    "primary": "paired-zero-corrected flow effect EPE on reference-only mask; full correct/reverse/nearzero/unknown denominator",
+    "secondary": [
+      "LPIPS to true rendered target",
+      "seven-reference LPIPS matching with ties",
+      "per-angle projected pixel gain",
+      "zero drift",
+      "same-action seed noise",
+      "input copying in pixels and tokens",
+      "frozen codec reconstruction controls"
+    ],
+    "units": "256x256 pixel motion; not physical degree error",
+    "no_outcome_tuning": true
+  },
+  "scheduling": "[redacted] Operational settings for sharing the inference GPU with unrelated services (job priority, pausing and resumption). Not part of the scientific protocol."
+}

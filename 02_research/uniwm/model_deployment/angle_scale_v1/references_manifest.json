@@ -1,0 +1,4908 @@
+{
+  "camera": {
+    "K": [
+      [
+        320.0,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        320.00000953674316,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "projection_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.3333333730697632,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0002000331878662,
+        -0.020002000033855438
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "width": 640,
+    "height": 480,
+    "hfov_deg": 90.0,
+    "native_axes": "Habitat world +Y up; camera +X right,+Y up,-Z forward",
+    "planar_axes": "x=world_X, y=-world_Z; yaw=atan2(forward_y,forward_x), positive left",
+    "pixel_convention": "integer pixel centers; principal point ((W-1)/2,(H-1)/2)",
+    "simulator_version": "0.3.3",
+    "python": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]"
+  },
+  "references": {
+    "apartment_1_p00": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        3.309779167175293,
+        2.2623953819274902,
+        3.060496317583161
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+0.png",
+          "sha256": "310ea0cab75e9db2fa08caee18fb361e0f0c5328ea4b6e2aa305544a4dc56f88",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+0.depth.npy",
+          "depth_sha256": "3b77e3879d2c89dd489eb3494f9464919945e421d8ab5534c8e5be509f199cbc",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            3.060496317583161
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.08100754329637194,
+              0.0,
+              0.9967134883852462
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9967134883852462,
+              0.0,
+              0.08100754329637194
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+3.png",
+          "sha256": "3a0aa0caa4636e57d3296c935b086d807d7e1a26970d5cf0ed73281656878274",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+3.depth.npy",
+          "depth_sha256": "f3ab9ba81c41cf305f731c6247d1e19a8fe696843c6523da83fca136d6f6b4a7",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            3.1128561951429905
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.028732502712017993,
+              0.0,
+              0.9995871364157823
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9995871364157823,
+              0.0,
+              0.028732502712017993
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-3.png",
+          "sha256": "5a508b937691a043486e14100def9b2a8d249439fc4832ddb6f2054b798b7996",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-3.depth.npy",
+          "depth_sha256": "da571fb0bcc4bf3e332c7830d79aae0ea64716436fe3885edd51f7a3f1188c01",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            3.008136440023332
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.13306047882151473,
+              0.0,
+              0.9911079199440338
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9911079199440338,
+              0.0,
+              0.13306047882151473
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+5.png",
+          "sha256": "79be1b65791ed105a17bee4d7f1e048b568c3e6b04e0756360cac694efc5016e",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+5.depth.npy",
+          "depth_sha256": "11e3ed4309beadcd92b16cf5794729bd04d49f0ad1899444b6cf071143d4dc24",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            -3.1354225269967086
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.006170100540841883,
+              0.0,
+              0.9999809647484875
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9999809647484875,
+              -0.0,
+              -0.006170100540841883
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-5.png",
+          "sha256": "24d036bbae1444468728f688a137d2148c61a9f21f24070ff4c8179c0318eb90",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-5.depth.npy",
+          "depth_sha256": "f3b8d6b6716689f0acae856a0fbfc68b83e0c671f1a8f06b10c93b7a790b7a50",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            2.973229854983445
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.1675684898497697,
+              0.0,
+              0.9858604369835863
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9858604369835863,
+              0.0,
+              0.1675684898497697
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+7.png",
+          "sha256": "ec925a86a76336b3b28a056c976897e735f33cadac667fe1a77315d5f4d9ac56",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_+7.depth.npy",
+          "depth_sha256": "ad18660ca58348af56aaa9ac14a6903ffda832114b21723cb8f8ee3ccb1ce6ef",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            -3.1005159419568216
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.041065127753762365,
+              0.0,
+              0.9991564718714318
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9991564718714318,
+              -0.0,
+              -0.041065127753762365
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-7.png",
+          "sha256": "036123fd16e5138424baaacfc16b1349f9575132bd744f33cd132ba58a4231a7",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p00/yaw_-7.depth.npy",
+          "depth_sha256": "b47e9f7c7df7d42aa4b201c060224d8ed6358ef019ffc902ec8d57388bb3fe35",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            2.9383232699435577
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.20187248601654795,
+              0.0,
+              0.9794118129722036
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9794118129722036,
+              0.0,
+              0.20187248601654795
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_+10.png",
+          "sha256": "d3857d212bcd4660a78424579e332bcfe5632b510807e311ac6a82db97e4bd12",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_+10.depth.npy",
+          "depth_sha256": "084b1a4a7f216e11d4071ddfb141e6beb53df832c6e58e842f14e0b469970914",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            -3.0481560643969923
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.09330073189135057,
+              0.0,
+              0.9956379730748212
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9956379730748212,
+              -0.0,
+              -0.09330073189135057
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_-10.png",
+          "sha256": "1dde6cde0b373f90f267022a3cc00304e6e9244f4e80da4107f9a34c83cfc2e3",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_-10.depth.npy",
+          "depth_sha256": "6c85a268cbc9e5222d586e440ed4c5d319b07ca30c68c2b0a094fc9d39463fc0",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            2.8859633923837285
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.25285427785385917,
+              0.0,
+              0.9675043742386922
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9675043742386922,
+              0.0,
+              0.25285427785385917
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_+15.png",
+          "sha256": "6b59e59be8d78c31433e506452ddaa72eee11787cb2f72a4dde5647bdb099df4",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_+15.depth.npy",
+          "depth_sha256": "bdfce5c52b146c45303104606c53e9b087ee82eaae9929fc141b6493a84d8aa3",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            -2.960889601797275
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.1797212205596297,
+              0.0,
+              0.9837175828867536
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9837175828867536,
+              -0.0,
+              -0.1797212205596297
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_-15.png",
+          "sha256": "dd59a0684d3ed616263ad6da2d96be061a82fcd54fa8cc00c383b5cb88260d26",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p00/yaw_-15.depth.npy",
+          "depth_sha256": "5c1b37586f51b6e27472559afead9be420bafa9aca987ea8cb37ed68d0f39efb",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            2.798696929784011
+          ],
+          "camera_position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.3362156782376339,
+              0.0,
+              0.9417850167141161
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9417850167141161,
+              0.0,
+              0.3362156782376339
+            ]
+          ]
+        }
+      }
+    },
+    "apartment_1_p01": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        4.167326927185059,
+        -1.696674108505249,
+        2.9044551898041915
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+0.png",
+          "sha256": "3059ee3f5d25bc73c2b09e7a5c465b651beb105de53b4de40ce525ef9e1efb2a",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+0.depth.npy",
+          "depth_sha256": "428cc11e23c1a2f2992c6c5d3b43eb760ce0b9ab914ac4cca71208572d78e873",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.9044551898041915
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.23492116898199866,
+              0.0,
+              0.9720144260061839
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9720144260061839,
+              0.0,
+              0.23492116898199866
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+3.png",
+          "sha256": "b693ecbe6eec9e5462cb337b8a8ef9bcef51d6a216249b87b1bd2c85c01769c9",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+3.depth.npy",
+          "depth_sha256": "b27a009155a418ed6fe2541afe03b5c5c6b7e0b35003db81d0b9bc893f307373",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.9568150673640208
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.18372785389023139,
+              0.0,
+              0.9829771491265145
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9829771491265145,
+              0.0,
+              0.18372785389023139
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-3.png",
+          "sha256": "501f837c5296443d436c4371a663d1d9b7847e229c102453dbc2e4d6badb30aa",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-3.depth.npy",
+          "depth_sha256": "c671bc7a150a7e43bcf76be83bf82cc9bf5cecf960d56aa239b4e20469521a68",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.852095312244362
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.2854704836870581,
+              0.0,
+              0.9583875014541233
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9583875014541233,
+              0.0,
+              0.2854704836870581
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+5.png",
+          "sha256": "d452f6d2cc0cfa78ec0c5a871e3bad860c7ed72513f3390ae4ef31ce16d6aa0b",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+5.depth.npy",
+          "depth_sha256": "d5fdc46027bc0974c4ffb7ed80af9ef8f3bf0834f6a7507b87845d4e6ea08f24",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.991721652403908
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.14931061422854786,
+              0.0,
+              0.9887903420233703
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9887903420233703,
+              0.0,
+              0.14931061422854786
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-5.png",
+          "sha256": "50bba9c67f27e28918396cc9cfe7a29ca354444ec7e78db41a9c8fea9b8e0cc3",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-5.depth.npy",
+          "depth_sha256": "6463e25a246034b325c1def49fa2aa937b7c0ae11ac0b3250ac6b6a613cdea04",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.817188727204475
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.31874390186989243,
+              0.0,
+              0.9478408753692554
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9478408753692554,
+              0.0,
+              0.31874390186989243
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+7.png",
+          "sha256": "9473fa5428ac50cbedde31f176a5f0b9d118133f43339f83da211ec25323e73e",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_+7.depth.npy",
+          "depth_sha256": "68bb26be5822f33d97da29d3d853d1aebe114700eb62d1d92077c432d5bb0162",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            3.026628237443795
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.114711302147117,
+              0.0,
+              0.9933988711286684
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9933988711286684,
+              0.0,
+              0.114711302147117
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-7.png",
+          "sha256": "4354db8abfcc77e75efdd214d572d7ea79c6b4954608a1c822d87174c268421d",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p01/yaw_-7.depth.npy",
+          "depth_sha256": "ef65f6d1cbb9c4f18bb34fb8e1024fa1580dee586dc6cdb2c79a72a82a86d864",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.782282142164588
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.35162890474428643,
+              0.0,
+              0.9361394732348025
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9361394732348025,
+              0.0,
+              0.35162890474428643
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_+10.png",
+          "sha256": "41df0cea435e72aa3312975cb24cab87e5f0103b7fb27549283491802b174219",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_+10.depth.npy",
+          "depth_sha256": "8a2f779fb6e6b67f549eaa9a2d067cc76cfe792c47b82b9329bda2db8f20757b",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            3.0789881150036242
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.06256364257194069,
+              0.0,
+              0.9980409764273862
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9980409764273862,
+              0.0,
+              0.06256364257194069
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_-10.png",
+          "sha256": "cb405a54319be1e268ed5c0b668e98965a012e211c0c27fea2813561b5e61892",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_-10.depth.npy",
+          "depth_sha256": "77ab1d73c829e1f3ddc974a322aa3161f214806549128e2f0a90b54f657047c0",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.7299222646047587
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.4001406949083277,
+              0.0,
+              0.9164537218421237
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9164537218421237,
+              0.0,
+              0.4001406949083277
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_+15.png",
+          "sha256": "a659d0c774ab70f03048eb367ab1ebb6f95cd663b23df603a0b87f084b6e64a5",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_+15.depth.npy",
+          "depth_sha256": "606122e4ee640866bde3647c6afb7e48ebd6c76da2e96072291c711eadf25643",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            -3.1169307295762447
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.024659426899273695,
+              0.0,
+              0.9996959100971652
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9996959100971652,
+              -0.0,
+              -0.024659426899273695
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_-15.png",
+          "sha256": "78d4aa1a92ea4c10861059d5e842b57c1cccf23e815708de3edcccff90dda361",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p01/yaw_-15.depth.npy",
+          "depth_sha256": "cee298a6eff735635c89ed07a8305364494a8bd762d275ad3d95de10a99865d1",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.6426558020050415
+          ],
+          "camera_position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.47849231821598603,
+              0.0,
+              0.8780917386061047
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.8780917386061047,
+              0.0,
+              0.47849231821598603
+            ]
+          ]
+        }
+      }
+    },
+    "apartment_1_p02": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        1.9323077201843262,
+        -1.0390551090240479,
+        -2.928795455137448
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+0.png",
+          "sha256": "c8093d198ea7129a8cf71a72d44a841ff6e050d9f07d7bdeeaa5f18674cd18e8",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+0.depth.npy",
+          "depth_sha256": "b6963a51287249177827c50dbb459093d90fe97a0c0de4f80c2d6389bf0fb5a5",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.928795455137448
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.21119482531038658,
+              0.0,
+              0.9774439859972106
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9774439859972106,
+              -0.0,
+              -0.21119482531038658
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+3.png",
+          "sha256": "361a2d196bb3a4274155901eb13aaf289b144663aa5cd8ebe3b237b4e0327396",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+3.depth.npy",
+          "depth_sha256": "b990e6f61502d1c7eaf31684db5f794ba74c97ac32bec003c16d0d60408dc9b0",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.8764355775776185
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.2620608236710986,
+              0.0,
+              0.9650513585798558
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9650513585798558,
+              -0.0,
+              -0.2620608236710986
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-3.png",
+          "sha256": "afa44b81a77b9e3e6aab10e1a17eb07ddc320f5491f62e38f9208df45dee0664",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-3.depth.npy",
+          "depth_sha256": "2dd604b5ab59644cdd9995d6a63217313a74b366cc404ed56b389b22cde4f2cb",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.981155332697278
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.15974994806135068,
+              0.0,
+              0.9871575123020621
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9871575123020621,
+              -0.0,
+              -0.15974994806135068
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+5.png",
+          "sha256": "cb8d05811717a880d877d50cff0653d17c70b7356c27de9451536d7717b0990a",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+5.depth.npy",
+          "depth_sha256": "4d857a04c4361df583a228171d7d10e46ed71f290d4abf0ffee9b1bbdcf20a7d",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.841528992537732
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.29558097955670637,
+              0.0,
+              0.955317687748059
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.955317687748059,
+              -0.0,
+              -0.29558097955670637
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-5.png",
+          "sha256": "e68a865d11639cfe5a3a43e4ab20a7d02fd2487f47d49755905d68e147f6a614",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-5.depth.npy",
+          "depth_sha256": "e1a542ccae9361677a78ed9565add3751a681611c031b3e26ea91a0d122a4c28",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -3.0160619177371646
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.12520130137413887,
+              0.0,
+              0.9921313593139882
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9921313593139882,
+              -0.0,
+              -0.12520130137413887
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+7.png",
+          "sha256": "41415234cb902246b2ddb01ddda707a55a577de23cdde6dd791c430b881ad4c5",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_+7.depth.npy",
+          "depth_sha256": "50d4894ae8942036f62e291ad5c6d2e14e657dc0f81cd9529518b8cc850ae562",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.806622407497845
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.32874103444067204,
+              0.0,
+              0.9444201037011426
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9444201037011426,
+              -0.0,
+              -0.32874103444067204
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-7.png",
+          "sha256": "31d8f6e7bbfc04ea38da9aa5fcc9e4e538dd53cdb1d799ffdc1198b1d9e45f90",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p02/yaw_-7.depth.npy",
+          "depth_sha256": "329aea5a903b3d866c06ce0d04ab1ca6877d838174ec6b9e6c1b51099494974c",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -3.0509685027770512
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.09050023146199582,
+              0.0,
+              0.9958964344274586
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9958964344274586,
+              -0.0,
+              -0.09050023146199582
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_+10.png",
+          "sha256": "4ff1a255bf5b6a8e1ca88927736febca3c3d69a4a458784886955c07da144aaf",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_+10.depth.npy",
+          "depth_sha256": "7c2457841c564c10cd25203947d1a8920618cd4055133bca5c0bab69ed4daefe",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.7542625299380155
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.37771765336203766,
+              0.0,
+              0.9259208250917977
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9259208250917977,
+              -0.0,
+              -0.37771765336203766
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_-10.png",
+          "sha256": "fc13f3fc53e3ba3cf26b0bf9fed46034d8afb1553220fe02ee2e7582d9a2d0ac",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_-10.depth.npy",
+          "depth_sha256": "af47579fea56bc0f42fc8dd8cfde6e28b6e975e5f6a5f1a3861e299c96f8c365",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -3.103328380336881
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.03825491834932815,
+              0.0,
+              0.9992680127083455
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9992680127083455,
+              -0.0,
+              -0.03825491834932815
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_+15.png",
+          "sha256": "e43388a04972a4d3f664970d8418469abec65981e3433d3855047247bb407118",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_+15.depth.npy",
+          "depth_sha256": "14dcddc42d3c97ce7932bbc36006cf3c35a7deed87ce30dc9dfb131f709a8637",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.6669960673382986
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.456979679598873,
+              0.0,
+              0.889477134295037
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.889477134295037,
+              -0.0,
+              -0.456979679598873
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_-15.png",
+          "sha256": "1cc8c4a6281f780a573ba039dbe64b41e730715d6671c327fb6def04fa7d8ab4",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p02/yaw_-15.depth.npy",
+          "depth_sha256": "b2ff9d93965842e63371d0c7ae1d95c56d97dbff83307f414b7d23b238437071",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            3.0925904642429884
+          ],
+          "camera_position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.048982607438117554,
+              0.0,
+              0.9987996316421844
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9987996316421844,
+              0.0,
+              0.048982607438117554
+            ]
+          ]
+        }
+      }
+    },
+    "apartment_1_p03": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        6.507196426391602,
+        -2.8391001224517822,
+        -0.35730138103511333
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+0.png",
+          "sha256": "41c97a18a3a9e7d74d51df3589b75d048c7e58252fc8fd498a4823c0c5b15d49",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+0.depth.npy",
+          "depth_sha256": "db7a40b89adb8e6ec474ebc0aaff64b836a233ad6ce01de65338b46e41ef476f",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.35730138103511333
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.3497472500547911,
+              -0.0,
+              -0.93684409646382
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.93684409646382,
+              0.0,
+              -0.3497472500547911
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+3.png",
+          "sha256": "0d6b29a04a2f43f70bacc78bdfd91a6b426a59c03b1d854d9b21a24960c05ec6",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+3.depth.npy",
+          "depth_sha256": "a472a0f588e218c2785d15628c412711afce14dc7c161e41d4936ff068460787",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.3049415034752836
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.30023736682774627,
+              -0.0,
+              -0.9538645205480396
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9538645205480396,
+              0.0,
+              -0.30023736682774627
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-3.png",
+          "sha256": "5ab3bf37075b08de61d04c21cb422f7d6616995f736b0765ec9fc6020864f237",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-3.depth.npy",
+          "depth_sha256": "022157a6f8734c34c3fff1bc64b3b06285afa13a897797610e8e4b0328e9eb5f",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.40966125859494307
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.39829862392798665,
+              -0.0,
+              -0.9172558019315399
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9172558019315399,
+              0.0,
+              -0.39829862392798665
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+5.png",
+          "sha256": "27dd2dcfabe21e458b1e3dbba498af10e94efae37ebff6c9b69835d15cd58899",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+5.depth.npy",
+          "depth_sha256": "74b47642bb2eb1ae7bca4bf517647c98a4a080a5eb2bb25886a72e4a19982748",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.27003491843539695
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.2667650605716507,
+              -0.0,
+              -0.9637615900512966
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9637615900512966,
+              0.0,
+              -0.2667650605716507
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-5.png",
+          "sha256": "d9361d367d821e0915e01424de6382474b3ba8f56fc33fc5a99513abbcec18ce",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-5.depth.npy",
+          "depth_sha256": "17ed2969db609dd962d5499b498332260ade7aa756ba14a4236ce81c635ab60a",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.4445678436348297
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4300677914865403,
+              -0.0,
+              -0.9027965965409317
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9027965965409317,
+              0.0,
+              -0.4300677914865403
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+7.png",
+          "sha256": "ae48ef6c6bba63dc303512ffee4574a9fdb5b338761e5b8959473ef48b632274",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_+7.depth.npy",
+          "depth_sha256": "db0e6d9c766dcd4a1a7afc4f684c61408f953cdf848476cad8684ac4f672f274",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.2351283333955103
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.23296779381639765,
+              -0.0,
+              -0.9724844507982225
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9724844507982225,
+              0.0,
+              -0.23296779381639765
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-7.png",
+          "sha256": "3c5b63b9b333f857fdbdbe77c62c95e1014a644bd4a2cd12f4b93003335f7263",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p03/yaw_-7.depth.npy",
+          "depth_sha256": "371f440444c3ae720b2fc43e744c7422ce951df1bd4edca53892091c786d58ea",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.47947442867471635
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4613128888861109,
+              -0.0,
+              -0.887237520930867
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.887237520930867,
+              0.0,
+              -0.4613128888861109
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_+10.png",
+          "sha256": "e733508c9451ce83363da82302a0ff2569f85a744b723415fb8f248e408d6e2c",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_+10.depth.npy",
+          "depth_sha256": "76378fe1c43555bca644a77152f29a5200f96c36fed8108599579e7fada35445",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.18276845583568058
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.18175266525484313,
+              -0.0,
+              -0.9833442777953004
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9833442777953004,
+              0.0,
+              -0.18175266525484313
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_-10.png",
+          "sha256": "e1fcb9678698a74b3d4e6ad3bbf521d26edb05ec1454891f8151006713307582",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_-10.depth.npy",
+          "depth_sha256": "2358053c666cbbe32eda5001d89adcb1404f031ae2d2b4b8a8ed15d8ceb2daf1",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.5318343062345461
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5071151267567326,
+              -0.0,
+              -0.8618783256437668
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8618783256437668,
+              0.0,
+              -0.5071151267567326
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_+15.png",
+          "sha256": "ad89552f8c563e9e5c5865d9a83b2058d71ae7c8a260bcfa517726107c8faa56",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_+15.depth.npy",
+          "depth_sha256": "72a4389bfe4369fe4580c69147df0753d1eef38c49583d01b2da83945d1a3ad7",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.09550199323596376
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.09535691440155736,
+              -0.0,
+              -0.9954431469831987
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9954431469831987,
+              0.0,
+              -0.09535691440155736
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_-15.png",
+          "sha256": "3f35086dfae0835dc7d1ec9cda08e2e003d1c0e05041f3db3b649513b7c6f89a",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p03/yaw_-15.depth.npy",
+          "depth_sha256": "64b6966ba5b1e66b6937df292d73ace7bb3e970eb2121c3fbec98788d20ff3b6",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.6191007688342625
+          ],
+          "camera_position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5803030596684535,
+              -0.0,
+              -0.8144006132975534
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8144006132975534,
+              0.0,
+              -0.5803030596684535
+            ]
+          ]
+        }
+      }
+    },
+    "apartment_1_p04": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        2.1302061080932617,
+        -3.3369195461273193,
+        -0.7333343588194627
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+0.png",
+          "sha256": "55983c61059daa4fe29e6058162ac188773d7d9620c2efb9d75feea82e73a948",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+0.depth.npy",
+          "depth_sha256": "fcfce9684f404a3ff4a612bb879c6cb9b51e30c50753365ac94c16215d57025c",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.7333343588194627
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6693505864142295,
+              -0.0,
+              -0.7429466955757507
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7429466955757507,
+              0.0,
+              -0.6693505864142295
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+3.png",
+          "sha256": "b06636f898400e21b95f862203d9da1be5c2af6061bdb1508344d4c02a093f74",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+3.depth.npy",
+          "depth_sha256": "7a2f8824f75ac3e5fab595647a7c9408695d1db0d4c6c311149f770a0bbcfeef",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.680974481259633
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6295504321389258,
+              -0.0,
+              -0.7769596214692831
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7769596214692831,
+              0.0,
+              -0.6295504321389258
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-3.png",
+          "sha256": "9303fe5c196675a48a3f1315078fbd295023a6fa13a423ebd8e5c81145a61a9c",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-3.depth.npy",
+          "depth_sha256": "411f9107e32533ef90fd461db96e6208421f258eb2a054736df81158fbd8c81e",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.7856942363792925
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7073161094525897,
+              -0.0,
+              -0.7068973909336856
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7068973909336856,
+              0.0,
+              -0.7073161094525897
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+5.png",
+          "sha256": "6054770e17bf79a03c3a2c85777eebe50deef785ee013ffe1c9dfa0cb66d1067",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+5.depth.npy",
+          "depth_sha256": "ebe4964ca98a8d74676eba7dd51e689d1b75034570928e86f8671808b4c40276",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.6460678962197464
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.602051430053667,
+              -0.0,
+              -0.7984573097982975
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7984573097982975,
+              0.0,
+              -0.602051430053667
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-5.png",
+          "sha256": "29fa0d463a2c8bcc64bc7dfe78133b23d97d748302b4903bf9a5d76600a1350d",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-5.depth.npy",
+          "depth_sha256": "ac958991123602bbd61ae300b93a9dfbd1ccaaa712ceb6a3d0d0bd95ed28edb0",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.8206008214191791
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7315555919768417,
+              -0.0,
+              -0.6817817948929208
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6817817948929208,
+              0.0,
+              -0.7315555919768417
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+7.png",
+          "sha256": "8233516002cff3425dac8ff52701a0ef1b2998d68be18d8a025335ea92cf6c62",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_+7.depth.npy",
+          "depth_sha256": "94f931910aef9f630371d037fbb30c2b88afc974f0ae09cbabc2d1302b618eb3",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.6111613111798597
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.573818950642144,
+              -0.0,
+              -0.8189821804434749
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8189821804434749,
+              0.0,
+              -0.573818950642144
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-7.png",
+          "sha256": "849afcdce3ac5c5f4e18fd59bef9b03048549511f3f9adb4c9e9554df5b49ddb",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p04/yaw_-7.depth.npy",
+          "depth_sha256": "220e2603ab5d182c03beac1089120395f44519e360bbec7fc1bdc3c9c67c83d6",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.8555074064590658
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7549037784630477,
+              -0.0,
+              -0.6558355626696479
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6558355626696479,
+              0.0,
+              -0.7549037784630477
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_+10.png",
+          "sha256": "ea0c950e84ce32f72ecc36f4d40924183f6d814f2b25762611b9dbf68d9c95e5",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_+10.depth.npy",
+          "depth_sha256": "fe541f50ba98d9892f33f1a82cfb5ae21bd19951db74140d902e3595d995dce7",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.5588014336200295
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5301703310816306,
+              -0.0,
+              -0.8478911604921908
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8478911604921908,
+              0.0,
+              -0.5301703310816306
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_-10.png",
+          "sha256": "12b6af8923064118037b8cc1078576a4716e7ecb288ec9fdc5f83fe6ac9aab88",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_-10.depth.npy",
+          "depth_sha256": "295ad79856ab2c10c23b6a58bce64653ab9ffe84ad9277fb2ef5667b7ae2c20f",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.9078672840188959
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7881929951309821,
+              -0.0,
+              -0.6154281456242083
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6154281456242083,
+              0.0,
+              -0.7881929951309821
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_+15.png",
+          "sha256": "8daee43ec645d99d5a481d1326977946bd9b46fa2abe9ca1f1e40f52648123bd",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_+15.depth.npy",
+          "depth_sha256": "9b1544ba9861a62c0223c149f492aa8912a6ffd63419ecdc90ef65fd5bbda738",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.47153497102031317
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.45425425436692146,
+              -0.0,
+              -0.8908720853127862
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8908720853127862,
+              0.0,
+              -0.45425425436692146
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_-15.png",
+          "sha256": "3c590ce2c8cfd0ae86ee08f3c5cd06a3eb1f6aec90682810c20ab09c30e06b97",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p04/yaw_-15.depth.npy",
+          "depth_sha256": "99c888bb8d402b1b061927abc0c9d2aa2908a0523c5ac4828aad7f0a8f20c8de",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.9951337466186123
+          ],
+          "camera_position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8388317757650945,
+              -0.0,
+              -0.5443907162753404
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5443907162753404,
+              0.0,
+              -0.8388317757650945
+            ]
+          ]
+        }
+      }
+    },
+    "apartment_1_p05": {
+      "scene_id": "apartment_1",
+      "start_pose": [
+        5.607101917266846,
+        0.24401836097240448,
+        -2.25009884137776
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+0.png",
+          "sha256": "2c51a682f425c01e16f8565ef061aaf22201b821c5ac76b476e010f57b6e7316",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+0.depth.npy",
+          "depth_sha256": "3d79eb382a2f16a86d4e1aefaf64709cad3c9f218c8aa12586c8e10cc8347854",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.25009884137776
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7780111160834289,
+              0.0,
+              0.6282505099485534
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6282505099485534,
+              -0.0,
+              -0.7780111160834289
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+3.png",
+          "sha256": "74c26334b4033f6b4d53f628c35c200693c801f4157df0e12f571540e14dd867",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+3.depth.npy",
+          "depth_sha256": "8791d774b469a5515b72c42f82ae6ee79af00707047baae871b55e999760f0c7",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.19773896381793
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8098249620729461,
+              0.0,
+              0.5866715697931437
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5866715697931437,
+              -0.0,
+              -0.8098249620729461
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-3.png",
+          "sha256": "652081feb5ea7234d428f17222b802d37452d07c3ec16a547315985325239122",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-3.depth.npy",
+          "depth_sha256": "a043c980ce388711632af7ba2fcd26b3267044d228363b5e05f1b01e160f82ec",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.3024587189375896
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7440647633157149,
+              0.0,
+              0.6681074973325245
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6681074973325245,
+              -0.0,
+              -0.7440647633157149
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+5.png",
+          "sha256": "4af07c6a5028e1e68b62082fda5ea4c79f7c8176c619670e1164fd30d1ca691c",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+5.depth.npy",
+          "depth_sha256": "ed351f36c815e331b70089fe6d8bd54e5fe890b8dc3577b7df70506d22b2aa41",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.1628323787780435
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8298061790963867,
+              0.0,
+              0.5580517047133314
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5580517047133314,
+              -0.0,
+              -0.8298061790963867
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-5.png",
+          "sha256": "2760a54aa0359d67fe5f6f53364306b2374bfc91460b23caa1f11747a7b99447",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-5.depth.npy",
+          "depth_sha256": "f3cdfd10f9b54363b10cc94cfe912a26b48eff45afe7e6f6a5db5f0517c977ee",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.337365303977476
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7202948906239071,
+              0.0,
+              0.6936679829292209
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6936679829292209,
+              -0.0,
+              -0.7202948906239071
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+7.png",
+          "sha256": "97150db16dd4ee1f0c76be5468545b1ee7bc36b4867ff311c4b5db24b3f1b3f3",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_+7.depth.npy",
+          "depth_sha256": "f8aa5c642b6816963106cc21974dfa4e45bd809fa1084dcf9414d49b1cfafe34",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.127925793738157
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8487764204134469,
+              0.0,
+              0.5287519155049327
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5287519155049327,
+              -0.0,
+              -0.8487764204134469
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-7.png",
+          "sha256": "90a70031d5b771bf418b3178a0496674271e580046d021465ab7508d96c46363",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/apartment_1_p05/yaw_-7.depth.npy",
+          "depth_sha256": "a56fb1f64f9f2bba73d541b8d555a77b76794f32d5d9db4acc2f489ee1777ff2",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.372271889017363
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6956474665575754,
+              0.0,
+              0.7183833254412487
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7183833254412487,
+              -0.0,
+              -0.6956474665575754
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_+10.png",
+          "sha256": "05c750ca9b4f719d8c8807acbe02d6ed98dba0665fe41e82ad36b9b7e37def81",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_+10.depth.npy",
+          "depth_sha256": "edef17a8d55580a674e4077f4e25a2c92d819aef00e42c153034c0d8be62c269",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.075565916178327
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8752859226257084,
+              0.0,
+              0.4836057833124648
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4836057833124648,
+              -0.0,
+              -0.8752859226257084
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_-10.png",
+          "sha256": "946c61be31e98875db1a7f7bd6453c40af7c2e373a11458d2b0f466092de8b6e",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_-10.depth.npy",
+          "depth_sha256": "63f7c963b7a9c9f1b39fce90ac74e42da4a0358d74ea010164535be2227899bd",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.4246317665771926
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6570968132842021,
+              0.0,
+              0.753806193906462
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.753806193906462,
+              -0.0,
+              -0.6570968132842021
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_+15.png",
+          "sha256": "e0b092585fed62ece89edf371ffb88fd0a16e01d2fc45300de97546ba789d6d9",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_+15.depth.npy",
+          "depth_sha256": "5a2f6d0830ea89bf4355fa8cd39362bea354f3bf9e4c0d4dc97b1b0c6b81ea78",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -1.9882994535786105
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9141042108883275,
+              0.0,
+              0.4054793356463778
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4054793356463778,
+              -0.0,
+              -0.9141042108883275
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_-15.png",
+          "sha256": "50979597f26d52e2b526a2e77d9baec1c68f2934530723aa0c73c8f61bfd79b9",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/apartment_1_p05/yaw_-15.depth.npy",
+          "depth_sha256": "45e2f69da6dc5985f9b2aca733dd4eee3aad0b9791b18b9b3a3048a355fd026b",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.5118982291769094
+          ],
+          "camera_position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.588897807916726,
+              0.0,
+              0.8082075054284481
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.8082075054284481,
+              -0.0,
+              -0.588897807916726
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p00": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        -5.106306552886963,
+        -17.131561279296875,
+        -3.0408615023369467
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+0.png",
+          "sha256": "92461cd1365a263ca99ebe4db2a1f369d2274f93b655207b404a5ea5e3705b2b",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+0.depth.npy",
+          "depth_sha256": "19de08bbc025f02ba77be86635c3dbd5d308293f68c71bb5915ebd550b0385ab",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -3.0408615023369467
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.10056088849398548,
+              0.0,
+              0.9949309059956376
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9949309059956376,
+              -0.0,
+              -0.10056088849398548
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+3.png",
+          "sha256": "ac6ea19a9a37c85d71d3aaad04160d268409113f975b6173d61112c6412b2660",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+3.depth.npy",
+          "depth_sha256": "4eeaec26e4d4b146ea1d8d0bae8d01cdb7736c5357dccb88c18febc42a838b32",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -2.988501624777117
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.15249371552652113,
+              0.0,
+              0.9883044403041588
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9883044403041588,
+              -0.0,
+              -0.15249371552652113
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-3.png",
+          "sha256": "55f2f727116f19691f914bd2748defbff6141b8ed92f58ef71cb7d1cdc2bf69f",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-3.depth.npy",
+          "depth_sha256": "6da94a0c1f2f20a7f064b0ef2e0f68a204c509723e4a8f618eb9998af56432ef",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -3.0932213798967765
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.04835239679069403,
+              0.0,
+              0.9988303388086464
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9988303388086464,
+              -0.0,
+              -0.04835239679069403
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+5.png",
+          "sha256": "27d8838c33549a72ec70e02521b324359998e9c3d15f8cdc07d835e8411203cf",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+5.depth.npy",
+          "depth_sha256": "76da809221c6e27b1d66f77d7103d0d6ee09a9cbcf8b8e9d70581a2166d35781",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -2.9535950397372304
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.1868921658371836,
+              0.0,
+              0.982380434632473
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.982380434632473,
+              -0.0,
+              -0.1868921658371836
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-5.png",
+          "sha256": "213d47388a92db09935f27836bb8fd8b0a72a9be62d58c24a1bf56a8c41c3343",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-5.depth.npy",
+          "depth_sha256": "7ccbfec6cd06317c6da56dc5208313325c2835fbc7f3d73ea99755353f2e7182",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -3.128127964936663
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.013464264669205805,
+              0.0,
+              0.9999093526799905
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9999093526799905,
+              -0.0,
+              -0.013464264669205805
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+7.png",
+          "sha256": "d8fbc6731ba5cf6e19f7fd0c29935d9fe259767d186fe2ba9df7f0af6c2a33ea",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_+7.depth.npy",
+          "depth_sha256": "41ea448087061871c91e7da06697e8946749d724f041c13bcba3060cfdaab577",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -2.9186884546973437
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.22106286169322953,
+              0.0,
+              0.9752595609272436
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9752595609272436,
+              -0.0,
+              -0.22106286169322953
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-7.png",
+          "sha256": "494081c19ad18c1caffb2e1bbac43b9aabd090f86f1c9d502110f4269c6dccbb",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p00/yaw_-7.depth.npy",
+          "depth_sha256": "2061b468dce85792eb4cf2f208e5b04bc11cb544e0f8e979ad887563ce5b86dc",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            3.120150757203037
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.021440302480559614,
+              0.0,
+              0.9997701302947304
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9997701302947304,
+              0.0,
+              0.021440302480559614
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_+10.png",
+          "sha256": "893e2e350cba18865938a358e17146d39125e50e20df428ebc80662499f8ff1d",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_+10.depth.npy",
+          "depth_sha256": "1c3a16553b51a2db796416b6f51466bd04a9a2527c8c70d71f89d56466e962af",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -2.866328577137514
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.27180109105629024,
+              0.0,
+              0.96235345216849
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.96235345216849,
+              -0.0,
+              -0.27180109105629024
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_-10.png",
+          "sha256": "66d6fbabc4dcacc54b08a2a41f7ec62690b6b68af009462638c2a3440e375fc5",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_-10.depth.npy",
+          "depth_sha256": "c883a6353086a2df7706681cc0442630bf0644bfa287ebd28eb7611e31b28d5a",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            3.0677908796432067
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.07373474158368054,
+              0.0,
+              0.9972778889976394
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9972778889976394,
+              0.0,
+              0.07373474158368054
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_+15.png",
+          "sha256": "bb10c331657a4b619f70f6b4fdd5270740b55479806f7508a0a5b830c7d9e3ef",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_+15.depth.npy",
+          "depth_sha256": "a1a9b3f5b5358a2eb3ba62569c5f05b98c086bdbccc78778e6f37cc4934b43d6",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -2.779062114537797
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.3546414224483092,
+              0.0,
+              0.9350023858171913
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9350023858171913,
+              -0.0,
+              -0.3546414224483092
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_-15.png",
+          "sha256": "c45d823d272e71da6d8808346c5d5414ae38bc3dd04b0788c892b7107df5c306",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p00/yaw_-15.depth.npy",
+          "depth_sha256": "38c6446905a640af2e5f95316ad6c49802d48f93227e9d29380746123da3a49f",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            2.9805244170434904
+          ],
+          "camera_position_world": [
+            -5.106306552886963,
+            1.736887812614441,
+            17.131561279296875
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.1603727656004128,
+              0.0,
+              0.9870565212051816
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9870565212051816,
+              0.0,
+              0.1603727656004128
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p01": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        -7.797147750854492,
+        -8.942110061645508,
+        -2.0789529986881554
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+0.png",
+          "sha256": "844f84195118d0a3e201c61c6f831fb313ed1be2004f07627c7bd9975e6a9669",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+0.depth.npy",
+          "depth_sha256": "575c52905357362a2b96d6b45c1c3cddb06cf260d8df8d0ab0fed73676ba80d6",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.0789529986881554
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8736428983190054,
+              0.0,
+              0.48656765841634814
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.48656765841634814,
+              -0.0,
+              -0.8736428983190054
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+3.png",
+          "sha256": "3342443f03289df0dc7e6d82a19a9d58110be2388bd00b14fbdcb0f2761bb2d1",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+3.depth.npy",
+          "depth_sha256": "01a71938e548fe7970d3957f115d292e845efc2e339dabb4a4019475fb73ebea",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.0265931211283257
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8979105834024481,
+              0.0,
+              0.44017790064231427
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.44017790064231427,
+              -0.0,
+              -0.8979105834024481
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-3.png",
+          "sha256": "6fa73886573c3ae694ca3103115ead68c4d55c8b9abeb000bfe41882a177175b",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-3.depth.npy",
+          "depth_sha256": "dd7b373e871988f114ca8f9d1ce0ba03c6a88a5017217f429a1e02386f86fc38",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.131312876247985
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8469806282300554,
+              0.0,
+              0.531623753610597
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.531623753610597,
+              -0.0,
+              -0.8469806282300554
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+5.png",
+          "sha256": "c6e8200526cfbb0464c4ff43f8fcf674bcf7abf1fca4ee79a59cd0ea5301ed60",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+5.depth.npy",
+          "depth_sha256": "93cc62776ebe7719dfcf650f63c06f63c61be9d8c15a1e9a4b3457e5db3097f0",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -1.991686536088439
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9127255896879223,
+              0.0,
+              0.4085731243349649
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4085731243349649,
+              -0.0,
+              -0.9127255896879223
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-5.png",
+          "sha256": "f5063dcd98797c610110af64f89229dc1044d88fb7c124a4182399467eb3cb24",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-5.depth.npy",
+          "depth_sha256": "6c58f71d99d5da1f9de87b19d7409b4855b33d227ad8eea2ad3a3e66b3ff7a89",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.166219461287872
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.827911269170198,
+              0.0,
+              0.5608591002925708
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5608591002925708,
+              -0.0,
+              -0.827911269170198
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+7.png",
+          "sha256": "a064ea9ecb093770788a3b8c61d80f8a4d868f8cb29873d933d95de6b627ad81",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_+7.depth.npy",
+          "depth_sha256": "00e3805fef5abec640429da1b6759191aacfddde6c6833d40a76474b354f7a61",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -1.9567799510485524
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9264285753787393,
+              0.0,
+              0.37647057616993057
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.37647057616993057,
+              -0.0,
+              -0.9264285753787393
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-7.png",
+          "sha256": "38635e83df5c0154154f2a39d1c4ad0921d95c22a2d9dc6483f4b167f7c1ff23",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p01/yaw_-7.depth.npy",
+          "depth_sha256": "39f89afde33e16df536eb436ef9fae10b3b036ce7127cfc0082d302a7d67a36c",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.2011260463277584
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8078332155633718,
+              0.0,
+              0.5894111432884035
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5894111432884035,
+              -0.0,
+              -0.8078332155633718
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_+10.png",
+          "sha256": "357e098c7914a826028a47f1dc825f1469519d57d1a1e32238f1e0a3302c52eb",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_+10.depth.npy",
+          "depth_sha256": "d4ea51b1e354bf09512fbe2566b352eaba705f40551920042d6446b794844dc7",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -1.9044200734887224
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9448618821789811,
+              0.0,
+              0.32746911855195315
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.32746911855195315,
+              -0.0,
+              -0.9448618821789811
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_-10.png",
+          "sha256": "a403ad58fc9c681224687c27dc32d4c36cc2d6187a1d2bcc5a8464c000e9a728",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_-10.depth.npy",
+          "depth_sha256": "1109a28f51f28e75969004ab8ddf35f2cc877ac1c0c4c70c2885f4c3092c6b1f",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.253485923887588
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.77587868989621,
+              0.0,
+              0.6308821273145571
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6308821273145571,
+              -0.0,
+              -0.77587868989621
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_+15.png",
+          "sha256": "5e6e079b085d92c1d1fd19628cd02ed910d94d857a0b70bba87558fb504fa37f",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_+15.depth.npy",
+          "depth_sha256": "ba04f6e322df0fb1ef3b0fac5643b84519bdb71274cbab0644bfd931507e7a43",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -1.817153610889006
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9698072134846452,
+              0.0,
+              0.24387285349777713
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.24387285349777713,
+              -0.0,
+              -0.9698072134846452
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_-15.png",
+          "sha256": "6c065e778f99e87d8a6353253d37262fb1a166586d265ce38e6711a43c3885d2",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p01/yaw_-15.depth.npy",
+          "depth_sha256": "38ff4064abad2b6ffa801148102c151254efe5ed5f254d0c32d7842d08a6b9dc",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.340752386487305
+          ],
+          "camera_position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7179412706049337,
+              0.0,
+              0.6961036790322066
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6961036790322066,
+              -0.0,
+              -0.7179412706049337
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p02": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        6.067840576171875,
+        -19.372264862060547,
+        0.9709069211413617
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+0.png",
+          "sha256": "2c7dc6e2415017b87e1c8e94becfb823a6439bf08ff3750b11ad5e9a6cb6b56a",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+0.depth.npy",
+          "depth_sha256": "8b6ff789bf1ec0a529b365a53501ad6e8e5cd5ef282565854d65ec3e10400bb9",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.9709069211413617
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8253980629595173,
+              -0.0,
+              -0.564551182500468
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.564551182500468,
+              0.0,
+              0.8253980629595173
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+3.png",
+          "sha256": "a9d7c9b7ebf4e4f5672385571df7176113da72aa600e6233e86b734048d65ee8",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+3.depth.npy",
+          "depth_sha256": "015d8f06435caf1e41e7a60df23ed6a3688f20ce6a03721d40c21fb7691c780a",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            1.0232667987011919
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8538132111603669,
+              -0.0,
+              -0.520579485235466
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.520579485235466,
+              0.0,
+              0.8538132111603669
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-3.png",
+          "sha256": "92b7eec38df629458e31e6e75a13a71c3775f6068e3d05ff34c5e8d756ac0757",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-3.depth.npy",
+          "depth_sha256": "59107c1e46d6f71ffebcc8446e48d4d3d1cab0a8c6cf3264f8028111ffe2cbde",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.9185470435815315
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7947205622472457,
+              -0.0,
+              -0.6069754755683474
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6069754755683474,
+              0.0,
+              0.7947205622472457
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+5.png",
+          "sha256": "4e3302d436b2cebd5f206a3d7c25f173546ee10d7ceda758e4d273d0cd8a31d2",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+5.depth.npy",
+          "depth_sha256": "d33c904fe7da66f0fc4178e3b76694e7ee39370aa8b28e9e76c7893659c6113d",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            1.058173383741078
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8714610395167814,
+              -0.0,
+              -0.49046473533204266
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.49046473533204266,
+              0.0,
+              0.8714610395167814
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-5.png",
+          "sha256": "5851e2f9e7c80c5c9875bc4ff17f219f0d51cb64d4614c917a16c03966c01066",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-5.depth.npy",
+          "depth_sha256": "f5ec73bc11ca7bde1a118421aa32443d77fe9c05649a33d0f2fab738a2ab690e",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.8836404585416453
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7730532901201393,
+              -0.0,
+              -0.6343410838298491
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6343410838298491,
+              0.0,
+              0.7730532901201393
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+7.png",
+          "sha256": "fb1eeb5b76685e088f4879271934234804b8061359a9b2e00bac99094bdeabd8",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_+7.depth.npy",
+          "depth_sha256": "78f89baebeb77e471b41dcdced67e29db7c136df5ea155bf9826cdc65136c0a2",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            1.0930799687809643
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8880471452457221,
+              -0.0,
+              -0.4597523983851778
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.4597523983851778,
+              0.0,
+              0.8880471452457221
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-7.png",
+          "sha256": "b2dc551364822b152b0a7e0ea360b46c951a83220f4ea908ec1c3037268aea5d",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p02/yaw_-7.depth.npy",
+          "depth_sha256": "1c325c9e03422a3e29c59c25d545f81c9693c3793cbbac0cd5543936a4b71f8c",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.8487338735017587
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7504441650353079,
+              -0.0,
+              -0.6609338508235598
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6609338508235598,
+              0.0,
+              0.7504441650353079
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_+10.png",
+          "sha256": "67134880e605f3f43f8c200571d189547ac4f04c37e368217fae1bd489ba41a9",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_+10.depth.npy",
+          "depth_sha256": "035eeac389b42f3d91718bac4e6db13dbd7d7bd8b6190a8a06e72293a86a4e40",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            1.1454398463407944
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9108916852098469,
+              -0.0,
+              -0.4126455353151966
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.4126455353151966,
+              0.0,
+              0.9108916852098469
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_-10.png",
+          "sha256": "6a8186a331f7feb8427690dabe5dd530e87067408adf19ee616b0ba4142a84c1",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_-10.depth.npy",
+          "depth_sha256": "2d6ea9eb769d4e6bc67072c6d246312a29cb4364163b3a20a02e73e36971a9f8",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.7963739959419289
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7148251061721974,
+              -0.0,
+              -0.699303272969537
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.699303272969537,
+              0.0,
+              0.7148251061721974
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_+15.png",
+          "sha256": "3c9d6f9ee02559c49e0a1e9b6a7141ff22e3c6154f081eb86762f9a29f904845",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_+15.depth.npy",
+          "depth_sha256": "a9ce350a3f353085fb20cb2bb2832b9e74134f3d7457c969f5f7bad4e31787bd",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            1.2327063089405108
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9433898981680098,
+              -0.0,
+              -0.33168584539372814
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.33168584539372814,
+              0.0,
+              0.9433898981680098
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_-15.png",
+          "sha256": "1ac255e35849a1017bf5a5faf12f1b41991a869c6a45a836ecf4aa706d01b9f6",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p02/yaw_-15.depth.npy",
+          "depth_sha256": "4f9ee7438b50b024d52c98ae740f30f1abf7dc26965f2462d50d3d251d163b09",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.7091075333422125
+          ],
+          "camera_position_world": [
+            6.067840576171875,
+            1.5099185705184937,
+            19.372264862060547
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.6511567111326768,
+              -0.0,
+              -0.7589433032492452
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7589433032492452,
+              0.0,
+              0.6511567111326768
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p03": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        2.1313652992248535,
+        -18.249536514282227,
+        -3.005551084404751
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+0.png",
+          "sha256": "f1b8057af08e595672ba7565e0ce1524d044a530dc68eefc28b12453203daf65",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+0.depth.npy",
+          "depth_sha256": "85a60aa3831001dfa3e325003c1c4294e828e518e0bfc8aec0c10f8fbfccfe7b",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -3.005551084404751
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.13562238031917495,
+              0.0,
+              0.99076060173816
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.99076060173816,
+              -0.0,
+              -0.13562238031917495
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+3.png",
+          "sha256": "d92084fc5cf3f862ca4c9f7caf9b96f10017544a934e67bf7fe9b361b6557c35",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+3.depth.npy",
+          "depth_sha256": "ad855893f9889411a806f026563c9fe0f667493fc615c5a610f50127f2d3742e",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -2.953191206844921
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.18728890086473093,
+              0.0,
+              0.9823048750835358
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9823048750835358,
+              -0.0,
+              -0.18728890086473093
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-3.png",
+          "sha256": "960740d4c8da588e8d41d173f28f1d4d1d2f2fed48d1f473d444e5e1a2b00c50",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-3.depth.npy",
+          "depth_sha256": "3ff1bfa61d2ac9ef275628cc3cb47cc2c719b7f3e2a10aa3a8c465ad8ba64642",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -3.0579109619645806
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.08358406588305023,
+              0.0,
+              0.9965007295182768
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9965007295182768,
+              -0.0,
+              -0.08358406588305023
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+5.png",
+          "sha256": "6877d18e09fb15b301800bdc29774aa9d23fe77fe4dff2adbadc71f9278af350",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+5.depth.npy",
+          "depth_sha256": "996a8c71737755674adb980807f121de15e85e7a5da2bdf8c597ec59e4d9ba0d",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -2.9182846218050345
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.2214566821083015,
+              0.0,
+              0.9751702097324255
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9751702097324255,
+              -0.0,
+              -0.2214566821083015
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-5.png",
+          "sha256": "1674e3efd96219ef95292d9d7e4e6766d02bff2873017ecd923e3c47babed5ea",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-5.depth.npy",
+          "depth_sha256": "a6de3a53f5cc641b74b9d1863eaef9c0283a7e801df4059940e59e5218f3d658",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -3.092817547004467
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.048755723487573954,
+              0.0,
+              0.99881073253505
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.99881073253505,
+              -0.0,
+              -0.048755723487573954
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+7.png",
+          "sha256": "4c3b03433bad84fbba66aa6188cc9db8e1941e3adf93034366ce49d46470edc9",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_+7.depth.npy",
+          "depth_sha256": "d5dbed9316ce0b1f11332cd1cbb45bff70e59d1761058840b0aa01e0247d2266",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -2.883378036765148
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.2553547539023855,
+              0.0,
+              0.9668474283254066
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9668474283254066,
+              -0.0,
+              -0.2553547539023855
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-7.png",
+          "sha256": "30d8885842756b19a7aae11196581d32079a3f780158d480363e452d4b0b7470",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p03/yaw_-7.depth.npy",
+          "depth_sha256": "9b13701d377575c601357c8515f018d3ad1d8e64d2cb5d6aaa3c45e09180de3f",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -3.127724132044354
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.013868002780070166,
+              0.0,
+              0.9999038346255563
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9999038346255563,
+              -0.0,
+              -0.013868002780070166
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_+10.png",
+          "sha256": "9005f799812c215e0090324e5d2d1008e289fd8a809f260bb14cfc00d913ec13",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_+10.depth.npy",
+          "depth_sha256": "23940d43b94c84b89034801a594ac018de1f7c4ef71f4b7f416b44a0fe73c006",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -2.831018159205318
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.30560575984661487,
+              0.0,
+              0.9521581378891708
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9521581378891708,
+              -0.0,
+              -0.30560575984661487
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_-10.png",
+          "sha256": "a6d77a5fdf5d11e955d32e31e4c07a7830583adc1d6aff7af126443ab5e791a6",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_-10.depth.npy",
+          "depth_sha256": "57da7b2842658cac624d750f004fbebad2c569c9d36296cad19a82ec8964e7b5",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            3.103101297575403
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.03848188062517155,
+              0.0,
+              0.9992592981121317
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9992592981121317,
+              0.0,
+              0.03848188062517155
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_+15.png",
+          "sha256": "16792a5a72adc4ee97148ae85241f976d5e079af1a8890260037c09ae1f452d9",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_+15.depth.npy",
+          "depth_sha256": "ddcd380b63bdc4049d770cf8fe3902930b2a0589188a237ebf66907c1b9ea1b9",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -2.7437516966056013
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.38742885668261207,
+              0.0,
+              0.9218996046260156
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9218996046260156,
+              -0.0,
+              -0.38742885668261207
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_-15.png",
+          "sha256": "e729066c6fdb2f792beb87e0e5f7ea1eed9d4f1709162e97291c6ba45be98b30",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p03/yaw_-15.depth.npy",
+          "depth_sha256": "c2fc8c8f23356ad36f40c16303b80a165d54aeca2e62f886e4a02d832f4098b7",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            3.015834834975686
+          ],
+          "camera_position_world": [
+            2.1313652992248535,
+            1.6296950578689575,
+            18.249536514282227
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.1254266240362295,
+              0.0,
+              0.9921028988884542
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9921028988884542,
+              0.0,
+              0.1254266240362295
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p04": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        -6.684002876281738,
+        -6.857024192810059,
+        0.37933567916700595
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+0.png",
+          "sha256": "351fea918d03dd8bf41ae10f23c848f4cd473f031c85fcb03134bf7d5b9b5bc2",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+0.depth.npy",
+          "depth_sha256": "22e056fdfc06e54d9bf313f62a0d5d22e9d3a938bcf27498805789a6569dfd42",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.37933567916700595
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.3703034793406508,
+              -0.0,
+              -0.9289108316669626
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9289108316669626,
+              0.0,
+              0.3703034793406508
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+3.png",
+          "sha256": "5eb2292979646595763e090a41152cae8e15060da0670a6021359b1679a26549",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+3.depth.npy",
+          "depth_sha256": "1889f24d3ad0820e481f548bb774a4b849287956d047b651a7ded796d5694e78",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.4316955567268357
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.41841140812859834,
+              -0.0,
+              -0.908257614087459
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.908257614087459,
+              0.0,
+              0.41841140812859834
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-3.png",
+          "sha256": "c6a7f013ca554bc95693c9756fb2e2fdfa57626e0bcd66b2c4772b235dd2cf9f",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-3.depth.npy",
+          "depth_sha256": "e05aa19e7c262316133fbe2bd00256f28cab8ccb88f500d30cb9263b89e7b098",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.3269758016071762
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.3211805608776358,
+              -0.0,
+              -0.9470179762361046
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9470179762361046,
+              0.0,
+              0.3211805608776358
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+5.png",
+          "sha256": "1ddec0123dab7e714355894ba0a1da93a4c91db376afea73ace69eeb790aed0b",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+5.depth.npy",
+          "depth_sha256": "ef5cbb860539d497b5ff635724e7245a98d53ce62c02abd26e5606969e7eb801",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.4666021417667223
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.44985426331020073,
+              -0.0,
+              -0.893101977257713
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.893101977257713,
+              0.0,
+              0.44985426331020073
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-5.png",
+          "sha256": "2874140e94a193b5f744877e9256a4b98ecdd0848569cee47ee6c1d0c79ae798",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-5.depth.npy",
+          "depth_sha256": "15823f4b02f4d568dff7c00abf3ff52e965ccf4f40fb8a161ce7a0935648ac0b",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.29206921656728957
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.2879344674278411,
+              -0.0,
+              -0.9576501148472993
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9576501148472993,
+              0.0,
+              0.2879344674278411
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+7.png",
+          "sha256": "1df688767beae956d63550f6963253b1067f0a80cb1f5f10eb8d4c89bec66266",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_+7.depth.npy",
+          "depth_sha256": "a397e4ca20407e4593ba8dd857c5eb5f150c733b1896e383e2e20a5f0d3abe3a",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.501508726806609
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.48074902275236076,
+              -0.0,
+              -0.8768582423189338
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8768582423189338,
+              0.0,
+              0.48074902275236076
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-7.png",
+          "sha256": "b86669b06b6437636e46b13c7ac849ed6a80d33ff77df48fae8f5a3112f4c763",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p04/yaw_-7.depth.npy",
+          "depth_sha256": "ea541e23d24923b714785b74ca24d5e0d89344891da084be16d6646b164c2ae0",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.25716263152740293
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.25433747297441,
+              -0.0,
+              -0.9671155307619619
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9671155307619619,
+              0.0,
+              0.25433747297441
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_+10.png",
+          "sha256": "6e4714b705e98a5f6bf23827a561d313b248c4e47f111f1d533ba0da3edca3da",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_+10.depth.npy",
+          "depth_sha256": "c3d657036e0d7843dfaac7a6822cc1970f535f871b38c8fbd88d5dff433aabba",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.5538686043664391
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.5259813772286657,
+              -0.0,
+              -0.8504960851224631
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8504960851224631,
+              0.0,
+              0.5259813772286657
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_-10.png",
+          "sha256": "36706864e3ba205193ea7172d1a1721186be78df32b44bb6d46320da05427f3d",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_-10.depth.npy",
+          "depth_sha256": "4d385e8d8fb07864ec45f31d13c39705d06116ae21c5950f0e48cd64d645c23b",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.2048027539675732
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.2033740257098493,
+              -0.0,
+              -0.9791011212671393
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9791011212671393,
+              0.0,
+              0.2033740257098493
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_+15.png",
+          "sha256": "d176d36589b9aa5b3272d1ca13adca8dc98b4c80dfd92733e740a4370413499a",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_+15.depth.npy",
+          "depth_sha256": "6432b4e60d2ab486841cc06d7ddc045ef3af678a3202552ceddebabb49f331ab",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.6411350669661555
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.5981054893896107,
+              -0.0,
+              -0.8014173841151777
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8014173841151777,
+              0.0,
+              0.5981054893896107
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_-15.png",
+          "sha256": "7b692f19427be8443c6f2446d5035cce899a665ab51eac519a3c09845c4ffa2f",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p04/yaw_-15.depth.npy",
+          "depth_sha256": "3b168ecc25b970e852aae8fdabaf283ae41dd6638ce8ba874926780a22578067",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.11753629136785637
+          ],
+          "camera_position_world": [
+            -6.684002876281738,
+            1.5099185705184937,
+            6.857024192810059
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.11726586958661023,
+              -0.0,
+              -0.993100556756513
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.993100556756513,
+              0.0,
+              0.11726586958661023
+            ]
+          ]
+        }
+      }
+    },
+    "skokloster_castle_p05": {
+      "scene_id": "skokloster_castle",
+      "start_pose": [
+        3.6497726440429688,
+        -18.65519142150879,
+        -2.7511539557148645
+      ],
+      "reference_views": {
+        "0": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+0.png",
+          "sha256": "21aa77d2e4ebe1c31dd73c994d97a4a72a018df277e493d85e811e69f44c14dc",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+0.depth.npy",
+          "depth_sha256": "090af47f72760e5eedbf46234bf229d0cc9997a547a85c0657ee542a9ef71925",
+          "yaw_deg_left_positive": 0,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.7511539557148645
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.38059411327694725,
+              0.0,
+              0.9247421916074416
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9247421916074416,
+              -0.0,
+              -0.38059411327694725
+            ]
+          ]
+        },
+        "3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+3.png",
+          "sha256": "759722d1cee5b1b6c2fda6d1b3768ecbfdeb02628b979a781ca2d1eedfc79860",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+3.depth.npy",
+          "depth_sha256": "dd424c03fff32ff01ce16dc4cc0dfd4dfbc7485722f36578e6de4e6b1ab5220c",
+          "yaw_deg_left_positive": 3,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.698794078155035
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4284697563135018,
+              0.0,
+              0.9035561232843528
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9035561232843528,
+              -0.0,
+              -0.4284697563135018
+            ]
+          ]
+        },
+        "-3": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-3.png",
+          "sha256": "357c0242587604bc832a8aaa31ae2630926bb41874369803edc9f50da1f5495c",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-3.depth.npy",
+          "depth_sha256": "97ac0e905e387eb7c344e4c912fee2133949b6881f9a359ed070cd8508ea6f8f",
+          "yaw_deg_left_positive": -3,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.8035138332746943
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.33167524978348717,
+              0.0,
+              0.9433936234049186
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9433936234049186,
+              -0.0,
+              -0.33167524978348717
+            ]
+          ]
+        },
+        "5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+5.png",
+          "sha256": "dde7036c9e88dcf317a64f4ddc185a291bd9032b1096065dfc915908175c73c7",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+5.depth.npy",
+          "depth_sha256": "39bdda890d501faed8729f9137df140644d2f1accbe772b72335c16af161d716",
+          "yaw_deg_left_positive": 5,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.663887493115148
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.45974242155632616,
+              0.0,
+              0.8880523102956972
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.8880523102956972,
+              -0.0,
+              -0.45974242155632616
+            ]
+          ]
+        },
+        "-5": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-5.png",
+          "sha256": "ef00e22a9f85285368c087576911c80b607b1f1732284ce6886abe4a760be126",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-5.depth.npy",
+          "depth_sha256": "1aee8a6fd1682f58aacb23069c88337bdd14fba00bde913c8a60dffd63fc144e",
+          "yaw_deg_left_positive": -5,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.838420418314581
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.29854927077350224,
+              0.0,
+              0.9543942230130116
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9543942230130116,
+              -0.0,
+              -0.29854927077350224
+            ]
+          ]
+        },
+        "7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+7.png",
+          "sha256": "3898ef82b3b2cda7508ef47badc1efb06e1a5d316db42ebf93824c63b56ac9c8",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_+7.depth.npy",
+          "depth_sha256": "3442e31947c2fc0d9b8ddd66fb5e24618721701459c2df4688676057e7c59c35",
+          "yaw_deg_left_positive": 7,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.6289809080752615
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4904549515823,
+              0.0,
+              0.8714665458113718
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.8714665458113718,
+              -0.0,
+              -0.4904549515823
+            ]
+          ]
+        },
+        "-7": {
+          "path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-7.png",
+          "sha256": "bb6149bddf2513f02a33719a18272edf0e148b357e0407054733340a09b54583",
+          "depth_path": "external/habitat-yaw-reference/v2/paper_confirmation_v1/references/skokloster_castle_p05/yaw_-7.depth.npy",
+          "depth_sha256": "df1513a90218611c8aaf8c95da7ba649615baae432064912f3193213b024f56f",
+          "yaw_deg_left_positive": -7,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.8733270033544676
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.2650595261319899,
+              0.0,
+              0.9642320507049561
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9642320507049561,
+              -0.0,
+              -0.2650595261319899
+            ]
+          ]
+        },
+        "10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_+10.png",
+          "sha256": "cb257f745e847b0cdc8ca506171883a7a5614a6b7115a57f9bb815bd133f15b9",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_+10.depth.npy",
+          "depth_sha256": "d3f89b4c8e9190b58e3f901727fb192b5c6b2132c1bdbd9a2f882fc6d36ac1e1",
+          "yaw_deg_left_positive": 10,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.576621030515432
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5353918591955071,
+              0.0,
+              0.8446037870547219
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.8446037870547219,
+              -0.0,
+              -0.5353918591955071
+            ]
+          ]
+        },
+        "-10": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_-10.png",
+          "sha256": "c84659ae4a1fe32940c339d1c7c977107f6f2ce784d2b366917056e9d32c4254",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_-10.depth.npy",
+          "depth_sha256": "e8fceda0b07aac2b85bc8c52f67f839c3c6e351a11a356be5fd5b10dc5c8a0e7",
+          "yaw_deg_left_positive": -10,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.9256868809142973
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.21423231627521155,
+              0.0,
+              0.9767827366734927
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9767827366734927,
+              -0.0,
+              -0.21423231627521155
+            ]
+          ]
+        },
+        "15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_+15.png",
+          "sha256": "7f127713b5d7cabede33d2fd83bf916b2f73b561d34b55b0f6177c298b5fe260",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_+15.depth.npy",
+          "depth_sha256": "d02387792e9addda11e3bb5478d5e44022138e3cb8392dff012a90c66ceb0d22",
+          "yaw_deg_left_positive": 15,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.489354567915715
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6069666217444454,
+              0.0,
+              0.7947273243623472
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7947273243623472,
+              -0.0,
+              -0.6069666217444454
+            ]
+          ]
+        },
+        "-15": {
+          "path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_-15.png",
+          "sha256": "cad5a52d2e1383f168ce74d77d0a6e2830fce2bea46b914e9394ce877241c1bb",
+          "depth_path": "external/habitat-yaw-reference/v2/angle_scale_v1/references/skokloster_castle_p05/yaw_-15.depth.npy",
+          "depth_sha256": "2c2591087c7082bce852017d6ee61bd6c589c948d726d33a6686ec525e75d466",
+          "yaw_deg_left_positive": -15,
+          "planar_pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -3.012953343514014
+          ],
+          "camera_position_world": [
+            3.6497726440429688,
+            1.569493055343628,
+            18.65519142150879
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.12828485120119026,
+              0.0,
+              0.9917373628901396
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9917373628901396,
+              -0.0,
+              -0.12828485120119026
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "selections": {
+    "apartment_1": {
+      "scene": "apartment_1",
+      "seed": 20261027,
+      "attempts": 6,
+      "points": [
+        {
+          "state_id": "apartment_1_p00",
+          "floor_world_xyz": [
+            3.309779167175293,
+            -1.5339380502700806,
+            -2.2623953819274902
+          ],
+          "position_world": [
+            3.309779167175293,
+            -0.033938050270080566,
+            -2.2623953819274902
+          ],
+          "pose": [
+            3.309779167175293,
+            2.2623953819274902,
+            3.060496317583161
+          ]
+        },
+        {
+          "state_id": "apartment_1_p01",
+          "floor_world_xyz": [
+            4.167326927185059,
+            -1.600250005722046,
+            1.696674108505249
+          ],
+          "position_world": [
+            4.167326927185059,
+            -0.1002500057220459,
+            1.696674108505249
+          ],
+          "pose": [
+            4.167326927185059,
+            -1.696674108505249,
+            2.9044551898041915
+          ]
+        },
+        {
+          "state_id": "apartment_1_p02",
+          "floor_world_xyz": [
+            1.9323077201843262,
+            -1.600250005722046,
+            1.0390551090240479
+          ],
+          "position_world": [
+            1.9323077201843262,
+            -0.1002500057220459,
+            1.0390551090240479
+          ],
+          "pose": [
+            1.9323077201843262,
+            -1.0390551090240479,
+            -2.928795455137448
+          ]
+        },
+        {
+          "state_id": "apartment_1_p03",
+          "floor_world_xyz": [
+            6.507196426391602,
+            -1.600250005722046,
+            2.8391001224517822
+          ],
+          "position_world": [
+            6.507196426391602,
+            -0.1002500057220459,
+            2.8391001224517822
+          ],
+          "pose": [
+            6.507196426391602,
+            -2.8391001224517822,
+            -0.35730138103511333
+          ]
+        },
+        {
+          "state_id": "apartment_1_p04",
+          "floor_world_xyz": [
+            2.1302061080932617,
+            -1.600250005722046,
+            3.3369195461273193
+          ],
+          "position_world": [
+            2.1302061080932617,
+            -0.1002500057220459,
+            3.3369195461273193
+          ],
+          "pose": [
+            2.1302061080932617,
+            -3.3369195461273193,
+            -0.7333343588194627
+          ]
+        },
+        {
+          "state_id": "apartment_1_p05",
+          "floor_world_xyz": [
+            5.607101917266846,
+            -1.600250005722046,
+            -0.24401836097240448
+          ],
+          "position_world": [
+            5.607101917266846,
+            -0.1002500057220459,
+            -0.24401836097240448
+          ],
+          "pose": [
+            5.607101917266846,
+            0.24401836097240448,
+            -2.25009884137776
+          ]
+        }
+      ],
+      "image_or_model_selection": false
+    },
+    "skokloster_castle": {
+      "scene": "skokloster_castle",
+      "seed": 20261028,
+      "attempts": 7,
+      "points": [
+        {
+          "state_id": "skokloster_castle_p00",
+          "floor_world_xyz": [
+            -5.106306552886963,
+            0.2368878424167633,
+            17.131561279296875
+          ],
+          "position_world": [
+            -5.106306552886963,
+            1.7368878424167633,
+            17.131561279296875
+          ],
+          "pose": [
+            -5.106306552886963,
+            -17.131561279296875,
+            -3.0408615023369467
+          ]
+        },
+        {
+          "state_id": "skokloster_castle_p01",
+          "floor_world_xyz": [
+            -7.797147750854492,
+            0.20991861820220947,
+            8.942110061645508
+          ],
+          "position_world": [
+            -7.797147750854492,
+            1.7099186182022095,
+            8.942110061645508
+          ],
+          "pose": [
+            -7.797147750854492,
+            -8.942110061645508,
+            -2.0789529986881554
+          ]
+        },
+        {
+          "state_id": "skokloster_castle_p02",
+          "floor_world_xyz": [
+            6.067840576171875,
+            0.00991860032081604,
+            19.372264862060547
+          ],
+          "position_world": [
+            6.067840576171875,
+            1.509918600320816,
+            19.372264862060547
+          ],
+          "pose": [
+            6.067840576171875,
+            -19.372264862060547,
+            0.9709069211413617
+          ]
+        },
+        {
+          "state_id": "skokloster_castle_p03",
+          "floor_world_xyz": [
+            2.1313652992248535,
+            0.1296950727701187,
+            18.249536514282227
+          ],
+          "position_world": [
+            2.1313652992248535,
+            1.6296950727701187,
+            18.249536514282227
+          ],
+          "pose": [
+            2.1313652992248535,
+            -18.249536514282227,
+            -3.005551084404751
+          ]
+        },
+        {
+          "state_id": "skokloster_castle_p04",
+          "floor_world_xyz": [
+            -6.684002876281738,
+            0.00991860032081604,
+            6.857024192810059
+          ],
+          "position_world": [
+            -6.684002876281738,
+            1.509918600320816,
+            6.857024192810059
+          ],
+          "pose": [
+            -6.684002876281738,
+            -6.857024192810059,
+            0.37933567916700595
+          ]
+        },
+        {
+          "state_id": "skokloster_castle_p05",
+          "floor_world_xyz": [
+            3.6497726440429688,
+            0.0694931149482727,
+            18.65519142150879
+          ],
+          "position_world": [
+            3.6497726440429688,
+            1.5694931149482727,
+            18.65519142150879
+          ],
+          "pose": [
+            3.6497726440429688,
+            -18.65519142150879,
+            -2.7511539557148645
+          ]
+        }
+      ],
+      "image_or_model_selection": false
+    }
+  },
+  "previous_manifest_sha256": "076f6ae08be669dce99136ba2c8c583791ca73fca71c93e7d453b80ae6a41eeb",
+  "protocol_sha256": "1624c3d1d0282e6f5515dafd0a504c769a517a321b2d41c6dd30380b2a647ce1"
+}

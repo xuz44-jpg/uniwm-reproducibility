@@ -1,0 +1,126 @@
+{
+  "jobs": [
+    {
+      "id": "uniwm_v3_render_symmetric",
+      "resumable": true,
+      "cwd": "external/habitat-yaw-reference",
+      "min_free_mib": 1500,
+      "argv": [
+        "external/habitat-yaw-reference/env/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/render_uniwm_symmetric_v3.py",
+        "--study",
+        "external/habitat-yaw-reference"
+      ]
+    },
+    {
+      "id": "uniwm_v3_native_input_cache",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 20000,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/cache_uniwm_inference_v3.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--root",
+        "external/navigation-world-models"
+      ]
+    },
+    {
+      "id": "uniwm_v3_smoke5",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 20000,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/train_uniwm_symmetric_v3.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--root",
+        "external/navigation-world-models",
+        "--phase",
+        "smoke"
+      ]
+    },
+    {
+      "id": "uniwm_v3_train_validation_stop",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 20000,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/train_uniwm_symmetric_v3.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--root",
+        "external/navigation-world-models",
+        "--phase",
+        "train"
+      ]
+    },
+    {
+      "id": "uniwm_v3_best_generate72",
+      "resumable": true,
+      "cwd": "external/navigation-world-models/repos/uniwm",
+      "min_free_mib": 20000,
+      "argv": [
+        "external/navigation-world-models/uniwm-venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/run_uniwm_eval_v3.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--root",
+        "external/navigation-world-models",
+        "--model",
+        "uniwm",
+        "--stage",
+        "final"
+      ]
+    },
+    {
+      "id": "uniwm_v3_best_score72",
+      "resumable": true,
+      "cwd": "external/habitat-yaw-reference",
+      "min_free_mib": 1500,
+      "argv": [
+        "external/navigation-world-models/venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/score_uniwm_eval_v3.py",
+        "--study",
+        "external/habitat-yaw-reference",
+        "--model",
+        "uniwm",
+        "--stage",
+        "final"
+      ]
+    },
+    {
+      "id": "uniwm_v3_compare_three_checkpoints",
+      "resumable": true,
+      "cwd": "external/habitat-yaw-reference",
+      "min_free_mib": 1500,
+      "argv": [
+        "external/navigation-world-models/venv/bin/python",
+        "-u",
+        "external/habitat-yaw-reference/summarize_uniwm_v3.py",
+        "--study",
+        "external/habitat-yaw-reference"
+      ]
+    }
+  ],
+  "source_sha256": {
+    "uniwm_v3_common.py": "092dbab98390de71dbfb9a866eab50f8c7fbe3bef81f0e5bf039948eaf9230cc",
+    "render_uniwm_symmetric_v3.py": "681afc192156b59e6406b6b120688d2f0e36d83f9152a180a59f86a70c65e92d",
+    "cache_uniwm_inference_v3.py": "b0d65773895aac3fe50a6fff69e0586583c0cee6d8a4570179467b36ae739874",
+    "train_uniwm_symmetric_v3.py": "bdf698045456ed305b92bfeeb1710514c4d0b74ff68158f0a5a48eece46374d7",
+    "run_uniwm_eval_v3.py": "660b3eca9c34067bfe6faa26d5a173d435fea069fbfbd74fb8d808b7161d5c9d",
+    "score_uniwm_eval_v3.py": "6ecd4b09f5ad12af94fb74232a550cfed11e9cd0346086c3bde90599300f649b",
+    "summarize_uniwm_v3.py": "84ac992b3008ce726d932578d62caae3e59bb6c70a167a9075928dddea8b35dd",
+    "suite_backends.py": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+    "restore_uniwm_trainable_masters.py": "b15fd96450216748d0a7d9f3707945d439878626f61310af73972f4a4767df6d"
+  }
+}

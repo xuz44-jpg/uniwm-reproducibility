@@ -1,0 +1,366 @@
+{
+  "version": "input_context_controls_v1",
+  "created_date": "2026-10-29",
+  "timezone": "Asia/Shanghai",
+  "status": "protocol_prepared_not_evidence_of_execution",
+  "authorization": "User requested starting resolution of the five adaptation, weight provenance and inference-context issues; stage one freezes inference-only controls on existing positions and native-domain starts.",
+  "world_model_updates": 0,
+  "new_initial_positions": 0,
+  "preserve_previous_protocols_and_results": true,
+  "scope": "exploratory input-context and before/after-adaptation diagnosis, not a new independent confirmation or a universal architecture comparison",
+  "weights": {
+    "nwm": {
+      "before": {
+        "identity": "official released EMA",
+        "path": "external/navigation-world-models/models/nwm/cdit_xl_ego4d_200000.pth.tar",
+        "sha256": "6686fff6505ccc3b8e93a368b1bd3bf0051dfb76c2d3c280b77313035ef1d2f8"
+      },
+      "after": {
+        "identity": "existing Habitat symmetric validation-best generator",
+        "step": 400,
+        "path": "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/nwm/best_trainable.pt",
+        "sha256": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b",
+        "loading": "released base and frozen codec plus saved trainable tensors; exact tensor checks"
+      }
+    },
+    "raenwm": {
+      "before": {
+        "identity": "official released EMA",
+        "path": "external/navigation-world-models/models/raenwm/raenwm_b.pth.tar",
+        "sha256": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0"
+      },
+      "after": {
+        "identity": "existing Habitat symmetric validation-best generator",
+        "step": 800,
+        "path": "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/raenwm/best_trainable.pt",
+        "sha256": "786e799de4d466c665c55a87b1cfca8f4ffbc998cf59ce30b0c64d303f096e76",
+        "loading": "released base and frozen codec plus saved trainable tensors; exact tensor checks"
+      }
+    },
+    "uniwm": {
+      "before": {
+        "identity": "our Anole-based UniWM reproduction adapted on 200 1X trajectories; not an official navigation checkpoint",
+        "path": "external/uniwm-action-pilot/checkpoints/1x200",
+        "adapter_sha256": "d77331778dd6f9117d64a0236007751a9170d1f97d29d6c0cc3b258b3113d5a7",
+        "base": "leloy/Anole-7b-v0.1-hf",
+        "recorded_optimizer_steps": 31700,
+        "recorded_epochs": 20,
+        "trainable_recipe": "LoRA r16 alpha32 attention projections plus complete lm_head"
+      },
+      "after": {
+        "identity": "existing Habitat symmetric UniWM adaptation initialized from the same 1x200",
+        "step": 900,
+        "path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/training/final_adapter",
+        "adapter_sha256": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825",
+        "loading": "verify full input embedding, saved LoRA tensors and effective active output head against checkpoint"
+      },
+      "official_navigation_checkpoint_search": {
+        "checked_date": "2026-10-29",
+        "conclusion": "no verifiable official navigation checkpoint download entry found in the checked primary sources; not proof that no checkpoint exists elsewhere",
+        "sources": [
+          "https://github.com/UWMILab/UniWM#evaluation",
+          "https://github.com/UWMILab/UniWM/releases",
+          "https://github.com/UWMILab/UniWM/issues/7",
+          "https://raw.githubusercontent.com/UWMILab/UniWM/main/scripts/navigation.py"
+        ],
+        "evidence": "README uses a user checkpoint path placeholder; no GitHub release; issue7 author confirms paper/dataset uploads but final May21 reply still requests model publication",
+        "do_not_substitute_anole_for_trained_uniwm": true
+      }
+    }
+  },
+  "order": [
+    "freeze_inputs_weight_identity_and_reuse_audit",
+    "native_factual_positive_controls",
+    "history_and_start_goal_controls",
+    "score_verify_retrieve_and_summarize"
+  ],
+  "native_factual": {
+    "existing_starts_per_model": 20,
+    "models": [
+      "nwm",
+      "raenwm",
+      "uniwm"
+    ],
+    "weight_roles": [
+      "before",
+      "after"
+    ],
+    "condition": "Original",
+    "repeat": 0,
+    "seed_rule": "reuse each existing source record's repeat0 seed exactly; do not replace it with confirmation seed202610270",
+    "nwm_raenwm": {
+      "dataset": "existing ReCon source starts",
+      "history": "native chronological four observed frames",
+      "future_offset_frames": 4,
+      "actions_and_time": "exact existing Original action, native normalization, rel_t and sampling"
+    },
+    "uniwm": {
+      "dataset": "existing 1X source starts",
+      "future_offset_frames": 1,
+      "context": "existing native trajectory start, fixed terminal goal, current observation and corresponding starting pose",
+      "actions_and_sampling": "exact existing Original action and native preprocessing/sampling"
+    },
+    "logical_conditions": 120,
+    "reused_before_predictions": 60,
+    "new_after_predictions": 60,
+    "reuse_requirements": "same source state, observed context, action, seed, sampling, time and before-checkpoint identity; verify saved PNG SHA and record provenance",
+    "technical_order_gate": "verify loading and factual action/time alignment before context stage; no quality-based sample selection or parameter tuning",
+    "limits": [
+      "offline recordings provide ground truth only for executed Original action",
+      "ReCon has only two source trajectories",
+      "already-inspected development starts; no new generalization claims",
+      "full released pretraining overlap is unknown"
+    ]
+  },
+  "context_cohort": {
+    "source": "paper_confirmation_v1 existing reference positions",
+    "positions_total": 12,
+    "positions_per_scene": 6,
+    "scene_ids": [
+      "apartment_1",
+      "skokloster_castle"
+    ],
+    "position_selection": "exact existing manifests; no point replacement or new starting position",
+    "angles_left_positive_degrees": [
+      0,
+      5,
+      -5
+    ],
+    "repeat": 0,
+    "seed": 202610270,
+    "nonzero_per_arm": 24,
+    "zero_per_arm": 12,
+    "inference_horizon_frames": 1,
+    "nwm_raenwm_rel_t": "1/128; no physical-seconds claim",
+    "camera": "same center, height, 640x480 HFOV90 pinhole K and coordinate conventions as existing reference",
+    "render_constraints": {
+      "zero_png_exact_old_bytes": true,
+      "preserve_per_frame": [
+        "RGB",
+        "depth",
+        "K",
+        "C2W",
+        "world_camera_position",
+        "planar_pose",
+        "actual_relative_actions",
+        "sha256"
+      ],
+      "history_must_not_use_query_reference_angles": [
+        3,
+        -3,
+        5,
+        -5,
+        7,
+        -7
+      ],
+      "new_rgb_angles_per_position": [
+        -9,
+        -6,
+        -2,
+        9,
+        6,
+        2,
+        30,
+        -30
+      ],
+      "new_reference_rgb_total": 96,
+      "new_reference_depth_total": 96,
+      "new_model_start_positions": 0,
+      "current_zero_reuse_total": 12,
+      "known_existing_query_target_rgb_total": 36,
+      "render_is_not_world_model_prediction": true
+    },
+    "limits": "positions already examined repeatedly; this is exploratory diagnosis, not a fresh confirmation cohort"
+  },
+  "nwm_raenwm_history": {
+    "models": [
+      "nwm",
+      "raenwm"
+    ],
+    "weight_roles": [
+      "before",
+      "after"
+    ],
+    "histories": {
+      "static": {
+        "yaw_offsets_deg": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "successive_yaw_deg": [
+          0,
+          0,
+          0
+        ]
+      },
+      "left_approach": {
+        "yaw_offsets_deg": [
+          -9,
+          -6,
+          -2,
+          0
+        ],
+        "successive_yaw_deg": [
+          3,
+          4,
+          2
+        ]
+      },
+      "right_approach": {
+        "yaw_offsets_deg": [
+          9,
+          6,
+          2,
+          0
+        ],
+        "successive_yaw_deg": [
+          -3,
+          -4,
+          -2
+        ]
+      }
+    },
+    "fixed_factors": [
+      "current zero image",
+      "camera center",
+      "query action",
+      "seed",
+      "sampler",
+      "query time/horizon",
+      "codec",
+      "checkpoint within each comparison"
+    ],
+    "per_model_conditions": 216,
+    "per_model_reuse": 36,
+    "per_model_new_predictions": 180,
+    "reuse_arm": "after/static, exact old confirmation repeat0 for0/plus5/minus5",
+    "total_conditions": 432,
+    "total_reuse": 72,
+    "total_new_predictions": 360,
+    "history_support": "all successive past rotation magnitudes at most4deg, within the current adaptation single-step max7deg; full joint/pretraining support remains unknown"
+  },
+  "uniwm_context": {
+    "weight_roles": [
+      "before",
+      "after"
+    ],
+    "starts": {
+      "current": {
+        "image_angle_deg": 0,
+        "start_pose": "actual current0 pose"
+      },
+      "historical": {
+        "image_angle_deg": -9,
+        "start_pose": "actual historical-9 pose; synchronized with start image",
+        "past_to_current_path_deg": [
+          -9,
+          -6,
+          -2,
+          0
+        ]
+      }
+    },
+    "goals": {
+      "current": {
+        "image_angle_deg": 0
+      },
+      "left30": {
+        "image_angle_deg": 30
+      },
+      "right30": {
+        "image_angle_deg": -30
+      }
+    },
+    "arm_count": 6,
+    "factorial": "complete start2 x goal3; compare within fixed other factor; start image and corresponding pose form one consistent start-context factor",
+    "goal_assignment": "fixed per position/arm before query branches; independent of query action; no action-specific true future as goal",
+    "native_input": "start/goal/current, memory_mode=none; backend consumes only last history frame as current, not a four-frame temporal history",
+    "sampling": {
+      "temperature": 0.7,
+      "top_k": 50,
+      "top_p": 0.9,
+      "num_beams": 1,
+      "do_sample": true,
+      "max_new_tokens": 804
+    },
+    "logical_conditions": 432,
+    "reused_predictions": 36,
+    "new_predictions": 396,
+    "reuse_arm": "after/current/current, exact old confirmation repeat0 for0/plus5/minus5",
+    "capture": [
+      "actual post-VQ start/goal/current tokens",
+      "action token IDs",
+      "non-action prefix hash",
+      "sampling parameters",
+      "output PNG SHA",
+      "generated token copies of each input role"
+    ],
+    "limits": "goal30 differs from the goal=start adaptation support; changed copying or changed texture is not automatically better action fidelity or proof of a unique training cause"
+  },
+  "budget": {
+    "logical_conditions": 984,
+    "new_world_model_predictions": 816,
+    "reused_world_model_predictions": 168,
+    "smoke_included_in_new_budget": true,
+    "training_steps": 0,
+    "new_query_angles_beyond_existing_small_set": 0,
+    "extra_technical_recompute": "only recorded execution-error recovery with retained original logs; not new independent samples"
+  },
+  "analysis": {
+    "real_reference_gate_and_mask": "reuse frozen original seven-angle confirmation reference-only mask/calibration and thresholds; score only0/plus5/minus5 without generated-result filtering",
+    "history_goal_images_in_query_motion_mask": false,
+    "primary_classes": [
+      "correct",
+      "reverse",
+      "near_zero",
+      "unknown"
+    ],
+    "unknown_is_measured_near_zero": false,
+    "secondary_combined_nearzero_unknown": "Z+U, explicitly near-zero or unresolved",
+    "acceptance_not_passed": "R+Z+U, complete denominator; unresolved is not an observed wrong turn",
+    "unknown_reference_failure_policy": "retain unknown, no replacement or threshold relaxation",
+    "report_per": [
+      "model",
+      "checkpoint role",
+      "context arm",
+      "scene",
+      "position",
+      "query angle"
+    ],
+    "metrics": [
+      "paired-zero-corrected flow effect",
+      "effect EPE",
+      "projected image-space pixel gain",
+      "zero-action drift",
+      "LPIPS to factual rendered target",
+      "input-image/token copying",
+      "measurement coverage"
+    ],
+    "physical_angle_accuracy_claim": false,
+    "single_seed_limitation": "repeat0 only; no within-arm multi-seed variance estimate; previous different-input runs do not form a matched seed-noise control",
+    "no_checkpoint_selection_or_tuning_on_outputs": true,
+    "retain_disconfirming_results": true,
+    "do_not_rank_architectural_capacity_from_unresolved_measurements": true
+  },
+  "scheduling": "[redacted] Operational settings for sharing the inference GPU with unrelated services (job priority, pausing and resumption). Not part of the scientific protocol.",
+  "completion": {
+    "records_expected": 984,
+    "verify_reuse_png_and_record_provenance": true,
+    "verify_actual_inputs_actions_seeds_sampling_weights": true,
+    "all_positions_fixed_repeat0_contact_sheets": true,
+    "retrieve_small_outputs_and_per_file_sha256": true,
+    "preserve_original_four_class_raw_results": true,
+    "do_not_claim_issues_resolved_before_results": true
+  },
+  "deferred_not_authorized_by_this_protocol": [
+    "3deg and7deg extensions",
+    "more seeds",
+    "new starting positions",
+    "multi-scene training",
+    "training scale curves",
+    "new UniWM training initialization runs",
+    "new world model or estimator training"
+  ]
+}

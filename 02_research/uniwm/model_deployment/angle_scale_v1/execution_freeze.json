@@ -1,0 +1,28 @@
+{
+  "status": "frozen",
+  "source_hashes": {
+    "external/habitat-yaw-reference/confirmation_common.py": "1ff7d2df4017bd093aaaf4dff448a11b15c8c191a86a9b21548d8592e9f913ba",
+    "external/habitat-yaw-reference/render_confirmation_v1.py": "64bf7b5a403c8ec6822b8267c412d60f40c8604d57b4737cd1ef611b21ccb1b6",
+    "external/habitat-yaw-reference/run_confirmation_v1.py": "1e49a1f7fd8b9dec5e7a7ed3569ae5dc2067876df91a0bb80c5e1744f30cd208",
+    "external/habitat-yaw-reference/score_confirmation_v1.py": "09083c3b7c82dc44b6236c2875df632eb11b6f295577fdb69b955fb7df12025f",
+    "external/habitat-yaw-reference/suite_common.py": "945db60cbc5a0a75223314866e41f6065290eae8e52f1e5c3d2d94f4c6363c80",
+    "external/habitat-yaw-reference/suite_backends.py": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+    "external/habitat-yaw-reference/habitat_study_common.py": "9466dcc79573a2b81545bb418359f94f011137a25fa2c4294d575bb4c48eeedf",
+    "external/habitat-yaw-reference/habitat_flow_common.py": "47340ae20111a6c3e454a2b7c7ef68824ae5f50489144fa0568b1638825ead18",
+    "external/habitat-yaw-reference/habitat_v2_metrics.py": "15d0462ede49e4ab5b04d79e27204ae68ad4367aee1621419919e8689d022fcf",
+    "external/habitat-yaw-reference/probe_habitat_flow_v1.py": "a72af412b973240d6e0ee9ae75a6cf20258e7e3e22ad4f577157ef8fe0fd59bd",
+    "external/habitat-yaw-reference/train_habitat_model.py": "d249d24e7a992b4d3265cdda377daeedbf2b9e57e8fd3d17d50ca5da9c67f5da",
+    "external/habitat-yaw-reference/verify_uniwm_embeddings.py": "598ed3a939257c7dda09ca87214508c8211268ae15db62de18c8d31178c4d47b",
+    "external/habitat-yaw-reference/angle_scale_common.py": "1ce289bb06c5a89fe8fb6a76c1c97e7be466485f1efda3db0f7d730d82940fa9",
+    "external/habitat-yaw-reference/prepare_angle_scale_v1.py": "f32e5648d5b86ecc2711aafbbcb0f7055b0395438f10011ac9115b3b10f3b0f7",
+    "external/habitat-yaw-reference/render_angle_scale_v1.py": "7d1dc6267b01988e1b448adc1fd2a1365436e9a3a910d89ff0214f152568fe47",
+    "external/habitat-yaw-reference/run_angle_scale_v1.py": "0cc11d49a7cc59739601acd17a7ac5b24062316e55b42554dfd46e5c5478291c",
+    "external/habitat-yaw-reference/score_angle_scale_v1.py": "5e90826a372c034785d50870838abd7497fc4e50153f68c8f268c68adf8a6370",
+    "external/habitat-yaw-reference/summarize_angle_scale_v1.py": "a8525fcab3e805d3583240ace1a39caf17fbf2311b2b12c9ca9c655456e99d6a"
+  },
+  "protocol_sha256": "1624c3d1d0282e6f5515dafd0a504c769a517a321b2d41c6dd30380b2a647ce1",
+  "prior_execution_sha256": "683a3c21e4cf181122b5ff105cd65b047d167b5575ba013de78b3aea0cd9a271",
+  "training_support_sha256": "7383ced580415349cc70f60951fac84b52b8e33f363bf420b81b311b248deab8",
+  "reused_predictions_sha256": "e495acf931fcf13209538b4cccd76a2acbb6d9c714d1235f194e582ac0663f36",
+  "world_model_updates": 0
+}

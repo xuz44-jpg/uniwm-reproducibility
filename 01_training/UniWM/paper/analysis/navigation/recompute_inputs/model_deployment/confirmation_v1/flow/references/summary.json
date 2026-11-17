@@ -1,0 +1,5490 @@
+{
+  "states": {
+    "apartment_1_p00": {
+      "reference_gate_passed": true,
+      "common_pixels": 25856,
+      "common_coverage": 0.9416220546997341,
+      "fixed_texture_pixels": 27459,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 27459,
+            "mean_epe_px": 0.008504456923328312,
+            "median_epe_px": 0.008188090442423157,
+            "p90_epe_px": 0.013797982165006242,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -0.0025141225196421146,
+              "median_y": -0.0022849468514323235,
+              "mean_magnitude": 0.008504457771778107,
+              "median_magnitude": 0.008188090287148952
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 1.552551083571288e-14,
+              "median_magnitude": 1.0658141036401503e-14
+            }
+          },
+          "raft_motion": {
+            "pixels": 27459,
+            "median_x": -0.0025141225196421146,
+            "median_y": -0.0022849468514323235,
+            "mean_magnitude": 0.008504457771778107,
+            "median_magnitude": 0.008188090287148952
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 27459,
+            "mean_epe_px": 0.4300627393809571,
+            "median_epe_px": 0.2130242099310024,
+            "p90_epe_px": 1.2016366987630607,
+            "gain_projection": 0.9661672698610145,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": 7.994171142578125,
+              "median_y": 0.07811962068080902,
+              "mean_magnitude": 8.264387130737305,
+              "median_magnitude": 8.075841903686523
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 8.10028076171875,
+              "median_y": 0.03185029327869415,
+              "mean_magnitude": 8.492539405822754,
+              "median_magnitude": 8.193953514099121
+            }
+          },
+          "raft_motion": {
+            "pixels": 27459,
+            "median_x": 7.994171142578125,
+            "median_y": 0.07811962068080902,
+            "mean_magnitude": 8.264387130737305,
+            "median_magnitude": 8.075841903686523
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 0.9981791033905095,
+          "raft_vs_analytic": {
+            "pixels": 27459,
+            "mean_epe_px": 0.28869612953759405,
+            "median_epe_px": 0.13941437404503385,
+            "p90_epe_px": 0.7757147434723123,
+            "gain_projection": 0.9737677525664592,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -7.821978569030762,
+              "median_y": 0.00025295838713645935,
+              "mean_magnitude": 8.132637023925781,
+              "median_magnitude": 7.896862506866455
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": -7.919694900512695,
+              "median_y": -0.0068063014186918736,
+              "mean_magnitude": 8.322586059570312,
+              "median_magnitude": 8.027644157409668
+            }
+          },
+          "raft_motion": {
+            "pixels": 27409,
+            "median_x": -7.818654537200928,
+            "median_y": 0.0013941824436187744,
+            "mean_magnitude": 8.127421379089355,
+            "median_magnitude": 7.893985271453857
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 0.9962489529844496,
+          "raft_vs_analytic": {
+            "pixels": 27459,
+            "mean_epe_px": 0.5444815920173541,
+            "median_epe_px": 0.27092431765400365,
+            "p90_epe_px": 1.449303540234872,
+            "gain_projection": 0.9722517910666987,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": 13.448174476623535,
+              "median_y": 0.0988314300775528,
+              "mean_magnitude": 13.977226257324219,
+              "median_magnitude": 13.644128799438477
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 13.56939697265625,
+              "median_y": 0.06538362056016922,
+              "mean_magnitude": 14.293025970458984,
+              "median_magnitude": 13.7705078125
+            }
+          },
+          "raft_motion": {
+            "pixels": 27356,
+            "median_x": 13.45705509185791,
+            "median_y": 0.10390537977218628,
+            "mean_magnitude": 13.979171752929688,
+            "median_magnitude": 13.654059410095215
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 27459,
+            "mean_epe_px": 0.3948055631873072,
+            "median_epe_px": 0.21313725449931448,
+            "p90_epe_px": 1.0747206761986485,
+            "gain_projection": 0.9797711449731236,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -12.975051879882812,
+              "median_y": 0.02950308844447136,
+              "mean_magnitude": 13.5698823928833,
+              "median_magnitude": 13.120833396911621
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": -13.156293869018555,
+              "median_y": -0.004357402678579092,
+              "mean_magnitude": 13.818693161010742,
+              "median_magnitude": 13.300625801086426
+            }
+          },
+          "raft_motion": {
+            "pixels": 27459,
+            "median_x": -12.975051879882812,
+            "median_y": 0.02950308844447136,
+            "mean_magnitude": 13.5698823928833,
+            "median_magnitude": 13.120833396911621
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 0.9723485268566782,
+          "raft_vs_analytic": {
+            "pixels": 27051,
+            "mean_epe_px": 0.6857494881538948,
+            "median_epe_px": 0.3397951404790173,
+            "p90_epe_px": 1.8443623160871532,
+            "gain_projection": 0.9703618106808775,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27051,
+              "median_x": 18.678646087646484,
+              "median_y": 0.164564847946167,
+              "mean_magnitude": 19.607078552246094,
+              "median_magnitude": 18.942279815673828
+            },
+            "reference": {
+              "pixels": 27051,
+              "median_x": 19.077974319458008,
+              "median_y": 0.10311441868543625,
+              "mean_magnitude": 20.105445861816406,
+              "median_magnitude": 19.329288482666016
+            }
+          },
+          "raft_motion": {
+            "pixels": 26303,
+            "median_x": 18.531042098999023,
+            "median_y": 0.08222693204879761,
+            "mean_magnitude": 19.443439483642578,
+            "median_magnitude": 18.805233001708984
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 0.9996677495569994,
+          "raft_vs_analytic": {
+            "pixels": 27088,
+            "mean_epe_px": 0.4555155024718318,
+            "median_epe_px": 0.22501038043867494,
+            "p90_epe_px": 1.2014054895455246,
+            "gain_projection": 0.9837462232376957,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27088,
+              "median_x": -18.03765106201172,
+              "median_y": -0.009069915860891342,
+              "mean_magnitude": 18.894515991210938,
+              "median_magnitude": 18.221487045288086
+            },
+            "reference": {
+              "pixels": 27088,
+              "median_x": -18.190671920776367,
+              "median_y": -0.003859852673485875,
+              "mean_magnitude": 19.172517776489258,
+              "median_magnitude": 18.416492462158203
+            }
+          },
+          "raft_motion": {
+            "pixels": 27079,
+            "median_x": -18.03712272644043,
+            "median_y": -0.00878690555691719,
+            "mean_magnitude": 18.89363670349121,
+            "median_magnitude": 18.218910217285156
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.060656162644607596,
+            "median_epe_px": 0.054224478460320365,
+            "p90_epe_px": 0.11143154847916473,
+            "gain_projection": 0.9979774012595655,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -15.964864730834961,
+              "median_y": 0.0349736288189888,
+              "mean_magnitude": 15.967745780944824,
+              "median_magnitude": 15.964962005615234
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.041068431057402065,
+            "median_epe_px": 0.04202476139684083,
+            "p90_epe_px": 0.07473699807360074,
+            "gain_projection": 0.9987059264942088,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -7.991231918334961,
+              "median_y": 0.03879880532622337,
+              "mean_magnitude": 7.98976469039917,
+              "median_magnitude": 7.991310119628906
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.04647819993350398,
+            "median_epe_px": 0.052788563314425586,
+            "p90_epe_px": 0.07432875033126513,
+            "gain_projection": 0.9875985105858466,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -1.967560052871704,
+              "median_y": 0.03134531527757645,
+              "mean_magnitude": 1.9755723476409912,
+              "median_magnitude": 1.9681960344314575
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.008504456923331719,
+            "median_epe_px": 0.008188090442423157,
+            "p90_epe_px": 0.013797982165025414,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": -0.0025141225196421146,
+              "median_y": -0.0022849468514323235,
+              "mean_magnitude": 0.008504457771778107,
+              "median_magnitude": 0.008188090287148952
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.0487617194475855,
+            "median_epe_px": 0.047773990548642245,
+            "p90_epe_px": 0.07065992151253936,
+            "gain_projection": 0.9807157777069375,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": 1.9653453826904297,
+              "median_y": 0.00858211051672697,
+              "mean_magnitude": 1.9615998268127441,
+              "median_magnitude": 1.9654054641723633
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.05586108044000235,
+            "median_epe_px": 0.06010032039319837,
+            "p90_epe_px": 0.08604838785652127,
+            "gain_projection": 0.9963951360988766,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": 7.956772804260254,
+              "median_y": 0.012625484727323055,
+              "mean_magnitude": 7.971183776855469,
+              "median_magnitude": 7.956823348999023
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 27459,
+            "mean_epe_px": 0.08109256473250759,
+            "median_epe_px": 0.0766895768966612,
+            "p90_epe_px": 0.13435160063899648,
+            "gain_projection": 0.997073267802003,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 27459,
+              "median_x": 15.94902229309082,
+              "median_y": 0.029898030683398247,
+              "mean_magnitude": 15.953210830688477,
+              "median_magnitude": 15.94904613494873
+            },
+            "reference": {
+              "pixels": 27459,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.961230278015137,
+            13.451397895812988,
+            18.704864501953125
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.788540840148926,
+            12.935802459716797,
+            18.00526237487793
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "apartment_1_p01": {
+      "reference_gate_passed": true,
+      "common_pixels": 11095,
+      "common_coverage": 0.966547608676714,
+      "fixed_texture_pixels": 11479,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.006554322324792039,
+            "median_epe_px": 0.005927624314834845,
+            "p90_epe_px": 0.010623357185638414,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 0.003489801427349448,
+              "median_y": -0.0008963337168097496,
+              "mean_magnitude": 0.006554322317242622,
+              "median_magnitude": 0.0059276241809129715
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.3831253773026264e-17,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 11479,
+            "median_x": 0.003489801427349448,
+            "median_y": -0.0008963337168097496,
+            "mean_magnitude": 0.006554322317242622,
+            "median_magnitude": 0.0059276241809129715
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.12285125341943495,
+            "median_epe_px": 0.08881644003476191,
+            "p90_epe_px": 0.25702026305675935,
+            "gain_projection": 0.9967638651405062,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 7.37310266494751,
+              "median_y": -0.06001657247543335,
+              "mean_magnitude": 8.037796974182129,
+              "median_magnitude": 7.400881767272949
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 7.2986321449279785,
+              "median_y": -0.0843784436583519,
+              "mean_magnitude": 8.046902656555176,
+              "median_magnitude": 7.344738483428955
+            }
+          },
+          "raft_motion": {
+            "pixels": 11479,
+            "median_x": 7.37310266494751,
+            "median_y": -0.06001657247543335,
+            "mean_magnitude": 8.037796974182129,
+            "median_magnitude": 7.400881767272949
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 0.9996515375903824,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.1557415356649082,
+            "median_epe_px": 0.11092505451032864,
+            "p90_epe_px": 0.31127300254482626,
+            "gain_projection": 1.008190423282542,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -7.151670455932617,
+              "median_y": 0.0862383097410202,
+              "mean_magnitude": 7.86727237701416,
+              "median_magnitude": 7.17354154586792
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -7.146855354309082,
+              "median_y": 0.06955815851688385,
+              "mean_magnitude": 7.809245586395264,
+              "median_magnitude": 7.163719177246094
+            }
+          },
+          "raft_motion": {
+            "pixels": 11475,
+            "median_x": -7.15117883682251,
+            "median_y": 0.08620461821556091,
+            "mean_magnitude": 7.866159439086914,
+            "median_magnitude": 7.173383712768555
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.18003615483000607,
+            "median_epe_px": 0.14030658462302578,
+            "p90_epe_px": 0.3641656187059811,
+            "gain_projection": 0.9964666415457714,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 12.367905616760254,
+              "median_y": -0.11838527768850327,
+              "mean_magnitude": 13.54592514038086,
+              "median_magnitude": 12.431425094604492
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 12.302183151245117,
+              "median_y": -0.14776471257209778,
+              "mean_magnitude": 13.581518173217773,
+              "median_magnitude": 12.383349418640137
+            }
+          },
+          "raft_motion": {
+            "pixels": 11479,
+            "median_x": 12.367905616760254,
+            "median_y": -0.11838527768850327,
+            "mean_magnitude": 13.54592514038086,
+            "median_magnitude": 12.431425094604492
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 0.9878038156633853,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.21926791906801402,
+            "median_epe_px": 0.16044712532003336,
+            "p90_epe_px": 0.32463156187720466,
+            "gain_projection": 1.00875806213199,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -11.908977508544922,
+              "median_y": 0.07259023189544678,
+              "mean_magnitude": 13.027667045593262,
+              "median_magnitude": 11.938611030578613
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -11.814409255981445,
+              "median_y": 0.1027042344212532,
+              "mean_magnitude": 12.917923927307129,
+              "median_magnitude": 11.8631010055542
+            }
+          },
+          "raft_motion": {
+            "pixels": 11339,
+            "median_x": -11.917525291442871,
+            "median_y": 0.07552744448184967,
+            "mean_magnitude": 13.018952369689941,
+            "median_magnitude": 11.94428539276123
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 0.9992002132764596,
+          "raft_vs_analytic": {
+            "pixels": 11253,
+            "mean_epe_px": 0.2103139115808416,
+            "median_epe_px": 0.15446316586884462,
+            "p90_epe_px": 0.4086488805575033,
+            "gain_projection": 0.9973869974665522,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11253,
+              "median_x": 17.33863639831543,
+              "median_y": -0.20928983390331268,
+              "mean_magnitude": 19.054285049438477,
+              "median_magnitude": 17.46682357788086
+            },
+            "reference": {
+              "pixels": 11253,
+              "median_x": 17.32357406616211,
+              "median_y": -0.21396008133888245,
+              "mean_magnitude": 19.091306686401367,
+              "median_magnitude": 17.43732261657715
+            }
+          },
+          "raft_motion": {
+            "pixels": 11244,
+            "median_x": 17.336505889892578,
+            "median_y": -0.21118052303791046,
+            "mean_magnitude": 19.046810150146484,
+            "median_magnitude": 17.4637393951416
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 0.990852861747539,
+          "raft_vs_analytic": {
+            "pixels": 11479,
+            "mean_epe_px": 0.24609588184075712,
+            "median_epe_px": 0.15752005416628936,
+            "p90_epe_px": 0.46195083531451814,
+            "gain_projection": 1.0039974938619822,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -16.64764404296875,
+              "median_y": 0.08793936669826508,
+              "mean_magnitude": 18.046463012695312,
+              "median_magnitude": 16.680774688720703
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -16.50014305114746,
+              "median_y": 0.13320672512054443,
+              "mean_magnitude": 17.97098159790039,
+              "median_magnitude": 16.546297073364258
+            }
+          },
+          "raft_motion": {
+            "pixels": 11374,
+            "median_x": -16.648178100585938,
+            "median_y": 0.0880461186170578,
+            "mean_magnitude": 18.02874183654785,
+            "median_magnitude": 16.6809024810791
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.03473362665892295,
+            "median_epe_px": 0.03413597337240569,
+            "p90_epe_px": 0.04845521143977705,
+            "gain_projection": 0.9985758363811155,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -15.975449562072754,
+              "median_y": 0.011785266920924187,
+              "mean_magnitude": 15.977229118347168,
+              "median_magnitude": 15.975454330444336
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.03695622741482944,
+            "median_epe_px": 0.034173487837566484,
+            "p90_epe_px": 0.0534078046214332,
+            "gain_projection": 0.9967647370109056,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -7.972776412963867,
+              "median_y": 0.012757457792758942,
+              "mean_magnitude": 7.974161148071289,
+              "median_magnitude": 7.972787380218506
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.01730228066998006,
+            "median_epe_px": 0.014954705650141863,
+            "p90_epe_px": 0.026454701721107306,
+            "gain_projection": 1.0012516434189127,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": -2.004443645477295,
+              "median_y": 0.008045228198170662,
+              "mean_magnitude": 2.0025506019592285,
+              "median_magnitude": 2.0044596195220947
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.006554322324792037,
+            "median_epe_px": 0.005927624314834845,
+            "p90_epe_px": 0.010623357185638414,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 0.003489801427349448,
+              "median_y": -0.0008963337168097496,
+              "mean_magnitude": 0.006554322317242622,
+              "median_magnitude": 0.0059276241809129715
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.029102651923255847,
+            "median_epe_px": 0.03177548158595141,
+            "p90_epe_px": 0.04457203206375076,
+            "gain_projection": 1.0136798706523258,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 2.0308539867401123,
+              "median_y": 0.0012526614591479301,
+              "mean_magnitude": 2.0273749828338623,
+              "median_magnitude": 2.0308642387390137
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.02244986979316027,
+            "median_epe_px": 0.02060160332151918,
+            "p90_epe_px": 0.03741626653252717,
+            "gain_projection": 1.0005813355187898,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 8.008512496948242,
+              "median_y": -0.0015374268405139446,
+              "mean_magnitude": 8.004659652709961,
+              "median_magnitude": 8.008520126342773
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 11479,
+            "mean_epe_px": 0.024112193922418815,
+            "median_epe_px": 0.022392121768524644,
+            "p90_epe_px": 0.04373568431675036,
+            "gain_projection": 1.000295155777812,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 11479,
+              "median_x": 16.005001068115234,
+              "median_y": 0.007747543044388294,
+              "mean_magnitude": 16.004728317260742,
+              "median_magnitude": 16.0050048828125
+            },
+            "reference": {
+              "pixels": 11479,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.376829624176025,
+            12.381375312805176,
+            17.473173141479492
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.158599376678467,
+            11.911270141601562,
+            16.65499496459961
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "apartment_1_p02": {
+      "reference_gate_passed": true,
+      "common_pixels": 10290,
+      "common_coverage": 0.9818702290076335,
+      "fixed_texture_pixels": 10480,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.006398879363040899,
+            "median_epe_px": 0.005471138772620513,
+            "p90_epe_px": 0.010533079503947084,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 0.0019045262597501278,
+              "median_y": 0.0004261647700332105,
+              "mean_magnitude": 0.006398879457265139,
+              "median_magnitude": 0.005471138749271631
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 2.842170943040401e-14,
+              "median_y": 0.0,
+              "mean_magnitude": 3.1931278639003163e-14,
+              "median_magnitude": 2.929642680250637e-14
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": 0.0019045262597501278,
+            "median_y": 0.0004261647700332105,
+            "mean_magnitude": 0.006398879457265139,
+            "median_magnitude": 0.005471138749271631
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.1703245878769171,
+            "median_epe_px": 0.16651447496594515,
+            "p90_epe_px": 0.30468944212901905,
+            "gain_projection": 1.008656026924881,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 8.108861923217773,
+              "median_y": -0.15079662203788757,
+              "mean_magnitude": 8.440646171569824,
+              "median_magnitude": 8.195533752441406
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 7.916029930114746,
+              "median_y": -0.1654168665409088,
+              "mean_magnitude": 8.352107048034668,
+              "median_magnitude": 8.008927345275879
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": 8.108861923217773,
+            "median_y": -0.15079662203788757,
+            "mean_magnitude": 8.440646171569824,
+            "median_magnitude": 8.195533752441406
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.11413526059076982,
+            "median_epe_px": 0.10396996265179562,
+            "p90_epe_px": 0.18388283780785114,
+            "gain_projection": 0.9992171057617928,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -7.605506896972656,
+              "median_y": 0.07642577588558197,
+              "mean_magnitude": 8.007343292236328,
+              "median_magnitude": 7.655638694763184
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -7.595311164855957,
+              "median_y": 0.12369735538959503,
+              "mean_magnitude": 8.010498046875,
+              "median_magnitude": 7.675135612487793
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": -7.605506896972656,
+            "median_y": 0.07642577588558197,
+            "mean_magnitude": 8.007343292236328,
+            "median_magnitude": 7.655638694763184
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.2686676642679445,
+            "median_epe_px": 0.2201153709517778,
+            "p90_epe_px": 0.500985878667327,
+            "gain_projection": 1.0023151892418092,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 13.612180709838867,
+              "median_y": -0.26005297899246216,
+              "mean_magnitude": 14.21756362915039,
+              "median_magnitude": 13.81303596496582
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 13.404328346252441,
+              "median_y": -0.2980533242225647,
+              "mean_magnitude": 14.151510238647461,
+              "median_magnitude": 13.569955825805664
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": 13.612180709838867,
+            "median_y": -0.26005297899246216,
+            "mean_magnitude": 14.21756362915039,
+            "median_magnitude": 13.81303596496582
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.17480363969286264,
+            "median_epe_px": 0.1482580555339726,
+            "p90_epe_px": 0.306863799269395,
+            "gain_projection": 1.000272190363975,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -12.590263366699219,
+              "median_y": 0.16103193163871765,
+              "mean_magnitude": 13.204429626464844,
+              "median_magnitude": 12.675329208374023
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -12.56894302368164,
+              "median_y": 0.1843430995941162,
+              "mean_magnitude": 13.1980562210083,
+              "median_magnitude": 12.658519744873047
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": -12.590263366699219,
+            "median_y": 0.16103193163871765,
+            "mean_magnitude": 13.204429626464844,
+            "median_magnitude": 12.675329208374023
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10290,
+            "mean_epe_px": 0.2444359614546109,
+            "median_epe_px": 0.1937264185917401,
+            "p90_epe_px": 0.47928764341007773,
+            "gain_projection": 1.0010994253413952,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10290,
+              "median_x": 19.156147003173828,
+              "median_y": -0.41546738147735596,
+              "mean_magnitude": 20.058643341064453,
+              "median_magnitude": 19.399028778076172
+            },
+            "reference": {
+              "pixels": 10290,
+              "median_x": 18.967464447021484,
+              "median_y": -0.4382692575454712,
+              "mean_magnitude": 20.007896423339844,
+              "median_magnitude": 19.213525772094727
+            }
+          },
+          "raft_motion": {
+            "pixels": 10290,
+            "median_x": 19.156147003173828,
+            "median_y": -0.41546738147735596,
+            "mean_magnitude": 20.058643341064453,
+            "median_magnitude": 19.399028778076172
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 10480,
+            "mean_epe_px": 0.25941059805479294,
+            "median_epe_px": 0.22320080685765864,
+            "p90_epe_px": 0.48560881009373047,
+            "gain_projection": 1.0054321363564684,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -17.588695526123047,
+              "median_y": 0.17568260431289673,
+              "mean_magnitude": 18.39592933654785,
+              "median_magnitude": 17.70272445678711
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -17.400959014892578,
+              "median_y": 0.22660687565803528,
+              "mean_magnitude": 18.28682518005371,
+              "median_magnitude": 17.562318801879883
+            }
+          },
+          "raft_motion": {
+            "pixels": 10480,
+            "median_x": -17.588695526123047,
+            "median_y": 0.17568260431289673,
+            "mean_magnitude": 18.39592933654785,
+            "median_magnitude": 17.70272445678711
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.02552906861070375,
+            "median_epe_px": 0.019057564332437854,
+            "p90_epe_px": 0.0589024955292001,
+            "gain_projection": 1.0005716273973462,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -16.002769470214844,
+              "median_y": -0.0036338078789412975,
+              "mean_magnitude": 16.009151458740234,
+              "median_magnitude": 16.002769470214844
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.019233186100536512,
+            "median_epe_px": 0.017160323617142127,
+            "p90_epe_px": 0.030379905186416426,
+            "gain_projection": 0.9986108414487529,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -7.988969802856445,
+              "median_y": 0.0014396904734894633,
+              "mean_magnitude": 7.988893985748291,
+              "median_magnitude": 7.9889726638793945
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.0235352774301031,
+            "median_epe_px": 0.022754631691636218,
+            "p90_epe_px": 0.035445293291578917,
+            "gain_projection": 0.989930530921876,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": -1.9810820817947388,
+              "median_y": -0.009348977357149124,
+              "mean_magnitude": 1.9798974990844727,
+              "median_magnitude": 1.9811301231384277
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.0063988793630483055,
+            "median_epe_px": 0.005471138772642872,
+            "p90_epe_px": 0.010533079503963563,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 0.0019045262597501278,
+              "median_y": 0.0004261647700332105,
+              "mean_magnitude": 0.006398879457265139,
+              "median_magnitude": 0.005471138749271631
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.0281290440608559,
+            "median_epe_px": 0.02660757612018395,
+            "p90_epe_px": 0.047739034202373874,
+            "gain_projection": 1.0104014544655349,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 2.0200488567352295,
+              "median_y": -0.00443926639854908,
+              "mean_magnitude": 2.0208771228790283,
+              "median_magnitude": 2.0201218128204346
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.0214996737338266,
+            "median_epe_px": 0.01926992244649328,
+            "p90_epe_px": 0.039209321235233546,
+            "gain_projection": 1.0022666097142314,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 8.017007827758789,
+              "median_y": 0.0017565832240507007,
+              "mean_magnitude": 8.018139839172363,
+              "median_magnitude": 8.017016410827637
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 10480,
+            "mean_epe_px": 0.03328392109139941,
+            "median_epe_px": 0.029155394886130427,
+            "p90_epe_px": 0.06214371943808737,
+            "gain_projection": 0.999067839058756,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 10480,
+              "median_x": 15.985433578491211,
+              "median_y": -0.015758667141199112,
+              "mean_magnitude": 15.98509693145752,
+              "median_magnitude": 15.98544692993164
+            },
+            "reference": {
+              "pixels": 10480,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            8.165035247802734,
+            13.760931015014648,
+            19.399028778076172
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.636595726013184,
+            12.641424179077148,
+            17.65500831604004
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "apartment_1_p03": {
+      "reference_gate_passed": true,
+      "common_pixels": 39851,
+      "common_coverage": 0.9764530040184259,
+      "fixed_texture_pixels": 40812,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40812,
+            "mean_epe_px": 0.010019097743077101,
+            "median_epe_px": 0.008774216176093901,
+            "p90_epe_px": 0.019096098523033306,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -0.005920857191085815,
+              "median_y": 0.0013835527934134007,
+              "mean_magnitude": 0.010019097477197647,
+              "median_magnitude": 0.008774216286838055
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 3.238286366691995e-17,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 40812,
+            "median_x": -0.005920857191085815,
+            "median_y": 0.0013835527934134007,
+            "mean_magnitude": 0.010019097477197647,
+            "median_magnitude": 0.008774216286838055
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40812,
+            "mean_epe_px": 0.3204274212420453,
+            "median_epe_px": 0.24101422848328427,
+            "p90_epe_px": 0.6623089299134536,
+            "gain_projection": 0.9927825552762359,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": 7.848349571228027,
+              "median_y": 0.01818704977631569,
+              "mean_magnitude": 8.151208877563477,
+              "median_magnitude": 7.895230293273926
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 7.7408647537231445,
+              "median_y": 0.01225685141980648,
+              "mean_magnitude": 8.19214916229248,
+              "median_magnitude": 7.815950870513916
+            }
+          },
+          "raft_motion": {
+            "pixels": 40812,
+            "median_x": 7.848349571228027,
+            "median_y": 0.01818704977631569,
+            "mean_magnitude": 8.151208877563477,
+            "median_magnitude": 7.895230293273926
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 0.9998529844163482,
+          "raft_vs_analytic": {
+            "pixels": 40812,
+            "mean_epe_px": 0.3405705893346485,
+            "median_epe_px": 0.22677646887976988,
+            "p90_epe_px": 0.8222612307361171,
+            "gain_projection": 0.9787844332767456,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -7.607342720031738,
+              "median_y": -0.05032700300216675,
+              "mean_magnitude": 8.043730735778809,
+              "median_magnitude": 7.655514717102051
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": -7.740884780883789,
+              "median_y": -0.012256898917257786,
+              "mean_magnitude": 8.206775665283203,
+              "median_magnitude": 7.815969944000244
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": -7.606788158416748,
+            "median_y": -0.05026538670063019,
+            "mean_magnitude": 8.043221473693848,
+            "median_magnitude": 7.6553521156311035
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40812,
+            "mean_epe_px": 0.32095286866479733,
+            "median_epe_px": 0.2753032375312232,
+            "p90_epe_px": 0.6264321490014155,
+            "gain_projection": 0.9999433213117241,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": 13.096394538879395,
+              "median_y": -0.008059769868850708,
+              "mean_magnitude": 13.712388038635254,
+              "median_magnitude": 13.20438003540039
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 12.882946968078613,
+              "median_y": 0.020468730479478836,
+              "mean_magnitude": 13.685543060302734,
+              "median_magnitude": 13.026937484741211
+            }
+          },
+          "raft_motion": {
+            "pixels": 40812,
+            "median_x": 13.096394538879395,
+            "median_y": -0.008059769868850708,
+            "mean_magnitude": 13.712388038635254,
+            "median_magnitude": 13.20438003540039
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40812,
+            "mean_epe_px": 0.2949215458192592,
+            "median_epe_px": 0.23949052586915606,
+            "p90_epe_px": 0.6086020418608588,
+            "gain_projection": 0.9920891736056733,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -12.696184158325195,
+              "median_y": -0.03674161806702614,
+              "mean_magnitude": 13.607248306274414,
+              "median_magnitude": 12.816583633422852
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": -12.88296890258789,
+              "median_y": -0.020468853414058685,
+              "mean_magnitude": 13.7263765335083,
+              "median_magnitude": 13.02692699432373
+            }
+          },
+          "raft_motion": {
+            "pixels": 40812,
+            "median_x": -12.696184158325195,
+            "median_y": -0.03674161806702614,
+            "mean_magnitude": 13.607248306274414,
+            "median_magnitude": 12.816583633422852
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40456,
+            "mean_epe_px": 0.3690405174561597,
+            "median_epe_px": 0.30672089246360046,
+            "p90_epe_px": 0.6870591234221832,
+            "gain_projection": 0.9985195780111157,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40456,
+              "median_x": 18.273845672607422,
+              "median_y": 0.02597672864794731,
+              "mean_magnitude": 19.14387321472168,
+              "median_magnitude": 18.4615478515625
+            },
+            "reference": {
+              "pixels": 40456,
+              "median_x": 17.989702224731445,
+              "median_y": 0.027188729494810104,
+              "mean_magnitude": 19.14702796936035,
+              "median_magnitude": 18.19834327697754
+            }
+          },
+          "raft_motion": {
+            "pixels": 40456,
+            "median_x": 18.273845672607422,
+            "median_y": 0.02597672864794731,
+            "mean_magnitude": 19.14387321472168,
+            "median_magnitude": 18.4615478515625
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40207,
+            "mean_epe_px": 0.3946131598272046,
+            "median_epe_px": 0.36441086768979203,
+            "p90_epe_px": 0.6374702574044747,
+            "gain_projection": 0.9865607036842116,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40207,
+              "median_x": -17.8057861328125,
+              "median_y": -0.024294305592775345,
+              "mean_magnitude": 18.92356300354004,
+              "median_magnitude": 17.987136840820312
+            },
+            "reference": {
+              "pixels": 40207,
+              "median_x": -17.98870277404785,
+              "median_y": -0.028418943285942078,
+              "mean_magnitude": 19.169538497924805,
+              "median_magnitude": 18.17327117919922
+            }
+          },
+          "raft_motion": {
+            "pixels": 40207,
+            "median_x": -17.8057861328125,
+            "median_y": -0.024294305592775345,
+            "mean_magnitude": 18.92356300354004,
+            "median_magnitude": 17.987136840820312
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.0333134278627573,
+            "median_epe_px": 0.025768833157029415,
+            "p90_epe_px": 0.07206783348580724,
+            "gain_projection": 1.0006215644811025,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -16.00051498413086,
+              "median_y": 0.012440301477909088,
+              "mean_magnitude": 16.00995635986328,
+              "median_magnitude": 16.000516891479492
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.03430226081576188,
+            "median_epe_px": 0.030482942612174848,
+            "p90_epe_px": 0.05963868235606885,
+            "gain_projection": 1.0000421288088701,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -7.989896297454834,
+              "median_y": 0.015550504438579082,
+              "mean_magnitude": 8.00035572052002,
+              "median_magnitude": 7.989904403686523
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.019974939111230695,
+            "median_epe_px": 0.016704667259038138,
+            "p90_epe_px": 0.03892150678169448,
+            "gain_projection": 1.0036712944051933,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -2.0029234886169434,
+              "median_y": -0.0090477978810668,
+              "mean_magnitude": 2.007416248321533,
+              "median_magnitude": 2.002974033355713
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.010019097743077117,
+            "median_epe_px": 0.008774216176093901,
+            "p90_epe_px": 0.019096098523033306,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": -0.005920857191085815,
+              "median_y": 0.0013835527934134007,
+              "mean_magnitude": 0.010019097477197647,
+              "median_magnitude": 0.008774216286838055
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.07569087195877322,
+            "median_epe_px": 0.0731183902306518,
+            "p90_epe_px": 0.09691458518175079,
+            "gain_projection": 0.964909068843576,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": 1.931762933731079,
+              "median_y": -0.020700745284557343,
+              "mean_magnitude": 1.9300423860549927,
+              "median_magnitude": 1.9319565296173096
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.04947287977214629,
+            "median_epe_px": 0.05180783459065554,
+            "p90_epe_px": 0.06624571433780511,
+            "gain_projection": 0.9940524169943162,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": 7.951120853424072,
+              "median_y": 3.843371814582497e-05,
+              "mean_magnitude": 7.952430725097656,
+              "median_magnitude": 7.951129913330078
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40812,
+            "mean_epe_px": 0.06598001307715302,
+            "median_epe_px": 0.07246072939907303,
+            "p90_epe_px": 0.09788221403992806,
+            "gain_projection": 0.9962468854568174,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40812,
+              "median_x": 15.932768821716309,
+              "median_y": 0.0012064494658261538,
+              "mean_magnitude": 15.939977645874023,
+              "median_magnitude": 15.932815551757812
+            },
+            "reference": {
+              "pixels": 40812,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.846463680267334,
+            13.122153282165527,
+            18.383834838867188
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.603177547454834,
+            12.730360984802246,
+            17.938325881958008
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "apartment_1_p04": {
+      "reference_gate_passed": true,
+      "common_pixels": 16116,
+      "common_coverage": 0.9588861783780568,
+      "fixed_texture_pixels": 16807,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 16807,
+            "mean_epe_px": 0.015934958588849392,
+            "median_epe_px": 0.014650795765981934,
+            "p90_epe_px": 0.02321776130717582,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 0.008226991631090641,
+              "median_y": 0.010926886461675167,
+              "mean_magnitude": 0.015934959053993225,
+              "median_magnitude": 0.014650795608758926
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 4.925223287809369e-17,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 16807,
+            "median_x": 0.008226991631090641,
+            "median_y": 0.010926886461675167,
+            "mean_magnitude": 0.015934959053993225,
+            "median_magnitude": 0.014650795608758926
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 16807,
+            "mean_epe_px": 0.22086883096897844,
+            "median_epe_px": 0.1933408122080485,
+            "p90_epe_px": 0.39708660062232637,
+            "gain_projection": 1.0044352192388724,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 8.932292938232422,
+              "median_y": 0.06190008670091629,
+              "mean_magnitude": 8.867476463317871,
+              "median_magnitude": 9.05348014831543
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 8.770952224731445,
+              "median_y": -0.01834431290626526,
+              "mean_magnitude": 8.826858520507812,
+              "median_magnitude": 8.895773887634277
+            }
+          },
+          "raft_motion": {
+            "pixels": 16807,
+            "median_x": 8.932292938232422,
+            "median_y": 0.06190008670091629,
+            "mean_magnitude": 8.867476463317871,
+            "median_magnitude": 9.05348014831543
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 16807,
+            "mean_epe_px": 0.18456677737378915,
+            "median_epe_px": 0.17287617925979423,
+            "p90_epe_px": 0.2899603372869024,
+            "gain_projection": 0.9933131395098385,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": -8.7357816696167,
+              "median_y": 0.11317110061645508,
+              "mean_magnitude": 8.944567680358887,
+              "median_magnitude": 8.871535301208496
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": -8.817377090454102,
+              "median_y": 0.018629370257258415,
+              "mean_magnitude": 9.003865242004395,
+              "median_magnitude": 8.940189361572266
+            }
+          },
+          "raft_motion": {
+            "pixels": 16807,
+            "median_x": -8.7357816696167,
+            "median_y": 0.11317110061645508,
+            "mean_magnitude": 8.944567680358887,
+            "median_magnitude": 8.871535301208496
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 16807,
+            "mean_epe_px": 0.3111100249979512,
+            "median_epe_px": 0.2684983995398158,
+            "p90_epe_px": 0.5024802581518156,
+            "gain_projection": 1.011296360119294,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 14.825044631958008,
+              "median_y": 0.07632194459438324,
+              "mean_magnitude": 14.824141502380371,
+              "median_magnitude": 15.054404258728027
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 14.533965110778809,
+              "median_y": -0.030050750821828842,
+              "mean_magnitude": 14.662142753601074,
+              "median_magnitude": 14.73288631439209
+            }
+          },
+          "raft_motion": {
+            "pixels": 16807,
+            "median_x": 14.825044631958008,
+            "median_y": 0.07632194459438324,
+            "mean_magnitude": 14.824141502380371,
+            "median_magnitude": 15.054404258728027
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 0.9892901767120843,
+          "raft_vs_analytic": {
+            "pixels": 16807,
+            "mean_epe_px": 0.3007567563958,
+            "median_epe_px": 0.22763565537099179,
+            "p90_epe_px": 0.6185309800518775,
+            "gain_projection": 0.9913885698569306,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": -14.682657241821289,
+              "median_y": 0.05969111621379852,
+              "mean_magnitude": 15.044607162475586,
+              "median_magnitude": 14.893404960632324
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": -14.625736236572266,
+              "median_y": 0.03151852265000343,
+              "mean_magnitude": 15.156344413757324,
+              "median_magnitude": 14.861353874206543
+            }
+          },
+          "raft_motion": {
+            "pixels": 16627,
+            "median_x": -14.683603286743164,
+            "median_y": 0.09579966962337494,
+            "mean_magnitude": 15.040557861328125,
+            "median_magnitude": 14.887043952941895
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 0.9913561847988077,
+          "raft_vs_analytic": {
+            "pixels": 16775,
+            "mean_epe_px": 0.38087760729414194,
+            "median_epe_px": 0.30554155214659195,
+            "p90_epe_px": 0.6399200793668546,
+            "gain_projection": 1.012044873568824,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16775,
+              "median_x": 20.529054641723633,
+              "median_y": 0.016984112560749054,
+              "mean_magnitude": 20.72445297241211,
+              "median_magnitude": 20.865806579589844
+            },
+            "reference": {
+              "pixels": 16775,
+              "median_x": 20.113040924072266,
+              "median_y": -0.0398588627576828,
+              "mean_magnitude": 20.47389793395996,
+              "median_magnitude": 20.44375991821289
+            }
+          },
+          "raft_motion": {
+            "pixels": 16630,
+            "median_x": 20.503253936767578,
+            "median_y": -0.016132347285747528,
+            "mean_magnitude": 20.71192741394043,
+            "median_magnitude": 20.831680297851562
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 16328,
+            "mean_epe_px": 0.3602464008828777,
+            "median_epe_px": 0.2607045400032141,
+            "p90_epe_px": 0.8020150208900366,
+            "gain_projection": 0.9948316589301849,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16328,
+              "median_x": -20.493709564208984,
+              "median_y": 0.15306390821933746,
+              "mean_magnitude": 21.162612915039062,
+              "median_magnitude": 20.792686462402344
+            },
+            "reference": {
+              "pixels": 16328,
+              "median_x": -20.360403060913086,
+              "median_y": 0.043368421494960785,
+              "mean_magnitude": 21.249757766723633,
+              "median_magnitude": 20.633399963378906
+            }
+          },
+          "raft_motion": {
+            "pixels": 16328,
+            "median_x": -20.493709564208984,
+            "median_y": 0.15306390821933746,
+            "mean_magnitude": 21.162612915039062,
+            "median_magnitude": 20.792686462402344
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.02690135304046284,
+            "median_epe_px": 0.023941549813528838,
+            "p90_epe_px": 0.04885964990105739,
+            "gain_projection": 0.9994682424617578,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": -15.989516258239746,
+              "median_y": 0.00401337631046772,
+              "mean_magnitude": 15.991506576538086,
+              "median_magnitude": 15.989529609680176
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.020264174938353786,
+            "median_epe_px": 0.01715605891526325,
+            "p90_epe_px": 0.038078383138033765,
+            "gain_projection": 0.99921719678034,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": -7.996462821960449,
+              "median_y": -0.0026788469403982162,
+              "mean_magnitude": 7.993756294250488,
+              "median_magnitude": 7.996472358703613
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.04861396116141967,
+            "median_epe_px": 0.05038741418586836,
+            "p90_epe_px": 0.06849129406252433,
+            "gain_projection": 0.9931969453012198,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": -1.9912471771240234,
+              "median_y": 0.0243767648935318,
+              "mean_magnitude": 1.9867428541183472,
+              "median_magnitude": 1.9916491508483887
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.015934958588849437,
+            "median_epe_px": 0.014650795765981934,
+            "p90_epe_px": 0.02321776130717582,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 0.008226991631090641,
+              "median_y": 0.010926886461675167,
+              "mean_magnitude": 0.015934959053993225,
+              "median_magnitude": 0.014650795608758926
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.05166569738073146,
+            "median_epe_px": 0.05046736241310931,
+            "p90_epe_px": 0.06554058255373242,
+            "gain_projection": 0.9909859993835559,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 1.9823411703109741,
+              "median_y": 0.047716692090034485,
+              "mean_magnitude": 1.9825502634048462,
+              "median_magnitude": 1.982954978942871
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.02247399896073651,
+            "median_epe_px": 0.01991108360439601,
+            "p90_epe_px": 0.03912211575814347,
+            "gain_projection": 1.001731515022932,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 8.014034271240234,
+              "median_y": 0.003091683378443122,
+              "mean_magnitude": 8.013858795166016,
+              "median_magnitude": 8.01404094696045
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 16807,
+            "mean_epe_px": 0.03261533571171573,
+            "median_epe_px": 0.02790525168426258,
+            "p90_epe_px": 0.062149005573366556,
+            "gain_projection": 1.0011920163744499,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 16807,
+              "median_x": 16.01699447631836,
+              "median_y": -0.00125246518291533,
+              "mean_magnitude": 16.019079208374023,
+              "median_magnitude": 16.01699447631836
+            },
+            "reference": {
+              "pixels": 16807,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            9.00670051574707,
+            14.958745956420898,
+            20.685428619384766
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            8.809038162231445,
+            14.797332763671875,
+            20.771087646484375
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "apartment_1_p05": {
+      "reference_gate_passed": true,
+      "common_pixels": 4310,
+      "common_coverage": 0.9505955006616674,
+      "fixed_texture_pixels": 4534,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.008540188815026644,
+            "median_epe_px": 0.008114397317572164,
+            "p90_epe_px": 0.013831435631563374,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 0.00394492456689477,
+              "median_y": -0.0029250169172883034,
+              "mean_magnitude": 0.00854018796235323,
+              "median_magnitude": 0.008114397525787354
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.6954862135699623e-16,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": 0.00394492456689477,
+            "median_y": -0.0029250169172883034,
+            "mean_magnitude": 0.00854018796235323,
+            "median_magnitude": 0.008114397525787354
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.15482920915059356,
+            "median_epe_px": 0.12614380986516388,
+            "p90_epe_px": 0.2969971691586514,
+            "gain_projection": 0.9930274081823676,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 7.729427337646484,
+              "median_y": -0.2495952844619751,
+              "mean_magnitude": 8.540771484375,
+              "median_magnitude": 7.893653392791748
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 7.792288780212402,
+              "median_y": -0.25388437509536743,
+              "mean_magnitude": 8.592474937438965,
+              "median_magnitude": 7.977174758911133
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": 7.729427337646484,
+            "median_y": -0.2495952844619751,
+            "mean_magnitude": 8.540771484375,
+            "median_magnitude": 7.893653392791748
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.1404379041659858,
+            "median_epe_px": 0.12600303651883538,
+            "p90_epe_px": 0.23472069879707141,
+            "gain_projection": 0.9993080153484099,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -7.789714336395264,
+              "median_y": 0.16674920916557312,
+              "mean_magnitude": 8.312156677246094,
+              "median_magnitude": 7.9802045822143555
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -7.792295932769775,
+              "median_y": 0.18686896562576294,
+              "mean_magnitude": 8.30677604675293,
+              "median_magnitude": 7.9713335037231445
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": -7.789714336395264,
+            "median_y": 0.16674920916557312,
+            "mean_magnitude": 8.312156677246094,
+            "median_magnitude": 7.9802045822143555
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.16798784203219405,
+            "median_epe_px": 0.12945699390222654,
+            "p90_epe_px": 0.35373850805885526,
+            "gain_projection": 0.9970994332518734,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 12.980283737182617,
+              "median_y": -0.4129828214645386,
+              "mean_magnitude": 14.500911712646484,
+              "median_magnitude": 13.285332679748535
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 13.017179489135742,
+              "median_y": -0.4645548462867737,
+              "mean_magnitude": 14.52690601348877,
+              "median_magnitude": 13.319818496704102
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": 12.980283737182617,
+            "median_y": -0.4129828214645386,
+            "mean_magnitude": 14.500911712646484,
+            "median_magnitude": 13.285332679748535
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.16279315788464443,
+            "median_epe_px": 0.1341505878735853,
+            "p90_epe_px": 0.3167363387565796,
+            "gain_projection": 1.000193411202726,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -12.91474723815918,
+              "median_y": 0.24565225839614868,
+              "mean_magnitude": 13.734461784362793,
+              "median_magnitude": 13.18651294708252
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -12.949458122253418,
+              "median_y": 0.2863926291465759,
+              "mean_magnitude": 13.728706359863281,
+              "median_magnitude": 13.269229888916016
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": -12.91474723815918,
+            "median_y": 0.24565225839614868,
+            "mean_magnitude": 13.734461784362793,
+            "median_magnitude": 13.18651294708252
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4310,
+            "mean_epe_px": 0.2760033339290654,
+            "median_epe_px": 0.2219433804273197,
+            "p90_epe_px": 0.5182787460809773,
+            "gain_projection": 0.9974862444405284,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4310,
+              "median_x": 17.926742553710938,
+              "median_y": -0.6227576732635498,
+              "mean_magnitude": 20.230398178100586,
+              "median_magnitude": 18.271163940429688
+            },
+            "reference": {
+              "pixels": 4310,
+              "median_x": 17.813169479370117,
+              "median_y": -0.7003542184829712,
+              "mean_magnitude": 20.24549102783203,
+              "median_magnitude": 18.166881561279297
+            }
+          },
+          "raft_motion": {
+            "pixels": 4310,
+            "median_x": 17.926742553710938,
+            "median_y": -0.6227576732635498,
+            "mean_magnitude": 20.230398178100586,
+            "median_magnitude": 18.271163940429688
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 4534,
+            "mean_epe_px": 0.20592694913830029,
+            "median_epe_px": 0.1492358904358678,
+            "p90_epe_px": 0.4658138533160309,
+            "gain_projection": 0.997313421800299,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -18.196014404296875,
+              "median_y": 0.35120177268981934,
+              "mean_magnitude": 19.045751571655273,
+              "median_magnitude": 18.58835220336914
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -18.17287254333496,
+              "median_y": 0.35905227065086365,
+              "mean_magnitude": 19.08560562133789,
+              "median_magnitude": 18.528512954711914
+            }
+          },
+          "raft_motion": {
+            "pixels": 4534,
+            "median_x": -18.196014404296875,
+            "median_y": 0.35120177268981934,
+            "mean_magnitude": 19.045751571655273,
+            "median_magnitude": 18.58835220336914
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.0456772991141506,
+            "median_epe_px": 0.04340773280913572,
+            "p90_epe_px": 0.07095514843971425,
+            "gain_projection": 0.9989730257871239,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -15.980630874633789,
+              "median_y": -0.004793728701770306,
+              "mean_magnitude": 15.983592987060547,
+              "median_magnitude": 15.980688095092773
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.033445953690876676,
+            "median_epe_px": 0.031352191897003084,
+            "p90_epe_px": 0.05566635141096,
+            "gain_projection": 1.0007425260848815,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -8.008037567138672,
+              "median_y": -0.006981667596846819,
+              "mean_magnitude": 8.005988121032715,
+              "median_magnitude": 8.008150100708008
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.039311516435264204,
+            "median_epe_px": 0.04247827769208354,
+            "p90_epe_px": 0.05140305947212917,
+            "gain_projection": 0.9838297851794503,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": -1.9648141860961914,
+              "median_y": -0.015061755664646626,
+              "mean_magnitude": 1.9677529335021973,
+              "median_magnitude": 1.9649333953857422
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.008540188815026844,
+            "median_epe_px": 0.008114397317572164,
+            "p90_epe_px": 0.013831435631563374,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 0.00394492456689477,
+              "median_y": -0.0029250169172883034,
+              "mean_magnitude": 0.00854018796235323,
+              "median_magnitude": 0.008114397525787354
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.023635987445164132,
+            "median_epe_px": 0.0200649379151327,
+            "p90_epe_px": 0.04502086296342901,
+            "gain_projection": 0.9933934220275955,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 1.986954927444458,
+              "median_y": -0.001748952316120267,
+              "mean_magnitude": 1.986812710762024,
+              "median_magnitude": 1.9869625568389893
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.023260970546542817,
+            "median_epe_px": 0.020804461836787327,
+            "p90_epe_px": 0.04065062675809546,
+            "gain_projection": 0.9985405321446189,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 7.985849380493164,
+              "median_y": -0.0025083348155021667,
+              "mean_magnitude": 7.988339900970459,
+              "median_magnitude": 7.985875129699707
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 4534,
+            "mean_epe_px": 0.04637966050819831,
+            "median_epe_px": 0.043126485047766866,
+            "p90_epe_px": 0.08101042569037147,
+            "gain_projection": 1.0004493011926627,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 4534,
+              "median_x": 16.00332260131836,
+              "median_y": 0.016444234177470207,
+              "mean_magnitude": 16.007259368896484,
+              "median_magnitude": 16.003360748291016
+            },
+            "reference": {
+              "pixels": 4534,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.714764595031738,
+            12.964639663696289,
+            18.271163940429688
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.781544208526611,
+            12.866950988769531,
+            18.10521697998047
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p00": {
+      "reference_gate_passed": true,
+      "common_pixels": 39853,
+      "common_coverage": 0.9766455913346077,
+      "fixed_texture_pixels": 40806,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40806,
+            "mean_epe_px": 0.007698675033799799,
+            "median_epe_px": 0.007227088457356963,
+            "p90_epe_px": 0.012538285719799177,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 0.006143397651612759,
+              "median_y": 0.00020071520702913404,
+              "mean_magnitude": 0.007698675151914358,
+              "median_magnitude": 0.007227088324725628
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": 0.006143397651612759,
+            "median_y": 0.00020071520702913404,
+            "mean_magnitude": 0.007698675151914358,
+            "median_magnitude": 0.007227088324725628
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40806,
+            "mean_epe_px": 0.09280908632415526,
+            "median_epe_px": 0.08099699151601142,
+            "p90_epe_px": 0.17199132463633815,
+            "gain_projection": 0.997118848826059,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 7.764518737792969,
+              "median_y": -0.004348789341747761,
+              "mean_magnitude": 8.221200942993164,
+              "median_magnitude": 7.852709770202637
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 7.783354759216309,
+              "median_y": -0.004087937995791435,
+              "mean_magnitude": 8.239648818969727,
+              "median_magnitude": 7.866513252258301
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": 7.764518737792969,
+            "median_y": -0.004348789341747761,
+            "mean_magnitude": 8.221200942993164,
+            "median_magnitude": 7.852709770202637
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40806,
+            "mean_epe_px": 0.12083271878338037,
+            "median_epe_px": 0.09097081616101611,
+            "p90_epe_px": 0.224466332840275,
+            "gain_projection": 0.9982133053442678,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": -7.750129699707031,
+              "median_y": 0.03201313316822052,
+              "mean_magnitude": 8.233570098876953,
+              "median_magnitude": 7.846280574798584
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": -7.783360004425049,
+              "median_y": 0.0026385094970464706,
+              "mean_magnitude": 8.243327140808105,
+              "median_magnitude": 7.866541862487793
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": -7.750129699707031,
+            "median_y": 0.03201313316822052,
+            "mean_magnitude": 8.233570098876953,
+            "median_magnitude": 7.846280574798584
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40806,
+            "mean_epe_px": 0.11476308997824797,
+            "median_epe_px": 0.10101910338096376,
+            "p90_epe_px": 0.2131143239620223,
+            "gain_projection": 1.0011463515522796,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 12.999606132507324,
+              "median_y": -0.04334292560815811,
+              "mean_magnitude": 13.79179859161377,
+              "median_magnitude": 13.147298812866211
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 12.949454307556152,
+              "median_y": -0.005972889252007008,
+              "mean_magnitude": 13.771501541137695,
+              "median_magnitude": 13.108207702636719
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": 12.999606132507324,
+            "median_y": -0.04334292560815811,
+            "mean_magnitude": 13.79179859161377,
+            "median_magnitude": 13.147298812866211
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40806,
+            "mean_epe_px": 0.15386095940212333,
+            "median_epe_px": 0.12144747398119085,
+            "p90_epe_px": 0.2934165410486811,
+            "gain_projection": 0.9988365065880738,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": -12.950321197509766,
+              "median_y": 0.06938470900058746,
+              "mean_magnitude": 13.771044731140137,
+              "median_magnitude": 13.109474182128906
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": -12.949457168579102,
+              "median_y": 0.0023323995992541313,
+              "mean_magnitude": 13.781768798828125,
+              "median_magnitude": 13.108185768127441
+            }
+          },
+          "raft_motion": {
+            "pixels": 40806,
+            "median_x": -12.950321197509766,
+            "median_y": 0.06938470900058746,
+            "mean_magnitude": 13.771044731140137,
+            "median_magnitude": 13.109474182128906
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40438,
+            "mean_epe_px": 0.1707345029172806,
+            "median_epe_px": 0.12796160220303854,
+            "p90_epe_px": 0.2966168855116241,
+            "gain_projection": 0.9963892005410482,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40438,
+              "median_x": 18.11996078491211,
+              "median_y": -0.025474200025200844,
+              "mean_magnitude": 19.224102020263672,
+              "median_magnitude": 18.32776641845703
+            },
+            "reference": {
+              "pixels": 40438,
+              "median_x": 18.08858299255371,
+              "median_y": -0.013044089078903198,
+              "mean_magnitude": 19.276697158813477,
+              "median_magnitude": 18.309654235839844
+            }
+          },
+          "raft_motion": {
+            "pixels": 40438,
+            "median_x": 18.11996078491211,
+            "median_y": -0.025474200025200844,
+            "mean_magnitude": 19.224102020263672,
+            "median_magnitude": 18.32776641845703
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40221,
+            "mean_epe_px": 0.18765339767932315,
+            "median_epe_px": 0.14386523398433665,
+            "p90_epe_px": 0.3705505368836768,
+            "gain_projection": 1.001505079157409,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40221,
+              "median_x": -18.135175704956055,
+              "median_y": 0.04857578128576279,
+              "mean_magnitude": 19.277433395385742,
+              "median_magnitude": 18.340986251831055
+            },
+            "reference": {
+              "pixels": 40221,
+              "median_x": -18.080476760864258,
+              "median_y": 0.00443371944129467,
+              "mean_magnitude": 19.244972229003906,
+              "median_magnitude": 18.28814697265625
+            }
+          },
+          "raft_motion": {
+            "pixels": 40221,
+            "median_x": -18.135175704956055,
+            "median_y": 0.04857578128576279,
+            "mean_magnitude": 19.277433395385742,
+            "median_magnitude": 18.340986251831055
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.04229751763526144,
+            "median_epe_px": 0.04149851642878856,
+            "p90_epe_px": 0.0598925768495899,
+            "gain_projection": 0.9977917039122107,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": -15.962745666503906,
+              "median_y": 0.008679778315126896,
+              "mean_magnitude": 15.964677810668945,
+              "median_magnitude": 15.962756156921387
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.021728311842525112,
+            "median_epe_px": 0.021006090202536253,
+            "p90_epe_px": 0.03112961061720139,
+            "gain_projection": 0.9984919414276973,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": -7.9827375411987305,
+              "median_y": 0.003720308654010296,
+              "mean_magnitude": 7.987943172454834,
+              "median_magnitude": 7.982740879058838
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.02127554794939809,
+            "median_epe_px": 0.018335981941476405,
+            "p90_epe_px": 0.03921952920454061,
+            "gain_projection": 0.991670486281761,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": -1.9835889339447021,
+              "median_y": -0.005051118787378073,
+              "mean_magnitude": 1.9833775758743286,
+              "median_magnitude": 1.9836101531982422
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.007698675033799799,
+            "median_epe_px": 0.007227088457356963,
+            "p90_epe_px": 0.012538285719799177,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 0.006143397651612759,
+              "median_y": 0.00020071520702913404,
+              "mean_magnitude": 0.007698675151914358,
+              "median_magnitude": 0.007227088324725628
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.03749807409827941,
+            "median_epe_px": 0.03391186972663131,
+            "p90_epe_px": 0.061732409184651255,
+            "gain_projection": 0.9919203201771974,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 1.9838495254516602,
+              "median_y": 0.023212602362036705,
+              "mean_magnitude": 1.9839876890182495,
+              "median_magnitude": 1.984020471572876
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.017891267120507006,
+            "median_epe_px": 0.016904737838064166,
+            "p90_epe_px": 0.031106730555414346,
+            "gain_projection": 1.0012073340103018,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 8.010417938232422,
+              "median_y": -0.0018240038771182299,
+              "mean_magnitude": 8.009666442871094,
+              "median_magnitude": 8.01042652130127
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40806,
+            "mean_epe_px": 0.026013846036500303,
+            "median_epe_px": 0.024927331104078975,
+            "p90_epe_px": 0.040252191917248784,
+            "gain_projection": 1.0010936417743481,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40806,
+              "median_x": 16.017704010009766,
+              "median_y": 0.007181200198829174,
+              "mean_magnitude": 16.01750946044922,
+              "median_magnitude": 16.017711639404297
+            },
+            "reference": {
+              "pixels": 40806,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.80042028427124,
+            13.054204940795898,
+            18.245723724365234
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.787275314331055,
+            13.019015312194824,
+            18.293846130371094
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p01": {
+      "reference_gate_passed": true,
+      "common_pixels": 36377,
+      "common_coverage": 0.9743404312307486,
+      "fixed_texture_pixels": 37335,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 37335,
+            "mean_epe_px": 0.008204959561303375,
+            "median_epe_px": 0.008309733741227067,
+            "p90_epe_px": 0.0122021438724374,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 0.006425945553928614,
+              "median_y": 0.002279639942571521,
+              "mean_magnitude": 0.008204959332942963,
+              "median_magnitude": 0.008309734053909779
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 1.0588961314500402e-14,
+              "median_magnitude": 1.4210854715202004e-14
+            }
+          },
+          "raft_motion": {
+            "pixels": 37335,
+            "median_x": 0.006425945553928614,
+            "median_y": 0.002279639942571521,
+            "mean_magnitude": 0.008204959332942963,
+            "median_magnitude": 0.008309734053909779
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 37335,
+            "mean_epe_px": 0.1303984882714881,
+            "median_epe_px": 0.1129172863975873,
+            "p90_epe_px": 0.24710933595010934,
+            "gain_projection": 0.9928219918372205,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 7.861572265625,
+              "median_y": 0.007832597941160202,
+              "mean_magnitude": 8.227287292480469,
+              "median_magnitude": 7.9458818435668945
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 7.870935916900635,
+              "median_y": 0.012779108248651028,
+              "mean_magnitude": 8.281346321105957,
+              "median_magnitude": 7.966546535491943
+            }
+          },
+          "raft_motion": {
+            "pixels": 37335,
+            "median_x": 7.861572265625,
+            "median_y": 0.007832597941160202,
+            "mean_magnitude": 8.227287292480469,
+            "median_magnitude": 7.9458818435668945
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 37335,
+            "mean_epe_px": 0.14465959226379474,
+            "median_epe_px": 0.12827179081549878,
+            "p90_epe_px": 0.2749217494497865,
+            "gain_projection": 0.9955962038419937,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": -7.810388088226318,
+              "median_y": -0.0716695487499237,
+              "mean_magnitude": 8.25472354888916,
+              "median_magnitude": 7.900956153869629
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": -7.876457691192627,
+              "median_y": -0.01341337151825428,
+              "mean_magnitude": 8.295968055725098,
+              "median_magnitude": 7.9723896980285645
+            }
+          },
+          "raft_motion": {
+            "pixels": 37335,
+            "median_x": -7.810388088226318,
+            "median_y": -0.0716695487499237,
+            "mean_magnitude": 8.25472354888916,
+            "median_magnitude": 7.900956153869629
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 37335,
+            "mean_epe_px": 0.16488557027764056,
+            "median_epe_px": 0.13404566840288884,
+            "p90_epe_px": 0.31965429959800157,
+            "gain_projection": 0.9926958463176913,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 13.020158767700195,
+              "median_y": -0.01503780297935009,
+              "mean_magnitude": 13.742374420166016,
+              "median_magnitude": 13.16208553314209
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 13.09257984161377,
+              "median_y": 0.021330000832676888,
+              "mean_magnitude": 13.835453033447266,
+              "median_magnitude": 13.267228126525879
+            }
+          },
+          "raft_motion": {
+            "pixels": 37335,
+            "median_x": 13.020158767700195,
+            "median_y": -0.01503780297935009,
+            "mean_magnitude": 13.742374420166016,
+            "median_magnitude": 13.16208553314209
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 37335,
+            "mean_epe_px": 0.17366772376126854,
+            "median_epe_px": 0.15831272709136357,
+            "p90_epe_px": 0.295405711207823,
+            "gain_projection": 0.9968921283721492,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": -13.065984725952148,
+              "median_y": -0.08161202818155289,
+              "mean_magnitude": 13.826118469238281,
+              "median_magnitude": 13.21231746673584
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": -13.156305313110352,
+              "median_y": -0.026991529390215874,
+              "mean_magnitude": 13.876291275024414,
+              "median_magnitude": 13.296649932861328
+            }
+          },
+          "raft_motion": {
+            "pixels": 37335,
+            "median_x": -13.065984725952148,
+            "median_y": -0.08161202818155289,
+            "mean_magnitude": 13.826118469238281,
+            "median_magnitude": 13.21231746673584
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 36969,
+            "mean_epe_px": 0.18085467033853966,
+            "median_epe_px": 0.12406074800167272,
+            "p90_epe_px": 0.33077688817429834,
+            "gain_projection": 0.9949348451738985,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 36969,
+              "median_x": 18.208627700805664,
+              "median_y": 0.05007088929414749,
+              "mean_magnitude": 19.266523361206055,
+              "median_magnitude": 18.41703224182129
+            },
+            "reference": {
+              "pixels": 36969,
+              "median_x": 18.29497718811035,
+              "median_y": 0.028654521331191063,
+              "mean_magnitude": 19.351943969726562,
+              "median_magnitude": 18.51589012145996
+            }
+          },
+          "raft_motion": {
+            "pixels": 36969,
+            "median_x": 18.208627700805664,
+            "median_y": 0.05007088929414749,
+            "mean_magnitude": 19.266523361206055,
+            "median_magnitude": 18.41703224182129
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 0.9995647324464757,
+          "raft_vs_analytic": {
+            "pixels": 36759,
+            "mean_epe_px": 0.18902427295761412,
+            "median_epe_px": 0.15316036051559304,
+            "p90_epe_px": 0.3565419502727582,
+            "gain_projection": 1.0003091468561067,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 36759,
+              "median_x": -18.262300491333008,
+              "median_y": -0.04286976903676987,
+              "mean_magnitude": 19.378372192382812,
+              "median_magnitude": 18.47067642211914
+            },
+            "reference": {
+              "pixels": 36759,
+              "median_x": -18.29497718811035,
+              "median_y": -0.04136604815721512,
+              "mean_magnitude": 19.37962532043457,
+              "median_magnitude": 18.539583206176758
+            }
+          },
+          "raft_motion": {
+            "pixels": 36743,
+            "median_x": -18.26021957397461,
+            "median_y": -0.044165849685668945,
+            "mean_magnitude": 19.373701095581055,
+            "median_magnitude": 18.46933364868164
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.037263042935412986,
+            "median_epe_px": 0.037998374600972426,
+            "p90_epe_px": 0.052475969838865974,
+            "gain_projection": 0.9985000313565612,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": -15.968474388122559,
+              "median_y": -0.004642004147171974,
+              "mean_magnitude": 15.976011276245117,
+              "median_magnitude": 15.968483924865723
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.026532928635680242,
+            "median_epe_px": 0.026476998144551275,
+            "p90_epe_px": 0.03637812648234967,
+            "gain_projection": 0.9977388285658231,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": -7.979215145111084,
+              "median_y": -0.009430850856006145,
+              "mean_magnitude": 7.9819254875183105,
+              "median_magnitude": 7.9792304039001465
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.020529562862824424,
+            "median_epe_px": 0.018412784536157863,
+            "p90_epe_px": 0.03267637451142658,
+            "gain_projection": 0.9922640005875196,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": -1.9864895343780518,
+              "median_y": -0.008763914927840233,
+              "mean_magnitude": 1.984555959701538,
+              "median_magnitude": 1.9865176677703857
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.008204959561307216,
+            "median_epe_px": 0.008309733741217582,
+            "p90_epe_px": 0.01220214387244601,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 0.006425945553928614,
+              "median_y": 0.002279639942571521,
+              "mean_magnitude": 0.008204959332942963,
+              "median_magnitude": 0.008309734053909779
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.040000677763618465,
+            "median_epe_px": 0.03906436555169093,
+            "p90_epe_px": 0.06374973080953694,
+            "gain_projection": 0.9925469220091704,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 1.9849392175674438,
+              "median_y": -0.01417006365954876,
+              "mean_magnitude": 1.9853196144104004,
+              "median_magnitude": 1.9851999282836914
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.015720368702226192,
+            "median_epe_px": 0.014345740407134237,
+            "p90_epe_px": 0.027203229936303062,
+            "gain_projection": 1.0004104302736336,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 8.005459785461426,
+              "median_y": -0.0020806363318115473,
+              "mean_magnitude": 8.003294944763184,
+              "median_magnitude": 8.005462646484375
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 37335,
+            "mean_epe_px": 0.02851312548804265,
+            "median_epe_px": 0.02628774055581337,
+            "p90_epe_px": 0.04828209826576756,
+            "gain_projection": 1.0004906796333028,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 37335,
+              "median_x": 16.01477813720703,
+              "median_y": 0.0038547618314623833,
+              "mean_magnitude": 16.00786590576172,
+              "median_magnitude": 16.014793395996094
+            },
+            "reference": {
+              "pixels": 37335,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.902770042419434,
+            13.085308074951172,
+            18.339298248291016
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.842863082885742,
+            13.116704940795898,
+            18.422779083251953
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p02": {
+      "reference_gate_passed": true,
+      "common_pixels": 39683,
+      "common_coverage": 0.9754916420845624,
+      "fixed_texture_pixels": 40680,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40680,
+            "mean_epe_px": 0.0062898739723591165,
+            "median_epe_px": 0.005759560519669605,
+            "p90_epe_px": 0.010758479697006326,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 0.003373194020241499,
+              "median_y": -0.00373543007299304,
+              "mean_magnitude": 0.0062898737378418446,
+              "median_magnitude": 0.005759560503065586
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 1.0889946849010693e-14,
+              "median_magnitude": 1.4210854715202004e-14
+            }
+          },
+          "raft_motion": {
+            "pixels": 40680,
+            "median_x": 0.003373194020241499,
+            "median_y": -0.00373543007299304,
+            "mean_magnitude": 0.0062898737378418446,
+            "median_magnitude": 0.005759560503065586
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40680,
+            "mean_epe_px": 0.0927904735028358,
+            "median_epe_px": 0.08038332582618671,
+            "p90_epe_px": 0.1687456117780757,
+            "gain_projection": 0.9988907169727986,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 7.76530647277832,
+              "median_y": 2.409331500530243e-05,
+              "mean_magnitude": 8.226758003234863,
+              "median_magnitude": 7.849106788635254
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 7.751357078552246,
+              "median_y": 0.008291738107800484,
+              "mean_magnitude": 8.232328414916992,
+              "median_magnitude": 7.839296340942383
+            }
+          },
+          "raft_motion": {
+            "pixels": 40680,
+            "median_x": 7.76530647277832,
+            "median_y": 2.409331500530243e-05,
+            "mean_magnitude": 8.226758003234863,
+            "median_magnitude": 7.849106788635254
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40680,
+            "mean_epe_px": 0.09828704585328824,
+            "median_epe_px": 0.0886754648786077,
+            "p90_epe_px": 0.16689425851818615,
+            "gain_projection": 0.9999012466394633,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": -7.732715606689453,
+              "median_y": -0.03864934295415878,
+              "mean_magnitude": 8.230341911315918,
+              "median_magnitude": 7.8250203132629395
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": -7.7513556480407715,
+              "median_y": -0.011661989614367485,
+              "mean_magnitude": 8.23155689239502,
+              "median_magnitude": 7.835991382598877
+            }
+          },
+          "raft_motion": {
+            "pixels": 40680,
+            "median_x": -7.732715606689453,
+            "median_y": -0.03864934295415878,
+            "mean_magnitude": 8.230341911315918,
+            "median_magnitude": 7.8250203132629395
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40680,
+            "mean_epe_px": 0.13327233437640768,
+            "median_epe_px": 0.1237978145988014,
+            "p90_epe_px": 0.23168643030593197,
+            "gain_projection": 1.00082955786875,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 12.979698181152344,
+              "median_y": 0.02785225212574005,
+              "mean_magnitude": 13.777003288269043,
+              "median_magnitude": 13.125370025634766
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 12.945816040039062,
+              "median_y": 0.010001267306506634,
+              "mean_magnitude": 13.761670112609863,
+              "median_magnitude": 13.078462600708008
+            }
+          },
+          "raft_motion": {
+            "pixels": 40680,
+            "median_x": 12.979698181152344,
+            "median_y": 0.02785225212574005,
+            "mean_magnitude": 13.777003288269043,
+            "median_magnitude": 13.125370025634766
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40680,
+            "mean_epe_px": 0.10329252839544527,
+            "median_epe_px": 0.08712501371859421,
+            "p90_epe_px": 0.19245042404173873,
+            "gain_projection": 1.000491857607146,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": -12.921769142150879,
+              "median_y": -0.03030373342335224,
+              "mean_magnitude": 13.764118194580078,
+              "median_magnitude": 13.0723876953125
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": -12.945821762084961,
+              "median_y": -0.01951097510755062,
+              "mean_magnitude": 13.759540557861328,
+              "median_magnitude": 13.063499450683594
+            }
+          },
+          "raft_motion": {
+            "pixels": 40680,
+            "median_x": -12.921769142150879,
+            "median_y": -0.03030373342335224,
+            "mean_magnitude": 13.764118194580078,
+            "median_magnitude": 13.0723876953125
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40280,
+            "mean_epe_px": 0.15429130918870898,
+            "median_epe_px": 0.12594602142059672,
+            "p90_epe_px": 0.26227712812188153,
+            "gain_projection": 0.9998268443709156,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40280,
+              "median_x": 18.140840530395508,
+              "median_y": -0.0012234565801918507,
+              "mean_magnitude": 19.266061782836914,
+              "median_magnitude": 18.33994483947754
+            },
+            "reference": {
+              "pixels": 40280,
+              "median_x": 18.080467224121094,
+              "median_y": 0.01475160475820303,
+              "mean_magnitude": 19.257061004638672,
+              "median_magnitude": 18.27045440673828
+            }
+          },
+          "raft_motion": {
+            "pixels": 40280,
+            "median_x": 18.140840530395508,
+            "median_y": -0.0012234565801918507,
+            "mean_magnitude": 19.266061782836914,
+            "median_magnitude": 18.33994483947754
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40083,
+            "mean_epe_px": 0.14781118367751758,
+            "median_epe_px": 0.1254301451989871,
+            "p90_epe_px": 0.26588404843490815,
+            "gain_projection": 1.0006038554466297,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40083,
+              "median_x": -18.083492279052734,
+              "median_y": -0.03348618000745773,
+              "mean_magnitude": 19.226037979125977,
+              "median_magnitude": 18.283809661865234
+            },
+            "reference": {
+              "pixels": 40083,
+              "median_x": -17.98971939086914,
+              "median_y": -0.027280012145638466,
+              "mean_magnitude": 19.207216262817383,
+              "median_magnitude": 18.21688461303711
+            }
+          },
+          "raft_motion": {
+            "pixels": 40083,
+            "median_x": -18.083492279052734,
+            "median_y": -0.03348618000745773,
+            "mean_magnitude": 19.226037979125977,
+            "median_magnitude": 18.283809661865234
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.04118459086414234,
+            "median_epe_px": 0.04028651942264448,
+            "p90_epe_px": 0.05875638510498179,
+            "gain_projection": 0.997898987757597,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": -15.967215538024902,
+              "median_y": 0.011610206216573715,
+              "mean_magnitude": 15.966399192810059,
+              "median_magnitude": 15.967232704162598
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.017913785486545052,
+            "median_epe_px": 0.017141895444056927,
+            "p90_epe_px": 0.02861509950540125,
+            "gain_projection": 0.998494997094573,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": -7.9871649742126465,
+              "median_y": -0.006547544151544571,
+              "mean_magnitude": 7.98797082901001,
+              "median_magnitude": 7.987173557281494
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.03194011495330814,
+            "median_epe_px": 0.033078641608715556,
+            "p90_epe_px": 0.04621208861179362,
+            "gain_projection": 0.9903270234283327,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": -1.978153944015503,
+              "median_y": 0.022926021367311478,
+              "mean_magnitude": 1.9807889461517334,
+              "median_magnitude": 1.9782609939575195
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.006289873972359182,
+            "median_epe_px": 0.0057595605196615034,
+            "p90_epe_px": 0.010758479697023982,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 0.003373194020241499,
+              "median_y": -0.00373543007299304,
+              "mean_magnitude": 0.0062898737378418446,
+              "median_magnitude": 0.005759560503065586
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.03637780164461615,
+            "median_epe_px": 0.03672330389240953,
+            "p90_epe_px": 0.05004415753005174,
+            "gain_projection": 0.9897291894038752,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 1.9800817966461182,
+              "median_y": -0.030020810663700104,
+              "mean_magnitude": 1.979697823524475,
+              "median_magnitude": 1.980334997177124
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.017832811332650533,
+            "median_epe_px": 0.015386800169657119,
+            "p90_epe_px": 0.03393715563191237,
+            "gain_projection": 0.9999812905943147,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 7.998003959655762,
+              "median_y": -0.012567286379635334,
+              "mean_magnitude": 7.999870777130127,
+              "median_magnitude": 7.998017311096191
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 40680,
+            "mean_epe_px": 0.027874087948102234,
+            "median_epe_px": 0.026357382113042907,
+            "p90_epe_px": 0.04664016130727266,
+            "gain_projection": 1.0012235595545234,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40680,
+              "median_x": 16.017616271972656,
+              "median_y": 0.008890826255083084,
+              "mean_magnitude": 16.01958656311035,
+              "median_magnitude": 16.017627716064453
+            },
+            "reference": {
+              "pixels": 40680,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.793270111083984,
+            13.031267166137695,
+            18.26124382019043
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.767462730407715,
+            12.976035118103027,
+            18.24629783630371
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p03": {
+      "reference_gate_passed": true,
+      "common_pixels": 40461,
+      "common_coverage": 0.9754104288710495,
+      "fixed_texture_pixels": 41481,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41481,
+            "mean_epe_px": 0.006593567148703516,
+            "median_epe_px": 0.005538177835635651,
+            "p90_epe_px": 0.012547894629010547,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -0.0008804129902273417,
+              "median_y": 0.0022361776791512966,
+              "mean_magnitude": 0.006593566853553057,
+              "median_magnitude": 0.00553817767649889
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 1.4625042391464569e-15,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 41481,
+            "median_x": -0.0008804129902273417,
+            "median_y": 0.0022361776791512966,
+            "mean_magnitude": 0.006593566853553057,
+            "median_magnitude": 0.00553817767649889
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41481,
+            "mean_epe_px": 0.11275514887543808,
+            "median_epe_px": 0.09723332516671852,
+            "p90_epe_px": 0.21265875155719294,
+            "gain_projection": 0.9977087305866112,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": 7.757037162780762,
+              "median_y": -0.03435656055808067,
+              "mean_magnitude": 8.231502532958984,
+              "median_magnitude": 7.839264392852783
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 7.783354759216309,
+              "median_y": 0.0010603744303807616,
+              "mean_magnitude": 8.245210647583008,
+              "median_magnitude": 7.86328649520874
+            }
+          },
+          "raft_motion": {
+            "pixels": 41481,
+            "median_x": 7.757037162780762,
+            "median_y": -0.03435656055808067,
+            "mean_magnitude": 8.231502532958984,
+            "median_magnitude": 7.839264392852783
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41481,
+            "mean_epe_px": 0.10007529561642341,
+            "median_epe_px": 0.08479030903364629,
+            "p90_epe_px": 0.1796334355209428,
+            "gain_projection": 1.002663968818987,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -7.752206802368164,
+              "median_y": 0.0682171881198883,
+              "mean_magnitude": 8.267242431640625,
+              "median_magnitude": 7.834203720092773
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": -7.783364295959473,
+              "median_y": 0.0005756168975494802,
+              "mean_magnitude": 8.24496841430664,
+              "median_magnitude": 7.863295555114746
+            }
+          },
+          "raft_motion": {
+            "pixels": 41481,
+            "median_x": -7.752206802368164,
+            "median_y": 0.0682171881198883,
+            "mean_magnitude": 8.267242431640625,
+            "median_magnitude": 7.834203720092773
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41481,
+            "mean_epe_px": 0.1655680494393778,
+            "median_epe_px": 0.14620942487254088,
+            "p90_epe_px": 0.29858359521022404,
+            "gain_projection": 1.0002819422534075,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": 12.956158638000488,
+              "median_y": 0.03674779087305069,
+              "mean_magnitude": 13.796459197998047,
+              "median_magnitude": 13.095701217651367
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 12.949440956115723,
+              "median_y": 0.0013281076680868864,
+              "mean_magnitude": 13.78305721282959,
+              "median_magnitude": 13.104063034057617
+            }
+          },
+          "raft_motion": {
+            "pixels": 41481,
+            "median_x": 12.956158638000488,
+            "median_y": 0.03674779087305069,
+            "mean_magnitude": 13.796459197998047,
+            "median_magnitude": 13.095701217651367
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41481,
+            "mean_epe_px": 0.13513788619994413,
+            "median_epe_px": 0.11179667634085806,
+            "p90_epe_px": 0.24668797827743869,
+            "gain_projection": 1.0005083014936562,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -12.962480545043945,
+              "median_y": 0.001957968343049288,
+              "mean_magnitude": 13.794184684753418,
+              "median_magnitude": 13.11785888671875
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": -12.949468612670898,
+              "median_y": 0.0017384524689987302,
+              "mean_magnitude": 13.782382011413574,
+              "median_magnitude": 13.104093551635742
+            }
+          },
+          "raft_motion": {
+            "pixels": 41481,
+            "median_x": -12.962480545043945,
+            "median_y": 0.001957968343049288,
+            "mean_magnitude": 13.794184684753418,
+            "median_magnitude": 13.11785888671875
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41073,
+            "mean_epe_px": 0.17805595922312342,
+            "median_epe_px": 0.14354672678680824,
+            "p90_epe_px": 0.33318175671370337,
+            "gain_projection": 1.0001694257099714,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41073,
+              "median_x": 18.102764129638672,
+              "median_y": 0.014596322551369667,
+              "mean_magnitude": 19.298843383789062,
+              "median_magnitude": 18.29237174987793
+            },
+            "reference": {
+              "pixels": 41073,
+              "median_x": 18.088579177856445,
+              "median_y": 0.0032881852239370346,
+              "mean_magnitude": 19.287368774414062,
+              "median_magnitude": 18.29963493347168
+            }
+          },
+          "raft_motion": {
+            "pixels": 41073,
+            "median_x": 18.102764129638672,
+            "median_y": 0.014596322551369667,
+            "mean_magnitude": 19.298843383789062,
+            "median_magnitude": 18.29237174987793
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40869,
+            "mean_epe_px": 0.16614653784430977,
+            "median_epe_px": 0.14320066734108647,
+            "p90_epe_px": 0.29323065954420685,
+            "gain_projection": 0.9999136438805162,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40869,
+              "median_x": -18.058277130126953,
+              "median_y": -0.004288211464881897,
+              "mean_magnitude": 19.244564056396484,
+              "median_magnitude": 18.27036476135254
+            },
+            "reference": {
+              "pixels": 40869,
+              "median_x": -18.080488204956055,
+              "median_y": 0.004965898580849171,
+              "mean_magnitude": 19.239198684692383,
+              "median_magnitude": 18.278179168701172
+            }
+          },
+          "raft_motion": {
+            "pixels": 40869,
+            "median_x": -18.058277130126953,
+            "median_y": -0.004288211464881897,
+            "mean_magnitude": 19.244564056396484,
+            "median_magnitude": 18.27036476135254
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.03488999647867749,
+            "median_epe_px": 0.03520167560971174,
+            "p90_epe_px": 0.05332106441311363,
+            "gain_projection": 0.9983367504653623,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -15.968297958374023,
+              "median_y": 0.007951066829264164,
+              "mean_magnitude": 15.973392486572266,
+              "median_magnitude": 15.968301773071289
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.029377848200325095,
+            "median_epe_px": 0.03108868680481041,
+            "p90_epe_px": 0.041421060926887715,
+            "gain_projection": 0.9968061135519937,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -7.971342086791992,
+              "median_y": 0.004678661935031414,
+              "mean_magnitude": 7.974457263946533,
+              "median_magnitude": 7.971346378326416
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.02275065941922591,
+            "median_epe_px": 0.019193337150223106,
+            "p90_epe_px": 0.042889573714872356,
+            "gain_projection": 0.9973579538767721,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -1.9906384944915771,
+              "median_y": 0.009071427397429943,
+              "mean_magnitude": 1.994830846786499,
+              "median_magnitude": 1.990695834159851
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.006593567148703463,
+            "median_epe_px": 0.005538177835635651,
+            "p90_epe_px": 0.012547894629010547,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": -0.0008804129902273417,
+              "median_y": 0.0022361776791512966,
+              "mean_magnitude": 0.006593566853553057,
+              "median_magnitude": 0.00553817767649889
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.03472071137073775,
+            "median_epe_px": 0.03210511063099331,
+            "p90_epe_px": 0.0552197215305113,
+            "gain_projection": 0.9900488404648757,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": 1.9815216064453125,
+              "median_y": 0.022373348474502563,
+              "mean_magnitude": 1.9802640676498413,
+              "median_magnitude": 1.9816277027130127
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.018767775393330556,
+            "median_epe_px": 0.0165577771124894,
+            "p90_epe_px": 0.03290294640586179,
+            "gain_projection": 1.001864580717425,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": 8.01330280303955,
+              "median_y": 1.6807345673441887e-05,
+              "mean_magnitude": 8.014923095703125,
+              "median_magnitude": 8.013309478759766
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41481,
+            "mean_epe_px": 0.023970886850498214,
+            "median_epe_px": 0.022529609464457916,
+            "p90_epe_px": 0.039783550352262366,
+            "gain_projection": 1.0010703763355184,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41481,
+              "median_x": 16.017179489135742,
+              "median_y": -0.0013355351984500885,
+              "mean_magnitude": 16.017131805419922,
+              "median_magnitude": 16.017183303833008
+            },
+            "reference": {
+              "pixels": 41481,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.785635471343994,
+            13.006185531616211,
+            18.217262268066406
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.778561592102051,
+            13.020018577575684,
+            18.222957611083984
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p04": {
+      "reference_gate_passed": true,
+      "common_pixels": 40329,
+      "common_coverage": 0.9738951943974885,
+      "fixed_texture_pixels": 41410,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41410,
+            "mean_epe_px": 0.007552785950131868,
+            "median_epe_px": 0.006919931197905189,
+            "p90_epe_px": 0.013122693931040895,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -0.001693681930191815,
+              "median_y": -0.005258516408503056,
+              "mean_magnitude": 0.00755278579890728,
+              "median_magnitude": 0.0069199311546981335
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 4.628565482854617e-16,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 41410,
+            "median_x": -0.001693681930191815,
+            "median_y": -0.005258516408503056,
+            "mean_magnitude": 0.00755278579890728,
+            "median_magnitude": 0.0069199311546981335
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41410,
+            "mean_epe_px": 0.10733864211109798,
+            "median_epe_px": 0.09304192623735727,
+            "p90_epe_px": 0.18269623801633506,
+            "gain_projection": 0.9950792058810805,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": 7.794866561889648,
+              "median_y": 0.055339377373456955,
+              "mean_magnitude": 8.2106351852417,
+              "median_magnitude": 7.892143249511719
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 7.78335428237915,
+              "median_y": 0.002684997394680977,
+              "mean_magnitude": 8.246896743774414,
+              "median_magnitude": 7.87117862701416
+            }
+          },
+          "raft_motion": {
+            "pixels": 41410,
+            "median_x": 7.794866561889648,
+            "median_y": 0.055339377373456955,
+            "mean_magnitude": 8.2106351852417,
+            "median_magnitude": 7.892143249511719
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41410,
+            "mean_epe_px": 0.1290685173169203,
+            "median_epe_px": 0.10331485033119323,
+            "p90_epe_px": 0.2350690163690515,
+            "gain_projection": 0.9985679809988387,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -7.803291320800781,
+              "median_y": -0.055121418088674545,
+              "mean_magnitude": 8.237618446350098,
+              "median_magnitude": 7.893184661865234
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": -7.783356666564941,
+              "median_y": -0.002684989245608449,
+              "mean_magnitude": 8.245393753051758,
+              "median_magnitude": 7.868995189666748
+            }
+          },
+          "raft_motion": {
+            "pixels": 41410,
+            "median_x": -7.803291320800781,
+            "median_y": -0.055121418088674545,
+            "mean_magnitude": 8.237618446350098,
+            "median_magnitude": 7.893184661865234
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41410,
+            "mean_epe_px": 0.14600688521354635,
+            "median_epe_px": 0.1394346025822109,
+            "p90_epe_px": 0.2450352169142746,
+            "gain_projection": 0.9975071908299269,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": 13.002277374267578,
+              "median_y": 0.05598488822579384,
+              "mean_magnitude": 13.75313949584961,
+              "median_magnitude": 13.169321060180664
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 12.94945240020752,
+              "median_y": 0.003463753964751959,
+              "mean_magnitude": 13.786606788635254,
+              "median_magnitude": 13.116111755371094
+            }
+          },
+          "raft_motion": {
+            "pixels": 41410,
+            "median_x": 13.002277374267578,
+            "median_y": 0.05598488822579384,
+            "mean_magnitude": 13.75313949584961,
+            "median_magnitude": 13.169321060180664
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41410,
+            "mean_epe_px": 0.16670899893097973,
+            "median_epe_px": 0.14121800308770754,
+            "p90_epe_px": 0.28437705139855285,
+            "gain_projection": 0.9981375709777683,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -12.984186172485352,
+              "median_y": -0.01532326452434063,
+              "mean_magnitude": 13.761566162109375,
+              "median_magnitude": 13.129505157470703
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": -12.949451446533203,
+              "median_y": -0.003463748376816511,
+              "mean_magnitude": 13.782407760620117,
+              "median_magnitude": 13.100810050964355
+            }
+          },
+          "raft_motion": {
+            "pixels": 41410,
+            "median_x": -12.984186172485352,
+            "median_y": -0.01532326452434063,
+            "mean_magnitude": 13.761566162109375,
+            "median_magnitude": 13.129505157470703
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41002,
+            "mean_epe_px": 0.14777442386010764,
+            "median_epe_px": 0.1286798334567429,
+            "p90_epe_px": 0.26462964680959694,
+            "gain_projection": 0.99905130303486,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41002,
+              "median_x": 18.123722076416016,
+              "median_y": 0.0157497376203537,
+              "mean_magnitude": 19.273067474365234,
+              "median_magnitude": 18.328269958496094
+            },
+            "reference": {
+              "pixels": 41002,
+              "median_x": 18.088584899902344,
+              "median_y": 0.00802074745297432,
+              "mean_magnitude": 19.293262481689453,
+              "median_magnitude": 18.31629180908203
+            }
+          },
+          "raft_motion": {
+            "pixels": 41002,
+            "median_x": 18.123722076416016,
+            "median_y": 0.0157497376203537,
+            "mean_magnitude": 19.273067474365234,
+            "median_magnitude": 18.328269958496094
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 0.998504828668072,
+          "raft_vs_analytic": {
+            "pixels": 40798,
+            "mean_epe_px": 0.17112415337492934,
+            "median_epe_px": 0.130257652227025,
+            "p90_epe_px": 0.3372147816104693,
+            "gain_projection": 1.000138554492156,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40798,
+              "median_x": -18.0589542388916,
+              "median_y": 0.024836190044879913,
+              "mean_magnitude": 19.233877182006836,
+              "median_magnitude": 18.239139556884766
+            },
+            "reference": {
+              "pixels": 40798,
+              "median_x": -18.080480575561523,
+              "median_y": -0.008020823821425438,
+              "mean_magnitude": 19.2380428314209,
+              "median_magnitude": 18.25678253173828
+            }
+          },
+          "raft_motion": {
+            "pixels": 40737,
+            "median_x": -18.05274200439453,
+            "median_y": 0.027130722999572754,
+            "mean_magnitude": 19.218482971191406,
+            "median_magnitude": 18.228515625
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.0245436248729375,
+            "median_epe_px": 0.02446835363034848,
+            "p90_epe_px": 0.03559627006458317,
+            "gain_projection": 0.9998061534244926,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -15.994319915771484,
+              "median_y": -0.0019119989592581987,
+              "mean_magnitude": 15.996907234191895,
+              "median_magnitude": 15.994335174560547
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.018275877698747965,
+            "median_epe_px": 0.016521262619678075,
+            "p90_epe_px": 0.03106809273388617,
+            "gain_projection": 0.999207186369296,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -7.9925432205200195,
+              "median_y": -0.0018845724407583475,
+              "mean_magnitude": 7.993664741516113,
+              "median_magnitude": 7.9925537109375
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.039780182743669165,
+            "median_epe_px": 0.038842383509722564,
+            "p90_epe_px": 0.053288899048821795,
+            "gain_projection": 0.9853922334796305,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -1.9683786630630493,
+              "median_y": 0.02420320361852646,
+              "mean_magnitude": 1.9709316492080688,
+              "median_magnitude": 1.9685180187225342
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.007552785950132085,
+            "median_epe_px": 0.006919931197905189,
+            "p90_epe_px": 0.013122693931040895,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": -0.001693681930191815,
+              "median_y": -0.005258516408503056,
+              "mean_magnitude": 0.00755278579890728,
+              "median_magnitude": 0.0069199311546981335
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.021982135376553986,
+            "median_epe_px": 0.020953009302745067,
+            "p90_epe_px": 0.03278097383415204,
+            "gain_projection": 0.9957778613842562,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": 1.989790916442871,
+              "median_y": 0.011155134066939354,
+              "mean_magnitude": 1.9916094541549683,
+              "median_magnitude": 1.9898338317871094
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.016728650284752986,
+            "median_epe_px": 0.015996119376967658,
+            "p90_epe_px": 0.029003127918794884,
+            "gain_projection": 1.0006449031933469,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": 8.004227638244629,
+              "median_y": 0.0023944429121911526,
+              "mean_magnitude": 8.005165100097656,
+              "median_magnitude": 8.00423526763916
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41410,
+            "mean_epe_px": 0.022402084487754603,
+            "median_epe_px": 0.021769572259502087,
+            "p90_epe_px": 0.0351638401216676,
+            "gain_projection": 0.9999484709152073,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41410,
+              "median_x": 16.00022315979004,
+              "median_y": 0.0010087272385135293,
+              "mean_magnitude": 15.999183654785156,
+              "median_magnitude": 16.000240325927734
+            },
+            "reference": {
+              "pixels": 41410,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.8335442543029785,
+            13.06459903717041,
+            18.246023178100586
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.833951473236084,
+            13.020105361938477,
+            18.18436050415039
+          ],
+          "passed": true
+        }
+      ]
+    },
+    "skokloster_castle_p05": {
+      "reference_gate_passed": true,
+      "common_pixels": 40298,
+      "common_coverage": 0.9755022996853062,
+      "fixed_texture_pixels": 41310,
+      "angles": [
+        {
+          "angle_deg": 0,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41310,
+            "mean_epe_px": 0.006581969397937941,
+            "median_epe_px": 0.0061643091153711724,
+            "p90_epe_px": 0.011258192233134142,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 0.00418079923838377,
+              "median_y": -0.0015870269853621721,
+              "mean_magnitude": 0.0065819695591926575,
+              "median_magnitude": 0.006164309103041887
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 3.8098575820542967e-16,
+              "median_magnitude": 0.0
+            }
+          },
+          "raft_motion": {
+            "pixels": 41310,
+            "median_x": 0.00418079923838377,
+            "median_y": -0.0015870269853621721,
+            "mean_magnitude": 0.0065819695591926575,
+            "median_magnitude": 0.006164309103041887
+          }
+        },
+        {
+          "angle_deg": 3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41310,
+            "mean_epe_px": 0.11351167201218886,
+            "median_epe_px": 0.09854600290003805,
+            "p90_epe_px": 0.20369544660807803,
+            "gain_projection": 0.9969888556091592,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 7.773221015930176,
+              "median_y": 0.030750960111618042,
+              "mean_magnitude": 8.216422080993652,
+              "median_magnitude": 7.8662824630737305
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 7.751351356506348,
+              "median_y": -0.0012479661963880062,
+              "mean_magnitude": 8.239639282226562,
+              "median_magnitude": 7.852738857269287
+            }
+          },
+          "raft_motion": {
+            "pixels": 41310,
+            "median_x": 7.773221015930176,
+            "median_y": 0.030750960111618042,
+            "mean_magnitude": 8.216422080993652,
+            "median_magnitude": 7.8662824630737305
+          }
+        },
+        {
+          "angle_deg": -3,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41310,
+            "mean_epe_px": 0.1302436351861851,
+            "median_epe_px": 0.11564805712097376,
+            "p90_epe_px": 0.23419072757919693,
+            "gain_projection": 0.9965721163564054,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": -7.662439346313477,
+              "median_y": 0.04926374554634094,
+              "mean_magnitude": 8.207854270935059,
+              "median_magnitude": 7.752306938171387
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": -7.751357555389404,
+              "median_y": 0.00124795560259372,
+              "mean_magnitude": 8.237848281860352,
+              "median_magnitude": 7.854543685913086
+            }
+          },
+          "raft_motion": {
+            "pixels": 41310,
+            "median_x": -7.662439346313477,
+            "median_y": 0.04926374554634094,
+            "mean_magnitude": 8.207854270935059,
+            "median_magnitude": 7.752306938171387
+          }
+        },
+        {
+          "angle_deg": 5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41310,
+            "mean_epe_px": 0.16118393882763934,
+            "median_epe_px": 0.13238332376414957,
+            "p90_epe_px": 0.29866850422450814,
+            "gain_projection": 0.9975876642366055,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 12.959671020507812,
+              "median_y": 0.03358323499560356,
+              "mean_magnitude": 13.755941390991211,
+              "median_magnitude": 13.107961654663086
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 12.945817947387695,
+              "median_y": -0.0016289582708850503,
+              "mean_magnitude": 13.774576187133789,
+              "median_magnitude": 13.088156700134277
+            }
+          },
+          "raft_motion": {
+            "pixels": 41310,
+            "median_x": 12.959671020507812,
+            "median_y": 0.03358323499560356,
+            "mean_magnitude": 13.755941390991211,
+            "median_magnitude": 13.107961654663086
+          }
+        },
+        {
+          "angle_deg": -5,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 41310,
+            "mean_epe_px": 0.14757439765832206,
+            "median_epe_px": 0.12253340876268591,
+            "p90_epe_px": 0.2672485524999045,
+            "gain_projection": 1.000335186836814,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": -12.875272750854492,
+              "median_y": 0.01665053516626358,
+              "mean_magnitude": 13.773672103881836,
+              "median_magnitude": 13.032058715820312
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": -12.945816040039062,
+              "median_y": 0.0016289380146190524,
+              "mean_magnitude": 13.769548416137695,
+              "median_magnitude": 13.094367980957031
+            }
+          },
+          "raft_motion": {
+            "pixels": 41310,
+            "median_x": -12.875272750854492,
+            "median_y": 0.01665053516626358,
+            "mean_magnitude": 13.773672103881836,
+            "median_magnitude": 13.032058715820312
+          }
+        },
+        {
+          "angle_deg": 7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40902,
+            "mean_epe_px": 0.17206791196167143,
+            "median_epe_px": 0.12408750093928972,
+            "p90_epe_px": 0.2930303289630304,
+            "gain_projection": 0.9971539196728341,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40902,
+              "median_x": 18.06496810913086,
+              "median_y": 0.029497887939214706,
+              "mean_magnitude": 19.241411209106445,
+              "median_magnitude": 18.273353576660156
+            },
+            "reference": {
+              "pixels": 40902,
+              "median_x": 18.08047103881836,
+              "median_y": -0.003943048417568207,
+              "mean_magnitude": 19.276044845581055,
+              "median_magnitude": 18.267004013061523
+            }
+          },
+          "raft_motion": {
+            "pixels": 40902,
+            "median_x": 18.06496810913086,
+            "median_y": 0.029497887939214706,
+            "mean_magnitude": 19.241411209106445,
+            "median_magnitude": 18.273353576660156
+          }
+        },
+        {
+          "angle_deg": -7,
+          "passed": true,
+          "reference_coverage": 1.0,
+          "raft_vs_analytic": {
+            "pixels": 40706,
+            "mean_epe_px": 0.17094316179732658,
+            "median_epe_px": 0.15447234854757363,
+            "p90_epe_px": 0.30349482189268756,
+            "gain_projection": 0.9993926039791513,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 40706,
+              "median_x": -17.988811492919922,
+              "median_y": 0.0319838710129261,
+              "mean_magnitude": 19.20392417907715,
+              "median_magnitude": 18.199268341064453
+            },
+            "reference": {
+              "pixels": 40706,
+              "median_x": -18.08046531677246,
+              "median_y": 0.003557391930371523,
+              "mean_magnitude": 19.220680236816406,
+              "median_magnitude": 18.26569938659668
+            }
+          },
+          "raft_motion": {
+            "pixels": 40706,
+            "median_x": -17.988811492919922,
+            "median_y": 0.0319838710129261,
+            "mean_magnitude": 19.20392417907715,
+            "median_magnitude": 18.199268341064453
+          }
+        }
+      ],
+      "synthetic_controls": [
+        {
+          "shift_px": -16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.02727012560884438,
+            "median_epe_px": 0.02698033456273344,
+            "p90_epe_px": 0.0411549839309771,
+            "gain_projection": 0.9985996749406287,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": -15.975289344787598,
+              "median_y": 8.64686444401741e-06,
+              "mean_magnitude": 15.977602005004883,
+              "median_magnitude": 15.97529125213623
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": -16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        },
+        {
+          "shift_px": -8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.019256836408059908,
+            "median_epe_px": 0.017983184627758806,
+            "p90_epe_px": 0.03263675460748369,
+            "gain_projection": 0.9982156717713766,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": -7.984988689422607,
+              "median_y": 0.00493133720010519,
+              "mean_magnitude": 7.98573112487793,
+              "median_magnitude": 7.984995365142822
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": -8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": -2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.04689538178586595,
+            "median_epe_px": 0.0437294136045796,
+            "p90_epe_px": 0.07705426958994768,
+            "gain_projection": 1.0093286390037348,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": -2.016904830932617,
+              "median_y": 0.03188009560108185,
+              "mean_magnitude": 2.0189898014068604,
+              "median_magnitude": 2.0172457695007324
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": -2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 0,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.0065819693979381625,
+            "median_epe_px": 0.0061643091153711724,
+            "p90_epe_px": 0.011258192233134142,
+            "gain_projection": null,
+            "direction_consensus": null,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 0.00418079923838377,
+              "median_y": -0.0015870269853621721,
+              "mean_magnitude": 0.0065819695591926575,
+              "median_magnitude": 0.006164309103041887
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 0.0,
+              "median_y": 0.0,
+              "mean_magnitude": 0.0,
+              "median_magnitude": 0.0
+            }
+          }
+        },
+        {
+          "shift_px": 2,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.020864833580176396,
+            "median_epe_px": 0.02069513774292006,
+            "p90_epe_px": 0.03030263100398987,
+            "gain_projection": 0.9953613116720403,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 1.9871666431427002,
+              "median_y": 0.011064337566494942,
+              "mean_magnitude": 1.9907621145248413,
+              "median_magnitude": 1.9872157573699951
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 2.0,
+              "median_y": 0.0,
+              "mean_magnitude": 2.0,
+              "median_magnitude": 2.0
+            }
+          }
+        },
+        {
+          "shift_px": 8,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.01615107133313613,
+            "median_epe_px": 0.014650242175845235,
+            "p90_epe_px": 0.028470538270909215,
+            "gain_projection": 1.000905274994233,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 8.006400108337402,
+              "median_y": -0.004325694404542446,
+              "mean_magnitude": 8.007248878479004,
+              "median_magnitude": 8.006410598754883
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 8.0,
+              "median_y": 0.0,
+              "mean_magnitude": 8.0,
+              "median_magnitude": 8.0
+            }
+          }
+        },
+        {
+          "shift_px": 16,
+          "passed": true,
+          "coverage": 1.0,
+          "comparison": {
+            "pixels": 41310,
+            "mean_epe_px": 0.022090520853662823,
+            "median_epe_px": 0.01940285606684266,
+            "p90_epe_px": 0.04146651243481011,
+            "gain_projection": 1.0008194685213159,
+            "direction_consensus": 1.0,
+            "predicted": {
+              "pixels": 41310,
+              "median_x": 16.012563705444336,
+              "median_y": -0.0012765988940373063,
+              "mean_magnitude": 16.01311683654785,
+              "median_magnitude": 16.0125675201416
+            },
+            "reference": {
+              "pixels": 41310,
+              "median_x": 16.0,
+              "median_y": 0.0,
+              "mean_magnitude": 16.0,
+              "median_magnitude": 16.0
+            }
+          }
+        }
+      ],
+      "separation": [
+        {
+          "sign": 1,
+          "magnitudes_px": [
+            7.811310768127441,
+            13.013360023498535,
+            18.190095901489258
+          ],
+          "passed": true
+        },
+        {
+          "sign": -1,
+          "magnitudes_px": [
+            7.693244934082031,
+            12.934584617614746,
+            18.151927947998047
+          ],
+          "passed": true
+        }
+      ]
+    }
+  },
+  "all_reference_gates_passed": true,
+  "interpretation": "Estimator audit; a failed gate is not world-model failure. Thresholds frozen before generated measurements."
+}

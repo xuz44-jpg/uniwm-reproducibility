@@ -1,0 +1,45 @@
+run_name: raenwm_a30_recon
+results_dir: runs/navigation-world-model-runs
+train: true
+batch_size: 1
+num_workers: 2
+model: CDiT-B/2
+lr: 1e-4
+final_lr: 1e-6
+lr_schedule: linear
+head_width: 2048
+head_depth: 2
+head_num_heads: 16
+planning_score_type: dino
+planning_traj_sampler: curve
+normalize: true
+grad_clip_val: 1
+context_size: 4
+wandb:
+  enabled: false
+config_path: external/navigation-world-models/configs/rae_local.yaml
+transport:
+  model_type: velocity
+  path_type: linear
+  loss_type: velocity
+  time_dist_type: uniform
+  time_dist_shift_disable: false
+  num_steps: 50
+  sampling_method: euler
+distance:
+  min_dist_cat: -64
+  max_dist_cat: 64
+len_traj_pred: 64
+image_size: 224
+eval_num_batches: 3
+datasets:
+  recon:
+    data_folder: external/navigation-world-models/data/recon
+    train: external/navigation-world-models/data_splits/recon/train
+    test: external/navigation-world-models/data_splits/recon/test
+    goals_per_obs: 1
+init_weights: external/navigation-world-models/models/raenwm/raenwm_b.pth.tar
+init_weight_key: ema
+ema_device: cpu
+gradient_checkpointing: false
+vae_path: external/navigation-world-models/models/nwm_vae

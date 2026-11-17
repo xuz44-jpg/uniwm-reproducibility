@@ -1,0 +1,40 @@
+{
+  "version": "recon_symmetric_v3",
+  "script_sha256": "bd88fe5e0d492c68097073083ed939c1fa869ccf1b74b172cb01cafea620f7ac",
+  "source_protocol_sha256": "1826425c6512afb461f0fbe57ae0aa41ff59feffeb365113df752d9002c7704d",
+  "source_rows_sha256": {
+    "train": "0ff8129f59875380a3182cc5cc8eaff41deb14a6454294e4a3e44420c480804d",
+    "validation": "85b318cf12e21f7bf063704179c5154eb21c80a46082c86e692d65c771781023"
+  },
+  "native_sources_sha256": {
+    "external/navigation-world-models/repos/nwm/misc.py": "b7cbf2e2d7ef64852540e8528e65f97e4b4e9fbc4534d4f392cb83e8f8115173",
+    "external/navigation-world-models/repos/nwm/datasets.py": "8bd3d4b029e0f1d88853dd0f9f7812c794da081f08c3a3a621969f1569aad761",
+    "external/navigation-world-models/repos/nwm/config/data_config.yaml": "7aa54d6079677c3dc89a87b86ddc675f9a059a6278430e04554def35cc90a967",
+    "external/navigation-world-models/repos/raenwm/misc.py": "aaddf980f9af405aa39a7d1e64573fdf1b7a70079c9c636a76655cc88cd8f2c5",
+    "external/navigation-world-models/repos/raenwm/datasets.py": "83d805974281517b248bdd9e16f16e3e4a5f0f5cf927e3b7b6c12ec7133d25f3",
+    "external/navigation-world-models/repos/raenwm/config/data_config.yaml": "87ccfdd62ff7c223f3661c7b81fdee662f45b561efb4a7fdf7f7a1b0641d5ec2"
+  },
+  "train_pairs": 336,
+  "validation_pairs": 42,
+  "models": [
+    "raenwm",
+    "nwm"
+  ],
+  "initialization": "fresh released EMA checkpoints; not earlier Habitat weights",
+  "train_images": "same symmetric corpus as completed UniWM; no new rendering or starts",
+  "history": "four observed frames, early history repeats first; +1 target only in loss",
+  "validation": "all42 rows x 2 fixed noise/time seeds; restore training RNG after evaluation; no test-based selection",
+  "selection": "actual minimum validation mean including step0; min300, significant relative improvement .005, patience3, max2000 budget",
+  "schedule": "lr1e-5, warmup100 then constant",
+  "optimizer": "AdamW .9/.999 weight_decay0 foreachFalse; clip1; batch1; bf16 autocast",
+  "evaluation_manifest_sha256": "5416eef58de89f8deeb0b4e5ecc20d86eeb0f45de43a72016c36306348a9395e",
+  "predictions_per_model": 72,
+  "original_results_preserved": true,
+  "uniwm_comparator": "reuse completed symmetric validation-best900; identical source336/42",
+  "limitations": [
+    "one house and two test positions",
+    "combined data and selection/schedule change; no isolated causal attribution",
+    "flow proxy is not angle accuracy",
+    "unknown is not failure"
+  ]
+}

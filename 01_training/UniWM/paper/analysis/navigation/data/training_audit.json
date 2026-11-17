@@ -1,0 +1,4481 @@
+{
+  "schema": "context_training_audit_v1",
+  "status": "passed",
+  "study": "artifact:/habitat-yaw-reference",
+  "source_v2": "artifact:/v2",
+  "execution": {
+    "device": "cpu",
+    "imported_world_models": false,
+    "tensor_checkpoints_loaded": false,
+    "optimizer_updates": 0,
+    "new_world_model_predictions": 0,
+    "source_data_modified": false
+  },
+  "dataset": {
+    "scene_count_recorded": 1,
+    "scene_ids_from_plan_glb": [
+      "17DRP5sb8fy"
+    ],
+    "scene_count_from_plan_glb": 1,
+    "collection_plan_hash_matches": true,
+    "evidence": "Collection metadata plus source asset identities; missing fields remain unknown.",
+    "base_pretraining_scene_coverage": "unknown"
+  },
+  "models": {
+    "uniwm": {
+      "identity": {
+        "initialization": "artifact:/checkpoints/1x200",
+        "initialization_sha256": {
+          "adapter_model.safetensors": "d77331778dd6f9117d64a0236007751a9170d1f97d29d6c0cc3b258b3113d5a7",
+          "adapter_config.json": "f29d8261e88c895752463facfa931c45ae6b8e2607c8f581916497352b0e8184",
+          "tokenizer.json": "9dd614516ed7bb494c2619b4ca5a853529786bb7d97f17d0028acd4838af6b28"
+        },
+        "selected_checkpoint_path": "artifact:/v2/uniwm_symmetric_aligned_v3/training/final_adapter/adapter_model.safetensors",
+        "selected_checkpoint_sha256_recorded": "da8a4622005ce894ea39d8332b679253cc6a0aef1ecfbbd7418d3ac2727c9825",
+        "selected_step": 900,
+        "optimizer_steps_completed": 900,
+        "checkpoint_file_present": true,
+        "checkpoint_bytes": 3364752568,
+        "checkpoint_content_loaded": false,
+        "checkpoint_content_rehashed": false,
+        "identity_limitation": "Weight identity is taken from existing metadata; giant tensor files are not loaded or rehashed."
+      },
+      "parameter_scope": {
+        "status": "parsed_not_executed",
+        "source": "artifact:/train_uniwm_symmetric_v3.py",
+        "sha256": "bdf698045456ed305b92bfeeb1710514c4d0b74ff68158f0a5a48eece46374d7",
+        "requires_grad_filtered_named_parameters": [
+          {
+            "line": 75,
+            "expression": "{n: p for (n, p) in model.named_parameters() if p.requires_grad}"
+          }
+        ],
+        "frozen_module_calls": [],
+        "trainable_tensor_assertions": [
+          {
+            "line": 77,
+            "trainable_tensors": 257
+          }
+        ],
+        "configuration_literals": {
+          "init_adapter": {
+            "expression": "BASELINE"
+          },
+          "base_model": "artifact:/models/anole",
+          "lora_r": 16,
+          "lora_alpha": 32,
+          "lora_dropout": 0.05,
+          "lora_targets": "q_proj,k_proj,v_proj,o_proj",
+          "lm_head_mode": "full"
+        },
+        "limitation": "Static declarations do not prove every tensor received a nonzero update.",
+        "matches_recorded_training_script_sha256": true,
+        "update_scope": "LoRA attention projections and full image output head; frozen base/codec per training configuration",
+        "exported_trainable_tensor_count_recorded": 257,
+        "export_sha256_matches_completion": true,
+        "runtime_evidence_path": "artifact:/v2/uniwm_symmetric_aligned_v3/loading_action_audit_v1/cpu_complete.json"
+      },
+      "splits": {
+        "train": {
+          "status": "passed",
+          "model": "uniwm",
+          "split": "train",
+          "rows": 336,
+          "expected_rows": 336,
+          "expected_count_matches": true,
+          "trajectory_count": 32,
+          "trajectory_ids": [
+            "room00_traj00",
+            "room00_traj00_right_first",
+            "room00_traj01",
+            "room00_traj01_right_first",
+            "room01_traj00",
+            "room01_traj00_right_first",
+            "room01_traj01",
+            "room01_traj01_right_first",
+            "room02_traj00",
+            "room02_traj00_right_first",
+            "room02_traj01",
+            "room02_traj01_right_first",
+            "room03_traj00",
+            "room03_traj00_right_first",
+            "room03_traj01",
+            "room03_traj01_right_first",
+            "room04_traj00",
+            "room04_traj00_right_first",
+            "room04_traj01",
+            "room04_traj01_right_first",
+            "room05_traj00",
+            "room05_traj00_right_first",
+            "room05_traj01",
+            "room05_traj01_right_first",
+            "room06_traj00",
+            "room06_traj00_right_first",
+            "room06_traj01",
+            "room06_traj01_right_first",
+            "room07_traj00",
+            "room07_traj00_right_first",
+            "room07_traj01",
+            "room07_traj01_right_first"
+          ],
+          "source_start_group_count": 16,
+          "room_ids": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 128,
+            "all_actions_right": 128,
+            "all_actions_zero_yaw": 80,
+            "history_length_4": 336,
+            "last_history_path_is_current": 336,
+            "pure_turn_left": 96,
+            "pure_turn_right": 96,
+            "pure_turn_zero_yaw": 32,
+            "translation_constrained": 7,
+            "translation_nonzero": 112,
+            "zero_action": 32
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 32,
+            "+5.000000": 32,
+            "+7.000000": 32,
+            "-3.000000": 32,
+            "-5.000000": 32,
+            "-7.000000": 32
+          },
+          "history_unique_paths_histogram": {
+            "1": 32,
+            "2": 32,
+            "3": 32,
+            "4": 240
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 48,
+            "2": 64,
+            "3": 128,
+            "4": 96
+          },
+          "horizon_frames_histogram": {
+            "1": 336
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 32,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 336,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room00_traj00_t00",
+              "room00_traj00_t14",
+              "room00_traj01_t00",
+              "room00_traj01_t14",
+              "room01_traj00_t00"
+            ],
+            "current_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t03",
+              "room00_traj00_t05",
+              "room00_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t02",
+              "room00_traj00_t03",
+              "room00_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 32,
+              "target_equals_goal": 16,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 32,
+              "target_in_actual_inputs_known": 32
+            },
+            "pure_left": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "pure_right": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "translation_zero_yaw": {
+              "rows": 48,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 48,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 48
+            },
+            "translation_left": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            },
+            "translation_right": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "start_image",
+            "goal_image",
+            "current_image"
+          ],
+          "goal_is_input": true,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "0ff8129f59875380a3182cc5cc8eaff41deb14a6454294e4a3e44420c480804d",
+          "rows_sha256_actual": "0ff8129f59875380a3182cc5cc8eaff41deb14a6454294e4a3e44420c480804d",
+          "rows_sha256_matches_recorded": true
+        },
+        "validation": {
+          "status": "passed",
+          "model": "uniwm",
+          "split": "validation",
+          "rows": 42,
+          "expected_rows": 42,
+          "expected_count_matches": true,
+          "trajectory_count": 4,
+          "trajectory_ids": [
+            "room08_traj00",
+            "room08_traj00_right_first",
+            "room08_traj01",
+            "room08_traj01_right_first"
+          ],
+          "source_start_group_count": 2,
+          "room_ids": [
+            "8"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 16,
+            "all_actions_right": 16,
+            "all_actions_zero_yaw": 10,
+            "history_length_4": 42,
+            "last_history_path_is_current": 42,
+            "pure_turn_left": 12,
+            "pure_turn_right": 12,
+            "pure_turn_zero_yaw": 4,
+            "translation_nonzero": 14,
+            "zero_action": 4
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 4,
+            "+5.000000": 4,
+            "+7.000000": 4,
+            "-3.000000": 4,
+            "-5.000000": 4,
+            "-7.000000": 4
+          },
+          "history_unique_paths_histogram": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 30
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 6,
+            "2": 8,
+            "3": 16,
+            "4": 12
+          },
+          "horizon_frames_histogram": {
+            "1": 42
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 4,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 42,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room08_traj00_t00",
+              "room08_traj00_t14",
+              "room08_traj01_t00",
+              "room08_traj01_t14"
+            ],
+            "current_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t03",
+              "room08_traj00_t05",
+              "room08_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t02",
+              "room08_traj00_t03",
+              "room08_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 4,
+              "target_equals_goal": 2,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 4,
+              "target_in_actual_inputs_known": 4
+            },
+            "pure_left": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "pure_right": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "translation_zero_yaw": {
+              "rows": 6,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 6,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 6
+            },
+            "translation_left": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            },
+            "translation_right": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "start_image",
+            "goal_image",
+            "current_image"
+          ],
+          "goal_is_input": true,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "85b318cf12e21f7bf063704179c5154eb21c80a46082c86e692d65c771781023",
+          "rows_sha256_actual": "85b318cf12e21f7bf063704179c5154eb21c80a46082c86e692d65c771781023",
+          "rows_sha256_matches_recorded": true
+        }
+      },
+      "train_validation_sample_id_overlap": [],
+      "native_prefix_parity_recorded": {
+        "status": "passed",
+        "rows": [
+          {
+            "sample_id": "room00_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t06",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t07",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t08",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t09",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t10",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t11",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t12",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t13",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_t14",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room00_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room01_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room02_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2832,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room03_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room04_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2829,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room05_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room06_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj00_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t00",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t01",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t02",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t03",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t04",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room07_traj01_mirror_t05",
+            "split": "train",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2830,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t00",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t01",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t02",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t03",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t04",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t05",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t06",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t07",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t08",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t09",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t10",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t11",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t12",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t13",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_t14",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t00",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t01",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t02",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t03",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t04",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t05",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t06",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t07",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t08",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t09",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t10",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t11",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t12",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t13",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_t14",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t00",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t01",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t02",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t03",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t04",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj00_mirror_t05",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t00",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t01",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t02",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t03",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t04",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          },
+          {
+            "sample_id": "room08_traj01_mirror_t05",
+            "split": "validation",
+            "prefix_token_mismatches": 0,
+            "input_tokens": 2831,
+            "target_tokens": 787
+          }
+        ],
+        "native_prefix_mismatches": 0,
+        "same_state_action_sibling_groups": 18,
+        "method": "intercept unchanged backend.predict before model.generate; independent prompt+codec assembly compares every prefix token",
+        "new_world_model_predictions": 0,
+        "optimizer_updates": 0,
+        "test_images_in_cache": 0
+      },
+      "test_used_for_selection_recorded": false,
+      "training_config": {
+        "script_sha256": "bdf698045456ed305b92bfeeb1710514c4d0b74ff68158f0a5a48eece46374d7",
+        "common_sha256": "092dbab98390de71dbfb9a866eab50f8c7fbe3bef81f0e5bf039948eaf9230cc",
+        "baseline": "artifact:/checkpoints/1x200",
+        "baseline_hashes": {
+          "adapter_model.safetensors": "d77331778dd6f9117d64a0236007751a9170d1f97d29d6c0cc3b258b3113d5a7",
+          "adapter_config.json": "f29d8261e88c895752463facfa931c45ae6b8e2607c8f581916497352b0e8184",
+          "tokenizer.json": "9dd614516ed7bb494c2619b4ca5a853529786bb7d97f17d0028acd4838af6b28"
+        },
+        "training_cache_sha256": "8083d2b6f0d522f854cda3c3b9b42b5befea4745201629fbc9c6c55db8b805d8",
+        "validation_cache_sha256": "01b2288db334b63c439df1b4e0366cf37b5284ee1eae06d7376d7e758a46058c",
+        "protocol_sha256": "1826425c6512afb461f0fbe57ae0aa41ff59feffeb365113df752d9002c7704d",
+        "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+        "master_restore_sha256": "b15fd96450216748d0a7d9f3707945d439878626f61310af73972f4a4767df6d",
+        "seed": 20261023,
+        "batch_size": 1,
+        "learning_rate": 1e-05,
+        "warmup_steps": 100,
+        "schedule": "100-step linear warmup then constant; no forced final step",
+        "optimizer": "AdamW betas .9/.999 weight_decay=0 foreach=False",
+        "gradient_clip": 1.0,
+        "label_smoothing": 0.1,
+        "precision": "BF16 autocast; FP32 trainable masters; frozen base and codec; exact native inference input tokens",
+        "validation_interval": 100,
+        "min_steps_before_plateau_stop": 300,
+        "relative_significant_improvement": 0.005,
+        "patience": 3,
+        "max_steps_budget": 2000,
+        "best_selection": "minimum mean validation label-smoothed CE across all 42 rows, including step0",
+        "loss_threshold": "no absolute CE target; lower validation loss and plateau define convergence",
+        "checkpoint_policy": "resume weights+optimizer+RNG every100 and smoke5; separate best trainable weights; atomic files",
+        "data": {
+          "train": 336,
+          "validation": 42,
+          "test_used_for_selection": 0
+        },
+        "initialization": "fresh original 1x200, never old habitat step2000"
+      },
+      "protocol_version": 3,
+      "goal_condition_interpretation": "start=goal is present throughout these adaptation rows; changing only inference goal can alter training support"
+    },
+    "nwm": {
+      "identity": {
+        "initialization": "artifact:/models/nwm/cdit_xl_ego4d_200000.pth.tar",
+        "initialization_sha256": "6686fff6505ccc3b8e93a368b1bd3bf0051dfb76c2d3c280b77313035ef1d2f8",
+        "selected_checkpoint_path": "artifact:/v2/recon_symmetric_v3/training/nwm/best_trainable.pt",
+        "selected_checkpoint_sha256_recorded": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b",
+        "selected_step": 400,
+        "optimizer_steps_completed": 500,
+        "checkpoint_file_present": true,
+        "checkpoint_bytes": 4047982409,
+        "checkpoint_content_loaded": false,
+        "checkpoint_content_rehashed": false,
+        "identity_limitation": "Weight identity is taken from existing metadata; giant tensor files are not loaded or rehashed."
+      },
+      "parameter_scope": {
+        "status": "parsed_not_executed",
+        "source": "artifact:/train_recon_symmetric_v3.py",
+        "sha256": "7d74bec158d2563ed5e46f569668b653730cb859ff624fcf261c448270424029",
+        "requires_grad_filtered_named_parameters": [
+          {
+            "line": 78,
+            "expression": "{n: p for (n, p) in model.named_parameters() if p.requires_grad}"
+          }
+        ],
+        "frozen_module_calls": [
+          {
+            "line": 50,
+            "expression": "codec.eval().requires_grad_(False)"
+          }
+        ],
+        "trainable_tensor_assertions": [],
+        "configuration_literals": {},
+        "limitation": "Static declarations do not prove every tensor received a nonzero update.",
+        "matches_recorded_training_script_sha256": true,
+        "update_scope": "All native generator parameters with requires_grad=True; codec frozen",
+        "loaded_trainable_tensor_count_recorded": 475,
+        "loaded_all_tensors_match_recorded": true,
+        "runtime_evidence_path": "artifact:/v2/recon_symmetric_v3/evaluation/nwm/loaded_parameters.json",
+        "action_and_relative_time_modules": "Part of native generator; static named_parameters optimizer scope, not per-tensor update proof"
+      },
+      "splits": {
+        "train": {
+          "status": "passed",
+          "model": "nwm",
+          "split": "train",
+          "rows": 336,
+          "expected_rows": 336,
+          "expected_count_matches": true,
+          "trajectory_count": 32,
+          "trajectory_ids": [
+            "room00_traj00",
+            "room00_traj00_right_first",
+            "room00_traj01",
+            "room00_traj01_right_first",
+            "room01_traj00",
+            "room01_traj00_right_first",
+            "room01_traj01",
+            "room01_traj01_right_first",
+            "room02_traj00",
+            "room02_traj00_right_first",
+            "room02_traj01",
+            "room02_traj01_right_first",
+            "room03_traj00",
+            "room03_traj00_right_first",
+            "room03_traj01",
+            "room03_traj01_right_first",
+            "room04_traj00",
+            "room04_traj00_right_first",
+            "room04_traj01",
+            "room04_traj01_right_first",
+            "room05_traj00",
+            "room05_traj00_right_first",
+            "room05_traj01",
+            "room05_traj01_right_first",
+            "room06_traj00",
+            "room06_traj00_right_first",
+            "room06_traj01",
+            "room06_traj01_right_first",
+            "room07_traj00",
+            "room07_traj00_right_first",
+            "room07_traj01",
+            "room07_traj01_right_first"
+          ],
+          "source_start_group_count": 16,
+          "room_ids": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 128,
+            "all_actions_right": 128,
+            "all_actions_zero_yaw": 80,
+            "history_length_4": 336,
+            "last_history_path_is_current": 336,
+            "pure_turn_left": 96,
+            "pure_turn_right": 96,
+            "pure_turn_zero_yaw": 32,
+            "translation_constrained": 7,
+            "translation_nonzero": 112,
+            "zero_action": 32
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 32,
+            "+5.000000": 32,
+            "+7.000000": 32,
+            "-3.000000": 32,
+            "-5.000000": 32,
+            "-7.000000": 32
+          },
+          "history_unique_paths_histogram": {
+            "1": 32,
+            "2": 32,
+            "3": 32,
+            "4": 240
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 48,
+            "2": 64,
+            "3": 128,
+            "4": 96
+          },
+          "horizon_frames_histogram": {
+            "1": 336
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 32,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 336,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room00_traj00_t00",
+              "room00_traj00_t14",
+              "room00_traj01_t00",
+              "room00_traj01_t14",
+              "room01_traj00_t00"
+            ],
+            "current_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t03",
+              "room00_traj00_t05",
+              "room00_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t02",
+              "room00_traj00_t03",
+              "room00_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 32,
+              "target_equals_goal": 16,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 32,
+              "target_in_actual_inputs_known": 32
+            },
+            "pure_left": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "pure_right": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "translation_zero_yaw": {
+              "rows": 48,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 48,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 48
+            },
+            "translation_left": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            },
+            "translation_right": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "history_paths[0:4]"
+          ],
+          "goal_is_input": false,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "rows_sha256_actual": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "rows_sha256_matches_recorded": true
+        },
+        "validation": {
+          "status": "passed",
+          "model": "nwm",
+          "split": "validation",
+          "rows": 42,
+          "expected_rows": 42,
+          "expected_count_matches": true,
+          "trajectory_count": 4,
+          "trajectory_ids": [
+            "room08_traj00",
+            "room08_traj00_right_first",
+            "room08_traj01",
+            "room08_traj01_right_first"
+          ],
+          "source_start_group_count": 2,
+          "room_ids": [
+            "8"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 16,
+            "all_actions_right": 16,
+            "all_actions_zero_yaw": 10,
+            "history_length_4": 42,
+            "last_history_path_is_current": 42,
+            "pure_turn_left": 12,
+            "pure_turn_right": 12,
+            "pure_turn_zero_yaw": 4,
+            "translation_nonzero": 14,
+            "zero_action": 4
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 4,
+            "+5.000000": 4,
+            "+7.000000": 4,
+            "-3.000000": 4,
+            "-5.000000": 4,
+            "-7.000000": 4
+          },
+          "history_unique_paths_histogram": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 30
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 6,
+            "2": 8,
+            "3": 16,
+            "4": 12
+          },
+          "horizon_frames_histogram": {
+            "1": 42
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 4,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 42,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room08_traj00_t00",
+              "room08_traj00_t14",
+              "room08_traj01_t00",
+              "room08_traj01_t14"
+            ],
+            "current_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t03",
+              "room08_traj00_t05",
+              "room08_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t02",
+              "room08_traj00_t03",
+              "room08_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 4,
+              "target_equals_goal": 2,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 4,
+              "target_in_actual_inputs_known": 4
+            },
+            "pure_left": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "pure_right": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "translation_zero_yaw": {
+              "rows": 6,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 6,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 6
+            },
+            "translation_left": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            },
+            "translation_right": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "history_paths[0:4]"
+          ],
+          "goal_is_input": false,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74",
+          "rows_sha256_actual": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74",
+          "rows_sha256_matches_recorded": true
+        }
+      },
+      "train_validation_sample_id_overlap": [],
+      "native_prefix_parity_recorded": null,
+      "test_used_for_selection_recorded": false,
+      "training_config": {
+        "model": "nwm",
+        "script_sha256": "7d74bec158d2563ed5e46f569668b653730cb859ff624fcf261c448270424029",
+        "protocol_sha256": "bb5599d4fbff3d0677ecd830a08c6f764614e7be8bb55f2cf3e160e2b414852c",
+        "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+        "baseline": "artifact:/models/nwm/cdit_xl_ego4d_200000.pth.tar",
+        "baseline_sha256": "6686fff6505ccc3b8e93a368b1bd3bf0051dfb76c2d3c280b77313035ef1d2f8",
+        "data_rows_sha256": {
+          "train": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "validation": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74"
+        },
+        "seed": 20261023,
+        "batch_size": 1,
+        "lr": 1e-05,
+        "warmup100": true,
+        "after_warmup": "constant",
+        "max_steps_budget": 2000,
+        "optimizer": "AdamW betas .9/.999 weight_decay0 foreachFalse",
+        "clip_norm": 1.0,
+        "precision": "BF16 autocast and FP32 trainable weights",
+        "native_loss": "diffusion.training_losses",
+        "validation_rows": 42,
+        "validation_noise_seeds_per_row": 2,
+        "validation_seed_base": 87261026,
+        "validation_interval": 100,
+        "validation_rng_restore": true,
+        "stopping": {
+          "min_steps": 300,
+          "relative_delta": 0.005,
+          "patience": 3
+        },
+        "selection": "minimum actual fixed-noise validation loss, including baseline0; no test selection",
+        "checkpoint": "atomic latest weights+optimizer+RNG at smoke5/every100, separate best model",
+        "ema": "released EMA initialization, evaluate raw validation-best model"
+      },
+      "protocol_version": "recon_symmetric_v3",
+      "goal_condition_interpretation": "Row goal fields are not used by this model; generator receives four history frames, endpoint action and frame-offset condition"
+    },
+    "raenwm": {
+      "identity": {
+        "initialization": "artifact:/models/raenwm/raenwm_b.pth.tar",
+        "initialization_sha256": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0",
+        "selected_checkpoint_path": "artifact:/v2/recon_symmetric_v3/training/raenwm/best_trainable.pt",
+        "selected_checkpoint_sha256_recorded": "786e799de4d466c665c55a87b1cfca8f4ffbc998cf59ce30b0c64d303f096e76",
+        "selected_step": 800,
+        "optimizer_steps_completed": 1100,
+        "checkpoint_file_present": true,
+        "checkpoint_bytes": 1457037407,
+        "checkpoint_content_loaded": false,
+        "checkpoint_content_rehashed": false,
+        "identity_limitation": "Weight identity is taken from existing metadata; giant tensor files are not loaded or rehashed."
+      },
+      "parameter_scope": {
+        "status": "parsed_not_executed",
+        "source": "artifact:/train_recon_symmetric_v3.py",
+        "sha256": "7d74bec158d2563ed5e46f569668b653730cb859ff624fcf261c448270424029",
+        "requires_grad_filtered_named_parameters": [
+          {
+            "line": 78,
+            "expression": "{n: p for (n, p) in model.named_parameters() if p.requires_grad}"
+          }
+        ],
+        "frozen_module_calls": [
+          {
+            "line": 50,
+            "expression": "codec.eval().requires_grad_(False)"
+          }
+        ],
+        "trainable_tensor_assertions": [],
+        "configuration_literals": {},
+        "limitation": "Static declarations do not prove every tensor received a nonzero update.",
+        "matches_recorded_training_script_sha256": true,
+        "update_scope": "All native generator parameters with requires_grad=True; codec frozen",
+        "loaded_trainable_tensor_count_recorded": 304,
+        "loaded_all_tensors_match_recorded": true,
+        "runtime_evidence_path": "artifact:/v2/recon_symmetric_v3/evaluation/raenwm/loaded_parameters.json",
+        "action_and_relative_time_modules": "Part of native generator; static named_parameters optimizer scope, not per-tensor update proof"
+      },
+      "splits": {
+        "train": {
+          "status": "passed",
+          "model": "raenwm",
+          "split": "train",
+          "rows": 336,
+          "expected_rows": 336,
+          "expected_count_matches": true,
+          "trajectory_count": 32,
+          "trajectory_ids": [
+            "room00_traj00",
+            "room00_traj00_right_first",
+            "room00_traj01",
+            "room00_traj01_right_first",
+            "room01_traj00",
+            "room01_traj00_right_first",
+            "room01_traj01",
+            "room01_traj01_right_first",
+            "room02_traj00",
+            "room02_traj00_right_first",
+            "room02_traj01",
+            "room02_traj01_right_first",
+            "room03_traj00",
+            "room03_traj00_right_first",
+            "room03_traj01",
+            "room03_traj01_right_first",
+            "room04_traj00",
+            "room04_traj00_right_first",
+            "room04_traj01",
+            "room04_traj01_right_first",
+            "room05_traj00",
+            "room05_traj00_right_first",
+            "room05_traj01",
+            "room05_traj01_right_first",
+            "room06_traj00",
+            "room06_traj00_right_first",
+            "room06_traj01",
+            "room06_traj01_right_first",
+            "room07_traj00",
+            "room07_traj00_right_first",
+            "room07_traj01",
+            "room07_traj01_right_first"
+          ],
+          "source_start_group_count": 16,
+          "room_ids": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 128,
+            "all_actions_right": 128,
+            "all_actions_zero_yaw": 80,
+            "history_length_4": 336,
+            "last_history_path_is_current": 336,
+            "pure_turn_left": 96,
+            "pure_turn_right": 96,
+            "pure_turn_zero_yaw": 32,
+            "translation_constrained": 7,
+            "translation_nonzero": 112,
+            "zero_action": 32
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 32,
+            "+5.000000": 32,
+            "+7.000000": 32,
+            "-3.000000": 32,
+            "-5.000000": 32,
+            "-7.000000": 32
+          },
+          "history_unique_paths_histogram": {
+            "1": 32,
+            "2": 32,
+            "3": 32,
+            "4": 240
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 48,
+            "2": 64,
+            "3": 128,
+            "4": 96
+          },
+          "horizon_frames_histogram": {
+            "1": 336
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 112,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 32,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 336,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 128,
+              "known": 336,
+              "unknown": 0,
+              "total": 336,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room00_traj00_t00",
+              "room00_traj00_t14",
+              "room00_traj01_t00",
+              "room00_traj01_t14",
+              "room01_traj00_t00"
+            ],
+            "current_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t03",
+              "room00_traj00_t05",
+              "room00_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room00_traj00_t00",
+              "room00_traj00_t01",
+              "room00_traj00_t02",
+              "room00_traj00_t03",
+              "room00_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room00_traj00_t00",
+              "room00_traj00_t02",
+              "room00_traj00_t04",
+              "room00_traj00_t06",
+              "room00_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 32,
+              "target_equals_goal": 16,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 32,
+              "target_in_actual_inputs_known": 32
+            },
+            "pure_left": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "pure_right": {
+              "rows": 96,
+              "target_equals_goal": 48,
+              "target_equals_goal_known": 96,
+              "target_in_actual_inputs": 48,
+              "target_in_actual_inputs_known": 96
+            },
+            "translation_zero_yaw": {
+              "rows": 48,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 48,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 48
+            },
+            "translation_left": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            },
+            "translation_right": {
+              "rows": 32,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 32,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 32
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "history_paths[0:4]"
+          ],
+          "goal_is_input": false,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "rows_sha256_actual": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "rows_sha256_matches_recorded": true
+        },
+        "validation": {
+          "status": "passed",
+          "model": "raenwm",
+          "split": "validation",
+          "rows": 42,
+          "expected_rows": 42,
+          "expected_count_matches": true,
+          "trajectory_count": 4,
+          "trajectory_ids": [
+            "room08_traj00",
+            "room08_traj00_right_first",
+            "room08_traj01",
+            "room08_traj01_right_first"
+          ],
+          "source_start_group_count": 2,
+          "room_ids": [
+            "8"
+          ],
+          "explicit_row_scene_ids": [],
+          "counters": {
+            "all_actions_left": 16,
+            "all_actions_right": 16,
+            "all_actions_zero_yaw": 10,
+            "history_length_4": 42,
+            "last_history_path_is_current": 42,
+            "pure_turn_left": 12,
+            "pure_turn_right": 12,
+            "pure_turn_zero_yaw": 4,
+            "translation_nonzero": 14,
+            "zero_action": 4
+          },
+          "pure_turn_definition": "translation_norm <= 1e-5 native meters and abs(yaw_rad) > 1e-6",
+          "pure_turn_angle_deg_histogram": {
+            "+3.000000": 4,
+            "+5.000000": 4,
+            "+7.000000": 4,
+            "-3.000000": 4,
+            "-5.000000": 4,
+            "-7.000000": 4
+          },
+          "history_unique_paths_histogram": {
+            "1": 4,
+            "2": 4,
+            "3": 4,
+            "4": 30
+          },
+          "history_unique_png_sha256_histogram": {
+            "1": 6,
+            "2": 8,
+            "3": 16,
+            "4": 12
+          },
+          "horizon_frames_histogram": {
+            "1": 42
+          },
+          "png_hash_relations": {
+            "target_equals_goal": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_start": {
+              "count": 14,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.3333333333333333,
+              "fraction_of_all": 0.3333333333333333
+            },
+            "target_equals_current": {
+              "count": 4,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.09523809523809523,
+              "fraction_of_all": 0.09523809523809523
+            },
+            "current_equals_goal": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "start_equals_goal": {
+              "count": 42,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 1.0,
+              "fraction_of_all": 1.0
+            },
+            "target_in_uniwm_inputs": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_recon_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            },
+            "target_in_any_history": {
+              "count": 16,
+              "known": 42,
+              "unknown": 0,
+              "total": 42,
+              "fraction_of_known": 0.38095238095238093,
+              "fraction_of_all": 0.38095238095238093
+            }
+          },
+          "png_hash_match_examples": {
+            "target_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_start": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj01_t00"
+            ],
+            "target_equals_current": [
+              "room08_traj00_t00",
+              "room08_traj00_t14",
+              "room08_traj01_t00",
+              "room08_traj01_t14"
+            ],
+            "current_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t03",
+              "room08_traj00_t05",
+              "room08_traj00_t07"
+            ],
+            "start_equals_goal": [
+              "room08_traj00_t00",
+              "room08_traj00_t01",
+              "room08_traj00_t02",
+              "room08_traj00_t03",
+              "room08_traj00_t04"
+            ],
+            "target_in_uniwm_inputs": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_recon_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ],
+            "target_in_any_history": [
+              "room08_traj00_t00",
+              "room08_traj00_t02",
+              "room08_traj00_t04",
+              "room08_traj00_t06",
+              "room08_traj00_t14"
+            ]
+          },
+          "invalid_rows": [],
+          "conditions_by_action_group": {
+            "pure_zero_yaw": {
+              "rows": 4,
+              "target_equals_goal": 2,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 4,
+              "target_in_actual_inputs_known": 4
+            },
+            "pure_left": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "pure_right": {
+              "rows": 12,
+              "target_equals_goal": 6,
+              "target_equals_goal_known": 12,
+              "target_in_actual_inputs": 6,
+              "target_in_actual_inputs_known": 12
+            },
+            "translation_zero_yaw": {
+              "rows": 6,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 6,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 6
+            },
+            "translation_left": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            },
+            "translation_right": {
+              "rows": 4,
+              "target_equals_goal": 0,
+              "target_equals_goal_known": 4,
+              "target_in_actual_inputs": 0,
+              "target_in_actual_inputs_known": 4
+            }
+          },
+          "sample_ids_unique": true,
+          "actual_model_inputs": [
+            "history_paths[0:4]"
+          ],
+          "goal_is_input": false,
+          "hash_equality_interpretation": "Exact PNG file identity; repeats and valid returns are not automatically future leakage.",
+          "rows_sha256_expected": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74",
+          "rows_sha256_actual": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74",
+          "rows_sha256_matches_recorded": true
+        }
+      },
+      "train_validation_sample_id_overlap": [],
+      "native_prefix_parity_recorded": null,
+      "test_used_for_selection_recorded": false,
+      "training_config": {
+        "model": "raenwm",
+        "script_sha256": "7d74bec158d2563ed5e46f569668b653730cb859ff624fcf261c448270424029",
+        "protocol_sha256": "bb5599d4fbff3d0677ecd830a08c6f764614e7be8bb55f2cf3e160e2b414852c",
+        "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+        "baseline": "artifact:/models/raenwm/raenwm_b.pth.tar",
+        "baseline_sha256": "97244579618eb0e376355157a5c1df7a83e534cb1ca35d8ff4e43c4fb4f6a9d0",
+        "data_rows_sha256": {
+          "train": "8101ca85e76f8b477bcf6eb083a80a98839ebc774474eac3b9945da6f79a86eb",
+          "validation": "36ccbf7e4b12fe8d97cc0fa2e550027a82d693b34f80fc63f67e7845f058fb74"
+        },
+        "seed": 20261023,
+        "batch_size": 1,
+        "lr": 1e-05,
+        "warmup100": true,
+        "after_warmup": "constant",
+        "max_steps_budget": 2000,
+        "optimizer": "AdamW betas .9/.999 weight_decay0 foreachFalse",
+        "clip_norm": 1.0,
+        "precision": "BF16 autocast and FP32 trainable weights",
+        "native_loss": "Transport.training_losses",
+        "validation_rows": 42,
+        "validation_noise_seeds_per_row": 2,
+        "validation_seed_base": 87261026,
+        "validation_interval": 100,
+        "validation_rng_restore": true,
+        "stopping": {
+          "min_steps": 300,
+          "relative_delta": 0.005,
+          "patience": 3
+        },
+        "selection": "minimum actual fixed-noise validation loss, including baseline0; no test selection",
+        "checkpoint": "atomic latest weights+optimizer+RNG at smoke5/every100, separate best model",
+        "ema": "released EMA initialization, evaluate raw validation-best model"
+      },
+      "protocol_version": "recon_symmetric_v3",
+      "goal_condition_interpretation": "Row goal fields are not used by this model; generator receives four history frames, endpoint action and frame-offset condition"
+    }
+  },
+  "same_underlying_corpus": {
+    "train": true,
+    "validation": true
+  },
+  "image_hash_evidence": {
+    "unique_paths": 396,
+    "fresh_file_hashes": 396,
+    "recorded_only_or_missing": 0,
+    "equality": "SHA-256 of PNG file bytes"
+  },
+  "missing": [],
+  "errors": [],
+  "limitations": [
+    "One adaptation scene and correlated repeated views do not establish sufficient training or model-wide capability.",
+    "PNG target/input matches can be legitimate zero motion or return-to-start; they diagnose copying opportunities, not automatically label leakage.",
+    "Changing only inference history or goal is a condition intervention and may change training support.",
+    "Native rel_t is endpoint frame offset divided by 128, not seconds; simulator steps are not calibrated hardware time.",
+    "Generator parameter scopes are source and prior metadata evidence; no new forward pass, gradient or checkpoint tensor inspection occurs.",
+    "UniWM initialization is the existing 1X-200 adaptation, not a verified official navigation checkpoint.",
+    "Missing metadata, images or checkpoint files remain explicitly unavailable; prior recorded SHA values are distinguished from freshly checked files."
+  ]
+}

@@ -1,0 +1,2760 @@
+{
+  "schema_version": 1,
+  "purpose": "development pilot, not confirmatory results",
+  "selection_seed": 20261021,
+  "model_init_seed": 42,
+  "expected_images": 240,
+  "selection": "10 left + 10 right; 0.05 <= abs(dyaw) <= 0.20 rad; 20 distinct source groups; no flow/prediction filtering",
+  "conditions": [
+    "original",
+    "zero",
+    "yaw_flip",
+    "perturbed"
+  ],
+  "perturbation": "multiply recorded yaw by 1.2; keep dx,dy; token strings must be distinct",
+  "protocol": "native start + goal + VQ-reconstructed current; empty memory; raw next is reference only",
+  "split": {
+    "evidence": "Reconstructed from local navigation.py seed=42, trajectory split, max_train_trajs=200 and PLAN_2026.md; not a saved training manifest",
+    "training_trajectories": [
+      "traj_00376",
+      "traj_00213",
+      "traj_00341",
+      "traj_00127",
+      "traj_00314",
+      "traj_00092",
+      "traj_00463",
+      "traj_00182",
+      "traj_00199",
+      "traj_00237",
+      "traj_00297",
+      "traj_00444",
+      "traj_00093",
+      "traj_00146",
+      "traj_00223",
+      "traj_00031",
+      "traj_00008",
+      "traj_00120",
+      "traj_00401",
+      "traj_00163",
+      "traj_00340",
+      "traj_00241",
+      "traj_00392",
+      "traj_00045",
+      "traj_00225",
+      "traj_00196",
+      "traj_00037",
+      "traj_00211",
+      "traj_00007",
+      "traj_00447",
+      "traj_00233",
+      "traj_00160",
+      "traj_00253",
+      "traj_00425",
+      "traj_00154",
+      "traj_00251",
+      "traj_00495",
+      "traj_00041",
+      "traj_00021",
+      "traj_00380",
+      "traj_00074",
+      "traj_00068",
+      "traj_00132",
+      "traj_00158",
+      "traj_00053",
+      "traj_00175",
+      "traj_00382",
+      "traj_00201",
+      "traj_00402",
+      "traj_00442",
+      "traj_00415",
+      "traj_00383",
+      "traj_00247",
+      "traj_00417",
+      "traj_00435",
+      "traj_00156",
+      "traj_00449",
+      "traj_00218",
+      "traj_00151",
+      "traj_00050",
+      "traj_00059",
+      "traj_00310",
+      "traj_00212",
+      "traj_00188",
+      "traj_00469",
+      "traj_00318",
+      "traj_00452",
+      "traj_00476",
+      "traj_00397",
+      "traj_00004",
+      "traj_00418",
+      "traj_00479",
+      "traj_00322",
+      "traj_00353",
+      "traj_00139",
+      "traj_00284",
+      "traj_00096",
+      "traj_00262",
+      "traj_00280",
+      "traj_00486",
+      "traj_00337",
+      "traj_00088",
+      "traj_00268",
+      "traj_00378",
+      "traj_00200",
+      "traj_00342",
+      "traj_00227",
+      "traj_00339",
+      "traj_00404",
+      "traj_00011",
+      "traj_00006",
+      "traj_00278",
+      "traj_00171",
+      "traj_00482",
+      "traj_00261",
+      "traj_00354",
+      "traj_00407",
+      "traj_00100",
+      "traj_00494",
+      "traj_00431",
+      "traj_00026",
+      "traj_00077",
+      "traj_00266",
+      "traj_00269",
+      "traj_00246",
+      "traj_00228",
+      "traj_00095",
+      "traj_00489",
+      "traj_00296",
+      "traj_00153",
+      "traj_00131",
+      "traj_00244",
+      "traj_00294",
+      "traj_00453",
+      "traj_00362",
+      "traj_00501",
+      "traj_00085",
+      "traj_00411",
+      "traj_00330",
+      "traj_00403",
+      "traj_00164",
+      "traj_00408",
+      "traj_00038",
+      "traj_00312",
+      "traj_00069",
+      "traj_00106",
+      "traj_00467",
+      "traj_00277",
+      "traj_00072",
+      "traj_00094",
+      "traj_00062",
+      "traj_00215",
+      "traj_00089",
+      "traj_00162",
+      "traj_00147",
+      "traj_00129",
+      "traj_00470",
+      "traj_00141",
+      "traj_00217",
+      "traj_00143",
+      "traj_00002",
+      "traj_00018",
+      "traj_00155",
+      "traj_00292",
+      "traj_00076",
+      "traj_00386",
+      "traj_00355",
+      "traj_00198",
+      "traj_00436",
+      "traj_00371",
+      "traj_00459",
+      "traj_00066",
+      "traj_00180",
+      "traj_00133",
+      "traj_00144",
+      "traj_00177",
+      "traj_00416",
+      "traj_00170",
+      "traj_00289",
+      "traj_00257",
+      "traj_00190",
+      "traj_00334",
+      "traj_00145",
+      "traj_00438",
+      "traj_00238",
+      "traj_00210",
+      "traj_00434",
+      "traj_00324",
+      "traj_00017",
+      "traj_00458",
+      "traj_00020",
+      "traj_00130",
+      "traj_00179",
+      "traj_00303",
+      "traj_00293",
+      "traj_00344",
+      "traj_00307",
+      "traj_00149",
+      "traj_00291",
+      "traj_00184",
+      "traj_00333",
+      "traj_00203",
+      "traj_00478",
+      "traj_00428",
+      "traj_00014",
+      "traj_00055",
+      "traj_00075",
+      "traj_00230",
+      "traj_00039",
+      "traj_00207",
+      "traj_00455",
+      "traj_00267",
+      "traj_00265",
+      "traj_00187",
+      "traj_00178",
+      "traj_00226",
+      "traj_00375",
+      "traj_00430",
+      "traj_00361",
+      "traj_00099"
+    ],
+    "training_sources": [
+      [
+        0,
+        12
+      ],
+      [
+        0,
+        16
+      ],
+      [
+        0,
+        18
+      ],
+      [
+        0,
+        20
+      ],
+      [
+        0,
+        22
+      ],
+      [
+        0,
+        23
+      ],
+      [
+        0,
+        25
+      ],
+      [
+        0,
+        28
+      ],
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        182
+      ],
+      [
+        0,
+        188
+      ],
+      [
+        0,
+        192
+      ],
+      [
+        0,
+        198
+      ],
+      [
+        0,
+        200
+      ],
+      [
+        0,
+        202
+      ],
+      [
+        0,
+        206
+      ],
+      [
+        0,
+        212
+      ],
+      [
+        0,
+        214
+      ],
+      [
+        0,
+        216
+      ],
+      [
+        0,
+        220
+      ],
+      [
+        0,
+        222
+      ],
+      [
+        0,
+        226
+      ],
+      [
+        0,
+        228
+      ],
+      [
+        0,
+        230
+      ],
+      [
+        0,
+        232
+      ],
+      [
+        0,
+        234
+      ],
+      [
+        0,
+        236
+      ],
+      [
+        0,
+        238
+      ],
+      [
+        0,
+        246
+      ],
+      [
+        0,
+        248
+      ],
+      [
+        0,
+        250
+      ],
+      [
+        0,
+        252
+      ],
+      [
+        0,
+        254
+      ],
+      [
+        0,
+        256
+      ],
+      [
+        0,
+        260
+      ],
+      [
+        0,
+        261
+      ],
+      [
+        0,
+        267
+      ],
+      [
+        0,
+        283
+      ],
+      [
+        0,
+        289
+      ],
+      [
+        0,
+        291
+      ],
+      [
+        0,
+        293
+      ],
+      [
+        0,
+        295
+      ],
+      [
+        0,
+        297
+      ],
+      [
+        0,
+        301
+      ],
+      [
+        0,
+        303
+      ],
+      [
+        0,
+        305
+      ],
+      [
+        0,
+        307
+      ],
+      [
+        0,
+        309
+      ],
+      [
+        0,
+        311
+      ],
+      [
+        0,
+        512
+      ],
+      [
+        1,
+        532
+      ],
+      [
+        1,
+        563
+      ],
+      [
+        1,
+        576
+      ],
+      [
+        1,
+        596
+      ],
+      [
+        2,
+        1281
+      ],
+      [
+        2,
+        1285
+      ],
+      [
+        2,
+        1287
+      ],
+      [
+        2,
+        1288
+      ],
+      [
+        2,
+        1289
+      ],
+      [
+        2,
+        1294
+      ],
+      [
+        2,
+        1296
+      ],
+      [
+        2,
+        1299
+      ],
+      [
+        2,
+        1300
+      ],
+      [
+        2,
+        1303
+      ],
+      [
+        2,
+        1308
+      ],
+      [
+        2,
+        1311
+      ],
+      [
+        2,
+        1312
+      ],
+      [
+        2,
+        1313
+      ],
+      [
+        2,
+        1316
+      ],
+      [
+        2,
+        1319
+      ],
+      [
+        2,
+        1320
+      ],
+      [
+        3,
+        1408
+      ],
+      [
+        3,
+        1415
+      ],
+      [
+        3,
+        1422
+      ],
+      [
+        3,
+        1427
+      ],
+      [
+        3,
+        1436
+      ],
+      [
+        3,
+        1442
+      ],
+      [
+        3,
+        1453
+      ],
+      [
+        3,
+        1463
+      ],
+      [
+        3,
+        1470
+      ],
+      [
+        3,
+        1481
+      ],
+      [
+        3,
+        1489
+      ],
+      [
+        3,
+        1490
+      ],
+      [
+        3,
+        1505
+      ],
+      [
+        3,
+        1509
+      ],
+      [
+        3,
+        1514
+      ],
+      [
+        3,
+        1520
+      ],
+      [
+        3,
+        1527
+      ],
+      [
+        3,
+        1535
+      ],
+      [
+        3,
+        1552
+      ],
+      [
+        3,
+        1562
+      ],
+      [
+        3,
+        1567
+      ],
+      [
+        3,
+        1573
+      ],
+      [
+        3,
+        1577
+      ],
+      [
+        3,
+        1581
+      ],
+      [
+        3,
+        1593
+      ],
+      [
+        3,
+        1599
+      ],
+      [
+        3,
+        1607
+      ],
+      [
+        3,
+        1937
+      ],
+      [
+        3,
+        1940
+      ],
+      [
+        3,
+        1943
+      ],
+      [
+        4,
+        1946
+      ],
+      [
+        4,
+        1986
+      ],
+      [
+        4,
+        1989
+      ],
+      [
+        4,
+        1991
+      ],
+      [
+        4,
+        1992
+      ],
+      [
+        4,
+        1993
+      ],
+      [
+        4,
+        1994
+      ],
+      [
+        4,
+        1996
+      ],
+      [
+        4,
+        2000
+      ],
+      [
+        4,
+        2001
+      ],
+      [
+        4,
+        2002
+      ],
+      [
+        4,
+        2006
+      ],
+      [
+        4,
+        2007
+      ],
+      [
+        4,
+        2034
+      ],
+      [
+        4,
+        2054
+      ],
+      [
+        4,
+        2059
+      ],
+      [
+        4,
+        2069
+      ],
+      [
+        4,
+        2078
+      ],
+      [
+        4,
+        2089
+      ],
+      [
+        4,
+        2107
+      ],
+      [
+        4,
+        2109
+      ],
+      [
+        4,
+        2110
+      ],
+      [
+        4,
+        2111
+      ],
+      [
+        4,
+        2112
+      ],
+      [
+        4,
+        2113
+      ],
+      [
+        4,
+        2114
+      ],
+      [
+        4,
+        2115
+      ],
+      [
+        4,
+        2117
+      ],
+      [
+        5,
+        2502
+      ],
+      [
+        5,
+        2508
+      ],
+      [
+        5,
+        2512
+      ],
+      [
+        5,
+        2514
+      ],
+      [
+        5,
+        2520
+      ],
+      [
+        5,
+        2522
+      ],
+      [
+        5,
+        2524
+      ],
+      [
+        5,
+        2528
+      ],
+      [
+        5,
+        2536
+      ],
+      [
+        5,
+        2540
+      ],
+      [
+        5,
+        2546
+      ],
+      [
+        5,
+        2550
+      ],
+      [
+        5,
+        2733
+      ],
+      [
+        5,
+        2735
+      ],
+      [
+        5,
+        2737
+      ],
+      [
+        5,
+        2741
+      ],
+      [
+        5,
+        2745
+      ],
+      [
+        5,
+        2747
+      ],
+      [
+        5,
+        2752
+      ],
+      [
+        5,
+        2754
+      ],
+      [
+        5,
+        2756
+      ],
+      [
+        5,
+        2760
+      ],
+      [
+        5,
+        2762
+      ],
+      [
+        5,
+        2766
+      ],
+      [
+        5,
+        2772
+      ]
+    ],
+    "unseen_trajectories": 195,
+    "unseen_sources": 128,
+    "pilot_sources": [
+      [
+        0,
+        10
+      ],
+      [
+        0,
+        194
+      ],
+      [
+        0,
+        218
+      ],
+      [
+        0,
+        242
+      ],
+      [
+        0,
+        285
+      ],
+      [
+        0,
+        287
+      ],
+      [
+        2,
+        1297
+      ],
+      [
+        2,
+        1301
+      ],
+      [
+        3,
+        1464
+      ],
+      [
+        3,
+        1496
+      ],
+      [
+        3,
+        1558
+      ],
+      [
+        3,
+        1938
+      ],
+      [
+        4,
+        1947
+      ],
+      [
+        4,
+        1949
+      ],
+      [
+        4,
+        1997
+      ],
+      [
+        4,
+        2030
+      ],
+      [
+        5,
+        2530
+      ],
+      [
+        5,
+        2544
+      ],
+      [
+        5,
+        2743
+      ],
+      [
+        5,
+        2768
+      ]
+    ],
+    "unused_sources": [
+      [
+        0,
+        14
+      ],
+      [
+        0,
+        24
+      ],
+      [
+        0,
+        27
+      ],
+      [
+        0,
+        33
+      ],
+      [
+        0,
+        184
+      ],
+      [
+        0,
+        186
+      ],
+      [
+        0,
+        190
+      ],
+      [
+        0,
+        196
+      ],
+      [
+        0,
+        204
+      ],
+      [
+        0,
+        208
+      ],
+      [
+        0,
+        210
+      ],
+      [
+        0,
+        224
+      ],
+      [
+        0,
+        240
+      ],
+      [
+        0,
+        244
+      ],
+      [
+        0,
+        258
+      ],
+      [
+        0,
+        263
+      ],
+      [
+        0,
+        265
+      ],
+      [
+        0,
+        269
+      ],
+      [
+        0,
+        271
+      ],
+      [
+        0,
+        273
+      ],
+      [
+        0,
+        275
+      ],
+      [
+        0,
+        277
+      ],
+      [
+        0,
+        279
+      ],
+      [
+        0,
+        281
+      ],
+      [
+        0,
+        299
+      ],
+      [
+        1,
+        597
+      ],
+      [
+        1,
+        611
+      ],
+      [
+        2,
+        1279
+      ],
+      [
+        2,
+        1280
+      ],
+      [
+        2,
+        1282
+      ],
+      [
+        2,
+        1283
+      ],
+      [
+        2,
+        1284
+      ],
+      [
+        2,
+        1286
+      ],
+      [
+        2,
+        1290
+      ],
+      [
+        2,
+        1295
+      ],
+      [
+        2,
+        1298
+      ],
+      [
+        2,
+        1304
+      ],
+      [
+        2,
+        1305
+      ],
+      [
+        2,
+        1306
+      ],
+      [
+        2,
+        1307
+      ],
+      [
+        2,
+        1309
+      ],
+      [
+        2,
+        1315
+      ],
+      [
+        2,
+        1317
+      ],
+      [
+        3,
+        1414
+      ],
+      [
+        3,
+        1426
+      ],
+      [
+        3,
+        1449
+      ],
+      [
+        3,
+        1450
+      ],
+      [
+        3,
+        1456
+      ],
+      [
+        3,
+        1457
+      ],
+      [
+        3,
+        1471
+      ],
+      [
+        3,
+        1484
+      ],
+      [
+        3,
+        1498
+      ],
+      [
+        3,
+        1522
+      ],
+      [
+        3,
+        1540
+      ],
+      [
+        3,
+        1548
+      ],
+      [
+        3,
+        1587
+      ],
+      [
+        3,
+        1603
+      ],
+      [
+        3,
+        1939
+      ],
+      [
+        3,
+        1941
+      ],
+      [
+        3,
+        1942
+      ],
+      [
+        4,
+        1945
+      ],
+      [
+        4,
+        1948
+      ],
+      [
+        4,
+        1985
+      ],
+      [
+        4,
+        1987
+      ],
+      [
+        4,
+        1988
+      ],
+      [
+        4,
+        1990
+      ],
+      [
+        4,
+        1995
+      ],
+      [
+        4,
+        1998
+      ],
+      [
+        4,
+        1999
+      ],
+      [
+        4,
+        2003
+      ],
+      [
+        4,
+        2004
+      ],
+      [
+        4,
+        2005
+      ],
+      [
+        4,
+        2008
+      ],
+      [
+        4,
+        2012
+      ],
+      [
+        4,
+        2016
+      ],
+      [
+        4,
+        2020
+      ],
+      [
+        4,
+        2025
+      ],
+      [
+        4,
+        2039
+      ],
+      [
+        4,
+        2044
+      ],
+      [
+        4,
+        2050
+      ],
+      [
+        4,
+        2064
+      ],
+      [
+        4,
+        2073
+      ],
+      [
+        4,
+        2082
+      ],
+      [
+        4,
+        2100
+      ],
+      [
+        4,
+        2108
+      ],
+      [
+        5,
+        2498
+      ],
+      [
+        5,
+        2500
+      ],
+      [
+        5,
+        2504
+      ],
+      [
+        5,
+        2506
+      ],
+      [
+        5,
+        2510
+      ],
+      [
+        5,
+        2516
+      ],
+      [
+        5,
+        2518
+      ],
+      [
+        5,
+        2526
+      ],
+      [
+        5,
+        2532
+      ],
+      [
+        5,
+        2534
+      ],
+      [
+        5,
+        2538
+      ],
+      [
+        5,
+        2542
+      ],
+      [
+        5,
+        2548
+      ],
+      [
+        5,
+        2731
+      ],
+      [
+        5,
+        2739
+      ],
+      [
+        5,
+        2748
+      ],
+      [
+        5,
+        2750
+      ],
+      [
+        5,
+        2758
+      ],
+      [
+        5,
+        2764
+      ],
+      [
+        5,
+        2770
+      ],
+      [
+        5,
+        2774
+      ],
+      [
+        5,
+        2776
+      ],
+      [
+        5,
+        2778
+      ]
+    ],
+    "future_models": "Re-audit against each checkpoint training-source union before reusing these samples"
+  },
+  "states": [
+    {
+      "state_id": "traj_00327_k14",
+      "traj": "traj_00327",
+      "frame": 14,
+      "source": [
+        4,
+        1949
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.007111485116183758,
+          0.055004168301820755,
+          0.09503134340047836
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.007111485116183758,
+          0.055004168301820755,
+          -0.09503134340047836
+        ],
+        "perturbed": [
+          0.007111485116183758,
+          0.055004168301820755,
+          0.11403761208057403
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_05>, dyaw: <dyaw_pos_bin_09>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_05>, dyaw: <dyaw_neg_bin_09>",
+        "perturbed": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_05>, dyaw: <dyaw_pos_bin_11>"
+      },
+      "seeds": [
+        1874929854,
+        841718081,
+        1488101842
+      ],
+      "files": {
+        "start": "traj_00327/0.jpg",
+        "goal": "traj_00327/19.jpg",
+        "current": "traj_00327/14.jpg",
+        "next": "traj_00327/15.jpg",
+        "metadata": "traj_00327/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "98343d5a7cc18c5dfd668a537a6495be8f55f4fb1efbdef21f3f78475313021e",
+        "goal": "209e7229f8e0371ee93fe5b973bc2a0ddeba260cbd1379cafc56b2f16491d842",
+        "current": "25b236993dc5c9800f82697409202cf4db2685c41d48a3c2524c7c880c3e2881",
+        "next": "98faf6286e3897feaec4602067b27e60d01e1763b42c4b0d05a761276ea254a2",
+        "metadata": "90c7b2e3993bbf2bd30c556a656b17eb35c2a35f92ef7a9fb00c1e8b76b96c2e"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        913,
+        919
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00315_k04",
+      "traj": "traj_00315",
+      "frame": 4,
+      "source": [
+        3,
+        1938
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          -0.06832413375377655,
+          0.004068656358867884,
+          -0.17169739305973053
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          -0.06832413375377655,
+          0.004068656358867884,
+          0.17169739305973053
+        ],
+        "perturbed": [
+          -0.06832413375377655,
+          0.004068656358867884,
+          -0.20603687167167664
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_neg_bin_06>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_17>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_neg_bin_06>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_17>",
+        "perturbed": "Move by dx: <dx_neg_bin_06>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_20>"
+      },
+      "seeds": [
+        698969344,
+        264141492,
+        1688420413
+      ],
+      "files": {
+        "start": "traj_00315/0.jpg",
+        "goal": "traj_00315/24.jpg",
+        "current": "traj_00315/4.jpg",
+        "next": "traj_00315/5.jpg",
+        "metadata": "traj_00315/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "02210e157f288b2fb2f50e77bb6e884c17650625a708e16bd04bb1f63858a10e",
+        "goal": "fa409da63c9ed2b064464096591ec6a6f6a7d5a0430579775dacf63eb93cdac1",
+        "current": "e4601230ab7917d4d444156be74ea31deede0cf3beb08eab4ff6c402d02d15c2",
+        "next": "8a2ba7d9e61ffd832d98b44b358a8cdabd22d5d06eba4aca1b41fcca3e841603",
+        "metadata": "c307b13eacdecc84812ea3a1f06aa6906eeeef7a99a2f99e2e69a147a320cd35"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        111125,
+        111131
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00370_k09",
+      "traj": "traj_00370",
+      "frame": 9,
+      "source": [
+        4,
+        2030
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.09994183480739594,
+          0.011439458467066288,
+          0.07121991366147995
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.09994183480739594,
+          0.011439458467066288,
+          -0.07121991366147995
+        ],
+        "perturbed": [
+          0.09994183480739594,
+          0.011439458467066288,
+          0.08546389639377594
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_01>, dyaw: <dyaw_pos_bin_07>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_01>, dyaw: <dyaw_neg_bin_07>",
+        "perturbed": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_01>, dyaw: <dyaw_pos_bin_08>"
+      },
+      "seeds": [
+        1040251859,
+        1788379384,
+        1530227825
+      ],
+      "files": {
+        "start": "traj_00370/0.jpg",
+        "goal": "traj_00370/24.jpg",
+        "current": "traj_00370/9.jpg",
+        "next": "traj_00370/10.jpg",
+        "metadata": "traj_00370/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "9ce0252f67b4ea30c0cbf67683a0590f923af4b76c2bc448753c2ad0daa95ccf",
+        "goal": "c21db9c87b4621299074b500b64243508c21cbac1469fe4e17da1850a8241573",
+        "current": "c932dc8de1a874654444f01c8d9e2acd8275477f28934cef3e00becaa883f694",
+        "next": "61f0d407fef2c222732207d5ed0883288c0e2fad7ab7d935cdc4a1a4c82c8a61",
+        "metadata": "92c2391a7f9a9942c978788864e8b7c3a43b259cd62ede59ec28087108b4ff60"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        25645,
+        25651
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00185_k10",
+      "traj": "traj_00185",
+      "frame": 10,
+      "source": [
+        2,
+        1297
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.09821713715791702,
+          -0.012232736684381962,
+          -0.06900186091661453
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.09821713715791702,
+          -0.012232736684381962,
+          0.06900186091661453
+        ],
+        "perturbed": [
+          0.09821713715791702,
+          -0.012232736684381962,
+          -0.08280223309993744
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_09>, dy: <dy_neg_bin_01>, dyaw: <dyaw_neg_bin_06>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_09>, dy: <dy_neg_bin_01>, dyaw: <dyaw_pos_bin_06>",
+        "perturbed": "Move by dx: <dx_pos_bin_09>, dy: <dy_neg_bin_01>, dyaw: <dyaw_neg_bin_08>"
+      },
+      "seeds": [
+        1617240091,
+        339539734,
+        188404116
+      ],
+      "files": {
+        "start": "traj_00185/0.jpg",
+        "goal": "traj_00185/18.jpg",
+        "current": "traj_00185/10.jpg",
+        "next": "traj_00185/11.jpg",
+        "metadata": "traj_00185/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "ae111f49aac99e171a37b2236ff2b4626c0d11045e5b9ee3c3848ea33b56cff0",
+        "goal": "f86108e18a469c3dde7773628481d466ca0c18466912b5f768721062ca96e6cc",
+        "current": "095d4bf43be35df986c29333275b4f7ec81a728b4f8f1cd52eb7602b9774bbcb",
+        "next": "1f043235241f71916c493402327ebdd63bbd17ead69714470e81dcb4468bb430",
+        "metadata": "5ad9e66ba88a91bfec921a43fda371c1fa4b1d9227b01f7c83a6ffcf6956def2"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        85305,
+        85311
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00032_k12",
+      "traj": "traj_00032",
+      "frame": 12,
+      "source": [
+        0,
+        194
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.01992265321314335,
+          -0.048563625663518906,
+          0.1799548715353012
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.01992265321314335,
+          -0.048563625663518906,
+          -0.1799548715353012
+        ],
+        "perturbed": [
+          0.01992265321314335,
+          -0.048563625663518906,
+          0.21594584584236146
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_01>, dy: <dy_neg_bin_04>, dyaw: <dyaw_pos_bin_17>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_01>, dy: <dy_neg_bin_04>, dyaw: <dyaw_neg_bin_17>",
+        "perturbed": "Move by dx: <dx_pos_bin_01>, dy: <dy_neg_bin_04>, dyaw: <dyaw_pos_bin_21>"
+      },
+      "seeds": [
+        514065969,
+        2066025855,
+        1829411992
+      ],
+      "files": {
+        "start": "traj_00032/0.jpg",
+        "goal": "traj_00032/24.jpg",
+        "current": "traj_00032/12.jpg",
+        "next": "traj_00032/13.jpg",
+        "metadata": "traj_00032/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "a370587cb08b11a22857089dd0f84d8ea612ddeee548bff529e088683d463333",
+        "goal": "4ea44908aaa506553b1bf2729fdd53a31a3765eefb8435a1aa8b94209e949c43",
+        "current": "28949401eb5621d4f2c1a8a9c2df3f9554d6dd11d01125e59fa8c27ac28049d7",
+        "next": "d829b66c71fcf8e6b3fde20a5130a1cb189ecb77a0be1e7e69d655c0c63cdcc2",
+        "metadata": "4e4ec02c5529f5c243af0517a62388dd1a97ac7b9ab381ba17d428f184bc57a4"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        48751,
+        48757
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00496_k20",
+      "traj": "traj_00496",
+      "frame": 20,
+      "source": [
+        5,
+        2768
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.056935958564281464,
+          -0.03638607636094093,
+          -0.1176016628742218
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.056935958564281464,
+          -0.03638607636094093,
+          0.1176016628742218
+        ],
+        "perturbed": [
+          0.056935958564281464,
+          -0.03638607636094093,
+          -0.14112199544906615
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_05>, dy: <dy_neg_bin_03>, dyaw: <dyaw_neg_bin_11>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_05>, dy: <dy_neg_bin_03>, dyaw: <dyaw_pos_bin_11>",
+        "perturbed": "Move by dx: <dx_pos_bin_05>, dy: <dy_neg_bin_03>, dyaw: <dyaw_neg_bin_14>"
+      },
+      "seeds": [
+        1436153400,
+        1389763368,
+        1857315007
+      ],
+      "files": {
+        "start": "traj_00496/0.jpg",
+        "goal": "traj_00496/24.jpg",
+        "current": "traj_00496/20.jpg",
+        "next": "traj_00496/21.jpg",
+        "metadata": "traj_00496/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "2794aaa4eab8bedf1cfa4e57accebcdfec01f8c29699ebc70dd5c6952e23a7d7",
+        "goal": "efd58ed25210052b82703b397d0a3d571f67eafea61ac7791bd539de8d98646a",
+        "current": "f132ce833577da2af5d21bd0cc67ce27ac9b81471423b09d7900de9c9bff1c15",
+        "next": "aa951ff3de7380646f57496224d7570731bb3d49471dfc1813ceb0ebb74f9c49",
+        "metadata": "f31780e925c7b88040fde3aad30a76153b61977e38474dad151687cebad88a37"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        87225,
+        87231
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00081_k14",
+      "traj": "traj_00081",
+      "frame": 14,
+      "source": [
+        0,
+        242
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          -0.01107785478234291,
+          0.013471544720232487,
+          0.19426387548446655
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          -0.01107785478234291,
+          0.013471544720232487,
+          -0.19426387548446655
+        ],
+        "perturbed": [
+          -0.01107785478234291,
+          0.013471544720232487,
+          0.23311665058135986
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_neg_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dyaw_pos_bin_19>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_neg_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dyaw_neg_bin_19>",
+        "perturbed": "Move by dx: <dx_neg_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dyaw_pos_bin_23>"
+      },
+      "seeds": [
+        1902437934,
+        373923951,
+        23368978
+      ],
+      "files": {
+        "start": "traj_00081/0.jpg",
+        "goal": "traj_00081/24.jpg",
+        "current": "traj_00081/14.jpg",
+        "next": "traj_00081/15.jpg",
+        "metadata": "traj_00081/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "cee7fae5e2e3faa296afd27b800570e80af5bd1f5a3cf3740d0b560eef3842e4",
+        "goal": "3bfc25dc1a70b098a571d4d49596c5b941c76c82cabdf76bb7238c215da0e30b",
+        "current": "0898d761af1367df938fd3cc3415fb52e6e2c1b223ac899748d833bc89e6a1ff",
+        "next": "62a99eee7e378ffd49b1995c419b9d32018fb6634fb84d301d49601f9f84f9fe",
+        "metadata": "c53c51fc2ba204557387da7dbd7866aa817d329476d394f99a4c03d5f52cf6f0"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        57189,
+        57195
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00282_k19",
+      "traj": "traj_00282",
+      "frame": 19,
+      "source": [
+        3,
+        1558
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.07002802938222885,
+          -0.13835477828979492,
+          -0.07059767842292786
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.07002802938222885,
+          -0.13835477828979492,
+          0.07059767842292786
+        ],
+        "perturbed": [
+          0.07002802938222885,
+          -0.13835477828979492,
+          -0.08471721410751343
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_13>, dyaw: <dyaw_neg_bin_07>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_13>, dyaw: <dyaw_pos_bin_07>",
+        "perturbed": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_13>, dyaw: <dyaw_neg_bin_08>"
+      },
+      "seeds": [
+        1674877757,
+        954440509,
+        1783295557
+      ],
+      "files": {
+        "start": "traj_00282/0.jpg",
+        "goal": "traj_00282/24.jpg",
+        "current": "traj_00282/19.jpg",
+        "next": "traj_00282/20.jpg",
+        "metadata": "traj_00282/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "4307d205dc6b1ac75b4597aa2b10c76a90997d7aaf17b3635cf88065c211d429",
+        "goal": "3b3f9e467f3fbd8058e152509ae37d7e9bb168b201ba26a8da4d2fab407c1f1f",
+        "current": "3b3cb2578d83e62c24c1588e35393de11b7062d736c57c9bb114bc603fb3d647",
+        "next": "c24ad39cf10cf0408a561c3047d2b9dba002fa04f4ba94faf07f94adaeff543e",
+        "metadata": "e492a8b03463245bf435d4c6056abff87664700ca43d50adea3fce68ea2caa2c"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        33150,
+        33156
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00124_k07",
+      "traj": "traj_00124",
+      "frame": 7,
+      "source": [
+        0,
+        287
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          -0.03575641289353371,
+          -0.08025604486465454,
+          0.1873890459537506
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          -0.03575641289353371,
+          -0.08025604486465454,
+          -0.1873890459537506
+        ],
+        "perturbed": [
+          -0.03575641289353371,
+          -0.08025604486465454,
+          0.22486685514450072
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_neg_bin_03>, dy: <dy_neg_bin_08>, dyaw: <dyaw_pos_bin_18>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_neg_bin_03>, dy: <dy_neg_bin_08>, dyaw: <dyaw_neg_bin_18>",
+        "perturbed": "Move by dx: <dx_neg_bin_03>, dy: <dy_neg_bin_08>, dyaw: <dyaw_pos_bin_22>"
+      },
+      "seeds": [
+        877646740,
+        1295073444,
+        1839480117
+      ],
+      "files": {
+        "start": "traj_00124/0.jpg",
+        "goal": "traj_00124/24.jpg",
+        "current": "traj_00124/7.jpg",
+        "next": "traj_00124/8.jpg",
+        "metadata": "traj_00124/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "af07af75f52ec930b1bc1f6efe3f2f246bbae922a599be681512ba37932cfcd2",
+        "goal": "5f41572b90398ac8b7a218d7c69869be7bdedb773dcad8a77ebf7a2202be09f8",
+        "current": "ebd8b3f86cd40bfd3f563db94c87f59cfb32061c12e02ebde8473138fdf6050b",
+        "next": "9f4b62c85f2ffb1c36223f783a5007df793dfcc0f27ac671c1aa963827a4846d",
+        "metadata": "f1343a00f75ff5d16c543b8dea8ee4437e34e9f9e04bc5f71f7c4fa5ac92bb7b"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        64765,
+        64771
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00248_k14",
+      "traj": "traj_00248",
+      "frame": 14,
+      "source": [
+        3,
+        1496
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.18374843895435333,
+          -0.032350413501262665,
+          -0.18458499014377594
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.18374843895435333,
+          -0.032350413501262665,
+          0.18458499014377594
+        ],
+        "perturbed": [
+          0.18374843895435333,
+          -0.032350413501262665,
+          -0.2215019881725311
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_18>, dy: <dy_neg_bin_03>, dyaw: <dyaw_neg_bin_18>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_18>, dy: <dy_neg_bin_03>, dyaw: <dyaw_pos_bin_18>",
+        "perturbed": "Move by dx: <dx_pos_bin_18>, dy: <dy_neg_bin_03>, dyaw: <dyaw_neg_bin_22>"
+      },
+      "seeds": [
+        1577932664,
+        1413815567,
+        993815546
+      ],
+      "files": {
+        "start": "traj_00248/0.jpg",
+        "goal": "traj_00248/24.jpg",
+        "current": "traj_00248/14.jpg",
+        "next": "traj_00248/15.jpg",
+        "metadata": "traj_00248/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "b01ee5c8eb7332aa10be0ed6e618bc811d32e6e3e90e697298f1831c9e94f58a",
+        "goal": "52bb03db507920313e8111c6245c588ea7f54a898b61946acedd493d956cdcb3",
+        "current": "d2d26772bcf8593f576225a172c807f2ebd228f71a6b2d76f7a2ba5b091e70f1",
+        "next": "e67ab9e120abb3bffb2727561a3cc75f5f4ca42c37d1ff696a97c6078bcf94e3",
+        "metadata": "f222384770ab3fb2419cbbe04be2fb841f22e4990d17bc77c1fca5532b1751cf"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        24585,
+        24591
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00239_k07",
+      "traj": "traj_00239",
+      "frame": 7,
+      "source": [
+        3,
+        1464
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.097112275660038,
+          0.0606473870575428,
+          0.14611147344112396
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.097112275660038,
+          0.0606473870575428,
+          -0.14611147344112396
+        ],
+        "perturbed": [
+          0.097112275660038,
+          0.0606473870575428,
+          0.17533376812934875
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_06>, dyaw: <dyaw_pos_bin_14>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_06>, dyaw: <dyaw_neg_bin_14>",
+        "perturbed": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_06>, dyaw: <dyaw_pos_bin_17>"
+      },
+      "seeds": [
+        167636428,
+        1433549571,
+        665380636
+      ],
+      "files": {
+        "start": "traj_00239/0.jpg",
+        "goal": "traj_00239/14.jpg",
+        "current": "traj_00239/7.jpg",
+        "next": "traj_00239/8.jpg",
+        "metadata": "traj_00239/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "30ae250bb74713d19f091faf502d9754c9ec65e4a8023f3c4da6038db8234b96",
+        "goal": "2da225a4ed0616c279cdb0dad3092837fbd455c8c6ff949d8fd7c97d7d71432a",
+        "current": "411bb2c03c27661c19b5057688b0319cbad0a8c98ee2909834cac5b9255264e2",
+        "next": "3f0e7f44674718455b86ba7e5fc7cfc602145090e43cc892e5b7ad97bb6405e0",
+        "metadata": "129e93b30fc86ee834b0dccdde6a0f35214ddabc2bffd6a764887a9b70246832"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        21293,
+        21299
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00439_k03",
+      "traj": "traj_00439",
+      "frame": 3,
+      "source": [
+        5,
+        2530
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.22917020320892334,
+          -0.08602658659219742,
+          -0.08532296121120453
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.22917020320892334,
+          -0.08602658659219742,
+          0.08532296121120453
+        ],
+        "perturbed": [
+          0.22917020320892334,
+          -0.08602658659219742,
+          -0.10238755345344543
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_22>, dy: <dy_neg_bin_08>, dyaw: <dyaw_neg_bin_08>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_22>, dy: <dy_neg_bin_08>, dyaw: <dyaw_pos_bin_08>",
+        "perturbed": "Move by dx: <dx_pos_bin_22>, dy: <dy_neg_bin_08>, dyaw: <dyaw_neg_bin_10>"
+      },
+      "seeds": [
+        26478604,
+        994211754,
+        211502152
+      ],
+      "files": {
+        "start": "traj_00439/0.jpg",
+        "goal": "traj_00439/20.jpg",
+        "current": "traj_00439/3.jpg",
+        "next": "traj_00439/4.jpg",
+        "metadata": "traj_00439/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "01fa104decb963bb03ecd4731a24330a6d4f79e23797d82b7657da7d4744d618",
+        "goal": "6b99fe0da6af98ea1e8806bb8f69777f0a1921c3daf26c1954cb8087590d7dbd",
+        "current": "799425a9265608271e0c9fadd2ee31787e075d06db7e34c8e5f8fe79fe0e4d2c",
+        "next": "d21f6011554175517d5cbe5607ba94634b1733dfb935c4f045074838fedb4a85",
+        "metadata": "7d765249ac7ad712bb486862f4a356d7b6c69f2c0394178e58fb928ca5dd1fb9"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        24006,
+        24012
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00325_k13",
+      "traj": "traj_00325",
+      "frame": 13,
+      "source": [
+        4,
+        1947
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.04866978898644447,
+          0.035272568464279175,
+          0.14540021121501923
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.04866978898644447,
+          0.035272568464279175,
+          -0.14540021121501923
+        ],
+        "perturbed": [
+          0.04866978898644447,
+          0.035272568464279175,
+          0.17448025345802307
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_03>, dyaw: <dyaw_pos_bin_14>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_03>, dyaw: <dyaw_neg_bin_14>",
+        "perturbed": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_03>, dyaw: <dyaw_pos_bin_17>"
+      },
+      "seeds": [
+        1748050549,
+        1234528321,
+        607833560
+      ],
+      "files": {
+        "start": "traj_00325/0.jpg",
+        "goal": "traj_00325/24.jpg",
+        "current": "traj_00325/13.jpg",
+        "next": "traj_00325/14.jpg",
+        "metadata": "traj_00325/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "f7f20c1c558bb1f3544abfef40e8d1f33a324e8063d63a8d28e966123f529476",
+        "goal": "3b15846ed5a00b03aa4e6a4b8b33c08aab7bb69753285131ab03ef269d516554",
+        "current": "8a3a0d8e8b8424dc883ccc9490447abec2710e84211591798e8b131e0793a1c3",
+        "next": "d94d2770fa3ef061498ee0bbaa5d391d43ea246799b32ba3c408d77e2ba06690",
+        "metadata": "f23203b338c66a52c56a2739f8e37419c178d28c0442b53452ef2c9223e7867a"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        478,
+        484
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00465_k02",
+      "traj": "traj_00465",
+      "frame": 2,
+      "source": [
+        5,
+        2743
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.1170562207698822,
+          -0.04758290946483612,
+          -0.16006632149219513
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.1170562207698822,
+          -0.04758290946483612,
+          0.16006632149219513
+        ],
+        "perturbed": [
+          0.1170562207698822,
+          -0.04758290946483612,
+          -0.19207958579063414
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_11>, dy: <dy_neg_bin_04>, dyaw: <dyaw_neg_bin_16>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_11>, dy: <dy_neg_bin_04>, dyaw: <dyaw_pos_bin_16>",
+        "perturbed": "Move by dx: <dx_pos_bin_11>, dy: <dy_neg_bin_04>, dyaw: <dyaw_neg_bin_19>"
+      },
+      "seeds": [
+        1889233579,
+        1823079804,
+        2024245011
+      ],
+      "files": {
+        "start": "traj_00465/0.jpg",
+        "goal": "traj_00465/24.jpg",
+        "current": "traj_00465/2.jpg",
+        "next": "traj_00465/3.jpg",
+        "metadata": "traj_00465/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "4291611eaa7da58d84053c47419f20ed5e590bf03a1ef7e36d36c5dbe3067ac5",
+        "goal": "17df05c343e14884d4606767ff1e980b27590b63c5293ed49750189e03d36ce2",
+        "current": "b8c0d9f7dcd9bb34cf7b61d1980ddfa37e805fdebd5869a1e84dbe05817e80da",
+        "next": "83881439e6cf4d51785d25ab9ddcb15c5f325ebd177e4c08650e992d557dd6f5",
+        "metadata": "03940cd028e9c2439ade17fe88ea05fef64c0dbea6550e8686f64fa61eadaea0"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        81828,
+        81834
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00346_k09",
+      "traj": "traj_00346",
+      "frame": 9,
+      "source": [
+        4,
+        1997
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.041302960366010666,
+          0.0032226864714175463,
+          0.05472802743315697
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.041302960366010666,
+          0.0032226864714175463,
+          -0.05472802743315697
+        ],
+        "perturbed": [
+          0.041302960366010666,
+          0.0032226864714175463,
+          0.06567363291978835
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_05>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_05>",
+        "perturbed": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_06>"
+      },
+      "seeds": [
+        988969189,
+        77366644,
+        1635893179
+      ],
+      "files": {
+        "start": "traj_00346/0.jpg",
+        "goal": "traj_00346/21.jpg",
+        "current": "traj_00346/9.jpg",
+        "next": "traj_00346/10.jpg",
+        "metadata": "traj_00346/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "6a1bdcac9ccba4993c9e0f4dcab556121fdf38b41cd9aefee389aa32afa3fd9d",
+        "goal": "445e7265eb4eba0effb11942dcd746279765ac74119be048c2f8d632fb319609",
+        "current": "94132b01ce0e681746a949dfbbb60c1e9c2fc667b472195078ffeb4cda2f50b7",
+        "next": "5ec311cece4356921409b401407edea31c6e5b8dfee88056b6d1ae452a1d3d17",
+        "metadata": "2c0ee85663c8141714725ec5a7d6110710d3537ab7ce548f370dd6108919fadf"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        19257,
+        19263
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00123_k19",
+      "traj": "traj_00123",
+      "frame": 19,
+      "source": [
+        0,
+        285
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.04984379932284355,
+          0.010148148983716965,
+          -0.08309981226921082
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.04984379932284355,
+          0.010148148983716965,
+          0.08309981226921082
+        ],
+        "perturbed": [
+          0.04984379932284355,
+          0.010148148983716965,
+          -0.09971977472305298
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_01>, dyaw: <dyaw_neg_bin_08>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_01>, dyaw: <dyaw_pos_bin_08>",
+        "perturbed": "Move by dx: <dx_pos_bin_04>, dy: <dy_pos_bin_01>, dyaw: <dyaw_neg_bin_09>"
+      },
+      "seeds": [
+        37722861,
+        2033128346,
+        1950728152
+      ],
+      "files": {
+        "start": "traj_00123/0.jpg",
+        "goal": "traj_00123/24.jpg",
+        "current": "traj_00123/19.jpg",
+        "next": "traj_00123/20.jpg",
+        "metadata": "traj_00123/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "837216e7588afa73795fa12e07369749a01ab5372f5892e044a8da0552ff46a3",
+        "goal": "26ad57b79a05f22f07d2a135449fec9eca80a6a0aa20a2f731957fab8b1daa82",
+        "current": "584bff33ed4333c994005485509d296a694841a81f22c190f2f9d4437770e0c3",
+        "next": "e932ba9f89150787a889b7e7af25ac99550482f5019c988e9c4a0ec8e1c9d37e",
+        "metadata": "e1c223afa2d86095326861d047749d7f4470c7da610a66a389bf768da73a2df1"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        64581,
+        64587
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00446_k13",
+      "traj": "traj_00446",
+      "frame": 13,
+      "source": [
+        5,
+        2544
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          0.01702478900551796,
+          0.045915041118860245,
+          0.06520892679691315
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.01702478900551796,
+          0.045915041118860245,
+          -0.06520892679691315
+        ],
+        "perturbed": [
+          0.01702478900551796,
+          0.045915041118860245,
+          0.07825071215629577
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_01>, dy: <dy_pos_bin_04>, dyaw: <dyaw_pos_bin_06>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_01>, dy: <dy_pos_bin_04>, dyaw: <dyaw_neg_bin_06>",
+        "perturbed": "Move by dx: <dx_pos_bin_01>, dy: <dy_pos_bin_04>, dyaw: <dyaw_pos_bin_07>"
+      },
+      "seeds": [
+        4947318,
+        1638832201,
+        481037648
+      ],
+      "files": {
+        "start": "traj_00446/0.jpg",
+        "goal": "traj_00446/21.jpg",
+        "current": "traj_00446/13.jpg",
+        "next": "traj_00446/14.jpg",
+        "metadata": "traj_00446/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "93f1898f43f79e588c4aff73b90e441e855bb6483a8a419a186616547da4ff4b",
+        "goal": "5ea92168dd818b6900242a322756777735e66e6b2194826071321245e646b136",
+        "current": "74a7cc473cd1821849e89a5b0bf92c6acc291d033092d51198ab2a7844747059",
+        "next": "aa286a1b1aac2e9096134a6bbb2a0395fd04488d18bde06273acfa7401df2db8",
+        "metadata": "3a167ea0926e2f6a3457106255bc65106cb8e7274963ed22886633484ed17084"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        26324,
+        26330
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00189_k18",
+      "traj": "traj_00189",
+      "frame": 18,
+      "source": [
+        2,
+        1301
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.0749107226729393,
+          -0.06618929654359818,
+          -0.0789714828133583
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.0749107226729393,
+          -0.06618929654359818,
+          0.0789714828133583
+        ],
+        "perturbed": [
+          0.0749107226729393,
+          -0.06618929654359818,
+          -0.09476577937602997
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_06>, dyaw: <dyaw_neg_bin_07>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_06>, dyaw: <dyaw_pos_bin_07>",
+        "perturbed": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_06>, dyaw: <dyaw_neg_bin_09>"
+      },
+      "seeds": [
+        1713332552,
+        325082542,
+        642585588
+      ],
+      "files": {
+        "start": "traj_00189/0.jpg",
+        "goal": "traj_00189/22.jpg",
+        "current": "traj_00189/18.jpg",
+        "next": "traj_00189/19.jpg",
+        "metadata": "traj_00189/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "e268799932c7ac87d5d0dd2117cbc31234404e81c496c16bcb2b85107a10f359",
+        "goal": "8540bc8cb9cba03f976fcb78d15bbcf672ecdbdbd04ce6674660eb56e4a82e3b",
+        "current": "01b00b1326985fdb7699e66abcaa5b2a141ade22ee4b8a2adc2903c7dbe9c29f",
+        "next": "51ec7c197d7d0e003f2878a29fb1fbcfa8fd94386cf8c7c024ae5f55c793f6db",
+        "metadata": "816472e30395832e4af29c66b56c2b0155c43bbc0bee686c02340b35992297b8"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        87496,
+        87502
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00057_k10",
+      "traj": "traj_00057",
+      "frame": 10,
+      "source": [
+        0,
+        218
+      ],
+      "stratum": "left",
+      "actions": {
+        "original": [
+          -0.009342832490801811,
+          -0.035341981798410416,
+          0.17653101682662964
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          -0.009342832490801811,
+          -0.035341981798410416,
+          -0.17653101682662964
+        ],
+        "perturbed": [
+          -0.009342832490801811,
+          -0.035341981798410416,
+          0.21183722019195556
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_neg_bin_00>, dy: <dy_neg_bin_03>, dyaw: <dyaw_pos_bin_17>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_neg_bin_00>, dy: <dy_neg_bin_03>, dyaw: <dyaw_neg_bin_17>",
+        "perturbed": "Move by dx: <dx_neg_bin_00>, dy: <dy_neg_bin_03>, dyaw: <dyaw_pos_bin_21>"
+      },
+      "seeds": [
+        1413678044,
+        101532144,
+        1190261644
+      ],
+      "files": {
+        "start": "traj_00057/0.jpg",
+        "goal": "traj_00057/24.jpg",
+        "current": "traj_00057/10.jpg",
+        "next": "traj_00057/11.jpg",
+        "metadata": "traj_00057/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "2323de2e0d12edd006defba6f006a08f8caf036acb918e3ba7cdc0a7d2d7b459",
+        "goal": "a6d5760800a9f09f88645c66dea318e4b3dd5bdbb3f3da81e225174490c566ef",
+        "current": "abc8a26188e95f285164540d9adefb1d3086020f00bbcfaddae75702c9f8bea6",
+        "next": "128ead8cb90fa3c3d97ca8193b798bf75bc69a9fb7854630fd321bcd9003caff",
+        "metadata": "ae156d24218059e1be0e7654d06b8c2b3a8455a731f812a9368d1dd56be330f3"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        53018,
+        53024
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    },
+    {
+      "state_id": "traj_00000_k20",
+      "traj": "traj_00000",
+      "frame": 20,
+      "source": [
+        0,
+        10
+      ],
+      "stratum": "right",
+      "actions": {
+        "original": [
+          0.12271688878536224,
+          -0.029565099626779556,
+          -0.05271410197019577
+        ],
+        "zero": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "yaw_flip": [
+          0.12271688878536224,
+          -0.029565099626779556,
+          0.05271410197019577
+        ],
+        "perturbed": [
+          0.12271688878536224,
+          -0.029565099626779556,
+          -0.06325692236423493
+        ]
+      },
+      "action_text": {
+        "original": "Move by dx: <dx_pos_bin_12>, dy: <dy_neg_bin_02>, dyaw: <dyaw_neg_bin_05>",
+        "zero": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>",
+        "yaw_flip": "Move by dx: <dx_pos_bin_12>, dy: <dy_neg_bin_02>, dyaw: <dyaw_pos_bin_05>",
+        "perturbed": "Move by dx: <dx_pos_bin_12>, dy: <dy_neg_bin_02>, dyaw: <dyaw_neg_bin_06>"
+      },
+      "seeds": [
+        724074750,
+        2112843599,
+        1518405471
+      ],
+      "files": {
+        "start": "traj_00000/0.jpg",
+        "goal": "traj_00000/24.jpg",
+        "current": "traj_00000/20.jpg",
+        "next": "traj_00000/21.jpg",
+        "metadata": "traj_00000/traj_data.pkl"
+      },
+      "sha256": {
+        "start": "a35141b89c20a2857738ebd5d19699acb9aab8927f80d38d98c4cb6e2782b25b",
+        "goal": "e5ad0eb2dee72a9d8e81a7893575b07f34379fc45eecfc2fa11d5b84f13d68e4",
+        "current": "e7256af4f9663d3fc9d1dbe2e81da32592e9c2dd1d052f7646a5efc25babae85",
+        "next": "bd8f84f8bd6ba39f0fd80ddbd1d7311cc387bfc48f182a9cb33b18cbfbf78f28",
+        "metadata": "fec24b0bd4fc61915bfea45d571df0813ab79e521bbff1de91b6d4dcb6711fa8"
+      },
+      "start_pose": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "raw_frame_indices": [
+        8263,
+        8269
+      ],
+      "nominal_hz": 5.0,
+      "nominal_dt_seconds": 0.2,
+      "action_alignment": "native delta[k] -> frame k+1; physical sensor alignment not yet calibrated",
+      "counterfactual_feasibility": "unknown in offline data; encoding range checked"
+    }
+  ]
+}

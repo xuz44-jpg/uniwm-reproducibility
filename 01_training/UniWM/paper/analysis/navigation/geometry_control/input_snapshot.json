@@ -1,0 +1,157 @@
+{
+  "camera": {
+    "K": [
+      [
+        320.0,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        320.00000953674316,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "projection_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.3333333730697632,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0002000331878662,
+        -0.020002000033855438
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "width": 640,
+    "height": 480,
+    "hfov_deg": 90.0,
+    "native_axes": "Habitat world +Y up; camera +X right,+Y up,-Z forward",
+    "planar_axes": "x=world_X, y=-world_Z; yaw=atan2(forward_y,forward_x), positive left",
+    "pixel_convention": "integer pixel centers; principal point ((W-1)/2,(H-1)/2)",
+    "simulator_version": "0.3.3",
+    "python": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]"
+  },
+  "criteria": {
+    "resolution": 256,
+    "raft_updates": 12,
+    "roi_margin": 26,
+    "texture_sobel_l1": 0.08,
+    "min_texture_pixels": 400,
+    "min_valid_pixels": 200,
+    "min_reference_coverage": 0.5,
+    "min_generated_coverage": 0.2,
+    "forward_backward_absolute_px": 1.0,
+    "forward_backward_relative": 0.05,
+    "near_zero_px": 1.0,
+    "direction_consensus": 0.7,
+    "real_geometry_median_epe_max_px": 1.0,
+    "real_geometry_p90_epe_max_px": 2.0,
+    "zero_median_magnitude_max_px": 0.5,
+    "shift_median_epe_absolute_px": 0.5,
+    "shift_median_epe_relative": 0.1
+  },
+  "reference_audit": {
+    "all_reference_gates_passed": true,
+    "states": {
+      "apartment_1_p00": {
+        "common_pixels": 25856,
+        "reference_gate_passed": true
+      },
+      "apartment_1_p01": {
+        "common_pixels": 11095,
+        "reference_gate_passed": true
+      },
+      "apartment_1_p02": {
+        "common_pixels": 10290,
+        "reference_gate_passed": true
+      },
+      "apartment_1_p03": {
+        "common_pixels": 39851,
+        "reference_gate_passed": true
+      },
+      "apartment_1_p04": {
+        "common_pixels": 16116,
+        "reference_gate_passed": true
+      },
+      "apartment_1_p05": {
+        "common_pixels": 4310,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p00": {
+        "common_pixels": 39853,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p01": {
+        "common_pixels": 36377,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p02": {
+        "common_pixels": 39683,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p03": {
+        "common_pixels": 40461,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p04": {
+        "common_pixels": 40329,
+        "reference_gate_passed": true
+      },
+      "skokloster_castle_p05": {
+        "common_pixels": 40298,
+        "reference_gate_passed": true
+      }
+    }
+  },
+  "original_sources_sha256": {
+    "model_deployment/confirmation_v1/references_manifest.json": "076f6ae08be669dce99136ba2c8c583791ca73fca71c93e7d453b80ae6a41eeb",
+    "model_deployment/confirmation_v1/flow/references/config.json": "9f1e0ad2c2ec6c5b7b2180a335c5edabb71e7291f25ccfaf0f304984ff249e5f",
+    "model_deployment/confirmation_v1/flow/references/summary.json": "c5c4bc00fe94100b0fa0d6ef4f770dbfa3e76a1391d4a460ce22164ae002c819",
+    "model_deployment/habitat_flow_common.py": "47340ae20111a6c3e454a2b7c7ef68824ae5f50489144fa0568b1638825ead18",
+    "model_deployment/habitat_study_common.py": "9466dcc79573a2b81545bb418359f94f011137a25fa2c4294d575bb4c48eeedf",
+    "model_deployment/score_context_controls_v1.py": "1b794090510ae8c8fbcf160d89fa17de1e1d609a38f83c35b0e3df74595a8f3a",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p00.npz": "73a579598ee781670cb955d805f70ddcd8a75eb2df9e708d5e3350bd2fcc9139",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p01.npz": "8864028b77e521893ab3bc5a8005e35f064de80638272030f81d684e5f0be057",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p02.npz": "8027808e9b80d6cfa812069e6fd30dc7568cb55f06a3e9daf1239456a6e4abe0",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p03.npz": "d10a6349a9eada72f4515ffd735ab7b8e0efb72624940f1023da199f6ab5ad39",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p04.npz": "f7461405dab01546a9d54cb65d069ff42d4ab27f544ddc82ba14c45f615226b3",
+    "model_deployment/confirmation_v1/flow/references/apartment_1_p05.npz": "d12b285e1ac01909a539ad1621d8d0e5c3da832299252609e27adccaf4dafab7",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p00.npz": "d79d9b7c0ecf8507adf4b4208c56c669a3a2a32cb9411bff961201355e9d79d2",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p01.npz": "39f2c607e1a2aaed854835544c8bcd5bd52a80b77a0a9987f88535f8796def04",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p02.npz": "ccb3a9e5eb9707395e63c9cf28ea863cc6c881ce1ebba8e5a48223450cd6ac1a",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p03.npz": "4e843f7f1f213186cb6cbb07171a866c56ca335f0e31fe5688ce6b669b934845",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p04.npz": "81fea034b260845f47c1d880ff990044c80f93758025bf5ff58f90e6464f9971",
+    "model_deployment/confirmation_v1/flow/references/skokloster_castle_p05.npz": "eff3c9c954591523f97d7455df16da8c892e062a6c484006c9c19d6f73bdc0b2",
+    "output/aaai_workshop/geometry_control/run_geometry_controls.py": "abb9d918925a66bca53b8ef2e45a69fbac1f68802869b37464787a7b4db8714a"
+  },
+  "mask_archive_sha256": "9161ba47828848132285215d3e38e6974b225f9502cd557d52d0dd02b4ed02d8",
+  "scope": "K, frozen criteria and existing boolean reference masks only; no RGB, depth, flow fields, or model predictions"
+}

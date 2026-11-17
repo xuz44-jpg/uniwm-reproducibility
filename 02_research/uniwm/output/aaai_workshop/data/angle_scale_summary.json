@@ -1,0 +1,2380 @@
+{
+  "status": "passed",
+  "protocol_sha256": "1624c3d1d0282e6f5515dafd0a504c769a517a321b2d41c6dd30380b2a647ce1",
+  "models": {
+    "nwm": {
+      "small": {
+        "direction": {
+          "correct": 33,
+          "reverse": 15,
+          "near_zero": 141,
+          "unknown": 27,
+          "total": 216
+        },
+        "verified_direction_pass_rate": 0.1527777777777778,
+        "acceptance_not_passed_including_unknown": 183,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 12.107814142504337,
+        "mean_gain": 0.0503441344753006,
+        "mean_action_zero_lpips": 0.0376622195293479,
+        "paired_zero_identical": 0
+      },
+      "large": {
+        "direction": {
+          "correct": 66,
+          "reverse": 15,
+          "near_zero": 39,
+          "unknown": 24,
+          "total": 144
+        },
+        "verified_direction_pass_rate": 0.4583333333333333,
+        "acceptance_not_passed_including_unknown": 78,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 26.331029772459495,
+        "mean_gain": 0.20335170294715044,
+        "mean_action_zero_lpips": 0.15588911301387676,
+        "paired_zero_identical": 0
+      },
+      "by_magnitude": {
+        "3": {
+          "direction": {
+            "correct": 7,
+            "reverse": 0,
+            "near_zero": 57,
+            "unknown": 8,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.09722222222222222,
+          "acceptance_not_passed_including_unknown": 65,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.38779322789605,
+          "mean_gain": 0.030407189559556406,
+          "mean_action_zero_lpips": 0.016341745379880496,
+          "paired_zero_identical": 0
+        },
+        "5": {
+          "direction": {
+            "correct": 13,
+            "reverse": 7,
+            "near_zero": 44,
+            "unknown": 8,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.18055555555555555,
+          "acceptance_not_passed_including_unknown": 59,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.04835829830945,
+          "mean_gain": 0.053254743521784303,
+          "mean_action_zero_lpips": 0.03733870726339066,
+          "paired_zero_identical": 0
+        },
+        "7": {
+          "direction": {
+            "correct": 13,
+            "reverse": 8,
+            "near_zero": 40,
+            "unknown": 11,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.18055555555555555,
+          "acceptance_not_passed_including_unknown": 59,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 16.88729090130754,
+          "mean_gain": 0.0673704703445611,
+          "mean_action_zero_lpips": 0.05930620594477255,
+          "paired_zero_identical": 0
+        },
+        "10": {
+          "direction": {
+            "correct": 24,
+            "reverse": 7,
+            "near_zero": 28,
+            "unknown": 13,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.3333333333333333,
+          "acceptance_not_passed_including_unknown": 48,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 23.5249428921741,
+          "mean_gain": 0.11659156833170055,
+          "mean_action_zero_lpips": 0.1048332041524797,
+          "paired_zero_identical": 0
+        },
+        "15": {
+          "direction": {
+            "correct": 42,
+            "reverse": 8,
+            "near_zero": 11,
+            "unknown": 11,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.5833333333333334,
+          "acceptance_not_passed_including_unknown": 30,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 29.137116652744883,
+          "mean_gain": 0.2901118375626003,
+          "mean_action_zero_lpips": 0.2069450218752738,
+          "paired_zero_identical": 0
+        }
+      },
+      "by_signed_angle": {
+        "3": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 32,
+            "unknown": 4,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.614968620265678,
+          "mean_gain": 0.0012431017608294482,
+          "mean_action_zero_lpips": 0.006770995557518391,
+          "paired_zero_identical": 0
+        },
+        "-3": {
+          "direction": {
+            "correct": 7,
+            "reverse": 0,
+            "near_zero": 25,
+            "unknown": 4,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.19444444444444445,
+          "acceptance_not_passed_including_unknown": 29,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.160617835526418,
+          "mean_gain": 0.05957127735828337,
+          "mean_action_zero_lpips": 0.025912495202242605,
+          "paired_zero_identical": 0
+        },
+        "5": {
+          "direction": {
+            "correct": 2,
+            "reverse": 6,
+            "near_zero": 24,
+            "unknown": 4,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.05555555555555555,
+          "acceptance_not_passed_including_unknown": 34,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.754292849948587,
+          "mean_gain": -0.0008459043404436294,
+          "mean_action_zero_lpips": 0.03082416691702545,
+          "paired_zero_identical": 0
+        },
+        "-5": {
+          "direction": {
+            "correct": 11,
+            "reverse": 1,
+            "near_zero": 20,
+            "unknown": 4,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.3055555555555556,
+          "acceptance_not_passed_including_unknown": 25,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 11.342423746670306,
+          "mean_gain": 0.10735539138401225,
+          "mean_action_zero_lpips": 0.043853247609755876,
+          "paired_zero_identical": 0
+        },
+        "7": {
+          "direction": {
+            "correct": 1,
+            "reverse": 8,
+            "near_zero": 22,
+            "unknown": 5,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.027777777777777776,
+          "acceptance_not_passed_including_unknown": 35,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 18.227244302127936,
+          "mean_gain": -0.01710583921124655,
+          "mean_action_zero_lpips": 0.04558219564528877,
+          "paired_zero_identical": 0
+        },
+        "-7": {
+          "direction": {
+            "correct": 12,
+            "reverse": 0,
+            "near_zero": 18,
+            "unknown": 6,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.3333333333333333,
+          "acceptance_not_passed_including_unknown": 24,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 15.54733750048715,
+          "mean_gain": 0.15184677990036877,
+          "mean_action_zero_lpips": 0.07303021624425633,
+          "paired_zero_identical": 0
+        },
+        "10": {
+          "direction": {
+            "correct": 3,
+            "reverse": 7,
+            "near_zero": 19,
+            "unknown": 7,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.08333333333333333,
+          "acceptance_not_passed_including_unknown": 33,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 27.171923644134544,
+          "mean_gain": -0.04019603865177207,
+          "mean_action_zero_lpips": 0.07472952345576939,
+          "paired_zero_identical": 0
+        },
+        "-10": {
+          "direction": {
+            "correct": 21,
+            "reverse": 0,
+            "near_zero": 9,
+            "unknown": 6,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.5833333333333334,
+          "acceptance_not_passed_including_unknown": 15,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 19.877962140213658,
+          "mean_gain": 0.2733791753151732,
+          "mean_action_zero_lpips": 0.13493688484918998,
+          "paired_zero_identical": 0
+        },
+        "15": {
+          "direction": {
+            "correct": 13,
+            "reverse": 8,
+            "near_zero": 9,
+            "unknown": 6,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.3611111111111111,
+          "acceptance_not_passed_including_unknown": 23,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 37.37930206291092,
+          "mean_gain": 0.0803306317560355,
+          "mean_action_zero_lpips": 0.13526281337868162,
+          "paired_zero_identical": 0
+        },
+        "-15": {
+          "direction": {
+            "correct": 29,
+            "reverse": 0,
+            "near_zero": 2,
+            "unknown": 5,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.8055555555555556,
+          "acceptance_not_passed_including_unknown": 7,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 20.894931242578856,
+          "mean_gain": 0.4998930433691651,
+          "mean_action_zero_lpips": 0.278627230371866,
+          "paired_zero_identical": 0
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "small": {
+            "direction": {
+              "correct": 12,
+              "reverse": 5,
+              "near_zero": 64,
+              "unknown": 27,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.1111111111111111,
+            "acceptance_not_passed_including_unknown": 96,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.366296003993911,
+            "mean_gain": 0.03682158098906005,
+            "mean_action_zero_lpips": 0.02437990995693124,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 26,
+              "reverse": 6,
+              "near_zero": 19,
+              "unknown": 21,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.3611111111111111,
+            "acceptance_not_passed_including_unknown": 46,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 28.628767899358543,
+            "mean_gain": 0.1526528011231053,
+            "mean_action_zero_lpips": 0.11786634027400093,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle": {
+          "small": {
+            "direction": {
+              "correct": 21,
+              "reverse": 10,
+              "near_zero": 77,
+              "unknown": 0,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.19444444444444445,
+            "acceptance_not_passed_including_unknown": 87,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.892412591263042,
+            "mean_gain": 0.06161292904716774,
+            "mean_action_zero_lpips": 0.050944529101764564,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 40,
+              "reverse": 9,
+              "near_zero": 20,
+              "unknown": 3,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.5555555555555556,
+            "acceptance_not_passed_including_unknown": 32,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 24.41624800004362,
+            "mean_gain": 0.24560078780052136,
+            "mean_action_zero_lpips": 0.19391188575375257,
+            "paired_zero_identical": 0
+          }
+        }
+      },
+      "by_position": {
+        "apartment_1_p00": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.004136760887275968,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.1414834187210848,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p01": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.169498889650974,
+            "mean_gain": 0.004406296414695827,
+            "mean_action_zero_lpips": 0.002187920341384597,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 4,
+              "reverse": 1,
+              "near_zero": 7,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 8,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 28.731306212286018,
+            "mean_gain": 0.07233558837209185,
+            "mean_action_zero_lpips": 0.10805909952371924,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p02": {
+          "small": {
+            "direction": {
+              "correct": 4,
+              "reverse": 2,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.2222222222222222,
+            "acceptance_not_passed_including_unknown": 14,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.536347461771578,
+            "mean_gain": 0.027093671535572034,
+            "mean_action_zero_lpips": 0.022979457507770147,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 9,
+              "reverse": 0,
+              "near_zero": 3,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.75,
+            "acceptance_not_passed_including_unknown": 3,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 26.650220748114787,
+            "mean_gain": 0.19145343813639518,
+            "mean_action_zero_lpips": 0.12302079583362986,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p03": {
+          "small": {
+            "direction": {
+              "correct": 3,
+              "reverse": 1,
+              "near_zero": 5,
+              "unknown": 9,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.16666666666666666,
+            "acceptance_not_passed_including_unknown": 15,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.250955315550634,
+            "mean_gain": 0.0840261539948413,
+            "mean_action_zero_lpips": 0.09295794781711367,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 3,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 9,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.25,
+            "acceptance_not_passed_including_unknown": 9,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 26.97035489234656,
+            "mean_gain": 0.35703972172652576,
+            "mean_action_zero_lpips": 0.18776379649837813,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p04": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 13.35219329626742,
+            "mean_gain": 0.0013016414483754074,
+            "mean_action_zero_lpips": 0.0026854919293934167,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 4,
+              "reverse": 2,
+              "near_zero": 6,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 8,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.2347358480966,
+            "mean_gain": 0.04542831735616487,
+            "mean_action_zero_lpips": 0.08419882283972886,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p05": {
+          "small": {
+            "direction": {
+              "correct": 5,
+              "reverse": 2,
+              "near_zero": 11,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.2777777777777778,
+            "acceptance_not_passed_including_unknown": 13,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.52248505672896,
+            "mean_gain": 0.06728014155181566,
+            "mean_action_zero_lpips": 0.021331881258649647,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 6,
+              "reverse": 3,
+              "near_zero": 3,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.5,
+            "acceptance_not_passed_including_unknown": 6,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 28.55722179594875,
+            "mean_gain": 0.09700694002434879,
+            "mean_action_zero_lpips": 0.06267210822746468,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p00": {
+          "small": {
+            "direction": {
+              "correct": 6,
+              "reverse": 2,
+              "near_zero": 10,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.280815680720757,
+            "mean_gain": 0.033982039098314244,
+            "mean_action_zero_lpips": 0.06697168815622313,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 4,
+              "reverse": 5,
+              "near_zero": 3,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 8,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 29.65676769103905,
+            "mean_gain": 0.06720560657849022,
+            "mean_action_zero_lpips": 0.16367416502907872,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p01": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.665924711033332,
+            "mean_gain": -0.004417566984534489,
+            "mean_action_zero_lpips": 0.0043256607168586925,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 4,
+              "reverse": 0,
+              "near_zero": 7,
+              "unknown": 1,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 8,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 27.739207918634506,
+            "mean_gain": 0.13399530511191118,
+            "mean_action_zero_lpips": 0.14865515432514562,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p02": {
+          "small": {
+            "direction": {
+              "correct": 4,
+              "reverse": 2,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.2222222222222222,
+            "acceptance_not_passed_including_unknown": 14,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.043210143217529,
+            "mean_gain": 0.1177765852079708,
+            "mean_action_zero_lpips": 0.07380483188090795,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 7,
+              "reverse": 1,
+              "near_zero": 4,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.5833333333333334,
+            "acceptance_not_passed_including_unknown": 5,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.501827628689483,
+            "mean_gain": 0.3697643965399862,
+            "mean_action_zero_lpips": 0.19156046762752035,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p03": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 1,
+              "near_zero": 17,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.710999233924728,
+            "mean_gain": -0.00678322822357092,
+            "mean_action_zero_lpips": 0.0066567258108989336,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 9,
+              "reverse": 0,
+              "near_zero": 2,
+              "unknown": 1,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.75,
+            "acceptance_not_passed_including_unknown": 3,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.116057073385225,
+            "mean_gain": 0.2480904949074776,
+            "mean_action_zero_lpips": 0.23377290084802857,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p04": {
+          "small": {
+            "direction": {
+              "correct": 8,
+              "reverse": 3,
+              "near_zero": 7,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.4444444444444444,
+            "acceptance_not_passed_including_unknown": 10,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.264159560031132,
+            "mean_gain": 0.11213383170360292,
+            "mean_action_zero_lpips": 0.10299772994929096,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 9,
+              "reverse": 3,
+              "near_zero": 0,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.75,
+            "acceptance_not_passed_including_unknown": 3,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.32642820228539,
+            "mean_gain": 0.35885793157893353,
+            "mean_action_zero_lpips": 0.2627929672598839,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p05": {
+          "small": {
+            "direction": {
+              "correct": 3,
+              "reverse": 2,
+              "near_zero": 13,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.16666666666666666,
+            "acceptance_not_passed_including_unknown": 15,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.389366218650768,
+            "mean_gain": 0.11698591348122389,
+            "mean_action_zero_lpips": 0.05091053809640774,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 7,
+              "reverse": 0,
+              "near_zero": 4,
+              "unknown": 1,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.5833333333333334,
+            "acceptance_not_passed_including_unknown": 5,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.157199486228063,
+            "mean_gain": 0.29569099208632926,
+            "mean_action_zero_lpips": 0.16301565943285823,
+            "paired_zero_identical": 0
+          }
+        }
+      },
+      "original_small_frozen": {
+        "records": 252,
+        "successful": 252,
+        "action_direction": {
+          "correct": 32,
+          "reverse": 15,
+          "near_zero": 160,
+          "unknown": 9,
+          "total": 216
+        },
+        "calibrated_nonzero_records": 216,
+        "action_epe_px": 13.204302436420456,
+        "action_gain": 0.045873088958556095,
+        "reference_lpips": 0.22737132032061852,
+        "reference_matches": {
+          "correct": 40,
+          "other_reference": 212
+        },
+        "paired_zero_identical": {
+          "count": 0,
+          "total": 216
+        },
+        "zero_drift_px": 1.6441726128881176,
+        "copy_token_fraction": {
+          "start": null,
+          "goal": null,
+          "current": null
+        }
+      },
+      "analysis_complete_sha256": "e3198a09479051a76e06941486d6c059544ceeaf0c458197548006c4a049992e"
+    },
+    "raenwm": {
+      "small": {
+        "direction": {
+          "correct": 10,
+          "reverse": 0,
+          "near_zero": 11,
+          "unknown": 195,
+          "total": 216
+        },
+        "verified_direction_pass_rate": 0.046296296296296294,
+        "acceptance_not_passed_including_unknown": 206,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 11.751482723144377,
+        "mean_gain": 0.2976143053514306,
+        "mean_action_zero_lpips": 0.15833061402318654,
+        "paired_zero_identical": 0
+      },
+      "large": {
+        "direction": {
+          "correct": 21,
+          "reverse": 0,
+          "near_zero": 0,
+          "unknown": 123,
+          "total": 144
+        },
+        "verified_direction_pass_rate": 0.14583333333333334,
+        "acceptance_not_passed_including_unknown": 123,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 21.91286412461821,
+        "mean_gain": 0.39250605279785794,
+        "mean_action_zero_lpips": 0.28129386094709236,
+        "paired_zero_identical": 0
+      },
+      "by_magnitude": {
+        "3": {
+          "direction": {
+            "correct": 2,
+            "reverse": 0,
+            "near_zero": 7,
+            "unknown": 63,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.027777777777777776,
+          "acceptance_not_passed_including_unknown": 70,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 8.996998170895319,
+          "mean_gain": 0.16305488941932003,
+          "mean_action_zero_lpips": 0.09957207848007481,
+          "paired_zero_identical": 0
+        },
+        "5": {
+          "direction": {
+            "correct": 3,
+            "reverse": 0,
+            "near_zero": 4,
+            "unknown": 65,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.041666666666666664,
+          "acceptance_not_passed_including_unknown": 69,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.506833275117872,
+          "mean_gain": 0.32866821081808056,
+          "mean_action_zero_lpips": 0.1606219771525098,
+          "paired_zero_identical": 0
+        },
+        "7": {
+          "direction": {
+            "correct": 5,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 67,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.06944444444444445,
+          "acceptance_not_passed_including_unknown": 67,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 13.750616723419938,
+          "mean_gain": 0.4011198158168907,
+          "mean_action_zero_lpips": 0.214797786436975,
+          "paired_zero_identical": 0
+        },
+        "10": {
+          "direction": {
+            "correct": 10,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 62,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.1388888888888889,
+          "acceptance_not_passed_including_unknown": 62,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 16.744507890835685,
+          "mean_gain": 0.4412157867224059,
+          "mean_action_zero_lpips": 0.261422077814738,
+          "paired_zero_identical": 0
+        },
+        "15": {
+          "direction": {
+            "correct": 11,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 61,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.1527777777777778,
+          "acceptance_not_passed_including_unknown": 61,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 27.081220358400724,
+          "mean_gain": 0.3437963188733099,
+          "mean_action_zero_lpips": 0.3011656440794468,
+          "paired_zero_identical": 0
+        }
+      },
+      "by_signed_angle": {
+        "3": {
+          "direction": {
+            "correct": 2,
+            "reverse": 0,
+            "near_zero": 3,
+            "unknown": 31,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.05555555555555555,
+          "acceptance_not_passed_including_unknown": 34,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 9.734507630551683,
+          "mean_gain": 0.12043114473461951,
+          "mean_action_zero_lpips": 0.10396312560058302,
+          "paired_zero_identical": 0
+        },
+        "-3": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 4,
+            "unknown": 32,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 8.25948871123895,
+          "mean_gain": 0.2056786341040205,
+          "mean_action_zero_lpips": 0.09518103135956658,
+          "paired_zero_identical": 0
+        },
+        "5": {
+          "direction": {
+            "correct": 1,
+            "reverse": 0,
+            "near_zero": 1,
+            "unknown": 34,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.027777777777777776,
+          "acceptance_not_passed_including_unknown": 35,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 11.780388766363092,
+          "mean_gain": 0.37787045408139874,
+          "mean_action_zero_lpips": 0.1882964029080338,
+          "paired_zero_identical": 0
+        },
+        "-5": {
+          "direction": {
+            "correct": 2,
+            "reverse": 0,
+            "near_zero": 3,
+            "unknown": 31,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.05555555555555555,
+          "acceptance_not_passed_including_unknown": 34,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 13.233277783872648,
+          "mean_gain": 0.27946596755476233,
+          "mean_action_zero_lpips": 0.13294755139698586,
+          "paired_zero_identical": 0
+        },
+        "7": {
+          "direction": {
+            "correct": 3,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 33,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.08333333333333333,
+          "acceptance_not_passed_including_unknown": 33,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.678329945132974,
+          "mean_gain": 0.5565811219543364,
+          "mean_action_zero_lpips": 0.2535838298499584,
+          "paired_zero_identical": 0
+        },
+        "-7": {
+          "direction": {
+            "correct": 2,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 34,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.05555555555555555,
+          "acceptance_not_passed_including_unknown": 34,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 14.822903501706888,
+          "mean_gain": 0.24565850967944505,
+          "mean_action_zero_lpips": 0.17601174302399158,
+          "paired_zero_identical": 0
+        },
+        "10": {
+          "direction": {
+            "correct": 7,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 29,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.19444444444444445,
+          "acceptance_not_passed_including_unknown": 29,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 15.097111704741382,
+          "mean_gain": 0.508847428872241,
+          "mean_action_zero_lpips": 0.294857256528404,
+          "paired_zero_identical": 0
+        },
+        "-10": {
+          "direction": {
+            "correct": 3,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 33,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.08333333333333333,
+          "acceptance_not_passed_including_unknown": 33,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 18.391904076929976,
+          "mean_gain": 0.37358414457257105,
+          "mean_action_zero_lpips": 0.2279868991010719,
+          "paired_zero_identical": 0
+        },
+        "15": {
+          "direction": {
+            "correct": 6,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 30,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.16666666666666666,
+          "acceptance_not_passed_including_unknown": 30,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 25.725161297778907,
+          "mean_gain": 0.3759406873329436,
+          "mean_action_zero_lpips": 0.32870835438370705,
+          "paired_zero_identical": 0
+        },
+        "-15": {
+          "direction": {
+            "correct": 5,
+            "reverse": 0,
+            "near_zero": 0,
+            "unknown": 31,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.1388888888888889,
+          "acceptance_not_passed_including_unknown": 31,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 28.437279419022545,
+          "mean_gain": 0.31165195041367616,
+          "mean_action_zero_lpips": 0.27362293377518654,
+          "paired_zero_identical": 0
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "small": {
+            "direction": {
+              "correct": 8,
+              "reverse": 0,
+              "near_zero": 11,
+              "unknown": 89,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.07407407407407407,
+            "acceptance_not_passed_including_unknown": 100,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 13.67592249199014,
+            "mean_gain": 0.18996003495964053,
+            "mean_action_zero_lpips": 0.1352644150869714,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 20,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 52,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.2777777777777778,
+            "acceptance_not_passed_including_unknown": 52,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 24.787864792885223,
+            "mean_gain": 0.3134690637999109,
+            "mean_action_zero_lpips": 0.26753794050051105,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle": {
+          "small": {
+            "direction": {
+              "correct": 2,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 106,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.018518518518518517,
+            "acceptance_not_passed_including_unknown": 106,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 10.147782915772906,
+            "mean_gain": 0.3873261973445888,
+            "mean_action_zero_lpips": 0.1813968129594017,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 1,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 71,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.013888888888888888,
+            "acceptance_not_passed_including_unknown": 71,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 19.517030234395683,
+            "mean_gain": 0.4583702102961471,
+            "mean_action_zero_lpips": 0.29504978139367366,
+            "paired_zero_identical": 0
+          }
+        }
+      },
+      "by_position": {
+        "apartment_1_p00": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.13313122342030206,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.28593184302250546,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p01": {
+          "small": {
+            "direction": {
+              "correct": 1,
+              "reverse": 0,
+              "near_zero": 2,
+              "unknown": 15,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.05555555555555555,
+            "acceptance_not_passed_including_unknown": 17,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 8.549686559441534,
+            "mean_gain": 0.2854357865736543,
+            "mean_action_zero_lpips": 0.15099666888515154,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 4,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 8,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.3333333333333333,
+            "acceptance_not_passed_including_unknown": 8,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 17.450009450176136,
+            "mean_gain": 0.4596666256267348,
+            "mean_action_zero_lpips": 0.31333660582701367,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p02": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 3,
+              "unknown": 15,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 10.15813118150276,
+            "mean_gain": 0.18484343709196016,
+            "mean_action_zero_lpips": 0.1344750269005696,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 5,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 7,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.4166666666666667,
+            "acceptance_not_passed_including_unknown": 7,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 21.68058899820417,
+            "mean_gain": 0.33808532479261183,
+            "mean_action_zero_lpips": 0.2899012627700965,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p03": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 28.553603519425046,
+            "mean_gain": 0.14019888874149034,
+            "mean_action_zero_lpips": 0.12673859505189788,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 40.572421214905646,
+            "mean_gain": 0.10551775697259765,
+            "mean_action_zero_lpips": 0.1926171307762464,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p04": {
+          "small": {
+            "direction": {
+              "correct": 4,
+              "reverse": 0,
+              "near_zero": 1,
+              "unknown": 13,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.2222222222222222,
+            "acceptance_not_passed_including_unknown": 14,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 9.65403175372659,
+            "mean_gain": 0.2783962040536177,
+            "mean_action_zero_lpips": 0.17189162804020774,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 5,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 7,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.4166666666666667,
+            "acceptance_not_passed_including_unknown": 7,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.069849013865834,
+            "mean_gain": 0.3773143155922542,
+            "mean_action_zero_lpips": 0.3073577818771203,
+            "paired_zero_identical": 0
+          }
+        },
+        "apartment_1_p05": {
+          "small": {
+            "direction": {
+              "correct": 3,
+              "reverse": 0,
+              "near_zero": 5,
+              "unknown": 10,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.16666666666666666,
+            "acceptance_not_passed_including_unknown": 15,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.464159445854756,
+            "mean_gain": 0.060925858337480175,
+            "mean_action_zero_lpips": 0.09435334822369947,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 6,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 6,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.5,
+            "acceptance_not_passed_including_unknown": 6,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.16645528727437,
+            "mean_gain": 0.2867612960153557,
+            "mean_action_zero_lpips": 0.2160830187300841,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p00": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 9.027762982323756,
+            "mean_gain": 0.6925455596907347,
+            "mean_action_zero_lpips": 0.2322920337319374,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 16.069622977208436,
+            "mean_gain": 0.6337431348384076,
+            "mean_action_zero_lpips": 0.3398775979876518,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p01": {
+          "small": {
+            "direction": {
+              "correct": 1,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 17,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.05555555555555555,
+            "acceptance_not_passed_including_unknown": 17,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 11.834359593545319,
+            "mean_gain": 0.161797940569958,
+            "mean_action_zero_lpips": 0.15585727410184014,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 1,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 11,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.08333333333333333,
+            "acceptance_not_passed_including_unknown": 11,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 22.03268437955786,
+            "mean_gain": 0.3992190163408003,
+            "mean_action_zero_lpips": 0.2837687060236931,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p02": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 14.928055658519598,
+            "mean_gain": 0.3690165471841895,
+            "mean_action_zero_lpips": 0.19362839311361313,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 23.42137562344075,
+            "mean_gain": 0.3481800800387414,
+            "mean_action_zero_lpips": 0.30709607650836307,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p03": {
+          "small": {
+            "direction": {
+              "correct": 1,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 17,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.05555555555555555,
+            "acceptance_not_passed_including_unknown": 17,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 7.533857084599919,
+            "mean_gain": 0.3951013808066452,
+            "mean_action_zero_lpips": 0.16000753309991625,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 17.71186759552828,
+            "mean_gain": 0.5054147627282126,
+            "mean_action_zero_lpips": 0.2537836320698261,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p04": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 8.731322240625648,
+            "mean_gain": 0.33455614750056173,
+            "mean_action_zero_lpips": 0.17918166683779824,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 19.16273699533667,
+            "mean_gain": 0.4223166866151073,
+            "mean_action_zero_lpips": 0.3196561398605506,
+            "paired_zero_identical": 0
+          }
+        },
+        "skokloster_castle_p05": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 8.831339935023182,
+            "mean_gain": 0.370939608315443,
+            "mean_action_zero_lpips": 0.16741397687130505,
+            "paired_zero_identical": 0
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 18.703893835302086,
+            "mean_gain": 0.44134758121561357,
+            "mean_action_zero_lpips": 0.26611653591195744,
+            "paired_zero_identical": 0
+          }
+        }
+      },
+      "original_small_frozen": {
+        "records": 252,
+        "successful": 252,
+        "action_direction": {
+          "correct": 10,
+          "reverse": 0,
+          "near_zero": 11,
+          "unknown": 195,
+          "total": 216
+        },
+        "calibrated_nonzero_records": 216,
+        "action_epe_px": 12.650875575942042,
+        "action_gain": 0.2749154534759145,
+        "reference_lpips": 0.40958266167177093,
+        "reference_matches": {
+          "correct": 43,
+          "other_reference": 209
+        },
+        "paired_zero_identical": {
+          "count": 0,
+          "total": 216
+        },
+        "zero_drift_px": 5.184851149717967,
+        "copy_token_fraction": {
+          "start": null,
+          "goal": null,
+          "current": null
+        }
+      },
+      "analysis_complete_sha256": "8597f21e70ec921399664e7810c19f98eb43abb857c9a1dabe6ddc55bcffc135"
+    },
+    "uniwm": {
+      "small": {
+        "direction": {
+          "correct": 0,
+          "reverse": 0,
+          "near_zero": 198,
+          "unknown": 18,
+          "total": 216
+        },
+        "verified_direction_pass_rate": 0.0,
+        "acceptance_not_passed_including_unknown": 216,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 12.621189939950895,
+        "mean_gain": -4.2178703421982346e-05,
+        "mean_action_zero_lpips": 0.0008209136375862053,
+        "paired_zero_identical": 193
+      },
+      "large": {
+        "direction": {
+          "correct": 0,
+          "reverse": 0,
+          "near_zero": 132,
+          "unknown": 12,
+          "total": 144
+        },
+        "verified_direction_pass_rate": 0.0,
+        "acceptance_not_passed_including_unknown": 144,
+        "unknown_is_observed_turn_error": false,
+        "mean_effect_epe_px": 32.218958404955394,
+        "mean_gain": 1.1284362375446279e-05,
+        "mean_action_zero_lpips": 0.0010502905656216575,
+        "paired_zero_identical": 125
+      },
+      "by_magnitude": {
+        "3": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 66,
+            "unknown": 6,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 72,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.53620853171119,
+          "mean_gain": -0.00015885688879107402,
+          "mean_action_zero_lpips": 0.00104129642022599,
+          "paired_zero_identical": 64
+        },
+        "5": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 66,
+            "unknown": 6,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 72,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.60822772130504,
+          "mean_gain": -1.6265191166963042e-05,
+          "mean_action_zero_lpips": 0.0006459089869773985,
+          "paired_zero_identical": 64
+        },
+        "7": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 66,
+            "unknown": 6,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 72,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 17.719133566836433,
+          "mean_gain": 4.858596969209004e-05,
+          "mean_action_zero_lpips": 0.0007755355055552274,
+          "paired_zero_identical": 65
+        },
+        "10": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 66,
+            "unknown": 6,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 72,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 25.516056940088703,
+          "mean_gain": -1.0434960800591057e-05,
+          "mean_action_zero_lpips": 0.0014294913517005625,
+          "paired_zero_identical": 60
+        },
+        "15": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 66,
+            "unknown": 6,
+            "total": 72
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 72,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 38.92185986982209,
+          "mean_gain": 3.300368555148361e-05,
+          "mean_action_zero_lpips": 0.0006710897795427525,
+          "paired_zero_identical": 65
+        }
+      },
+      "by_signed_angle": {
+        "3": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.563195019796173,
+          "mean_gain": -0.0002694375257696362,
+          "mean_action_zero_lpips": 0.0012043148922708093,
+          "paired_zero_identical": 33
+        },
+        "-3": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 7.509222043626198,
+          "mean_gain": -4.827625181251182e-05,
+          "mean_action_zero_lpips": 0.0008782779481811707,
+          "paired_zero_identical": 31
+        },
+        "5": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.667345089879687,
+          "mean_gain": -4.428363525928868e-05,
+          "mean_action_zero_lpips": 0.00018517260044366898,
+          "paired_zero_identical": 31
+        },
+        "-5": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 12.549110352730407,
+          "mean_gain": 1.1753252925362597e-05,
+          "mean_action_zero_lpips": 0.0011066453735111281,
+          "paired_zero_identical": 33
+        },
+        "7": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 17.8102421152694,
+          "mean_gain": -4.03293051774179e-07,
+          "mean_action_zero_lpips": 0.00010251966301034877,
+          "paired_zero_identical": 32
+        },
+        "-7": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 17.628025018403463,
+          "mean_gain": 9.757523243595426e-05,
+          "mean_action_zero_lpips": 0.001448551348100106,
+          "paired_zero_identical": 33
+        },
+        "10": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 25.685555472462898,
+          "mean_gain": -0.00013518889230011754,
+          "mean_action_zero_lpips": 0.0013653138551793138,
+          "paired_zero_identical": 31
+        },
+        "-10": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 25.346558407714507,
+          "mean_gain": 0.0001143189706989354,
+          "mean_action_zero_lpips": 0.0014936688482218112,
+          "paired_zero_identical": 29
+        },
+        "15": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 39.32562633731736,
+          "mean_gain": 1.8143102124859776e-05,
+          "mean_action_zero_lpips": 0.00013526858997971026,
+          "paired_zero_identical": 33
+        },
+        "-15": {
+          "direction": {
+            "correct": 0,
+            "reverse": 0,
+            "near_zero": 33,
+            "unknown": 3,
+            "total": 36
+          },
+          "verified_direction_pass_rate": 0.0,
+          "acceptance_not_passed_including_unknown": 36,
+          "unknown_is_observed_turn_error": false,
+          "mean_effect_epe_px": 38.51809340232685,
+          "mean_gain": 4.7864268978107455e-05,
+          "mean_action_zero_lpips": 0.001206910969105795,
+          "paired_zero_identical": 32
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 90,
+              "unknown": 18,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 108,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.672930038499855,
+            "mean_gain": 6.8753455493229245e-06,
+            "mean_action_zero_lpips": 2.5543918632643504e-06,
+            "paired_zero_identical": 105
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 60,
+              "unknown": 12,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 72,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.318604894485034,
+            "mean_gain": 1.8990435526777099e-07,
+            "mean_action_zero_lpips": 5.129626212389364e-06,
+            "paired_zero_identical": 68
+          }
+        },
+        "skokloster_castle": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 108,
+              "unknown": 0,
+              "total": 108
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 108,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.578073191160065,
+            "mean_gain": -8.305707756473674e-05,
+            "mean_action_zero_lpips": 0.0016392728833091463,
+            "paired_zero_identical": 88
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 72,
+              "unknown": 0,
+              "total": 72
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 72,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.13591966368071,
+            "mean_gain": 2.052974405892837e-05,
+            "mean_action_zero_lpips": 0.002095451505030926,
+            "paired_zero_identical": 57
+          }
+        }
+      },
+      "by_position": {
+        "apartment_1_p00": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 18,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 18
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 0,
+              "unknown": 12,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": null,
+            "mean_gain": null,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        },
+        "apartment_1_p01": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.222433239014833,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 18
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 31.125775490929012,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        },
+        "apartment_1_p02": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.905688536212276,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 18
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.80113580151688,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        },
+        "apartment_1_p03": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.497141317562374,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 18
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 31.94254524376306,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        },
+        "apartment_1_p04": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 13.366831820051834,
+            "mean_gain": 2.5716477975599617e-05,
+            "mean_action_zero_lpips": 1.0384307339942703e-05,
+            "paired_zero_identical": 16
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 34.136562421959916,
+            "mean_gain": -7.861459963335133e-06,
+            "mean_action_zero_lpips": 2.3364691514871083e-05,
+            "paired_zero_identical": 9
+          }
+        },
+        "apartment_1_p05": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.372555279657998,
+            "mean_gain": 8.660249771015003e-06,
+            "mean_action_zero_lpips": 4.942043839643399e-06,
+            "paired_zero_identical": 17
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 31.58700551425623,
+            "mean_gain": 8.810981739673988e-06,
+            "mean_action_zero_lpips": 7.413065759465098e-06,
+            "paired_zero_identical": 11
+          }
+        },
+        "skokloster_castle_p00": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.594723259198236,
+            "mean_gain": 5.555174862737891e-06,
+            "mean_action_zero_lpips": 2.357341387930016e-05,
+            "paired_zero_identical": 16
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.17348625840735,
+            "mean_gain": -1.2442329887319073e-05,
+            "mean_action_zero_lpips": 2.4070711636644166e-05,
+            "paired_zero_identical": 10
+          }
+        },
+        "skokloster_castle_p01": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.60187059135233,
+            "mean_gain": 7.746574856181226e-05,
+            "mean_action_zero_lpips": 0.0004406234527575887,
+            "paired_zero_identical": 12
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.264864912634884,
+            "mean_gain": -7.554326682569257e-06,
+            "mean_action_zero_lpips": 5.913413770031184e-05,
+            "paired_zero_identical": 9
+          }
+        },
+        "skokloster_castle_p02": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.57382981810842,
+            "mean_gain": -5.8593591603306735e-05,
+            "mean_action_zero_lpips": 7.882587346507029e-06,
+            "paired_zero_identical": 17
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.08295451128242,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        },
+        "skokloster_castle_p03": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.590408979982739,
+            "mean_gain": -7.869033024404428e-05,
+            "mean_action_zero_lpips": 0.00019700632482353185,
+            "paired_zero_identical": 17
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.12944960590921,
+            "mean_gain": 5.629653950376989e-05,
+            "mean_action_zero_lpips": 0.0012714095646515489,
+            "paired_zero_identical": 9
+          }
+        },
+        "skokloster_castle_p04": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.553900775668787,
+            "mean_gain": -0.00044407946696561955,
+            "mean_action_zero_lpips": 0.00916655152104795,
+            "paired_zero_identical": 8
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.09058846284706,
+            "mean_gain": 8.687858141968868e-05,
+            "mean_action_zero_lpips": 0.01121809461619705,
+            "paired_zero_identical": 5
+          }
+        },
+        "skokloster_castle_p05": {
+          "small": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 18,
+              "unknown": 0,
+              "total": 18
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 18,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 12.553705722649939,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 18
+          },
+          "large": {
+            "direction": {
+              "correct": 0,
+              "reverse": 0,
+              "near_zero": 12,
+              "unknown": 0,
+              "total": 12
+            },
+            "verified_direction_pass_rate": 0.0,
+            "acceptance_not_passed_including_unknown": 12,
+            "unknown_is_observed_turn_error": false,
+            "mean_effect_epe_px": 32.0741742310034,
+            "mean_gain": 0.0,
+            "mean_action_zero_lpips": 0.0,
+            "paired_zero_identical": 12
+          }
+        }
+      },
+      "original_small_frozen": {
+        "records": 252,
+        "successful": 252,
+        "action_direction": {
+          "correct": 0,
+          "reverse": 0,
+          "near_zero": 216,
+          "unknown": 0,
+          "total": 216
+        },
+        "calibrated_nonzero_records": 216,
+        "action_epe_px": 13.72685859411691,
+        "action_gain": -5.998019026886558e-05,
+        "reference_lpips": 0.21924389013281417,
+        "reference_matches": {
+          "correct": 36,
+          "other_reference": 216
+        },
+        "paired_zero_identical": {
+          "count": 193,
+          "total": 216
+        },
+        "zero_drift_px": 0.4162949174642563,
+        "copy_token_fraction": {
+          "start": 0.9530389536767089,
+          "goal": 0.9530389536767089,
+          "current": 0.5252419420149013
+        }
+      },
+      "analysis_complete_sha256": "a68ae9fec6b926e4ef72caa9bf1777e9f59116b6bae0715dc47a2fb26fd0d49a"
+    }
+  },
+  "world_model_updates": 0,
+  "new_predictions": 432,
+  "reused_predictions": 756,
+  "limits": [
+    "±10/15deg exceed ±7deg Habitat adaptation support; base pretraining support unknown",
+    "existing12 positions previously inspected; this is exploratory follow-up, not a fresh independent confirmation",
+    "2 scenes; seeds and actions are repeated measurements",
+    "pixel gains are not physical angle accuracy; unknown is measurement limitation",
+    "larger-response evidence would not establish an in-distribution small-angle-specific cause"
+  ]
+}

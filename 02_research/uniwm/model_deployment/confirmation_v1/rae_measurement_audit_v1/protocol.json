@@ -1,0 +1,24 @@
+{
+  "script_sha256": "2564271353ef60c8731d747aa8d95af2744d7befa70196ab1f78d8e40a3ec570",
+  "main_protocol_sha256": "bbf6c5b20b70e8210d47cf21a4b9d018b7cae9c8d3eeef87bed467bdc3370226",
+  "data": "existing12 positions,84 true references,84 frozen RAE reconstructions,252 generated frames",
+  "source_results_unchanged": true,
+  "original_unknown": 195,
+  "original_nonzero": 216,
+  "primary": "supplementary diagnosis only; never replace frozen direction results",
+  "new_world_model_predictions": 0,
+  "new_training_updates": 0,
+  "new_positions": 0,
+  "raft": "unchanged original RAFT Large,12updates,FP32,original source-only masks and thresholds",
+  "sift": {
+    "ratio": 0.75,
+    "min_matches": 12,
+    "min_inliers": 12,
+    "min_inlier_fraction": 0.5,
+    "ransac_threshold_px": 2.0,
+    "minimum_grid_cells": 4,
+    "rotation_projection_median_px": 2.0
+  },
+  "known_controls": "36 fixed source images:12raw0,12codec0,12generated-zero repeat0; each0/±8px shifts/±3/±5/±7deg homographies",
+  "interpretation": "synthetic control truth is known; expected camera geometry on generated pairs is a hypothesis, not generated physical truth"
+}

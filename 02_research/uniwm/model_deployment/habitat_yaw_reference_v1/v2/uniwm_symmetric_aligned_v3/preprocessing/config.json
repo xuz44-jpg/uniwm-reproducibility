@@ -1,0 +1,10 @@
+{
+  "script_sha256": "b0d65773895aac3fe50a6fff69e0586583c0cee6d8a4570179467b36ae739874",
+  "backend_sha256": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+  "train_rows_sha256": "0ff8129f59875380a3182cc5cc8eaff41deb14a6454294e4a3e44420c480804d",
+  "validation_rows_sha256": "85b318cf12e21f7bf063704179c5154eb21c80a46082c86e692d65c771781023",
+  "baseline": "external/uniwm-action-pilot/checkpoints/1x200",
+  "recipe": "native FP16 backend: sanitize current through FP32 VQ, uint8 decoded PIL; batch encode start/goal/current",
+  "optimization_split": "train only; validation cache used only in no-grad loss",
+  "new_world_model_predictions": 0
+}

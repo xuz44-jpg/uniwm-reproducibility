@@ -1,0 +1,6040 @@
+{
+  "version": 3,
+  "camera": {
+    "K": [
+      [
+        320.0,
+        0.0,
+        319.5
+      ],
+      [
+        0.0,
+        320.00000953674316,
+        239.5
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "distortion": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "projection_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.3333333730697632,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0002000331878662,
+        -0.020002000033855438
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ]
+    ],
+    "width": 640,
+    "height": 480,
+    "hfov_deg": 90.0,
+    "native_axes": "Habitat world +Y up; camera +X right,+Y up,-Z forward",
+    "planar_axes": "x=world_X, y=-world_Z; yaw=atan2(forward_y,forward_x), positive left",
+    "pixel_convention": "integer pixel centers; principal point ((W-1)/2,(H-1)/2)",
+    "simulator_version": "0.3.3",
+    "python": "3.9.23 | packaged by conda-forge | (main, Jun  4 2025, 17:57:12) \n[GCC 13.3.0]"
+  },
+  "train_pairs": 336,
+  "validation_pairs": 42,
+  "original_pairs_retained": true,
+  "new_right_first_pairs": 108,
+  "test_manifest_sha256": "5416eef58de89f8deeb0b4e5ecc20d86eeb0f45de43a72016c36306348a9395e",
+  "original_test_rows_sha256": "0f80449d190f2919e0af2e71cb98b29a49f1182f9ac37ff42ec8ab94c8efb1e8",
+  "collection": [
+    {
+      "source": "room00_traj00",
+      "split": "train",
+      "room_id": 0,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.9343078370865454
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8041878748777144,
+              -0.0,
+              -0.5943751861405938
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5943751861405938,
+              0.0,
+              0.8041878748777144
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room00_traj00/000.png",
+          "image_sha256": "415bad2312c1cbeafe37970b12aac8001a53fa2d4f652273600c6e9ec5e8966c",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room00_traj00/000.depth.npy",
+          "depth_sha256": "9942a8a917a6a67fbbbc9d197073d83e9611cbd1d3618a263ebcd91591176b30",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.8819479595267152
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7719785619697348,
+              -0.0,
+              -0.6356485663156491
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6356485663156491,
+              0.0,
+              0.7719785619697348
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/001.png",
+          "image_sha256": "23193a97c4d01c23f12a12caa34fb04f959c8e9345279847f13cb8fc2cc7457c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/001.depth.npy",
+          "depth_sha256": "a3273e7e07365c0e5633f8ff582fa36afc61f013343c1ce2e73bc4ba81b1873e",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.9343078370865454
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8041878748777144,
+              -0.0,
+              -0.5943751861405938
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5943751861405938,
+              0.0,
+              0.8041878748777144
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/002.png",
+          "image_sha256": "415bad2312c1cbeafe37970b12aac8001a53fa2d4f652273600c6e9ec5e8966c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/002.depth.npy",
+          "depth_sha256": "9942a8a917a6a67fbbbc9d197073d83e9611cbd1d3618a263ebcd91591176b30",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.8470413744868286
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.749324477889467,
+              -0.0,
+              -0.6622030102888976
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6622030102888976,
+              0.0,
+              0.749324477889467
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/003.png",
+          "image_sha256": "b12eac227f63e38935ba1e53e7e3d0f3f709683739ef88a7eefcc42e9220a37b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/003.depth.npy",
+          "depth_sha256": "f7d4baa29dd7d4030a3e5a095893632d954d0e411ee3ded8e89c27ce53faf3b6",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.9343078370865454
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8041878748777144,
+              -0.0,
+              -0.5943751861405938
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5943751861405938,
+              0.0,
+              0.8041878748777144
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/004.png",
+          "image_sha256": "415bad2312c1cbeafe37970b12aac8001a53fa2d4f652273600c6e9ec5e8966c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/004.depth.npy",
+          "depth_sha256": "9942a8a917a6a67fbbbc9d197073d83e9611cbd1d3618a263ebcd91591176b30",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.812134789446942
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.725757450265597,
+              -0.0,
+              -0.6879506692953933
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6879506692953933,
+              0.0,
+              0.725757450265597
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/005.png",
+          "image_sha256": "2ab20204285261b5b54909868ed7b887f69beaa54687e50103aaeb2ddc1409fc",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/005.depth.npy",
+          "depth_sha256": "a84b15ccafe86b3eb1437de65a288503c8858199d853fbba7e84befbce3324b0",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj00_right_first",
+          "source_trajectory_id": "room00_traj00",
+          "planar_pose": [
+            -9.866140365600586,
+            1.2786099910736084,
+            0.9343078370865454
+          ],
+          "camera_position_world": [
+            -9.866140365600586,
+            1.5724470615386963,
+            -1.2786099910736084
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8041878748777144,
+              -0.0,
+              -0.5943751861405938
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5943751861405938,
+              0.0,
+              0.8041878748777144
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/006.png",
+          "image_sha256": "415bad2312c1cbeafe37970b12aac8001a53fa2d4f652273600c6e9ec5e8966c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj00/006.depth.npy",
+          "depth_sha256": "9942a8a917a6a67fbbbc9d197073d83e9611cbd1d3618a263ebcd91591176b30",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room00_traj01",
+      "split": "train",
+      "room_id": 0,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            3.0848092854362417
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.05675280147456763,
+              0.0,
+              0.9983882609109486
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9983882609109486,
+              0.0,
+              0.05675280147456763
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room00_traj01/000.png",
+          "image_sha256": "5389f8f8664b9f3cc2630005f547a97dfd93c7d1d0103643471ee85f2a924205",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room00_traj01/000.depth.npy",
+          "depth_sha256": "bae875da1c8595decb3f5936bdf8f629e6a14433c179fda11d3ce0971ac2240c",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            3.0324494078764124
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.10892671519292141,
+              0.0,
+              0.9940497828163739
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9940497828163739,
+              0.0,
+              0.10892671519292141
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/001.png",
+          "image_sha256": "8872936cb30464da0c47bccda02ad31a43123989fb6975d3e7819cad4aa7441f",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/001.depth.npy",
+          "depth_sha256": "2b9254c7ee18cc69b3529b2db0268ede17e1b21af092c55b0aa8b3954ab17386",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            3.0848092854362417
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.05675280147456763,
+              0.0,
+              0.9983882609109486
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9983882609109486,
+              0.0,
+              0.05675280147456763
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/002.png",
+          "image_sha256": "5389f8f8664b9f3cc2630005f547a97dfd93c7d1d0103643471ee85f2a924205",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/002.depth.npy",
+          "depth_sha256": "bae875da1c8595decb3f5936bdf8f629e6a14433c179fda11d3ce0971ac2240c",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            2.9975428228365253
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.14355218376249623,
+              0.0,
+              0.9896427489437886
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9896427489437886,
+              0.0,
+              0.14355218376249623
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/003.png",
+          "image_sha256": "a79cda1e8384b4d416e08a264331f49a91b40d58757c2f2310e9292346e1d535",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/003.depth.npy",
+          "depth_sha256": "66995fb69145e1d5ad90931ad086a6b85db3b52a3204fe55f086072550044770",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            3.0848092854362417
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.05675280147456763,
+              0.0,
+              0.9983882609109486
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9983882609109486,
+              0.0,
+              0.05675280147456763
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/004.png",
+          "image_sha256": "5389f8f8664b9f3cc2630005f547a97dfd93c7d1d0103643471ee85f2a924205",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/004.depth.npy",
+          "depth_sha256": "bae875da1c8595decb3f5936bdf8f629e6a14433c179fda11d3ce0971ac2240c",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            2.962636237796639
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.17800275878148852,
+              0.0,
+              0.9840299882961795
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9840299882961795,
+              0.0,
+              0.17800275878148852
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/005.png",
+          "image_sha256": "6b2c2fc7897600f3dcf9604f90504574da0533b90cc1733f50cc972fd6529c1b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/005.depth.npy",
+          "depth_sha256": "91b32cc773e30d69d4980df2decd70b1c9096838229a10de7db87696b5a62edc",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 0,
+          "trajectory_id": "room00_traj01_right_first",
+          "source_trajectory_id": "room00_traj01",
+          "planar_pose": [
+            -7.234029769897461,
+            2.6012799739837646,
+            3.0848092854362417
+          ],
+          "camera_position_world": [
+            -7.234029769897461,
+            1.5724470615386963,
+            -2.6012799739837646
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.05675280147456763,
+              0.0,
+              0.9983882609109486
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.9983882609109486,
+              0.0,
+              0.05675280147456763
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/006.png",
+          "image_sha256": "5389f8f8664b9f3cc2630005f547a97dfd93c7d1d0103643471ee85f2a924205",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room00_traj01/006.depth.npy",
+          "depth_sha256": "bae875da1c8595decb3f5936bdf8f629e6a14433c179fda11d3ce0971ac2240c",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room01_traj00",
+      "split": "train",
+      "room_id": 1,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.49712640922176776
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4769017369145576,
+              -0.0,
+              -0.8789566162945006
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8789566162945006,
+              0.0,
+              -0.4769017369145576
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room01_traj00/000.png",
+          "image_sha256": "0d58568177cc73fd332e5a8ddab674e3b9843dc9c83b8cceb3f48e21e2f7d580",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room01_traj00/000.depth.npy",
+          "depth_sha256": "60817d595174b82c5371a1eccee720369203a399a50d1c2a7b3d753cea7e42f2",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.5494862867815975
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5222491801586555,
+              -0.0,
+              -0.852792937250076
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.852792937250076,
+              0.0,
+              -0.5222491801586555
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/001.png",
+          "image_sha256": "62722ad1f58e6bdeeaf86bcbf899069c643ac8679464cc0b7898c77da05c74b1",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/001.depth.npy",
+          "depth_sha256": "25b567172236e653cf33dfefc6873012159332537c44635fdbecefceb064dc6d",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.49712640922176776
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4769017369145576,
+              -0.0,
+              -0.8789566162945006
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8789566162945006,
+              0.0,
+              -0.4769017369145576
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/002.png",
+          "image_sha256": "0d58568177cc73fd332e5a8ddab674e3b9843dc9c83b8cceb3f48e21e2f7d580",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/002.depth.npy",
+          "depth_sha256": "60817d595174b82c5371a1eccee720369203a399a50d1c2a7b3d753cea7e42f2",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.5843928718214846
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5516931205585793,
+              -0.0,
+              -0.8340471813562688
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8340471813562688,
+              0.0,
+              -0.5516931205585793
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/003.png",
+          "image_sha256": "82b141eef4c6c10751d77cb67765f41032d8f3c7088a529539101933684b733d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/003.depth.npy",
+          "depth_sha256": "8f0b2edc50ae19e68758fff7bf2cd34025dec3c40572146310262635036c4582",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.49712640922176776
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4769017369145576,
+              -0.0,
+              -0.8789566162945006
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8789566162945006,
+              0.0,
+              -0.4769017369145576
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/004.png",
+          "image_sha256": "0d58568177cc73fd332e5a8ddab674e3b9843dc9c83b8cceb3f48e21e2f7d580",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/004.depth.npy",
+          "depth_sha256": "60817d595174b82c5371a1eccee720369203a399a50d1c2a7b3d753cea7e42f2",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.6192994568613708
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.5804648327505488,
+              -0.0,
+              -0.8142853172812815
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8142853172812815,
+              0.0,
+              -0.5804648327505488
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/005.png",
+          "image_sha256": "95e7ec23317ce5ee680ed9a5c1740c4466ba2871b4433b48144ee48b7785f393",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/005.depth.npy",
+          "depth_sha256": "d32824ae1853fa2a54e6c3a8eac9f50386b540be499fe6ea8afbd3df315c8bae",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj00_right_first",
+          "source_trajectory_id": "room01_traj00",
+          "planar_pose": [
+            -8.205570220947266,
+            -0.05420190095901489,
+            -0.49712640922176776
+          ],
+          "camera_position_world": [
+            -8.205570220947266,
+            1.5724470615386963,
+            0.05420190095901489
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.4769017369145576,
+              -0.0,
+              -0.8789566162945006
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8789566162945006,
+              0.0,
+              -0.4769017369145576
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/006.png",
+          "image_sha256": "0d58568177cc73fd332e5a8ddab674e3b9843dc9c83b8cceb3f48e21e2f7d580",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj00/006.depth.npy",
+          "depth_sha256": "60817d595174b82c5371a1eccee720369203a399a50d1c2a7b3d753cea7e42f2",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room01_traj01",
+      "split": "train",
+      "room_id": 1,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.197890391228371
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8097361207157494,
+              0.0,
+              0.5867941843680876
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5867941843680876,
+              -0.0,
+              -0.8097361207157494
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room01_traj01/000.png",
+          "image_sha256": "3486b7eeecdaf84414fa952c5b412c2fc88475bd3aeccb16b6191d8146f815e3",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room01_traj01/000.depth.npy",
+          "depth_sha256": "4792163f158ec0813b5b472b771787cc90cb8946f0ced6c2cd2fec4111c12e54",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.250250268788201
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7779159563293494,
+              0.0,
+              0.6283683353640553
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6283683353640553,
+              -0.0,
+              -0.7779159563293494
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/001.png",
+          "image_sha256": "56e1c856d76133148cb34c89b6301f90a92116a4457806317b853b22e118d31a",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/001.depth.npy",
+          "depth_sha256": "ed3b2af5c46eb19a902e59f17ba188ede041771d01f1412fdeebb263b1356ef6",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.197890391228371
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8097361207157494,
+              0.0,
+              0.5867941843680876
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5867941843680876,
+              -0.0,
+              -0.8097361207157494
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/002.png",
+          "image_sha256": "3486b7eeecdaf84414fa952c5b412c2fc88475bd3aeccb16b6191d8146f815e3",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/002.depth.npy",
+          "depth_sha256": "4792163f158ec0813b5b472b771787cc90cb8946f0ced6c2cd2fec4111c12e54",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.2851568538280875
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7555123536047483,
+              0.0,
+              0.6551344011350753
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.6551344011350753,
+              -0.0,
+              -0.7555123536047483
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/003.png",
+          "image_sha256": "19b519c710612beb1a2c83e2081f98e63816efbf2dfe4cd5c896866372dcaad9",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/003.depth.npy",
+          "depth_sha256": "b80aa933434d6e925194173557c2362a03bbe40b56e5fc5d7601aa6814938854",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.197890391228371
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8097361207157494,
+              0.0,
+              0.5867941843680876
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5867941843680876,
+              -0.0,
+              -0.8097361207157494
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/004.png",
+          "image_sha256": "3486b7eeecdaf84414fa952c5b412c2fc88475bd3aeccb16b6191d8146f815e3",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/004.depth.npy",
+          "depth_sha256": "4792163f158ec0813b5b472b771787cc90cb8946f0ced6c2cd2fec4111c12e54",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.320063438867974
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7321882520443121,
+              0.0,
+              0.68110231505134
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.68110231505134,
+              -0.0,
+              -0.7321882520443121
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/005.png",
+          "image_sha256": "85a74d74c4d91616322f4ddb08fc23eb35b93ab5fa661a47ed76f261a10f2d6b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/005.depth.npy",
+          "depth_sha256": "f8ec148b10f5ec7ee46393e5e925ef9b8aae2940a923a566636d2cdaebe733e0",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 1,
+          "trajectory_id": "room01_traj01_right_first",
+          "source_trajectory_id": "room01_traj01",
+          "planar_pose": [
+            -5.604959964752197,
+            -0.21628500521183014,
+            -2.197890391228371
+          ],
+          "camera_position_world": [
+            -5.604959964752197,
+            1.5724470615386963,
+            0.21628500521183014
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8097361207157494,
+              0.0,
+              0.5867941843680876
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5867941843680876,
+              -0.0,
+              -0.8097361207157494
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/006.png",
+          "image_sha256": "3486b7eeecdaf84414fa952c5b412c2fc88475bd3aeccb16b6191d8146f815e3",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room01_traj01/006.depth.npy",
+          "depth_sha256": "4792163f158ec0813b5b472b771787cc90cb8946f0ced6c2cd2fec4111c12e54",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room02_traj00",
+      "split": "train",
+      "room_id": 2,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.8986239303984243
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7824707844662924,
+              -0.0,
+              -0.6226872982940194
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6226872982940194,
+              0.0,
+              -0.7824707844662924
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room02_traj00/000.png",
+          "image_sha256": "f2ace7a28fcd958c12438d0b1563207a8033a2f4f21e2d54819649601b62a305",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room02_traj00/000.depth.npy",
+          "depth_sha256": "b607d7096f72b441c3507d48957049eaa9474e45ae93ed21b47ecbfcf5c8bc7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.950983807958254
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8139873734007537,
+              -0.0,
+              -0.5808825663971524
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5808825663971524,
+              0.0,
+              -0.8139873734007537
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/001.png",
+          "image_sha256": "7ed1c2b15a7a8299c1eec17753cf4de3544fe4f80a758902b0e8037c9a7e6f6f",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/001.depth.npy",
+          "depth_sha256": "1a7343f2dea37a72c86453c38376175a1dd36962db7e499966d3726fdd6ad839",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.8986239303984243
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7824707844662924,
+              -0.0,
+              -0.6226872982940194
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6226872982940194,
+              0.0,
+              -0.7824707844662924
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/002.png",
+          "image_sha256": "f2ace7a28fcd958c12438d0b1563207a8033a2f4f21e2d54819649601b62a305",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/002.depth.npy",
+          "depth_sha256": "b607d7096f72b441c3507d48957049eaa9474e45ae93ed21b47ecbfcf5c8bc7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.9858903929981411
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8337640117072547,
+              -0.0,
+              -0.5521209765819671
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5521209765819671,
+              0.0,
+              -0.8337640117072547
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/003.png",
+          "image_sha256": "b196efebb128046cde7ddb6b7204368dd672df847b151f1a6be040bd39df5926",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/003.depth.npy",
+          "depth_sha256": "1d801037a59938ce7ad826105eeade3552966ee16d300599bafae1b7289643b9",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.8986239303984243
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7824707844662924,
+              -0.0,
+              -0.6226872982940194
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6226872982940194,
+              0.0,
+              -0.7824707844662924
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/004.png",
+          "image_sha256": "f2ace7a28fcd958c12438d0b1563207a8033a2f4f21e2d54819649601b62a305",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/004.depth.npy",
+          "depth_sha256": "b607d7096f72b441c3507d48957049eaa9474e45ae93ed21b47ecbfcf5c8bc7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -1.0207969780380273
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8525248554803488,
+              -0.0,
+              -0.5226866851070634
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5226866851070634,
+              0.0,
+              -0.8525248554803488
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/005.png",
+          "image_sha256": "7d3619344908690f1810481c14f71b7ca8bb89b02b1ad58787c3b82b47229862",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/005.depth.npy",
+          "depth_sha256": "1efaab316a21cf5659412b444fa219ee74a328b7d31223619f852cf5e05764c2",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj00_right_first",
+          "source_trajectory_id": "room02_traj00",
+          "planar_pose": [
+            -4.345860004425049,
+            0.09670580178499222,
+            -0.8986239303984243
+          ],
+          "camera_position_world": [
+            -4.345860004425049,
+            1.5724470615386963,
+            -0.09670580178499222
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7824707844662924,
+              -0.0,
+              -0.6226872982940194
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6226872982940194,
+              0.0,
+              -0.7824707844662924
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/006.png",
+          "image_sha256": "f2ace7a28fcd958c12438d0b1563207a8033a2f4f21e2d54819649601b62a305",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj00/006.depth.npy",
+          "depth_sha256": "b607d7096f72b441c3507d48957049eaa9474e45ae93ed21b47ecbfcf5c8bc7a",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room02_traj01",
+      "split": "train",
+      "room_id": 2,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.5719300513831211
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9999993573342634,
+              0.0,
+              0.0011337244198729762
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.0011337244198729762,
+              -0.0,
+              -0.9999993573342634
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room02_traj01/000.png",
+          "image_sha256": "496aedcf428418f154a31fe81c94f31a614ef3ed6e41922b4e0751268a209c93",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room02_traj01/000.depth.npy",
+          "depth_sha256": "c5506b31a2592b6f1c2ff5c7c1d98fe05efc20ffd243cf635ed0ea77cfcc2d7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.624289928942951
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9985695584694751,
+              0.0,
+              0.05346809233624667
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.05346809233624667,
+              -0.0,
+              -0.9985695584694751
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/001.png",
+          "image_sha256": "4f7da8f106a59a52fec8e9c742fff05bc41aab41f9b0dc76b99c941814536733",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/001.depth.npy",
+          "depth_sha256": "5886fcea36ef12d4930251af65cd64b61f5491494db82c8cd9adeeed82949818",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.5719300513831211
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9999993573342634,
+              0.0,
+              0.0011337244198729762
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.0011337244198729762,
+              -0.0,
+              -0.9999993573342634
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/002.png",
+          "image_sha256": "496aedcf428418f154a31fe81c94f31a614ef3ed6e41922b4e0751268a209c93",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/002.depth.npy",
+          "depth_sha256": "c5506b31a2592b6f1c2ff5c7c1d98fe05efc20ffd243cf635ed0ea77cfcc2d7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.6591965139828375
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9960952473904472,
+              0.0,
+              0.08828509571928762
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.08828509571928762,
+              -0.0,
+              -0.9960952473904472
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/003.png",
+          "image_sha256": "b9777b974349e39c9abd0488306b14339e2b169a630378965a7728c9ecd83ba5",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/003.depth.npy",
+          "depth_sha256": "6df4c2a8170122a9b699dc6eb47277ae99136489c2603b21ca472097207fc928",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.5719300513831211
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9999993573342634,
+              0.0,
+              0.0011337244198729762
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.0011337244198729762,
+              -0.0,
+              -0.9999993573342634
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/004.png",
+          "image_sha256": "496aedcf428418f154a31fe81c94f31a614ef3ed6e41922b4e0751268a209c93",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/004.depth.npy",
+          "depth_sha256": "c5506b31a2592b6f1c2ff5c7c1d98fe05efc20ffd243cf635ed0ea77cfcc2d7a",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.6941030990227242
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9924073477052777,
+              0.0,
+              0.12299453736071388
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.12299453736071388,
+              -0.0,
+              -0.9924073477052777
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/005.png",
+          "image_sha256": "80f8acc8743af3dca26d28ab19c22e78b07680f47894926732809c20a1a74be7",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/005.depth.npy",
+          "depth_sha256": "87151ea1b590df4d5320b81653ef86f36728580306db8bd4520b35f13a52c879",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 2,
+          "trajectory_id": "room02_traj01_right_first",
+          "source_trajectory_id": "room02_traj01",
+          "planar_pose": [
+            -3.8506898880004883,
+            -0.0749422013759613,
+            -1.5719300513831211
+          ],
+          "camera_position_world": [
+            -3.8506898880004883,
+            1.5724470615386963,
+            0.0749422013759613
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9999993573342634,
+              0.0,
+              0.0011337244198729762
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.0011337244198729762,
+              -0.0,
+              -0.9999993573342634
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/006.png",
+          "image_sha256": "496aedcf428418f154a31fe81c94f31a614ef3ed6e41922b4e0751268a209c93",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room02_traj01/006.depth.npy",
+          "depth_sha256": "c5506b31a2592b6f1c2ff5c7c1d98fe05efc20ffd243cf635ed0ea77cfcc2d7a",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room03_traj00",
+      "split": "train",
+      "room_id": 3,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.5031793011374996
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9977148397690672,
+              -0.0,
+              -0.06756551268645969
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.06756551268645969,
+              0.0,
+              -0.9977148397690672
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room03_traj00/000.png",
+          "image_sha256": "b80a527fc0436499328c1a6acc9b1da95da1358782ab3014175a5870e3201e8b",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room03_traj00/000.depth.npy",
+          "depth_sha256": "5b705bc7ebd93aa0b11a6dda82325862d12e3c9ef6c531a33676315d66b2fa98",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.5555391786973296
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9998836119780365,
+              -0.0,
+              -0.015256555894267243
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.015256555894267243,
+              0.0,
+              -0.9998836119780365
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/001.png",
+          "image_sha256": "6e56e8261ec1b1e5419ec32a82ee521e73b9297d94baa59ecb069fc82d110341",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/001.depth.npy",
+          "depth_sha256": "b23afee27adff327708a1ef32c12bb5d9dad7c4b57d0618593b40348886b0b0e",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.5031793011374996
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9977148397690672,
+              -0.0,
+              -0.06756551268645969
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.06756551268645969,
+              0.0,
+              -0.9977148397690672
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/002.png",
+          "image_sha256": "b80a527fc0436499328c1a6acc9b1da95da1358782ab3014175a5870e3201e8b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/002.depth.npy",
+          "depth_sha256": "5b705bc7ebd93aa0b11a6dda82325862d12e3c9ef6c531a33676315d66b2fa98",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.590445763737216
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9998069560338778,
+              0.0,
+              0.01964817208473333
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.01964817208473333,
+              -0.0,
+              -0.9998069560338778
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/003.png",
+          "image_sha256": "4d4e200938adb2324654f9dbbbf449b8e7843cef29f46100919abc4a434da469",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/003.depth.npy",
+          "depth_sha256": "168e16181513e65ff4eff20313136a2d3810c0a471d31e92786489f92e7eda11",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.5031793011374996
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9977148397690672,
+              -0.0,
+              -0.06756551268645969
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.06756551268645969,
+              0.0,
+              -0.9977148397690672
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/004.png",
+          "image_sha256": "b80a527fc0436499328c1a6acc9b1da95da1358782ab3014175a5870e3201e8b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/004.depth.npy",
+          "depth_sha256": "5b705bc7ebd93aa0b11a6dda82325862d12e3c9ef6c531a33676315d66b2fa98",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.6253523487771027
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9985121893019668,
+              0.0,
+              0.054528963087455
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.054528963087455,
+              -0.0,
+              -0.9985121893019668
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/005.png",
+          "image_sha256": "ae518c6f31f524b658867c6ec9194d1b24935294613bd611ca1fe9f11b18cce2",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/005.depth.npy",
+          "depth_sha256": "8d65ecc8d2366836a493503ea9a58e52ef9c6b124bef302afa4fdb9ea86e3bcf",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj00_right_first",
+          "source_trajectory_id": "room03_traj00",
+          "planar_pose": [
+            3.5206398963928223,
+            -0.501891016960144,
+            -1.5031793011374996
+          ],
+          "camera_position_world": [
+            3.5206398963928223,
+            1.5724470615386963,
+            0.501891016960144
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9977148397690672,
+              -0.0,
+              -0.06756551268645969
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.06756551268645969,
+              0.0,
+              -0.9977148397690672
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/006.png",
+          "image_sha256": "b80a527fc0436499328c1a6acc9b1da95da1358782ab3014175a5870e3201e8b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj00/006.depth.npy",
+          "depth_sha256": "5b705bc7ebd93aa0b11a6dda82325862d12e3c9ef6c531a33676315d66b2fa98",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room03_traj01",
+      "split": "train",
+      "room_id": 3,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.14910372165585
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8373890302779013,
+              0.0,
+              0.5466073654555307
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5466073654555307,
+              0.0,
+              0.8373890302779013
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room03_traj01/000.png",
+          "image_sha256": "17ec2b4b4dead24f46d542834f598338413c94311cf76c7348a32c0d0251cceb",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room03_traj01/000.depth.npy",
+          "depth_sha256": "a56a7988f1ea5e502d99246cef772aaf68ea64476278984af282ee0c0999e628",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.0967438440960207
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8648486422282691,
+              0.0,
+              0.5020326941902484
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5020326941902484,
+              0.0,
+              0.8648486422282691
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/001.png",
+          "image_sha256": "567c9fe2d17c7e027eaa7745e36d0baa7cc678c4d40fdfee01aaca333305229c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/001.depth.npy",
+          "depth_sha256": "a78725de8c18311129648a08722be92b1f9410e15c90ad3efe05f0f67ad246f7",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.14910372165585
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8373890302779013,
+              0.0,
+              0.5466073654555307
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5466073654555307,
+              0.0,
+              0.8373890302779013
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/002.png",
+          "image_sha256": "17ec2b4b4dead24f46d542834f598338413c94311cf76c7348a32c0d0251cceb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/002.depth.npy",
+          "depth_sha256": "a56a7988f1ea5e502d99246cef772aaf68ea64476278984af282ee0c0999e628",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.0618372590561336
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8818424883513959,
+              0.0,
+              0.4715440867386825
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4715440867386825,
+              0.0,
+              0.8818424883513959
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/003.png",
+          "image_sha256": "34578199c084b7176f4fcf1d26bb9163b78d99bf7a1dd4376644d3a9124415c6",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/003.depth.npy",
+          "depth_sha256": "f95a9fad2c17e7e8eee6167d8d60b0a4aaadfa4c1831f88ddb5fa621040751d6",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.14910372165585
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8373890302779013,
+              0.0,
+              0.5466073654555307
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5466073654555307,
+              0.0,
+              0.8373890302779013
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/004.png",
+          "image_sha256": "17ec2b4b4dead24f46d542834f598338413c94311cf76c7348a32c0d0251cceb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/004.depth.npy",
+          "depth_sha256": "a56a7988f1ea5e502d99246cef772aaf68ea64476278984af282ee0c0999e628",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.0269306740162474
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8977619527245132,
+              0.0,
+              0.44048096013365773
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.44048096013365773,
+              0.0,
+              0.8977619527245132
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/005.png",
+          "image_sha256": "58fbca1eb777bc312c143e29cb9bf1a95b1d307e93033eaad3c4045b5e39a12c",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/005.depth.npy",
+          "depth_sha256": "40e85b698f38e286c00ec04afcbf9100d4d0d42501aca8d96bfcc35f665970ba",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 3,
+          "trajectory_id": "room03_traj01_right_first",
+          "source_trajectory_id": "room03_traj01",
+          "planar_pose": [
+            3.6862900257110596,
+            -1.1733499765396118,
+            2.14910372165585
+          ],
+          "camera_position_world": [
+            3.6862900257110596,
+            1.5724470615386963,
+            1.1733499765396118
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8373890302779013,
+              0.0,
+              0.5466073654555307
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.5466073654555307,
+              0.0,
+              0.8373890302779013
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/006.png",
+          "image_sha256": "17ec2b4b4dead24f46d542834f598338413c94311cf76c7348a32c0d0251cceb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room03_traj01/006.depth.npy",
+          "depth_sha256": "a56a7988f1ea5e502d99246cef772aaf68ea64476278984af282ee0c0999e628",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room04_traj00",
+      "split": "train",
+      "room_id": 4,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2973269487786228
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.962839707642356,
+              -0.0,
+              -0.2700735036748001
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.2700735036748001,
+              0.0,
+              0.962839707642356
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room04_traj00/000.png",
+          "image_sha256": "2bc98ffd7b8193851b437fb88b038997cd0f3f8c786f2f6d68ef918aeb59cac8",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room04_traj00/000.depth.npy",
+          "depth_sha256": "96fa2ad0dbf24677633f43a0fb531e76c14716c2d0c8642bf961baf6e4baaa92",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2449670712187935
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9473856111674214,
+              -0.0,
+              -0.32009452315360154
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.32009452315360154,
+              0.0,
+              0.9473856111674214
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/001.png",
+          "image_sha256": "17657c3b0a15a46b11b26bd0a6cdc1ea8ad7b717853d48db946a90d033778253",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/001.depth.npy",
+          "depth_sha256": "8b6b85c822b9b49ed59c6c7ccc175bf94f678f7bd5c4db380a25d4de47c91153",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2973269487786228
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.962839707642356,
+              -0.0,
+              -0.2700735036748001
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.2700735036748001,
+              0.0,
+              0.962839707642356
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/002.png",
+          "image_sha256": "2bc98ffd7b8193851b437fb88b038997cd0f3f8c786f2f6d68ef918aeb59cac8",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/002.depth.npy",
+          "depth_sha256": "96fa2ad0dbf24677633f43a0fb531e76c14716c2d0c8642bf961baf6e4baaa92",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2100604861789064
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9356373560707714,
+              -0.0,
+              -0.3529627996331861
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.3529627996331861,
+              0.0,
+              0.9356373560707714
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/003.png",
+          "image_sha256": "813396a7c599fde4a6a71c98c083fa458d981465c0bc65ae23eb7a7a05e8b81f",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/003.depth.npy",
+          "depth_sha256": "411a0cc97611ba809b24d9c2ac96418f4b0ac5742a85fecbb029769869a4e689",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2973269487786228
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.962839707642356,
+              -0.0,
+              -0.2700735036748001
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.2700735036748001,
+              0.0,
+              0.962839707642356
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/004.png",
+          "image_sha256": "2bc98ffd7b8193851b437fb88b038997cd0f3f8c786f2f6d68ef918aeb59cac8",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/004.depth.npy",
+          "depth_sha256": "96fa2ad0dbf24677633f43a0fb531e76c14716c2d0c8642bf961baf6e4baaa92",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.1751539011390202
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9227491676259855,
+              -0.0,
+              -0.3854010555843757
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.3854010555843757,
+              0.0,
+              0.9227491676259855
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/005.png",
+          "image_sha256": "282d80ef30d839884c667a48fafca7f4e176809a02073137bc8af6b2b575da87",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/005.depth.npy",
+          "depth_sha256": "b39d6250980c172ef4a9fa2a4b3323848d71d14c7172c7797bcc146bf9b08722",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj00_right_first",
+          "source_trajectory_id": "room04_traj00",
+          "planar_pose": [
+            2.409179925918579,
+            1.3761800527572632,
+            1.2973269487786228
+          ],
+          "camera_position_world": [
+            2.409179925918579,
+            1.5724470615386963,
+            -1.3761800527572632
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.962839707642356,
+              -0.0,
+              -0.2700735036748001
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.2700735036748001,
+              0.0,
+              0.962839707642356
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/006.png",
+          "image_sha256": "2bc98ffd7b8193851b437fb88b038997cd0f3f8c786f2f6d68ef918aeb59cac8",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj00/006.depth.npy",
+          "depth_sha256": "96fa2ad0dbf24677633f43a0fb531e76c14716c2d0c8642bf961baf6e4baaa92",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room04_traj01",
+      "split": "train",
+      "room_id": 4,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9905417545834219
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8363231195286895,
+              -0.0,
+              -0.5482368463919598
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5482368463919598,
+              0.0,
+              0.8363231195286895
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room04_traj01/000.png",
+          "image_sha256": "6bd84e4a685e4f272b85bd85e89534ab78770d26261f57b6633d4cc5caf9f4fd",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room04_traj01/000.depth.npy",
+          "depth_sha256": "6a744962b56a4b26bdd6a1f8c401eb78e106305ca247d5513faf1b849e75f336",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9381818770235917
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8064844556961428,
+              -0.0,
+              -0.5912552940316868
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5912552940316868,
+              0.0,
+              0.8064844556961428
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/001.png",
+          "image_sha256": "f340bb70eace6bacb5f26e89eb9602d4387982b833b2f642b61220ed3d7a5af5",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/001.depth.npy",
+          "depth_sha256": "6db356dd6bb3a372258031a2da00c4878592c3bfbe574eefe0d4e2c6b9e4b926",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9905417545834219
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8363231195286895,
+              -0.0,
+              -0.5482368463919598
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5482368463919598,
+              0.0,
+              0.8363231195286895
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/002.png",
+          "image_sha256": "6bd84e4a685e4f272b85bd85e89534ab78770d26261f57b6633d4cc5caf9f4fd",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/002.depth.npy",
+          "depth_sha256": "6a744962b56a4b26bdd6a1f8c401eb78e106305ca247d5513faf1b849e75f336",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9032752919837046
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7853586546431701,
+              -0.0,
+              -0.6190410193008778
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6190410193008778,
+              0.0,
+              0.7853586546431701
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971726
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/003.png",
+          "image_sha256": "b01ab7a6e093a1d24178c46afea914c500961fdbb0b615c9ab72c2f0b1dc622d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/003.depth.npy",
+          "depth_sha256": "30504a0f6249748cb2540804702e8cf51685f493991ead40de4934f3413a71ea",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9905417545834219
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8363231195286895,
+              -0.0,
+              -0.5482368463919598
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5482368463919598,
+              0.0,
+              0.8363231195286895
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971726
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/004.png",
+          "image_sha256": "6bd84e4a685e4f272b85bd85e89534ab78770d26261f57b6633d4cc5caf9f4fd",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/004.depth.npy",
+          "depth_sha256": "6a744962b56a4b26bdd6a1f8c401eb78e106305ca247d5513faf1b849e75f336",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.8683687069438184
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7632760125886578,
+              -0.0,
+              -0.6460725412883286
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6460725412883286,
+              0.0,
+              0.7632760125886578
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/005.png",
+          "image_sha256": "c9d76a2fcc8cdd1b94db9249c70cea8f3ac1f45e9a44253e9ce133b7d111bedd",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/005.depth.npy",
+          "depth_sha256": "0c32d74bcfc8832aedbb8cfea42b90c025181bb0c1acd9e6d52bbff9527ffca8",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 4,
+          "trajectory_id": "room04_traj01_right_first",
+          "source_trajectory_id": "room04_traj01",
+          "planar_pose": [
+            1.7595000267028809,
+            1.240190029144287,
+            0.9905417545834219
+          ],
+          "camera_position_world": [
+            1.7595000267028809,
+            1.5724470615386963,
+            -1.240190029144287
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8363231195286895,
+              -0.0,
+              -0.5482368463919598
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5482368463919598,
+              0.0,
+              0.8363231195286895
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/006.png",
+          "image_sha256": "6bd84e4a685e4f272b85bd85e89534ab78770d26261f57b6633d4cc5caf9f4fd",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room04_traj01/006.depth.npy",
+          "depth_sha256": "6a744962b56a4b26bdd6a1f8c401eb78e106305ca247d5513faf1b849e75f336",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room05_traj00",
+      "split": "train",
+      "room_id": 5,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.9757387773014683
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8281162541392723,
+              -0.0,
+              -0.5605563929082785
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5605563929082785,
+              0.0,
+              0.8281162541392723
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room05_traj00/000.png",
+          "image_sha256": "a33e8d0305e68781bfff9bf37c41451625350b1d516b566570a212628f19f0e6",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room05_traj00/000.depth.npy",
+          "depth_sha256": "7528c5d636566376c3f6a19a1958def872aeb8bf35b586a6f9a365dde6c0e0a9",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.923378899741639
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.797644069319739,
+              -0.0,
+              -0.6031284595167496
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6031284595167496,
+              0.0,
+              0.797644069319739
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/001.png",
+          "image_sha256": "99771a487d741cf2ce3df62e158bac8751907f153aa39cd80841b0cff47b7e14",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/001.depth.npy",
+          "depth_sha256": "546d08caa2f57230fc570013d461754c8ee0d96ed338b64abd786b020304f515",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.9757387773014683
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8281162541392723,
+              -0.0,
+              -0.5605563929082785
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5605563929082785,
+              0.0,
+              0.8281162541392723
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/002.png",
+          "image_sha256": "a33e8d0305e68781bfff9bf37c41451625350b1d516b566570a212628f19f0e6",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/002.depth.npy",
+          "depth_sha256": "7528c5d636566376c3f6a19a1958def872aeb8bf35b586a6f9a365dde6c0e0a9",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.8884723147017519
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7761093020947625,
+              -0.0,
+              -0.6305984072307673
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6305984072307673,
+              0.0,
+              0.7761093020947625
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/003.png",
+          "image_sha256": "5f7f7562734b619e471d7d1ab93f57149c4051cab45cc5baa6003d3ca526b5b7",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/003.depth.npy",
+          "depth_sha256": "fa76571c2264f59a2b02fa94f7dfe9ed9e6b71e824639e10a9ba74084817b0d8",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.9757387773014683
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8281162541392723,
+              -0.0,
+              -0.5605563929082785
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5605563929082785,
+              0.0,
+              0.8281162541392723
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/004.png",
+          "image_sha256": "a33e8d0305e68781bfff9bf37c41451625350b1d516b566570a212628f19f0e6",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/004.depth.npy",
+          "depth_sha256": "7528c5d636566376c3f6a19a1958def872aeb8bf35b586a6f9a365dde6c0e0a9",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.8535657296618657
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7536289483925196,
+              -0.0,
+              -0.6573000898712742
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6573000898712742,
+              0.0,
+              0.7536289483925196
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/005.png",
+          "image_sha256": "882ee783ab6f3d4dad46cd2d2878f54b3eb24014f800b412156df7bd84df71e1",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/005.depth.npy",
+          "depth_sha256": "4b64ca67e5b34015046e165970a8b2b910be28649ec9480d3743a2e24bee08c5",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj00_right_first",
+          "source_trajectory_id": "room05_traj00",
+          "planar_pose": [
+            -1.6657099723815918,
+            1.4007699489593506,
+            0.9757387773014683
+          ],
+          "camera_position_world": [
+            -1.6657099723815918,
+            1.5724470615386963,
+            -1.4007699489593506
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.8281162541392723,
+              -0.0,
+              -0.5605563929082785
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5605563929082785,
+              0.0,
+              0.8281162541392723
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/006.png",
+          "image_sha256": "a33e8d0305e68781bfff9bf37c41451625350b1d516b566570a212628f19f0e6",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj00/006.depth.npy",
+          "depth_sha256": "7528c5d636566376c3f6a19a1958def872aeb8bf35b586a6f9a365dde6c0e0a9",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room05_traj01",
+      "split": "train",
+      "room_id": 5,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.5800888456458981
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9999568248599409,
+              0.0,
+              0.009292384840586112
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.009292384840586112,
+              0.0,
+              0.9999568248599409
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room05_traj01/000.png",
+          "image_sha256": "13cfbc266ac215f3b896070cb28141f865fd4150a2624af609cde0b9851ed3bb",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room05_traj01/000.depth.npy",
+          "depth_sha256": "60b48c4a8d1456bcb31d09f8951aacaf968e8381e59a1c27d6a4b92a0725eb35",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.527728968086068
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9990727445451543,
+              -0.0,
+              -0.0430540486715582
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.0430540486715582,
+              0.0,
+              0.9990727445451543
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/001.png",
+          "image_sha256": "fc171f5f214fd5ac4c2913702bcff3882983866e6fe6019fa8eb97661054bda0",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/001.depth.npy",
+          "depth_sha256": "1712862c49245a9f2fa49ef17f1dc953acc399d41da6ffa3f2e22e113752f855",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.5800888456458981
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9999568248599409,
+              0.0,
+              0.009292384840586112
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.009292384840586112,
+              0.0,
+              0.9999568248599409
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/002.png",
+          "image_sha256": "13cfbc266ac215f3b896070cb28141f865fd4150a2624af609cde0b9851ed3bb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/002.depth.npy",
+          "depth_sha256": "60b48c4a8d1456bcb31d09f8951aacaf968e8381e59a1c27d6a4b92a0725eb35",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.4928223830461818
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9969615716834568,
+              -0.0,
+              -0.07789495867160838
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.07789495867160838,
+              0.0,
+              0.9969615716834568
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/003.png",
+          "image_sha256": "42ced3cfe02b80780f268801049d864fbd03dcb664d67ac41adbf7a486e0b864",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/003.depth.npy",
+          "depth_sha256": "7569784db5b6c35bdce918436059ae79ddc2eac256619f497c547a4a6a47c300",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.5800888456458981
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9999568248599409,
+              0.0,
+              0.009292384840586112
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.009292384840586112,
+              0.0,
+              0.9999568248599409
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/004.png",
+          "image_sha256": "13cfbc266ac215f3b896070cb28141f865fd4150a2624af609cde0b9851ed3bb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/004.depth.npy",
+          "depth_sha256": "60b48c4a8d1456bcb31d09f8951aacaf968e8381e59a1c27d6a4b92a0725eb35",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.4579157980062947
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9936357548188604,
+              -0.0,
+              -0.11264096388771529
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.11264096388771529,
+              0.0,
+              0.9936357548188604
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/005.png",
+          "image_sha256": "bfd070d72cfcacfcf6cb0ec989b68927543c2211a6c17a147e7c950d54c462d7",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/005.depth.npy",
+          "depth_sha256": "9c28d2a45acd14f010bdc9e7daa474e4b56d785b1b98f3b1838d2f088f866c89",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 5,
+          "trajectory_id": "room05_traj01_right_first",
+          "source_trajectory_id": "room05_traj01",
+          "planar_pose": [
+            -0.6750270128250122,
+            1.1608599424362183,
+            1.5800888456458981
+          ],
+          "camera_position_world": [
+            -0.6750270128250122,
+            1.5724470615386963,
+            -1.1608599424362183
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.9999568248599409,
+              0.0,
+              0.009292384840586112
+            ],
+            [
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.009292384840586112,
+              0.0,
+              0.9999568248599409
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960346
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/006.png",
+          "image_sha256": "13cfbc266ac215f3b896070cb28141f865fd4150a2624af609cde0b9851ed3bb",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room05_traj01/006.depth.npy",
+          "depth_sha256": "60b48c4a8d1456bcb31d09f8951aacaf968e8381e59a1c27d6a4b92a0725eb35",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room06_traj00",
+      "split": "train",
+      "room_id": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            0.04470278161909569
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.04468792789384202,
+              -0.0,
+              -0.9990009955453272
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9990009955453272,
+              0.0,
+              0.04468792789384202
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room06_traj00/000.png",
+          "image_sha256": "88cf7561a7eeb61c5ebf0caea8fdc28f22a980028d5a4193daefce1d2abe6b79",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room06_traj00/000.depth.npy",
+          "depth_sha256": "2a7ec5464adf6e31ee798369a8c3994e9a875494eab42b85adabe6494e301ef8",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            -0.007657095940734049
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.007657014899297598,
+              -0.0,
+              -0.9999706846317206
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9999706846317206,
+              0.0,
+              -0.007657014899297598
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/001.png",
+          "image_sha256": "b40982b50ffeb0ce37a6f4420d5de16b8cc0a42b683ae2fdd4cdaea9c114a5e1",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/001.depth.npy",
+          "depth_sha256": "7a536becce055d91878c8d34fe42a52b5592be103dd5f14421243b92122f23f2",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            0.04470278161909569
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.04468792789384202,
+              -0.0,
+              -0.9990009955453272
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9990009955453272,
+              0.0,
+              0.04468792789384202
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/002.png",
+          "image_sha256": "88cf7561a7eeb61c5ebf0caea8fdc28f22a980028d5a4193daefce1d2abe6b79",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/002.depth.npy",
+          "depth_sha256": "2a7ec5464adf6e31ee798369a8c3994e9a875494eab42b85adabe6494e301ef8",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            -0.04256368098062069
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.04255084080968197,
+              -0.0,
+              -0.9990943028295123
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9990943028295123,
+              0.0,
+              -0.04255084080968197
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/003.png",
+          "image_sha256": "1037c708c6b590534132e3ec6350896a61d48f149b726103d15faf3e6a4d4b34",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/003.depth.npy",
+          "depth_sha256": "7c33250b904bd0b3a69755c741101bcfe164af8b4e955d72e29dd0371fd29abf",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            0.04470278161909569
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.04468792789384202,
+              -0.0,
+              -0.9990009955453272
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9990009955453272,
+              0.0,
+              0.04468792789384202
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/004.png",
+          "image_sha256": "88cf7561a7eeb61c5ebf0caea8fdc28f22a980028d5a4193daefce1d2abe6b79",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/004.depth.npy",
+          "depth_sha256": "2a7ec5464adf6e31ee798369a8c3994e9a875494eab42b85adabe6494e301ef8",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            -0.07747026602050733
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.07739280917060287,
+              -0.0,
+              -0.9970006785798506
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9970006785798506,
+              0.0,
+              -0.07739280917060287
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/005.png",
+          "image_sha256": "337c9862d41fd358167984a96341edb30811e7b9e016b677ed6884820bc10b62",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/005.depth.npy",
+          "depth_sha256": "ee46b78e1d4c57ac9997391cf6ba4574c02095e0b4a17c668a53941e4e4d1dc7",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj00_right_first",
+          "source_trajectory_id": "room06_traj00",
+          "planar_pose": [
+            0.1602180004119873,
+            -0.8545399904251099,
+            0.04470278161909569
+          ],
+          "camera_position_world": [
+            0.1602180004119873,
+            1.5724470615386963,
+            0.8545399904251099
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.04468792789384202,
+              -0.0,
+              -0.9990009955453272
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.9990009955453272,
+              0.0,
+              0.04468792789384202
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/006.png",
+          "image_sha256": "88cf7561a7eeb61c5ebf0caea8fdc28f22a980028d5a4193daefce1d2abe6b79",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj00/006.depth.npy",
+          "depth_sha256": "2a7ec5464adf6e31ee798369a8c3994e9a875494eab42b85adabe6494e301ef8",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room06_traj01",
+      "split": "train",
+      "room_id": 6,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.8689748063956895
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7636674539956483,
+              -0.0,
+              -0.6456098045319668
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6456098045319668,
+              0.0,
+              -0.7636674539956483
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room06_traj01/000.png",
+          "image_sha256": "c55c83632b8996a691c36f14a850ca5ecc18666cf31a0a30dc664b62843cc464",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room06_traj01/000.depth.npy",
+          "depth_sha256": "e3b2b679cad955095356ed6fcf0a4409e4ec4612ce9eb21bd755ec1024af57da",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.9213346839555192
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7964094893923015,
+              -0.0,
+              -0.604757740922672
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.604757740922672,
+              0.0,
+              -0.7964094893923015
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/001.png",
+          "image_sha256": "e381fd2aba8f6f76c8bf759222319be5a16f786221c3439905cf0ad957d244a9",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/001.depth.npy",
+          "depth_sha256": "316fbb578b705a96a86e57d4d5ae3ae19dd77c5e7cb3487912e45e03f49c9845",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.8689748063956895
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7636674539956483,
+              -0.0,
+              -0.6456098045319668
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6456098045319668,
+              0.0,
+              -0.7636674539956483
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/002.png",
+          "image_sha256": "c55c83632b8996a691c36f14a850ca5ecc18666cf31a0a30dc664b62843cc464",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/002.depth.npy",
+          "depth_sha256": "e3b2b679cad955095356ed6fcf0a4409e4ec4612ce9eb21bd755ec1024af57da",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.9562412689954058
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8170300643439339,
+              -0.0,
+              -0.5765950693148071
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5765950693148071,
+              0.0,
+              -0.8170300643439339
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/003.png",
+          "image_sha256": "23baae33cd13af363eda078ba8d7b8661485e54d482216bca0d975d37793cc24",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/003.depth.npy",
+          "depth_sha256": "86f03b982d0ea3529cd905ed1907132f9e468af2edeef3c304283616a3199c03",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.8689748063956895
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7636674539956483,
+              -0.0,
+              -0.6456098045319668
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6456098045319668,
+              0.0,
+              -0.7636674539956483
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/004.png",
+          "image_sha256": "c55c83632b8996a691c36f14a850ca5ecc18666cf31a0a30dc664b62843cc464",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/004.depth.npy",
+          "depth_sha256": "e3b2b679cad955095356ed6fcf0a4409e4ec4612ce9eb21bd755ec1024af57da",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.9911478540352925
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8366552338003888,
+              -0.0,
+              -0.5477298784569059
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.5477298784569059,
+              0.0,
+              -0.8366552338003888
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/005.png",
+          "image_sha256": "1d6323e18152f6a07ecd6e999fc494771d7493a52f42ecb8c4a91918ab7d8092",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/005.depth.npy",
+          "depth_sha256": "cd2fa368acdf65e8af18bbf3c67dafde929995436e4d65535e96ed635b4f4a31",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 6,
+          "trajectory_id": "room06_traj01_right_first",
+          "source_trajectory_id": "room06_traj01",
+          "planar_pose": [
+            0.08589079976081848,
+            -0.013037499971687794,
+            -0.8689748063956895
+          ],
+          "camera_position_world": [
+            0.08589079976081848,
+            1.5724470615386963,
+            0.013037499971687794
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7636674539956483,
+              -0.0,
+              -0.6456098045319668
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6456098045319668,
+              0.0,
+              -0.7636674539956483
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/006.png",
+          "image_sha256": "c55c83632b8996a691c36f14a850ca5ecc18666cf31a0a30dc664b62843cc464",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room06_traj01/006.depth.npy",
+          "depth_sha256": "e3b2b679cad955095356ed6fcf0a4409e4ec4612ce9eb21bd755ec1024af57da",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room07_traj00",
+      "split": "train",
+      "room_id": 7,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.6504707625985602
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.6055611049819791,
+              -0.0,
+              -0.7957988113417891
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7957988113417891,
+              0.0,
+              0.6055611049819791
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room07_traj00/000.png",
+          "image_sha256": "1fd32fe7dff98dd561979cb92d53a50bf11625fab59f5316913edc93af8d1c16",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room07_traj00/000.depth.npy",
+          "depth_sha256": "38c849d17f4637f87d40cd60bf060b991852162f89773353adfde3b87b2b332f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.5981108850387304
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.5630823099549487,
+              -0.0,
+              -0.8264008181359691
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8264008181359691,
+              0.0,
+              0.5630823099549487
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/001.png",
+          "image_sha256": "c23429ebdaaec9b87c3d0df58bb2df05e15a492d664247bf6f96b977214cde6d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/001.depth.npy",
+          "depth_sha256": "c5a17bb7c13a2fc3b36fb3bd481de39bb767f2d823e80dfc08b34fc788f54f9f",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.6504707625985602
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.6055611049819791,
+              -0.0,
+              -0.7957988113417891
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7957988113417891,
+              0.0,
+              0.6055611049819791
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/002.png",
+          "image_sha256": "1fd32fe7dff98dd561979cb92d53a50bf11625fab59f5316913edc93af8d1c16",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/002.depth.npy",
+          "depth_sha256": "38c849d17f4637f87d40cd60bf060b991852162f89773353adfde3b87b2b332f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.5632042999988434
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.5338983075624146,
+              -0.0,
+              -0.8455486959258995
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8455486959258995,
+              0.0,
+              0.5338983075624146
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/003.png",
+          "image_sha256": "c5cb81238ac65d87bf73357fcee9ff15aaef53b37caaa334a32b2acc23863ede",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/003.depth.npy",
+          "depth_sha256": "ed1e93752fefe41537b349bad27f0c786fdef94d92c1b823b263272d5a234acc",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.6504707625985602
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.6055611049819791,
+              -0.0,
+              -0.7957988113417891
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7957988113417891,
+              0.0,
+              0.6055611049819791
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971682
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/004.png",
+          "image_sha256": "1fd32fe7dff98dd561979cb92d53a50bf11625fab59f5316913edc93af8d1c16",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/004.depth.npy",
+          "depth_sha256": "38c849d17f4637f87d40cd60bf060b991852162f89773353adfde3b87b2b332f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.5282977149589572
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.5040638494021252,
+              -0.0,
+              -0.8636663914532692
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.8636663914532692,
+              0.0,
+              0.5040638494021252
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/005.png",
+          "image_sha256": "4ce2dc25dabf78cc40893ee521b242ee1003dbaefe0b7d77a2853aca190e4690",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/005.depth.npy",
+          "depth_sha256": "c2696837f076e2627f5f14a683bb58a1f364751834572169d63e3b84e0c027c6",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj00_right_first",
+          "source_trajectory_id": "room07_traj00",
+          "planar_pose": [
+            -6.405350208282471,
+            1.3788000345230103,
+            0.6504707625985602
+          ],
+          "camera_position_world": [
+            -6.405350208282471,
+            1.5724470615386963,
+            -1.3788000345230103
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.6055611049819791,
+              -0.0,
+              -0.7957988113417891
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.7957988113417891,
+              0.0,
+              0.6055611049819791
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/006.png",
+          "image_sha256": "1fd32fe7dff98dd561979cb92d53a50bf11625fab59f5316913edc93af8d1c16",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj00/006.depth.npy",
+          "depth_sha256": "38c849d17f4637f87d40cd60bf060b991852162f89773353adfde3b87b2b332f",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room07_traj01",
+      "split": "train",
+      "room_id": 7,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.9261765029658608
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7993282653399892,
+              -0.0,
+              -0.6008946032613072
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6008946032613072,
+              0.0,
+              0.7993282653399892
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room07_traj01/000.png",
+          "image_sha256": "76ab1a03e09dc3210f0495aa061dfd0ecfe0bcc59a41e7cd1d1aea45e4fad39d",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room07_traj01/000.depth.npy",
+          "depth_sha256": "5cbbe951704fc925239bef4b96901fbf5d21fd0d15a1b605078c2d4a0eec8042",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.8738166254060316
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7667844345223442,
+              -0.0,
+              -0.6419046899456715
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6419046899456715,
+              0.0,
+              0.7667844345223442
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/001.png",
+          "image_sha256": "d4ec5280c9043639f960d7e887c9d000aab47cf009ec0cabffb3ef487a0b679e",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/001.depth.npy",
+          "depth_sha256": "6ac4e9e576f4c6a59d12a3a25792b5e765cfd9be50b1667f693bd7e1218f8b0a",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.9261765029658608
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7993282653399892,
+              -0.0,
+              -0.6008946032613072
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6008946032613072,
+              0.0,
+              0.7993282653399892
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982929
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/002.png",
+          "image_sha256": "76ab1a03e09dc3210f0495aa061dfd0ecfe0bcc59a41e7cd1d1aea45e4fad39d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/002.depth.npy",
+          "depth_sha256": "5cbbe951704fc925239bef4b96901fbf5d21fd0d15a1b605078c2d4a0eec8042",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.8389100403661445
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7439151834805671,
+              -0.0,
+              -0.6682740454237874
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6682740454237874,
+              0.0,
+              0.7439151834805671
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/003.png",
+          "image_sha256": "9082b9e8ee6f4707e00928e99f062e10d2875516d470e114ef15ab99083d3d0b",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/003.depth.npy",
+          "depth_sha256": "9ef0eddc71b12f47b47301fb087d5e865facaecb68a99ad6cb97540380581929",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.9261765029658608
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7993282653399892,
+              -0.0,
+              -0.6008946032613072
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6008946032613072,
+              0.0,
+              0.7993282653399892
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/004.png",
+          "image_sha256": "76ab1a03e09dc3210f0495aa061dfd0ecfe0bcc59a41e7cd1d1aea45e4fad39d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/004.depth.npy",
+          "depth_sha256": "5cbbe951704fc925239bef4b96901fbf5d21fd0d15a1b605078c2d4a0eec8042",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.8040034553262583
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7201395743886704,
+              -0.0,
+              -0.6938292249533056
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6938292249533056,
+              0.0,
+              0.7201395743886704
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/005.png",
+          "image_sha256": "8fca11234ef54297eadc2102849afd58fa293d49d6f3f39fef04c646f34757d5",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/005.depth.npy",
+          "depth_sha256": "6b45359e26cd298051ea6636cc9fcda0acef71fb9ba9be4632ca29ace3b59e98",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "train",
+          "room_id": 7,
+          "trajectory_id": "room07_traj01_right_first",
+          "source_trajectory_id": "room07_traj01",
+          "planar_pose": [
+            -5.473080158233643,
+            1.4533100128173828,
+            0.9261765029658608
+          ],
+          "camera_position_world": [
+            -5.473080158233643,
+            1.5724470615386963,
+            -1.4533100128173828
+          ],
+          "camera_rotation_c2w": [
+            [
+              0.7993282653399892,
+              -0.0,
+              -0.6008946032613072
+            ],
+            [
+              0.0,
+              1.0,
+              -0.0
+            ],
+            [
+              0.6008946032613072,
+              0.0,
+              0.7993282653399892
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960257
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/006.png",
+          "image_sha256": "76ab1a03e09dc3210f0495aa061dfd0ecfe0bcc59a41e7cd1d1aea45e4fad39d",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room07_traj01/006.depth.npy",
+          "depth_sha256": "5cbbe951704fc925239bef4b96901fbf5d21fd0d15a1b605078c2d4a0eec8042",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room08_traj00",
+      "split": "validation",
+      "room_id": 8,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -1.9387561081850238
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9330631790932389,
+              0.0,
+              0.359712529418171
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.359712529418171,
+              -0.0,
+              -0.9330631790932389
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room08_traj00/000.png",
+          "image_sha256": "9d7e38a09e1b61b753730dd7a403e47f6f8998f7598de66649a25725374fdd0e",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room08_traj00/000.depth.npy",
+          "depth_sha256": "207f731333009075e9d46273b88e0388de04cd8a049ba9cfa4c91abf427b44ab",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -1.9911159857448537
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9129585549180264,
+              0.0,
+              0.40805229689586264
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.40805229689586264,
+              -0.0,
+              -0.9129585549180264
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/001.png",
+          "image_sha256": "f7497e4d45afa3c13d579de7fbb036f486c16328bee4f1024ab3e97df420eb3f",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/001.depth.npy",
+          "depth_sha256": "4537bafc73aa9e1faec8705c8f0c7ae3c4d6d82ae52d5ea08bcdb2e9ec29afcf",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -1.9387561081850238
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9330631790932389,
+              0.0,
+              0.359712529418171
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.359712529418171,
+              -0.0,
+              -0.9330631790932389
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755983018
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/002.png",
+          "image_sha256": "9d7e38a09e1b61b753730dd7a403e47f6f8998f7598de66649a25725374fdd0e",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/002.depth.npy",
+          "depth_sha256": "207f731333009075e9d46273b88e0388de04cd8a049ba9cfa4c91abf427b44ab",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -2.02602257078474
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.898161571753763,
+              0.0,
+              0.43966554450492257
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.43966554450492257,
+              -0.0,
+              -0.898161571753763
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/003.png",
+          "image_sha256": "2d7baad7e10151e544fd4c09f91d1f03e763051e9dc01940b1df55128e743977",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/003.depth.npy",
+          "depth_sha256": "a56581b5882a061b9c613f672a972604fe17c8e0eb4a74537a4144ce514a97cf",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -1.9387561081850238
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9330631790932389,
+              0.0,
+              0.359712529418171
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.359712529418171,
+              -0.0,
+              -0.9330631790932389
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/004.png",
+          "image_sha256": "9d7e38a09e1b61b753730dd7a403e47f6f8998f7598de66649a25725374fdd0e",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/004.depth.npy",
+          "depth_sha256": "207f731333009075e9d46273b88e0388de04cd8a049ba9cfa4c91abf427b44ab",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -2.0609291558246268
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.8822703398832339,
+              0.0,
+              0.4707430799940906
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.4707430799940906,
+              -0.0,
+              -0.8822703398832339
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/005.png",
+          "image_sha256": "3609e524aea735c56a07ccd91ef7542f382c8eb37c8606ffc92c5e246ad7bc1e",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/005.depth.npy",
+          "depth_sha256": "fa2a3afe772de9797137d9bb359f27a604887807a3cab4938f35a05a2eb67c55",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj00_right_first",
+          "source_trajectory_id": "room08_traj00",
+          "planar_pose": [
+            -9.304100036621094,
+            0.06671299785375595,
+            -1.9387561081850238
+          ],
+          "camera_position_world": [
+            -9.304100036621094,
+            1.5724470615386963,
+            -0.06671299785375595
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.9330631790932389,
+              0.0,
+              0.359712529418171
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.359712529418171,
+              -0.0,
+              -0.9330631790932389
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/006.png",
+          "image_sha256": "9d7e38a09e1b61b753730dd7a403e47f6f8998f7598de66649a25725374fdd0e",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj00/006.depth.npy",
+          "depth_sha256": "207f731333009075e9d46273b88e0388de04cd8a049ba9cfa4c91abf427b44ab",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    },
+    {
+      "source": "room08_traj01",
+      "split": "validation",
+      "room_id": 8,
+      "frames": [
+        {
+          "frame": 0,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.3616025345581018
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7032723755684402,
+              0.0,
+              0.7109205059374237
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7109205059374237,
+              -0.0,
+              -0.7032723755684402
+            ]
+          ],
+          "actual_body_action": null,
+          "image_path": "external/habitat-yaw-reference/collection_v1/trajectories/room08_traj01/000.png",
+          "image_sha256": "86ff683e416e6fd1ea1c179f45d65a1663e8f02baec32a444a903a847be34ec0",
+          "depth_path": "external/habitat-yaw-reference/collection_v1/trajectories/room08_traj01/000.depth.npy",
+          "depth_sha256": "e99cd89cc5f0fef97cd88d2df4bc2e8d1f9fbab6961feeeb06b3b7a9b9b1581f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 1,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.4139624121179315
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6651018550312009,
+              0.0,
+              0.7467526514409276
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7467526514409276,
+              -0.0,
+              -0.6651018550312009
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/001.png",
+          "image_sha256": "df9e57a4b972aded05b5de9b3905be0d282b73d79fd40581e7be9a90ee41decc",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/001.depth.npy",
+          "depth_sha256": "fd742022da42c132a262fcc8bff253503969f0faf2f647ff95eb8d233b9294b0",
+          "commanded_yaw_offset_deg": -3
+        },
+        {
+          "frame": 2,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.3616025345581018
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7032723755684402,
+              0.0,
+              0.7109205059374237
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7109205059374237,
+              -0.0,
+              -0.7032723755684402
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.05235987755982974
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/002.png",
+          "image_sha256": "86ff683e416e6fd1ea1c179f45d65a1663e8f02baec32a444a903a847be34ec0",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/002.depth.npy",
+          "depth_sha256": "e99cd89cc5f0fef97cd88d2df4bc2e8d1f9fbab6961feeeb06b3b7a9b9b1581f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 3,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.448868997157818
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6386354032095072,
+              0.0,
+              0.7695094682766614
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7695094682766614,
+              -0.0,
+              -0.6386354032095072
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/003.png",
+          "image_sha256": "93ff7dc2c034e9f957c6b161fee76be30ff7e5f730f677d331a4511b3090fe95",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/003.depth.npy",
+          "depth_sha256": "a961553a7df6cd01b948686c8f7b912c916e7e88dee445ead434e04992f7b936",
+          "commanded_yaw_offset_deg": -5
+        },
+        {
+          "frame": 4,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.3616025345581018
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7032723755684402,
+              0.0,
+              0.7109205059374237
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7109205059374237,
+              -0.0,
+              -0.7032723755684402
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.08726646259971638
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/004.png",
+          "image_sha256": "86ff683e416e6fd1ea1c179f45d65a1663e8f02baec32a444a903a847be34ec0",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/004.depth.npy",
+          "depth_sha256": "e99cd89cc5f0fef97cd88d2df4bc2e8d1f9fbab6961feeeb06b3b7a9b9b1581f",
+          "commanded_yaw_offset_deg": 0
+        },
+        {
+          "frame": 5,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.483775582197705
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.6113909234355219,
+              0.0,
+              0.7913287172475544
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7913287172475544,
+              -0.0,
+              -0.6113909234355219
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            -0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/005.png",
+          "image_sha256": "8cdfb6a8715b5b2ff1849eb587418a2ac9bf933e3c87acb04c3b5b97de2f70d7",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/005.depth.npy",
+          "depth_sha256": "93fb026adfab270e0b475e1b154bed6394b8285dd41d659d03abafd5eb2f4e21",
+          "commanded_yaw_offset_deg": -7
+        },
+        {
+          "frame": 6,
+          "split": "validation",
+          "room_id": 8,
+          "trajectory_id": "room08_traj01_right_first",
+          "source_trajectory_id": "room08_traj01",
+          "planar_pose": [
+            -8.613490104675293,
+            0.014352099969983101,
+            -2.3616025345581018
+          ],
+          "camera_position_world": [
+            -8.613490104675293,
+            1.5724470615386963,
+            -0.014352099969983101
+          ],
+          "camera_rotation_c2w": [
+            [
+              -0.7032723755684402,
+              0.0,
+              0.7109205059374237
+            ],
+            [
+              -0.0,
+              1.0,
+              0.0
+            ],
+            [
+              -0.7109205059374237,
+              -0.0,
+              -0.7032723755684402
+            ]
+          ],
+          "actual_body_action": [
+            0.0,
+            0.0,
+            0.12217304763960302
+          ],
+          "image_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/006.png",
+          "image_sha256": "86ff683e416e6fd1ea1c179f45d65a1663e8f02baec32a444a903a847be34ec0",
+          "depth_path": "external/habitat-yaw-reference/v2/uniwm_symmetric_aligned_v3/collection/room08_traj01/006.depth.npy",
+          "depth_sha256": "e99cd89cc5f0fef97cd88d2df4bc2e8d1f9fbab6961feeeb06b3b7a9b9b1581f",
+          "commanded_yaw_offset_deg": 0
+        }
+      ]
+    }
+  ],
+  "zero_rerender_controls": [
+    {
+      "trajectory_id": "room00_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room00_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room01_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room02_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room03_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room04_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room05_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room06_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room07_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj00",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj00",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj00",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj00",
+      "frame": 6,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj01",
+      "frame": 0,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj01",
+      "frame": 2,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj01",
+      "frame": 4,
+      "exact_zero_match": true
+    },
+    {
+      "trajectory_id": "room08_traj01",
+      "frame": 6,
+      "exact_zero_match": true
+    }
+  ],
+  "original_data_sha256": "a9c70dd661875e4732cb699b27510c3766ced9176c4ff892f6cb88db736cada9",
+  "preprocessing": "native UniWMBackend.sanitize(current,False); native start/goal/current batch encoding",
+  "selection": "42 heldout room8 validation pairs only; room9 test never selects a checkpoint",
+  "changes": [
+    "current preprocessing aligned to inference",
+    "right-first symmetric trajectories",
+    "validation early stopping"
+  ],
+  "attribution": "combined repair run; cannot attribute improvement to an individual change"
+}
