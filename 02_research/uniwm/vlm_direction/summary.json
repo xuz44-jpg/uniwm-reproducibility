@@ -1,0 +1,127 @@
+{
+ "by_magnitude": {
+  "greedy": {
+   "3": {
+    "correct": 28,
+    "n": 48,
+    "acc": 0.583,
+    "p_vs_chance": 0.3123
+   },
+   "5": {
+    "correct": 29,
+    "n": 48,
+    "acc": 0.604,
+    "p_vs_chance": 0.1934
+   },
+   "7": {
+    "correct": 30,
+    "n": 48,
+    "acc": 0.625,
+    "p_vs_chance": 0.1114
+   },
+   "10": {
+    "correct": 32,
+    "n": 48,
+    "acc": 0.667,
+    "p_vs_chance": 0.0293
+   },
+   "15": {
+    "correct": 34,
+    "n": 48,
+    "acc": 0.708,
+    "p_vs_chance": 0.0055
+   },
+   "all": {
+    "correct": 153,
+    "n": 240,
+    "acc": 0.637,
+    "p_vs_chance": 2.4e-05
+   }
+  },
+  "logit": {
+   "3": {
+    "correct": 28,
+    "n": 48,
+    "acc": 0.583,
+    "p_vs_chance": 0.3123
+   },
+   "5": {
+    "correct": 29,
+    "n": 48,
+    "acc": 0.604,
+    "p_vs_chance": 0.1934
+   },
+   "7": {
+    "correct": 30,
+    "n": 48,
+    "acc": 0.625,
+    "p_vs_chance": 0.1114
+   },
+   "10": {
+    "correct": 32,
+    "n": 48,
+    "acc": 0.667,
+    "p_vs_chance": 0.0293
+   },
+   "15": {
+    "correct": 34,
+    "n": 48,
+    "acc": 0.708,
+    "p_vs_chance": 0.0055
+   },
+   "all": {
+    "correct": 153,
+    "n": 240,
+    "acc": 0.637,
+    "p_vs_chance": 2.4e-05
+   }
+  }
+ },
+ "by_order": {
+  "greedy": {
+   "fwd": 75,
+   "rev": 78
+  },
+  "logit": {
+   "fwd": 75,
+   "rev": 78
+  }
+ },
+ "by_scene": {
+  "greedy": {
+   "apartment_1": 71,
+   "skokloster_castle": 82
+  },
+  "logit": {
+   "apartment_1": 71,
+   "skokloster_castle": 82
+  }
+ },
+ "swap": {
+  "greedy": {
+   "flips": 33,
+   "both_correct": 33,
+   "n_pairs": 120
+  },
+  "logit": {
+   "flips": 33,
+   "both_correct": 33,
+   "n_pairs": 120
+  }
+ },
+ "left_rate": {
+  "greedy": {
+   "scored": 0.138,
+   "identical_pairs": 6
+  },
+  "logit": {
+   "scored": 0.138,
+   "identical_pairs": 6
+  }
+ },
+ "unparsed": 0,
+ "answer_texts": [
+  "LEFT",
+  "RIGHT"
+ ]
+}

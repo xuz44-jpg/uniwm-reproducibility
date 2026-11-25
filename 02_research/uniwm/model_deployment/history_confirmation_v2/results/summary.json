@@ -1,0 +1,445 @@
+{
+  "status": "passed",
+  "protocol_sha256": "87c862d21c2513a2161c4c8a1807bb8d0d3e3cea2a10c27db69fc37615a04b48",
+  "verdict": "replicated",
+  "significant_primary": 4,
+  "primary": {
+    "pre_habitat/left_approach": {
+      "rotating_only": 11,
+      "static_only": 1,
+      "p_one_sided": 0.003173828125,
+      "A_rotating": 11,
+      "A_static": 1,
+      "p_holm": 0.003173828125
+    },
+    "pre_habitat/right_approach": {
+      "rotating_only": 21,
+      "static_only": 0,
+      "p_one_sided": 4.76837158203125e-07,
+      "A_rotating": 22,
+      "A_static": 1,
+      "p_holm": 1.9073486328125e-06
+    },
+    "adapted/left_approach": {
+      "rotating_only": 27,
+      "static_only": 5,
+      "p_one_sided": 5.653710104525089e-05,
+      "A_rotating": 29,
+      "A_static": 7,
+      "p_holm": 0.00011307420209050179
+    },
+    "adapted/right_approach": {
+      "rotating_only": 30,
+      "static_only": 3,
+      "p_one_sided": 7.005874067544937e-07,
+      "A_rotating": 34,
+      "A_static": 7,
+      "p_holm": 2.101762220263481e-06
+    }
+  },
+  "position_sign_tests": {
+    "pre_habitat/left_approach": {
+      "positions_up": 7,
+      "positions_down": 1,
+      "sign_test_p_one_sided": 0.03515625
+    },
+    "pre_habitat/right_approach": {
+      "positions_up": 8,
+      "positions_down": 0,
+      "sign_test_p_one_sided": 0.00390625
+    },
+    "adapted/left_approach": {
+      "positions_up": 9,
+      "positions_down": 2,
+      "sign_test_p_one_sided": 0.03271484375
+    },
+    "adapted/right_approach": {
+      "positions_up": 9,
+      "positions_down": 1,
+      "sign_test_p_one_sided": 0.0107421875
+    }
+  },
+  "arms": {
+    "pre_habitat/static": {
+      "all": {
+        "A": 1,
+        "R": 0,
+        "Z": 59,
+        "U": 12,
+        "n": 72
+      },
+      "gate80": {
+        "A": 0,
+        "R": 0,
+        "Z": 59,
+        "U": 13,
+        "n": 72
+      },
+      "A_plus": 0,
+      "A_minus": 1,
+      "by_seed": {
+        "0": {
+          "A": 1,
+          "R": 0,
+          "Z": 19,
+          "U": 4,
+          "n": 24
+        },
+        "1": {
+          "A": 0,
+          "R": 0,
+          "Z": 20,
+          "U": 4,
+          "n": 24
+        },
+        "2": {
+          "A": 0,
+          "R": 0,
+          "Z": 20,
+          "U": 4,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 1,
+          "R": 0,
+          "Z": 23,
+          "U": 12,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 0,
+          "R": 0,
+          "Z": 36,
+          "U": 0,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 15.651470415503386,
+      "gain": -0.06268568412339619,
+      "zero_drift_px": 6.726986637856397,
+      "same_as_zero": 0
+    },
+    "pre_habitat/left_approach": {
+      "all": {
+        "A": 11,
+        "R": 0,
+        "Z": 41,
+        "U": 20,
+        "n": 72
+      },
+      "gate80": {
+        "A": 8,
+        "R": 0,
+        "Z": 41,
+        "U": 23,
+        "n": 72
+      },
+      "A_plus": 5,
+      "A_minus": 6,
+      "by_seed": {
+        "0": {
+          "A": 3,
+          "R": 0,
+          "Z": 15,
+          "U": 6,
+          "n": 24
+        },
+        "1": {
+          "A": 2,
+          "R": 0,
+          "Z": 12,
+          "U": 10,
+          "n": 24
+        },
+        "2": {
+          "A": 6,
+          "R": 0,
+          "Z": 14,
+          "U": 4,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 2,
+          "R": 0,
+          "Z": 19,
+          "U": 15,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 9,
+          "R": 0,
+          "Z": 22,
+          "U": 5,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 15.937561433247108,
+      "gain": 0.13631472140765732,
+      "zero_drift_px": 15.586765405204561,
+      "same_as_zero": 0
+    },
+    "pre_habitat/right_approach": {
+      "all": {
+        "A": 22,
+        "R": 0,
+        "Z": 28,
+        "U": 22,
+        "n": 72
+      },
+      "gate80": {
+        "A": 15,
+        "R": 0,
+        "Z": 28,
+        "U": 29,
+        "n": 72
+      },
+      "A_plus": 10,
+      "A_minus": 12,
+      "by_seed": {
+        "0": {
+          "A": 9,
+          "R": 0,
+          "Z": 9,
+          "U": 6,
+          "n": 24
+        },
+        "1": {
+          "A": 8,
+          "R": 0,
+          "Z": 6,
+          "U": 10,
+          "n": 24
+        },
+        "2": {
+          "A": 5,
+          "R": 0,
+          "Z": 13,
+          "U": 6,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 8,
+          "R": 0,
+          "Z": 12,
+          "U": 16,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 14,
+          "R": 0,
+          "Z": 16,
+          "U": 6,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 17.62737195332487,
+      "gain": 0.2140715155968555,
+      "zero_drift_px": 14.92602153453562,
+      "same_as_zero": 0
+    },
+    "adapted/static": {
+      "all": {
+        "A": 7,
+        "R": 3,
+        "Z": 54,
+        "U": 8,
+        "n": 72
+      },
+      "gate80": {
+        "A": 6,
+        "R": 3,
+        "Z": 54,
+        "U": 9,
+        "n": 72
+      },
+      "A_plus": 3,
+      "A_minus": 4,
+      "by_seed": {
+        "0": {
+          "A": 3,
+          "R": 1,
+          "Z": 17,
+          "U": 3,
+          "n": 24
+        },
+        "1": {
+          "A": 2,
+          "R": 1,
+          "Z": 18,
+          "U": 3,
+          "n": 24
+        },
+        "2": {
+          "A": 2,
+          "R": 1,
+          "Z": 19,
+          "U": 2,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 5,
+          "R": 2,
+          "Z": 21,
+          "U": 8,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 2,
+          "R": 1,
+          "Z": 33,
+          "U": 0,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 13.992909616792376,
+      "gain": 0.10008266259147962,
+      "zero_drift_px": 2.737784282097386,
+      "same_as_zero": 0
+    },
+    "adapted/left_approach": {
+      "all": {
+        "A": 29,
+        "R": 1,
+        "Z": 28,
+        "U": 14,
+        "n": 72
+      },
+      "gate80": {
+        "A": 23,
+        "R": 1,
+        "Z": 28,
+        "U": 20,
+        "n": 72
+      },
+      "A_plus": 14,
+      "A_minus": 15,
+      "by_seed": {
+        "0": {
+          "A": 9,
+          "R": 1,
+          "Z": 8,
+          "U": 6,
+          "n": 24
+        },
+        "1": {
+          "A": 6,
+          "R": 0,
+          "Z": 13,
+          "U": 5,
+          "n": 24
+        },
+        "2": {
+          "A": 14,
+          "R": 0,
+          "Z": 7,
+          "U": 3,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 9,
+          "R": 1,
+          "Z": 14,
+          "U": 12,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 20,
+          "R": 0,
+          "Z": 14,
+          "U": 2,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 16.183285647916453,
+      "gain": 0.35901080548475295,
+      "zero_drift_px": 12.980443296126193,
+      "same_as_zero": 0
+    },
+    "adapted/right_approach": {
+      "all": {
+        "A": 34,
+        "R": 2,
+        "Z": 25,
+        "U": 11,
+        "n": 72
+      },
+      "gate80": {
+        "A": 26,
+        "R": 2,
+        "Z": 25,
+        "U": 19,
+        "n": 72
+      },
+      "A_plus": 17,
+      "A_minus": 17,
+      "by_seed": {
+        "0": {
+          "A": 11,
+          "R": 1,
+          "Z": 7,
+          "U": 5,
+          "n": 24
+        },
+        "1": {
+          "A": 11,
+          "R": 0,
+          "Z": 9,
+          "U": 4,
+          "n": 24
+        },
+        "2": {
+          "A": 12,
+          "R": 1,
+          "Z": 9,
+          "U": 2,
+          "n": 24
+        }
+      },
+      "by_scene": {
+        "apartment_1": {
+          "A": 10,
+          "R": 2,
+          "Z": 14,
+          "U": 10,
+          "n": 36
+        },
+        "skokloster_castle": {
+          "A": 24,
+          "R": 0,
+          "Z": 11,
+          "U": 1,
+          "n": 36
+        }
+      },
+      "raw_epe_px": 15.036913070464314,
+      "gain": 0.47391318721589837,
+      "zero_drift_px": 11.648756709156764,
+      "same_as_zero": 0
+    }
+  },
+  "reference_gates": {
+    "apartment_1_n00": true,
+    "apartment_1_n01": true,
+    "apartment_1_n02": true,
+    "apartment_1_n03": false,
+    "apartment_1_n04": true,
+    "apartment_1_n05": true,
+    "skokloster_castle_n00": true,
+    "skokloster_castle_n01": true,
+    "skokloster_castle_n02": true,
+    "skokloster_castle_n03": true,
+    "skokloster_castle_n04": true,
+    "skokloster_castle_n05": true
+  },
+  "note": "queries within a position are not independent; the position-level test is the conservative one"
+}

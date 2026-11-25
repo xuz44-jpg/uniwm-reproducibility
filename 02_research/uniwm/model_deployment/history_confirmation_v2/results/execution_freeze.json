@@ -1,0 +1,21 @@
+{
+  "status": "frozen",
+  "source_hashes": {
+    "external/habitat-yaw-reference/hc2_common.py": "cf9cfa47383098502c95cb7fd2e2d145329ab45120e8341975f1bebbe2d3df0c",
+    "external/habitat-yaw-reference/hc2_render.py": "f9ad38cc10e02071f336c21c737aba71647bd0f614315c5e3a210112c0492412",
+    "external/habitat-yaw-reference/hc2_reference.py": "102ee375d45a98efe3c00b36b99e1e9b82e8171f698a6049ac83939754088a0a",
+    "external/habitat-yaw-reference/hc2_run.py": "53d4d8caea68ef53e5b54fdff534a19887a1b02cade605c4d1c2a5070cfa25ad",
+    "external/habitat-yaw-reference/hc2_score.py": "ba72fc25437b08e5a398e5dc4f388d737a7003ff2ed45815437ba1e1be05588d",
+    "external/habitat-yaw-reference/hc2_analyze.py": "b7b340e0b81c389b8fb1585e77d374072fdb7ba8988d3d4ff1bea342e1359187",
+    "external/habitat-yaw-reference/hc2_queue.py": "47f423e9268fa3678b7fe55ad88e2d9dbb6e7a6f053e7f4aaa257e6d47b0cc32",
+    "external/habitat-yaw-reference/suite_common.py": "945db60cbc5a0a75223314866e41f6065290eae8e52f1e5c3d2d94f4c6363c80",
+    "external/habitat-yaw-reference/suite_backends.py": "862f92f830885fd10044ffe4344599038c001bb78b62d64508da97ca40b6ad3f",
+    "external/habitat-yaw-reference/probe_habitat_flow_v1.py": "a72af412b973240d6e0ee9ae75a6cf20258e7e3e22ad4f577157ef8fe0fd59bd",
+    "external/habitat-yaw-reference/habitat_flow_common.py": "47340ae20111a6c3e454a2b7c7ef68824ae5f50489144fa0568b1638825ead18",
+    "external/habitat-yaw-reference/habitat_study_common.py": "9466dcc79573a2b81545bb418359f94f011137a25fa2c4294d575bb4c48eeedf",
+    "external/habitat-yaw-reference/habitat_v2_metrics.py": "15d0462ede49e4ab5b04d79e27204ae68ad4367aee1621419919e8689d022fcf",
+    "external/habitat-yaw-reference/uniwm_v3_common.py": "092dbab98390de71dbfb9a866eab50f8c7fbe3bef81f0e5bf039948eaf9230cc",
+    "external/habitat-yaw-reference/train_habitat_model.py": "d249d24e7a992b4d3265cdda377daeedbf2b9e57e8fd3d17d50ca5da9c67f5da"
+  },
+  "protocol_sha256": "87c862d21c2513a2161c4c8a1807bb8d0d3e3cea2a10c27db69fc37615a04b48"
+}

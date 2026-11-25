@@ -1,0 +1,78 @@
+{
+  "run": "history_confirmation_v2",
+  "protocol_text_sha256": "f29290930b7c87f6bcb7fc30dae660ce545538ffdc0f9c1af731ef6fdeeaa3f3",
+  "model": "nwm",
+  "weights": {
+    "pre_habitat": {
+      "path": "external/navigation-world-models/models/nwm/cdit_xl_ego4d_200000.pth.tar",
+      "sha256": "6686fff6505ccc3b8e93a368b1bd3bf0051dfb76c2d3c280b77313035ef1d2f8"
+    },
+    "adapted": {
+      "path": "external/habitat-yaw-reference/v2/recon_symmetric_v3/training/nwm/best_trainable.pt",
+      "sha256": "da9d5552bc37305a8867753361122b2188b4e23c46ffa44814c502688e8daf4b"
+    }
+  },
+  "reference_angles": [
+    0,
+    3,
+    -3,
+    5,
+    -5,
+    7,
+    -7
+  ],
+  "history_angles": [
+    -9,
+    -6,
+    -2,
+    9,
+    6,
+    2
+  ],
+  "query_angles": [
+    0,
+    5,
+    -5
+  ],
+  "histories": {
+    "static": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "left_approach": [
+      -9,
+      -6,
+      -2,
+      0
+    ],
+    "right_approach": [
+      9,
+      6,
+      2,
+      0
+    ]
+  },
+  "seeds": [
+    202610270,
+    202610271,
+    202610272
+  ],
+  "selection": {
+    "seed": 20261118,
+    "positions_per_scene": 6,
+    "min_separation_m": 1.25,
+    "max_attempts": 20000,
+    "exclude": "12 positions of paper_confirmation_v1",
+    "shortfall": "drawn from skokloster_castle",
+    "replacement": false
+  },
+  "generations": 648,
+  "primary": {
+    "endpoint": "A among 72 nonzero queries per weight x history",
+    "hypotheses": "A(rotating) > A(static) for each weight and rotating history (4)",
+    "test": "exact one-sided McNemar on paired queries, Holm over 4, alpha 0.05"
+  },
+  "world_model_updates": 0
+}

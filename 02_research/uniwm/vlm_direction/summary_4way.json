@@ -1,0 +1,104 @@
+{
+ "greedy": {
+  "yaw3": {
+   "correct": 27,
+   "wrong_direction": 21,
+   "n": 48,
+   "left_truth_LEFT": 3,
+   "right_truth_RIGHT": 24
+  },
+  "yaw5": {
+   "correct": 30,
+   "wrong_direction": 18,
+   "n": 48,
+   "left_truth_LEFT": 6,
+   "right_truth_RIGHT": 24
+  },
+  "yaw7": {
+   "correct": 31,
+   "wrong_direction": 17,
+   "n": 48,
+   "left_truth_LEFT": 7,
+   "right_truth_RIGHT": 24
+  },
+  "yaw10": {
+   "correct": 32,
+   "wrong_direction": 16,
+   "n": 48,
+   "left_truth_LEFT": 8,
+   "right_truth_RIGHT": 24
+  },
+  "yaw15": {
+   "correct": 33,
+   "wrong_direction": 15,
+   "n": 48,
+   "left_truth_LEFT": 9,
+   "right_truth_RIGHT": 24
+  },
+  "pairs_both_correct": 33,
+  "identical_pairs": {
+   "NONE": 5,
+   "RIGHT": 5,
+   "UNSURE": 1,
+   "LEFT": 1
+  },
+  "all_scored": {
+   "RIGHT": 207,
+   "LEFT": 33
+  }
+ },
+ "logit": {
+  "yaw3": {
+   "correct": 29,
+   "wrong_direction": 19,
+   "n": 48,
+   "left_truth_LEFT": 5,
+   "right_truth_RIGHT": 24
+  },
+  "yaw5": {
+   "correct": 30,
+   "wrong_direction": 18,
+   "n": 48,
+   "left_truth_LEFT": 6,
+   "right_truth_RIGHT": 24
+  },
+  "yaw7": {
+   "correct": 33,
+   "wrong_direction": 15,
+   "n": 48,
+   "left_truth_LEFT": 9,
+   "right_truth_RIGHT": 24
+  },
+  "yaw10": {
+   "correct": 33,
+   "wrong_direction": 15,
+   "n": 48,
+   "left_truth_LEFT": 9,
+   "right_truth_RIGHT": 24
+  },
+  "yaw15": {
+   "correct": 36,
+   "wrong_direction": 12,
+   "n": 48,
+   "left_truth_LEFT": 12,
+   "right_truth_RIGHT": 24
+  },
+  "pairs_both_correct": 41,
+  "identical_pairs": {
+   "NONE": 6,
+   "RIGHT": 5,
+   "LEFT": 1
+  },
+  "all_scored": {
+   "RIGHT": 199,
+   "LEFT": 41
+  }
+ },
+ "unparsed": 0,
+ "answer_texts": {
+  "RIGHT": 212,
+  "LEFT": 34,
+  "NONE": 5,
+  "UNSURE": 1
+ }
+}

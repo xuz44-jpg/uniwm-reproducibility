@@ -1,0 +1,67 @@
+{
+  "multi_action_images": 16,
+  "single_action_images": 208,
+  "rows_in_multi": 128,
+  "picked": [
+    [
+      "room00_traj00_t00",
+      "room00_traj00_t01",
+      "room00_traj00_t03",
+      "room00_traj00_t05",
+      "room00_traj00_t07",
+      "room00_traj00_mirror_t00",
+      "room00_traj00_mirror_t02",
+      "room00_traj00_mirror_t04"
+    ],
+    [
+      "room01_traj00_t00",
+      "room01_traj00_t01",
+      "room01_traj00_t03",
+      "room01_traj00_t05",
+      "room01_traj00_t07",
+      "room01_traj00_mirror_t00",
+      "room01_traj00_mirror_t02",
+      "room01_traj00_mirror_t04"
+    ],
+    [
+      "room02_traj00_t00",
+      "room02_traj00_t01",
+      "room02_traj00_t03",
+      "room02_traj00_t05",
+      "room02_traj00_t07",
+      "room02_traj00_mirror_t00",
+      "room02_traj00_mirror_t02",
+      "room02_traj00_mirror_t04"
+    ],
+    [
+      "room03_traj00_t00",
+      "room03_traj00_t01",
+      "room03_traj00_t03",
+      "room03_traj00_t05",
+      "room03_traj00_t07",
+      "room03_traj00_mirror_t00",
+      "room03_traj00_mirror_t02",
+      "room03_traj00_mirror_t04"
+    ],
+    [
+      "room04_traj00_t00",
+      "room04_traj00_t01",
+      "room04_traj00_t03",
+      "room04_traj00_t05",
+      "room04_traj00_t07",
+      "room04_traj00_mirror_t00",
+      "room04_traj00_mirror_t02",
+      "room04_traj00_mirror_t04"
+    ],
+    [
+      "room05_traj00_t00",
+      "room05_traj00_t01",
+      "room05_traj00_t03",
+      "room05_traj00_t05",
+      "room05_traj00_t07",
+      "room05_traj00_mirror_t00",
+      "room05_traj00_mirror_t02",
+      "room05_traj00_mirror_t04"
+    ]
+  ]
+}

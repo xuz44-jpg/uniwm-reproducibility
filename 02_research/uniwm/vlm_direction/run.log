@@ -1,0 +1,11 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.31it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.31it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.67it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.21it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+device map: ['0', 'cpu']
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+2026-11-18 10:51:13 | INFO  |             main.cpp:86  ] python image base: 0x55c906acf000
+2026-11-18 10:51:13 | INFO  |             main.cpp:167 ] function address: 0x55c906c141b0
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+done 252

@@ -1,0 +1,2410 @@
+{
+ "rows": [
+  {
+   "sample_id": "room00_traj00_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755983018
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 7.0,
+    "zero": 7.0,
+    "negated": 7.0
+   },
+   "recorded_equals_zero": false,
+   "recorded_equals_negated": false,
+   "lpips_recorded_target": 0.1169254332780838,
+   "lpips_copy_target": 0.20534202456474304,
+   "lpips_recorded_current": 0.254342257976532,
+   "lpips_recorded_zero": 1.698642154224217e-05,
+   "lpips_recorded_negated": 1.698642154224217e-05,
+   "action_greedy": [
+    0.02,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_02>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_neg_bin_00>, dyaw: <dy_neg_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.02,
+    0.0,
+    0.05235987755983018
+   ]
+  },
+  {
+   "sample_id": "room01_traj01_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755982974
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 8.0,
+    "zero": 8.0,
+    "negated": 8.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.06825070828199387,
+   "lpips_copy_target": 0.1840689331293106,
+   "lpips_recorded_current": 0.20599567890167236,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_neg_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dy_neg_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_neg_bin_00>, dyaw: <dy_pos_bin_00>: <dy_pos_bin_00>",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room03_traj00_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755983018
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 7.0,
+    "zero": 7.0,
+    "negated": 7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.10617534071207047,
+   "lpips_copy_target": 0.18477344512939453,
+   "lpips_recorded_current": 0.2437351942062378,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_neg_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_neg_bin_15>, dyaw: <dy_neg_bin_00>",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room04_traj01_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755983018
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 7.0,
+    "zero": 7.0,
+    "negated": 7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.11880739033222198,
+   "lpips_copy_target": 0.11859728395938873,
+   "lpips_recorded_current": 0.18626737594604492,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    -0.01,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_neg_bin_01>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dy_neg_bin_02>: <dx_neg_bin_07>",
+   "action_samples": [
+    [
+     -0.01,
+     0.0,
+     0.0
+    ],
+    [
+     -0.01,
+     0.0,
+     0.0
+    ],
+    [
+     -0.01,
+     0.0,
+     0.0
+    ],
+    [
+     -0.01,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.01,
+    0.0,
+    0.05235987755983018
+   ]
+  },
+  {
+   "sample_id": "room06_traj00_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755982974
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 7.0,
+    "zero": 7.0,
+    "negated": 7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.07019279897212982,
+   "lpips_copy_target": 0.19460533559322357,
+   "lpips_recorded_current": 0.21562519669532776,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.03,
+    0.0,
+    -0.21
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_03>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_21>: <dy_neg_bin_00>: <dy_pos_bin_00>, dyaw: <dy_neg_bin_15>: <dy_neg_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.03,
+     0.0,
+     -0.21
+    ],
+    [
+     0.03,
+     0.0,
+     -0.21
+    ],
+    [
+     0.03,
+     0.0,
+     -0.21
+    ],
+    [
+     0.07,
+     0.0,
+     -0.21
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    -1,
+    -1,
+    -1,
+    -1
+   ],
+   "greedy_abs_err": [
+    0.03,
+    0.0,
+    0.2623598775598297
+   ]
+  },
+  {
+   "sample_id": "room07_traj01_mirror_t01",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.05235987755982929
+   ],
+   "truth_shift_px": 7.0,
+   "gen_shift_px": {
+    "recorded": 7.0,
+    "zero": 7.0,
+    "negated": 7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.12244540452957153,
+   "lpips_copy_target": 0.13590365648269653,
+   "lpips_recorded_current": 0.19996348023414612,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.04,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_04>, dy: <dy_neg_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_neg_bin_17>, dy: <dy_neg_bin_01>, dyaw: <dy_neg_bin_01>, dyaw:",
+   "action_samples": [
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.04,
+    0.0,
+    0.05235987755982929
+   ]
+  },
+  {
+   "sample_id": "room01_traj00_mirror_t03",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.08726646259971682
+   ],
+   "truth_shift_px": 12.0,
+   "gen_shift_px": {
+    "recorded": 11.0,
+    "zero": 11.0,
+    "negated": 11.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.08586741238832474,
+   "lpips_copy_target": 0.30391377210617065,
+   "lpips_recorded_current": 0.322299599647522,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_neg_bin_01>, dy: <dy_neg_bin_01>, dyaw: <dyaw_pos_bin_07>Move by <dy_neg_bin_00>, dy: <dy_pos_bin_01>, dyaw: <dy_pos_bin_01>: <dy_neg_bin_01>,",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room02_traj01_mirror_t03",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.08726646259971638
+   ],
+   "truth_shift_px": 12.0,
+   "gen_shift_px": {
+    "recorded": 12.0,
+    "zero": 12.0,
+    "negated": 12.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.057293348014354706,
+   "lpips_copy_target": 0.19719375669956207,
+   "lpips_recorded_current": 0.20971497893333435,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_pos_bin_01>, dy: <dy_neg_bin_00>, dyaw: <dy_pos_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_pos_bin_01>, dyaw: <dy_pos_bin_02>, dyaw:",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room04_traj00_mirror_t03",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.08726646259971638
+   ],
+   "truth_shift_px": 12.0,
+   "gen_shift_px": {
+    "recorded": 12.0,
+    "zero": 12.0,
+    "negated": 12.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.12637686729431152,
+   "lpips_copy_target": 0.2284100502729416,
+   "lpips_recorded_current": 0.2799903154373169,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.04,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_04>, dy: <dy_neg_bin_01>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_pos_bin_01>, dyaw: <dy_neg_bin_02>, dyaw:",
+   "action_samples": [
+    [
+     0.04,
+     0.0,
+     0.05
+    ],
+    [
+     0.04,
+     0.0,
+     -0.06
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.0,
+     -0.06
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 1,
+   "sample_dyaw_signs": [
+    1,
+    -1,
+    0,
+    -1
+   ],
+   "greedy_abs_err": [
+    0.04,
+    0.0,
+    0.08726646259971638
+   ]
+  },
+  {
+   "sample_id": "room05_traj01_mirror_t03",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.08726646259971638
+   ],
+   "truth_shift_px": 11.0,
+   "gen_shift_px": {
+    "recorded": -9.0,
+    "zero": -10.0,
+    "negated": -9.0
+   },
+   "recorded_equals_zero": false,
+   "recorded_equals_negated": false,
+   "lpips_recorded_target": 0.44572606682777405,
+   "lpips_copy_target": 0.2647644579410553,
+   "lpips_recorded_current": 0.26845797896385193,
+   "lpips_recorded_zero": 0.06303935497999191,
+   "lpips_recorded_negated": 0.03510979935526848,
+   "action_greedy": [
+    0.14,
+    0.0,
+    -0.02
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_14>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_02>Move by dx: <dy_pos_bin_00>, dy: <dy_neg_bin_00>, dyaw: <dy_neg_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.14,
+     0.0,
+     -0.02
+    ],
+    [
+     0.14,
+     0.0,
+     -0.02
+    ],
+    [
+     -0.08,
+     0.0,
+     0.03
+    ],
+    [
+     -0.08,
+     0.0,
+     -0.02
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 1,
+   "sample_dyaw_signs": [
+    -1,
+    -1,
+    1,
+    -1
+   ],
+   "greedy_abs_err": [
+    0.14,
+    0.0,
+    0.10726646259971638
+   ]
+  },
+  {
+   "sample_id": "room07_traj00_mirror_t03",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.08726646259971682
+   ],
+   "truth_shift_px": 11.0,
+   "gen_shift_px": {
+    "recorded": 11.0,
+    "zero": 11.0,
+    "negated": 11.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.1039675921201706,
+   "lpips_copy_target": 0.225411057472229,
+   "lpips_recorded_current": 0.255668967962265,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.01,
+    0.01,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_01>, dy: <dy_neg_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_neg_bin_00>, dy: <dy_pos_bin_01>, dyaw: <dy_neg_bin_01>, dyaw:",
+   "action_samples": [
+    [
+     0.01,
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.02,
+     0.0
+    ],
+    [
+     0.01,
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.01,
+    0.01,
+    0.08726646259971682
+   ]
+  },
+  {
+   "sample_id": "room00_traj01_mirror_t05",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.12217304763960257
+   ],
+   "truth_shift_px": 16.0,
+   "gen_shift_px": {
+    "recorded": 17.0,
+    "zero": 17.0,
+    "negated": 17.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.09053520113229752,
+   "lpips_copy_target": 0.3361586928367615,
+   "lpips_recorded_current": 0.36114272475242615,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.03,
+    0.01,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_03>, dy: <dy_neg_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dy_neg_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.03,
+     0.01,
+     -0.03
+    ],
+    [
+     0.0,
+     0.01,
+     -0.03
+    ],
+    [
+     0.03,
+     0.01,
+     0.0
+    ],
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.03,
+    0.01,
+    0.12217304763960257
+   ]
+  },
+  {
+   "sample_id": "room02_traj00_mirror_t05",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.12217304763960302
+   ],
+   "truth_shift_px": 16.0,
+   "gen_shift_px": {
+    "recorded": 15.0,
+    "zero": 15.0,
+    "negated": 15.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.06365453451871872,
+   "lpips_copy_target": 0.25517308712005615,
+   "lpips_recorded_current": 0.2758534848690033,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.07,
+    -0.02,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_07>, dy: <dy_neg_bin_02>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_neg_bin_00>, dy: <dy_neg_bin_11>, dyaw: <dx_pos_bin_05>, dyaw:",
+   "action_samples": [
+    [
+     0.02,
+     -0.02,
+     0.0
+    ],
+    [
+     0.02,
+     -0.02,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.07,
+     0.01,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.07,
+    0.02,
+    0.12217304763960302
+   ]
+  },
+  {
+   "sample_id": "room03_traj01_mirror_t05",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.12217304763960257
+   ],
+   "truth_shift_px": 18.0,
+   "gen_shift_px": {
+    "recorded": 18.0,
+    "zero": 18.0,
+    "negated": 18.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.06365691870450974,
+   "lpips_copy_target": 0.32801714539527893,
+   "lpips_recorded_current": 0.3395536243915558,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.04,
+    0.01,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_04>, dy: <dy_neg_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_neg_bin_11>, dy: <dy_pos_bin_01>, dyaw: <dy_pos_bin_01>, dyaw:",
+   "action_samples": [
+    [
+     0.04,
+     0.01,
+     0.11
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.01,
+     0.0
+    ],
+    [
+     0.04,
+     0.01,
+     0.11
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 2,
+   "sample_dyaw_signs": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "greedy_abs_err": [
+    0.04,
+    0.01,
+    0.12217304763960257
+   ]
+  },
+  {
+   "sample_id": "room05_traj00_mirror_t05",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.12217304763960257
+   ],
+   "truth_shift_px": 16.0,
+   "gen_shift_px": {
+    "recorded": 15.0,
+    "zero": 15.0,
+    "negated": 15.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": false,
+   "lpips_recorded_target": 0.11212532222270966,
+   "lpips_copy_target": 0.3672722280025482,
+   "lpips_recorded_current": 0.36943548917770386,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0003699499065987766,
+   "action_greedy": [
+    0.0,
+    0.0,
+    0.13
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_13>Move by dx: <dy_neg_bin_01>, dy: <dy_pos_bin_00>, dyaw: <dy_pos_bin_00>: <dy_pos_bin_01>",
+   "action_samples": [
+    [
+     0.0,
+     0.0,
+     0.13
+    ],
+    null,
+    null,
+    [
+     0.0,
+     0.0,
+     0.13
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": true,
+   "sample_dyaw_sign_correct": 2,
+   "sample_dyaw_signs": [
+    1,
+    null,
+    null,
+    1
+   ],
+   "greedy_abs_err": [
+    0.0,
+    0.0,
+    0.007826952360397432
+   ]
+  },
+  {
+   "sample_id": "room06_traj01_mirror_t05",
+   "kind": "left",
+   "recorded": [
+    0.0,
+    0.0,
+    0.12217304763960302
+   ],
+   "truth_shift_px": 16.0,
+   "gen_shift_px": {
+    "recorded": 16.0,
+    "zero": 16.0,
+    "negated": 16.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.06933793425559998,
+   "lpips_copy_target": 0.3304598033428192,
+   "lpips_recorded_current": 0.3512594699859619,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_00>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>Move by <dy_pos_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dy_pos_bin_01>: <dy_neg_bin_01>,",
+   "action_samples": [
+    [
+     0.03,
+     0.01,
+     0.02
+    ],
+    [
+     -0.09,
+     0.0,
+     -0.25
+    ],
+    null,
+    [
+     0.0,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 1,
+   "sample_dyaw_signs": [
+    1,
+    -1,
+    null,
+    0
+   ],
+   "greedy_abs_err": [
+    0.0,
+    0.0,
+    0.12217304763960302
+   ]
+  },
+  {
+   "sample_id": "room00_traj00_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.05235987755983018
+   ],
+   "truth_shift_px": -7.0,
+   "gen_shift_px": {
+    "recorded": -7.0,
+    "zero": -7.0,
+    "negated": -7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.1168440580368042,
+   "lpips_copy_target": 0.20181454718112946,
+   "lpips_recorded_current": 0.23741066455841064,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.01,
+    -0.01,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_01>, dy: <dy_neg_bin_01>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_neg_bin_00>, dy: <dy_neg_bin_00>, dyaw: <dy_neg_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.0,
+     0.0,
+     -0.02
+    ],
+    [
+     0.0,
+     -0.01,
+     -0.01
+    ],
+    [
+     0.01,
+     0.0,
+     0.0
+    ],
+    [
+     0.01,
+     -0.01,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 2,
+   "sample_dyaw_signs": [
+    -1,
+    -1,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.01,
+    0.01,
+    0.05235987755983018
+   ]
+  },
+  {
+   "sample_id": "room02_traj01_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.05235987755983018
+   ],
+   "truth_shift_px": -7.0,
+   "gen_shift_px": {
+    "recorded": -8.0,
+    "zero": -8.0,
+    "negated": -8.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.057177767157554626,
+   "lpips_copy_target": 0.13333381712436676,
+   "lpips_recorded_current": 0.16492025554180145,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_pos_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dy_pos_bin_00>Move: <dy_pos_bin_00>, dyaw: <dy_pos_bin_01>, dyaw: <dy_pos_bin_01>, dyaw:",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room05_traj00_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.05235987755983018
+   ],
+   "truth_shift_px": -7.0,
+   "gen_shift_px": {
+    "recorded": -7.0,
+    "zero": -7.0,
+    "negated": -7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.09340701997280121,
+   "lpips_copy_target": 0.19860072433948517,
+   "lpips_recorded_current": 0.2381007969379425,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.09,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_09>, dy: <dy_pos_bin_00>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_00>, dy: <dy_neg_bin_01>, dyaw: <dy_neg_bin_08>, dyaw:",
+   "action_samples": [
+    [
+     0.09,
+     0.0,
+     0.0
+    ],
+    [
+     0.09,
+     0.0,
+     0.0
+    ],
+    [
+     0.09,
+     0.0,
+     0.0
+    ],
+    [
+     0.09,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    0
+   ],
+   "greedy_abs_err": [
+    0.09,
+    0.0,
+    0.05235987755983018
+   ]
+  },
+  {
+   "sample_id": "room07_traj01_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.05235987755983018
+   ],
+   "truth_shift_px": -7.0,
+   "gen_shift_px": {
+    "recorded": -7.0,
+    "zero": -7.0,
+    "negated": -7.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.12244540452957153,
+   "lpips_copy_target": 0.14965945482254028,
+   "lpips_recorded_current": 0.2076999694108963,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.03,
+    0.0,
+    0.01
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_03>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_01>Move by dx: <dy_neg_bin_01>, dy: <dx_pos_bin_28>, dyaw: <dy_neg_bin_01>: <dy_neg_bin_00>",
+   "action_samples": [
+    [
+     0.03,
+     0.0,
+     0.01
+    ],
+    [
+     0.02,
+     0.0,
+     0.01
+    ],
+    [
+     0.03,
+     0.0,
+     0.01
+    ],
+    [
+     0.02,
+     0.0,
+     0.01
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "greedy_abs_err": [
+    0.03,
+    0.0,
+    0.06235987755983018
+   ]
+  },
+  {
+   "sample_id": "room01_traj00_mirror_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971682
+   ],
+   "truth_shift_px": -12.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.32211315631866455,
+   "lpips_copy_target": 0.30391377210617065,
+   "lpips_recorded_current": 0.08583411574363708,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStop:<dyaw_pos_bin_07>StopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room02_traj00_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971638
+   ],
+   "truth_shift_px": -11.0,
+   "gen_shift_px": {
+    "recorded": -11.0,
+    "zero": -11.0,
+    "negated": -11.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.06372744590044022,
+   "lpips_copy_target": 0.1932980865240097,
+   "lpips_recorded_current": 0.219931960105896,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.05,
+    0.0,
+    -0.21
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_05>, dy: <dy_neg_bin_00>, dyaw: <dyaw_neg_bin_21>Move: <dy_pos_bin_00>, dyaw: <dy_neg_bin_00>, dyaw: <dy_pos_bin_00>, dyaw:",
+   "action_samples": [
+    [
+     0.05,
+     0.0,
+     0.0
+    ],
+    null,
+    [
+     0.16,
+     0.0,
+     -0.21
+    ],
+    [
+     0.05,
+     0.08,
+     -0.13
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": true,
+   "sample_dyaw_sign_correct": 2,
+   "sample_dyaw_signs": [
+    0,
+    null,
+    -1,
+    -1
+   ],
+   "greedy_abs_err": [
+    0.05,
+    0.0,
+    0.12273353740028362
+   ]
+  },
+  {
+   "sample_id": "room03_traj01_mirror_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971638
+   ],
+   "truth_shift_px": -13.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.26119428873062134,
+   "lpips_copy_target": 0.24671640992164612,
+   "lpips_recorded_current": 0.06351683288812637,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStop:<dy_pos_bin_01>, dy: <dyaw_neg_bin_00>StopStopStop:<dy_neg_bin_00>",
+   "action_samples": [
+    null,
+    [
+     -0.09,
+     0.0,
+     0.0
+    ],
+    [
+     0.05,
+     0.0,
+     0.0
+    ],
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    0,
+    0,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room04_traj01_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971638
+   ],
+   "truth_shift_px": -11.0,
+   "gen_shift_px": {
+    "recorded": -11.0,
+    "zero": -11.0,
+    "negated": -11.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.11880436539649963,
+   "lpips_copy_target": 0.22118134796619415,
+   "lpips_recorded_current": 0.2672794759273529,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.02,
+    0.02,
+    0.02
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_02>, dy: <dy_pos_bin_02>, dyaw: <dyaw_pos_bin_02>Move by dx: <dy_pos_bin_00>, dy: <dx_pos_bin_05>, dyaw: <dy_neg_bin_09>: <dy_pos_bin_07>",
+   "action_samples": [
+    [
+     0.02,
+     0.02,
+     0.02
+    ],
+    [
+     0.02,
+     0.0,
+     0.02
+    ],
+    [
+     0.02,
+     0.02,
+     0.02
+    ],
+    [
+     0.02,
+     0.01,
+     0.02
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "greedy_abs_err": [
+    0.02,
+    0.02,
+    0.10726646259971638
+   ]
+  },
+  {
+   "sample_id": "room06_traj00_mirror_t02",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971638
+   ],
+   "truth_shift_px": -11.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.32095223665237427,
+   "lpips_copy_target": 0.31135478615760803,
+   "lpips_recorded_current": 0.07019279897212982,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStop:<dy_neg_bin_04>, dy: <dyaw_neg_bin_00>StopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room07_traj00_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.08726646259971638
+   ],
+   "truth_shift_px": -11.0,
+   "gen_shift_px": {
+    "recorded": -11.0,
+    "zero": -11.0,
+    "negated": -11.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.1039675921201706,
+   "lpips_copy_target": 0.22842195630073547,
+   "lpips_recorded_current": 0.2604110538959503,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.0,
+    0.01,
+    0.2
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_00>, dy: <dy_neg_bin_00>, dyaw: <dyaw_pos_bin_20>Move by dx: <dy_neg_bin_00>, dy: <dy_neg_bin_03>, dyaw: <dy_pos_bin_01>Move:",
+   "action_samples": [
+    [
+     0.0,
+     0.0,
+     0.2
+    ],
+    [
+     0.0,
+     0.02,
+     0.2
+    ],
+    [
+     0.0,
+     0.0,
+     0.2
+    ],
+    [
+     0.0,
+     0.0,
+     0.2
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "greedy_abs_err": [
+    0.0,
+    0.01,
+    0.2872664625997164
+   ]
+  },
+  {
+   "sample_id": "room00_traj01_mirror_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.12217304763960257
+   ],
+   "truth_shift_px": -16.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.36114272475242615,
+   "lpips_copy_target": 0.3361586928367615,
+   "lpips_recorded_current": 0.09053520113229752,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStopStop:<dyaw_neg_bin_00>StopStop<dy_pos_bin_01>",
+   "action_samples": [
+    null,
+    null,
+    [
+     -0.09,
+     0.0,
+     0.0
+    ],
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    0,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room01_traj01_t06",
+   "kind": "right",
+   "recorded": [
+    -0.0,
+    0.0,
+    -0.12217304763960302
+   ],
+   "truth_shift_px": -18.0,
+   "gen_shift_px": {
+    "recorded": -18.0,
+    "zero": -18.0,
+    "negated": -18.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.08136303722858429,
+   "lpips_copy_target": 0.3888074457645416,
+   "lpips_recorded_current": 0.3841674327850342,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dy_pos_bin_01>, dy: <dy_pos_bin_01>, dyaw: <dyaw_neg_bin_00>Move by dx: <dy_pos_bin_01>, dy: <dy_pos_bin_05>, dyaw: <dy_pos_bin_08>, dyaw:",
+   "action_samples": [
+    null,
+    null,
+    [
+     -0.09,
+     0.01,
+     0.0
+    ],
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    0,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room03_traj00_mirror_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.12217304763960302
+   ],
+   "truth_shift_px": -16.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.4323348104953766,
+   "lpips_copy_target": 0.40427136421203613,
+   "lpips_recorded_current": 0.1063280776143074,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.05,
+    0.01,
+    0.0
+   ],
+   "action_greedy_text": "StopStop<dx_neg_bin_09>, dy: <dyaw_neg_bin_00>: <dx_pos_bin_05><dy_neg_bin_13><dy_neg_bin_13>, dy: <dy_neg_bin_15><dy_pos_bin_01><dx_neg_bin_09><dx_neg_bin_09>",
+   "action_samples": [
+    [
+     -0.09,
+     -0.04,
+     0.06
+    ],
+    [
+     -0.09,
+     0.0,
+     0.0
+    ],
+    null,
+    null
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    1,
+    0,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    0.05,
+    0.01,
+    0.12217304763960302
+   ]
+  },
+  {
+   "sample_id": "room04_traj00_t06",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.12217304763960257
+   ],
+   "truth_shift_px": -16.0,
+   "gen_shift_px": {
+    "recorded": -17.0,
+    "zero": -17.0,
+    "negated": -17.0
+   },
+   "recorded_equals_zero": false,
+   "recorded_equals_negated": false,
+   "lpips_recorded_target": 0.13192804157733917,
+   "lpips_copy_target": 0.31767481565475464,
+   "lpips_recorded_current": 0.3492667078971863,
+   "lpips_recorded_zero": 0.012390635907649994,
+   "lpips_recorded_negated": 0.01938324235379696,
+   "action_greedy": [
+    0.04,
+    0.0,
+    0.01
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_04>, dy: <dy_neg_bin_01>, dyaw: <dyaw_pos_bin_01>Move by dx: <dy_neg_bin_01>, dy: <dy_pos_bin_00>, dyaw: <dx_pos_bin_05>, dyaw:",
+   "action_samples": [
+    [
+     0.04,
+     0.0,
+     0.0
+    ],
+    [
+     0.04,
+     0.0,
+     -0.05
+    ],
+    [
+     0.04,
+     0.0,
+     -0.03
+    ],
+    [
+     0.04,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 2,
+   "sample_dyaw_signs": [
+    0,
+    -1,
+    -1,
+    0
+   ],
+   "greedy_abs_err": [
+    0.04,
+    0.0,
+    0.13217304763960258
+   ]
+  },
+  {
+   "sample_id": "room05_traj01_mirror_t04",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.12217304763960346
+   ],
+   "truth_shift_px": -16.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.3704162836074829,
+   "lpips_copy_target": 0.35883980989456177,
+   "lpips_recorded_current": 0.0881076231598854,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStop: <dy_pos_bin_00>: <dyaw_neg_bin_00>StopStopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room06_traj01_t06",
+   "kind": "right",
+   "recorded": [
+    0.0,
+    0.0,
+    -0.12217304763960302
+   ],
+   "truth_shift_px": -16.0,
+   "gen_shift_px": {
+    "recorded": -7.0,
+    "zero": -7.0,
+    "negated": -7.0
+   },
+   "recorded_equals_zero": false,
+   "recorded_equals_negated": false,
+   "lpips_recorded_target": 0.2041124403476715,
+   "lpips_copy_target": 0.3222782015800476,
+   "lpips_recorded_current": 0.23422329127788544,
+   "lpips_recorded_zero": 0.02472730167210102,
+   "lpips_recorded_negated": 0.021024297922849655,
+   "action_greedy": [
+    -0.04,
+    0.02,
+    0.01
+   ],
+   "action_greedy_text": "Move by dx: <dx_neg_bin_04>, dy: <dy_neg_bin_01>, dyaw: <dyaw_pos_bin_01>Move by <dy_pos_bin_02>, dyaw: <dy_neg_bin_06>, dyaw: <dy_pos_bin_01>: <dy_neg_bin_01>,",
+   "action_samples": [
+    [
+     -0.04,
+     0.02,
+     0.02
+    ],
+    [
+     0.12,
+     0.02,
+     0.01
+    ],
+    [
+     -0.04,
+     0.01,
+     0.01
+    ],
+    [
+     -0.04,
+     0.02,
+     0.01
+    ]
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": false,
+   "sample_dyaw_sign_correct": 0,
+   "sample_dyaw_signs": [
+    1,
+    1,
+    1,
+    1
+   ],
+   "greedy_abs_err": [
+    0.04,
+    0.02,
+    0.13217304763960303
+   ]
+  },
+  {
+   "sample_id": "room00_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.1000001688692541,
+    -1.6367539285022659e-07,
+    0.0
+   ],
+   "truth_shift_px": 3.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.23897714912891388,
+   "lpips_copy_target": 0.187114417552948,
+   "lpips_recorded_current": 0.11686575412750244,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStop<dx_neg_bin_09>, dy: <dyaw_neg_bin_00>",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room01_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.09999976506292448,
+    -1.2806896430156423e-07,
+    0.0
+   ],
+   "truth_shift_px": -1.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.16890674829483032,
+   "lpips_copy_target": 0.12390504032373428,
+   "lpips_recorded_current": 0.08583411574363708,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStop:<dyaw_pos_bin_07>StopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room02_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.10000000350605692,
+    3.3486447642561146e-09,
+    0.0
+   ],
+   "truth_shift_px": 3.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.2150670737028122,
+   "lpips_copy_target": 0.18431875109672546,
+   "lpips_recorded_current": 0.06372744590044022,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "Move by dx: <dyaw_pos_bin_07>, dy: <dy_pos_bin_00>, dyaw: <dyaw_pos_bin_00>: <dy_pos_bin_00>: <dy_pos_bin_00>",
+   "action_samples": [
+    null,
+    null,
+    null,
+    [
+     -0.09,
+     0.0,
+     0.0
+    ]
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    0
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room03_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.1000000151376397,
+    -8.184407077407863e-09,
+    0.0
+   ],
+   "truth_shift_px": 0.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.31307220458984375,
+   "lpips_copy_target": 0.2573356330394745,
+   "lpips_recorded_current": 0.1063280776143074,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.05,
+    0.01,
+    0.0
+   ],
+   "action_greedy_text": "StopStop<dx_neg_bin_09>, dy: <dyaw_neg_bin_00>: <dx_pos_bin_05><dy_neg_bin_13><dy_neg_bin_13>, dy: <dy_neg_bin_15><dy_pos_bin_01><dx_neg_bin_09><dx_neg_bin_09>",
+   "action_samples": [
+    [
+     -0.09,
+     -0.04,
+     0.06
+    ],
+    [
+     -0.09,
+     0.0,
+     0.0
+    ],
+    null,
+    null
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    1,
+    0,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    0.0500000151376397,
+    0.010000008184407078,
+    0.0
+   ]
+  },
+  {
+   "sample_id": "room04_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.09999994162771468,
+    -6.3584147877437935e-09,
+    0.0
+   ],
+   "truth_shift_px": 1.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.1577533781528473,
+   "lpips_copy_target": 0.08483152091503143,
+   "lpips_recorded_current": 0.12673954665660858,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    0.02,
+    0.0,
+    0.0
+   ],
+   "action_greedy_text": "Move by dx: <dx_pos_bin_02>, dy: <dy_neg_bin_00>, dyaw: <dyaw_pos_bin_00>",
+   "action_samples": [
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    null,
+    null
+   ],
+   "greedy_well_formed": true,
+   "greedy_stop": false,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    0.07999994162771468,
+    6.3584147877437935e-09,
+    0.0
+   ]
+  },
+  {
+   "sample_id": "room05_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.0999999884139084,
+    -3.646966281745101e-08,
+    0.0
+   ],
+   "truth_shift_px": 0.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.1724485456943512,
+   "lpips_copy_target": 0.11900556087493896,
+   "lpips_recorded_current": 0.09276203066110611,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStopStopStopStopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room06_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.09999999736459102,
+    9.308759737862438e-09,
+    0.0
+   ],
+   "truth_shift_px": 0.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.13896839320659637,
+   "lpips_copy_target": 0.09763778001070023,
+   "lpips_recorded_current": 0.07019279897212982,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStop:<dy_neg_bin_04>, dy: <dyaw_neg_bin_00>StopStop",
+   "action_samples": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    null,
+    null,
+    null,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  },
+  {
+   "sample_id": "room07_traj00_t07",
+   "kind": "translation",
+   "recorded": [
+    0.09999992529921779,
+    -1.4027177579201133e-08,
+    0.0
+   ],
+   "truth_shift_px": 0.0,
+   "gen_shift_px": {
+    "recorded": 0.0,
+    "zero": 0.0,
+    "negated": 0.0
+   },
+   "recorded_equals_zero": true,
+   "recorded_equals_negated": true,
+   "lpips_recorded_target": 0.12581029534339905,
+   "lpips_copy_target": 0.05962536856532097,
+   "lpips_recorded_current": 0.1039675921201706,
+   "lpips_recorded_zero": 0.0,
+   "lpips_recorded_negated": 0.0,
+   "action_greedy": [
+    NaN,
+    NaN,
+    NaN
+   ],
+   "action_greedy_text": "StopStopStopStop: <dy_pos_bin_00>, dy: <dyaw_neg_bin_00>StopStop",
+   "action_samples": [
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    [
+     0.02,
+     0.0,
+     0.0
+    ],
+    null
+   ],
+   "greedy_well_formed": false,
+   "greedy_stop": true,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "sample_dyaw_signs": [
+    0,
+    0,
+    0,
+    null
+   ],
+   "greedy_abs_err": [
+    NaN,
+    NaN,
+    NaN
+   ]
+  }
+ ],
+ "summary": {
+  "left": {
+   "n": 16,
+   "recorded_equals_zero": 14,
+   "recorded_equals_negated": 13,
+   "lpips_recorded_target": 0.11383364209905267,
+   "lpips_copy_target": 0.24125404562801123,
+   "lpips_recorded_vs_zero": 0.003941021337595885,
+   "lpips_recorded_vs_negated": 0.0022185459802130936,
+   "truth_shift_px": 11.375,
+   "recorded_shift_px": 10.0625,
+   "zero_shift_px": 10.0,
+   "negated_shift_px": 10.0625,
+   "recorded_shift_sign_matches_truth": 15,
+   "greedy_dyaw_sign_correct": 1,
+   "sample_dyaw_sign_correct": 7,
+   "greedy_mean_abs_err": [
+    0.035833333333333335,
+    0.004166666666666667,
+    0.09981317007977313
+   ],
+   "greedy_well_formed": 12,
+   "greedy_stop": 0,
+   "greedy_dyaw_sign_counts": {
+    "-1": 2,
+    "0": 9,
+    "1": 1
+   }
+  },
+  "right": {
+   "n": 16,
+   "recorded_equals_zero": 14,
+   "recorded_equals_negated": 14,
+   "lpips_recorded_target": 0.19762066705152392,
+   "lpips_copy_target": 0.2697703270241618,
+   "lpips_recorded_vs_zero": 0.0023198710987344384,
+   "lpips_recorded_vs_negated": 0.0025254712672904134,
+   "truth_shift_px": -12.1875,
+   "recorded_shift_px": -6.5,
+   "zero_shift_px": -6.5,
+   "negated_shift_px": -6.5,
+   "recorded_shift_sign_matches_truth": 10,
+   "greedy_dyaw_sign_correct": 1,
+   "sample_dyaw_sign_correct": 6,
+   "greedy_mean_abs_err": [
+    0.03666666666666667,
+    0.007777777777777778,
+    0.11898502646644617
+   ],
+   "greedy_well_formed": 9,
+   "greedy_stop": 6,
+   "greedy_dyaw_sign_counts": {
+    "-1": 1,
+    "0": 3,
+    "1": 5
+   }
+  },
+  "translation": {
+   "n": 8,
+   "recorded_equals_zero": 8,
+   "recorded_equals_negated": 8,
+   "lpips_recorded_target": 0.19137547351419926,
+   "lpips_copy_target": 0.13922175904735923,
+   "lpips_recorded_vs_zero": 0.0,
+   "lpips_recorded_vs_negated": 0.0,
+   "truth_shift_px": 0.75,
+   "recorded_shift_px": 0.0,
+   "zero_shift_px": 0.0,
+   "negated_shift_px": 0.0,
+   "recorded_shift_sign_matches_truth": 0,
+   "greedy_dyaw_sign_correct": null,
+   "sample_dyaw_sign_correct": null,
+   "greedy_mean_abs_err": [
+    0.06499997838267718,
+    0.005000007271410933,
+    0.0
+   ],
+   "greedy_well_formed": 2,
+   "greedy_stop": 6,
+   "greedy_dyaw_sign_counts": {
+    "-1": 0,
+    "0": 2,
+    "1": 0
+   }
+  }
+ }
+}

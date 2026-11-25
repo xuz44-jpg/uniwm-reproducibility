@@ -1,0 +1,1 @@
+Both images were taken by the same camera standing at the same position; between Image 1 and Image 2 the camera may have rotated horizontally by a small angle. Did the camera turn to the RIGHT or to the LEFT from Image 1 to Image 2? Answer with one word: UNSURE (you cannot tell), NONE (the camera did not rotate), RIGHT, or LEFT.

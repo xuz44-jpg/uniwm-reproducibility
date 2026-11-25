@@ -1,0 +1,2525 @@
+{
+ "prompt": "Both images were taken by the same camera standing at the same position; between Image 1 and Image 2 the camera only rotated horizontally by a small angle. Did the camera turn to the LEFT or to the RIGHT from Image 1 to Image 2? Answer with one word: LEFT or RIGHT.",
+ "queries": [
+  {
+   "id": "apartment_1_p00_-15_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_-15_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_-15.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_-10_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_-10_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_-10.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_-7_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_-7_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_-7.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_-5_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_-5_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_-5.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_-3_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_-3_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_-3.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+3_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+3_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_+3.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_+5_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+5_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_+5.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_+7_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+7_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_+7.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_+10_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+10_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_+10.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_+15_fwd",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p00_+15_rev",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p00/yaw_+15.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p00_identical",
+   "position": "apartment_1_p00",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p00/yaw_+0.png",
+   "image2": "images/apartment_1_p00/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "apartment_1_p01_-15_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_-15_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_-15.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_-10_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_-10_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_-10.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_-7_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_-7_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_-7.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_-5_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_-5_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_-5.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_-3_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_-3_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_-3.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+3_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+3_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_+3.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_+5_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+5_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_+5.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_+7_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+7_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_+7.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_+10_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+10_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_+10.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_+15_fwd",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p01_+15_rev",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p01/yaw_+15.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p01_identical",
+   "position": "apartment_1_p01",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p01/yaw_+0.png",
+   "image2": "images/apartment_1_p01/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "apartment_1_p02_-15_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_-15_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_-15.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_-10_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_-10_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_-10.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_-7_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_-7_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_-7.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_-5_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_-5_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_-5.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_-3_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_-3_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_-3.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+3_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+3_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_+3.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_+5_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+5_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_+5.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_+7_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+7_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_+7.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_+10_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+10_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_+10.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_+15_fwd",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p02_+15_rev",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p02/yaw_+15.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p02_identical",
+   "position": "apartment_1_p02",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p02/yaw_+0.png",
+   "image2": "images/apartment_1_p02/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "apartment_1_p03_-15_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_-15_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_-15.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_-10_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_-10_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_-10.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_-7_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_-7_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_-7.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_-5_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_-5_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_-5.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_-3_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_-3_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_-3.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+3_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+3_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_+3.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_+5_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+5_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_+5.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_+7_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+7_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_+7.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_+10_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+10_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_+10.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_+15_fwd",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p03_+15_rev",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p03/yaw_+15.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p03_identical",
+   "position": "apartment_1_p03",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p03/yaw_+0.png",
+   "image2": "images/apartment_1_p03/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "apartment_1_p04_-15_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_-15_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_-15.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_-10_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_-10_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_-10.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_-7_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_-7_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_-7.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_-5_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_-5_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_-5.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_-3_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_-3_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_-3.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+3_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+3_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_+3.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_+5_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+5_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_+5.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_+7_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+7_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_+7.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_+10_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+10_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_+10.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_+15_fwd",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p04_+15_rev",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p04/yaw_+15.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p04_identical",
+   "position": "apartment_1_p04",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p04/yaw_+0.png",
+   "image2": "images/apartment_1_p04/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "apartment_1_p05_-15_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_-15_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_-15.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_-10_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_-10_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_-10.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_-7_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_-7_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_-7.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_-5_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_-5_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_-5.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_-3_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_-3_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_-3.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+3_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+3_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_+3.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_+5_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+5_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_+5.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_+7_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+7_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_+7.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_+10_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+10_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_+10.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_+15_fwd",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "apartment_1_p05_+15_rev",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/apartment_1_p05/yaw_+15.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "apartment_1_p05_identical",
+   "position": "apartment_1_p05",
+   "scene": "apartment_1",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/apartment_1_p05/yaw_+0.png",
+   "image2": "images/apartment_1_p05/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p00_-15_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_-15_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_-15.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_-10_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_-10_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_-10.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_-7_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_-7_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_-7.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_-5_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_-5_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_-5.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_-3_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_-3_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_-3.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+3_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+3_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_+3.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_+5_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+5_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_+5.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_+7_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+7_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_+7.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_+10_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+10_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_+10.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_+15_fwd",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p00_+15_rev",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p00/yaw_+15.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p00_identical",
+   "position": "skokloster_castle_p00",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p00/yaw_+0.png",
+   "image2": "images/skokloster_castle_p00/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p01_-15_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_-15_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_-15.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_-10_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_-10_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_-10.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_-7_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_-7_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_-7.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_-5_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_-5_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_-5.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_-3_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_-3_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_-3.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+3_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+3_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_+3.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_+5_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+5_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_+5.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_+7_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+7_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_+7.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_+10_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+10_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_+10.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_+15_fwd",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p01_+15_rev",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p01/yaw_+15.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p01_identical",
+   "position": "skokloster_castle_p01",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p01/yaw_+0.png",
+   "image2": "images/skokloster_castle_p01/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p02_-15_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_-15_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_-15.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_-10_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_-10_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_-10.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_-7_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_-7_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_-7.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_-5_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_-5_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_-5.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_-3_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_-3_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_-3.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+3_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+3_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_+3.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_+5_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+5_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_+5.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_+7_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+7_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_+7.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_+10_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+10_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_+10.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_+15_fwd",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p02_+15_rev",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p02/yaw_+15.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p02_identical",
+   "position": "skokloster_castle_p02",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p02/yaw_+0.png",
+   "image2": "images/skokloster_castle_p02/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p03_-15_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_-15_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_-15.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_-10_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_-10_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_-10.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_-7_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_-7_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_-7.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_-5_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_-5_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_-5.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_-3_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_-3_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_-3.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+3_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+3_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_+3.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_+5_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+5_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_+5.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_+7_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+7_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_+7.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_+10_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+10_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_+10.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_+15_fwd",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p03_+15_rev",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p03/yaw_+15.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p03_identical",
+   "position": "skokloster_castle_p03",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p03/yaw_+0.png",
+   "image2": "images/skokloster_castle_p03/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p04_-15_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_-15_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_-15.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_-10_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_-10_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_-10.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_-7_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_-7_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_-7.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_-5_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_-5_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_-5.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_-3_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_-3_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_-3.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+3_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+3_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_+3.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_+5_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+5_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_+5.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_+7_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+7_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_+7.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_+10_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+10_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_+10.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_+15_fwd",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p04_+15_rev",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p04/yaw_+15.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p04_identical",
+   "position": "skokloster_castle_p04",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p04/yaw_+0.png",
+   "image2": "images/skokloster_castle_p04/yaw_+0.png",
+   "answer": null
+  },
+  {
+   "id": "skokloster_castle_p05_-15_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_-15.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_-15_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_-15.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_-10_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_-10.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_-10_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_-10.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_-7_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_-7.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_-7_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_-7.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_-5_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_-5.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_-5_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_-5.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_-3_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_-3.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_-3_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": -3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_-3.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+3_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+3.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+3_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 3,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_+3.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_+5_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+5.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+5_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 5,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_+5.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_+7_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+7.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+7_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 7,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_+7.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_+10_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+10.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+10_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 10,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_+10.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_+15_fwd",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "fwd",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+15.png",
+   "answer": "LEFT"
+  },
+  {
+   "id": "skokloster_castle_p05_+15_rev",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 15,
+   "order": "rev",
+   "image1": "images/skokloster_castle_p05/yaw_+15.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": "RIGHT"
+  },
+  {
+   "id": "skokloster_castle_p05_identical",
+   "position": "skokloster_castle_p05",
+   "scene": "skokloster_castle",
+   "yaw": 0,
+   "order": "same",
+   "image1": "images/skokloster_castle_p05/yaw_+0.png",
+   "image2": "images/skokloster_castle_p05/yaw_+0.png",
+   "answer": null
+  }
+ ]
+}

@@ -1,0 +1,738 @@
+{
+  "rows": [
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755983018
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": 11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960346
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_t07",
+      "action": [
+        0.1000001688692541,
+        -1.6367539285022659e-07,
+        0.0
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": 3.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755983018
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971682
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": -11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 0,
+      "sample_id": "room00_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960346
+      ],
+      "image_sha256": "133a8ef970f7fa8d62d7b80f6515a85bf62e5a85c156bb8fec53f853603391c5",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755982974
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": 11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960302
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_t07",
+      "action": [
+        0.09999976506292448,
+        -1.2806896430156423e-07,
+        0.0
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": -1.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755982974
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971682
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": -12.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 1,
+      "sample_id": "room01_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960302
+      ],
+      "image_sha256": "32509073d135301fb9aa1b67f5cff6c1379bceec66b90e4259604e0263d2b100",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755982974
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": 11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960302
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_t07",
+      "action": [
+        0.10000000350605692,
+        3.3486447642561146e-09,
+        0.0
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": 3.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755982974
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971682
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": -11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 2,
+      "sample_id": "room02_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960302
+      ],
+      "image_sha256": "724ed0ddac4c9988650c029c8481584257845587e51d2b5d4bd6fe0151bda9d6",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755983018
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": 11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960302
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_t07",
+      "action": [
+        0.1000000151376397,
+        -8.184407077407863e-09,
+        0.0
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755983018
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971638
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": -11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 3,
+      "sample_id": "room03_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960302
+      ],
+      "image_sha256": "6e7bba3638804577c5d3da9d10e48c086c315d8063e723367e328738086dfb7a",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755983018
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": 12.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960346
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_t07",
+      "action": [
+        0.09999994162771468,
+        -6.3584147877437935e-09,
+        0.0
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": 1.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755982929
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971638
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": -12.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 4,
+      "sample_id": "room04_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960257
+      ],
+      "image_sha256": "1c622c05e8b0b8fa26f305a4f53d83373e75baa8dd2358f54f32a1bcb6d1e5c5",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_t00",
+      "action": [
+        0.0,
+        0.0,
+        -4.440892098500626e-16
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_t01",
+      "action": [
+        0.0,
+        0.0,
+        0.05235987755983018
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": 7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_t03",
+      "action": [
+        0.0,
+        0.0,
+        0.08726646259971638
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": 11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_t05",
+      "action": [
+        0.0,
+        0.0,
+        0.12217304763960346
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": 16.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_t07",
+      "action": [
+        0.0999999884139084,
+        -3.646966281745101e-08,
+        0.0
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": 0.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_mirror_t00",
+      "action": [
+        0.0,
+        0.0,
+        -0.05235987755982929
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": -7.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_mirror_t02",
+      "action": [
+        0.0,
+        0.0,
+        -0.08726646259971638
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": -11.0,
+      "gen_shift_px": 0.0
+    },
+    {
+      "group": 5,
+      "sample_id": "room05_traj00_mirror_t04",
+      "action": [
+        0.0,
+        0.0,
+        -0.12217304763960257
+      ],
+      "image_sha256": "6f8753a309a13f463f369f37e8569a9e6557e018043f870ef290b2b037dec955",
+      "truth_shift_px": -16.0,
+      "gen_shift_px": 0.0
+    }
+  ],
+  "groups": [
+    {
+      "group": 0,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        11.0,
+        16.0,
+        3.0,
+        -7.0,
+        -11.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    },
+    {
+      "group": 1,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        11.0,
+        16.0,
+        -1.0,
+        -7.0,
+        -12.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    },
+    {
+      "group": 2,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        11.0,
+        16.0,
+        3.0,
+        -7.0,
+        -11.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    },
+    {
+      "group": 3,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        11.0,
+        16.0,
+        0.0,
+        -7.0,
+        -11.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    },
+    {
+      "group": 4,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        12.0,
+        16.0,
+        1.0,
+        -7.0,
+        -12.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    },
+    {
+      "group": 5,
+      "n": 8,
+      "distinct_outputs": 1,
+      "truth_shifts": [
+        0.0,
+        7.0,
+        11.0,
+        16.0,
+        0.0,
+        -7.0,
+        -11.0,
+        -16.0
+      ],
+      "gen_shifts": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "corr": null
+    }
+  ]
+}

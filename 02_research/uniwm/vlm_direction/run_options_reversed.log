@@ -1,0 +1,12 @@
+prompt: Both images were taken by the same camera standing at the same position; between Image 1 and Image 2 the camera only rotated horizontally by a small angle. Did the camera turn to the RIGHT or to the LEFT from Image 1 to Image 2? Answer with one word: RIGHT or LEFT.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:02,  1.10it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.09it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.32it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.89it/s]
+Some parameters are on the meta device because they were offloaded to the cpu.
+device map: ['0', 'cpu']
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+2026-11-18 11:00:23 | INFO  |             main.cpp:86  ] python image base: 0x563e773c1000
+2026-11-18 11:00:23 | INFO  |             main.cpp:167 ] function address: 0x563e775061b0
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+done 252
